@@ -1,16 +1,20 @@
 import json
-from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import csv
-import retrieveLUs
+import buildLUs
+import os
 
 def retrieve_manual_annotations():
+    if os.path.exists("data/metanet_manual_annotations.json"):
+        with open('data/metanet_manual_annotations.json', 'r', encoding='utf8') as f:
+            manual_annotations = json.load(f)
+            return manual_annotations
+
     manual_annotations = []
-    with open('category_lexical_units.json', 'r', encoding='utf8') as f:
+    with open('data/category_lexical_units.json', 'r', encoding='utf8') as f:
         metaphors = json.load(f)
-    filepath = "../../1 - Dataset building/metanet_annotation.csv"
-    with open(filepath, "r", encoding='utf8') as f:
+    with open("data/metanet_annotation.csv", "r", encoding='utf8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             annotation = {
@@ -26,48 +30,23 @@ def retrieve_manual_annotations():
                     annotation["target frame"] = metaphor["target frame"]
             manual_annotations.append(annotation)
 
-    with open("metanet_manual_annotation_D.json", "w", encoding='utf8') as f:
+    with open("data/metanet_manual_annotation.json", "w", encoding='utf8') as f:
         json.dump(manual_annotations, f, indent=4)
     
     return manual_annotations
 
 def build_LUs_set(automatic_annotation):
-    with open("lexical_units.jsonl", "r", encoding='utf8') as f:
+    # This function will create the data/lexical_units.jsonl file.
+    # If that file already exists, it will just read it
+    if not os.path.exists("data/lexical_units.jsonl"):
+        buildLUs.build_lexical_units_file()
+
+    with open("data/lexical_units.jsonl", "r", encoding='utf8') as f:
         for line in f:
             lus = json.loads(line.strip())
             if lus["category"] == automatic_annotation["category"]:
                 #print("Lexical units already built")
                 return lus
-    
-    lexical_units = {
-        "category": automatic_annotation["category"],
-        "source frame": automatic_annotation["source frame"],
-        "target frame": automatic_annotation["target frame"],
-        "lus": {
-            "metanet": {
-                "source": [],
-                "target": []
-            }, "framenet": {
-                "source": [],
-                "target": []
-            }, "wordnet": {
-                "source": [],
-                "target": []
-            }, "conceptnet": {
-                "source": [],
-                "target": []
-            }
-        }
-    }
-
-    #print("Building lexical units for", automatic_annotation["category"])
-    for data_source in ["metanet", "framenet", "wordnet", "conceptnet"]:
-        lexical_units["lus"][data_source] = retrieveLUs.retrieve_lus_from(data_source, automatic_annotation)
-    
-    with open("lexical_units.jsonl", "a", encoding='utf8') as f:
-        f.write(json.dumps(lexical_units) + '\n')
-
-    return lexical_units
 
 def preprocess_sentence(sentence):
     tokens = word_tokenize(sentence)
@@ -161,14 +140,14 @@ def print_stats(stats):
 
 def main():
     stats = {
-        "true positives": {
-            "total": 0,
-            "equal": 0,
-            "diverse": 0
+        'true positives': {
+            'total': 0,
+            'equal': 0,
+            'diverse': 0
         },
-        "false positives": 0,
-        "true negatives": 0,
-        "false negatives": 0,
+        'false positives': 0,
+        'true negatives': 0,
+        'false negatives': 0,
         'skipped': 0
     }
     manual_annotations = retrieve_manual_annotations()
@@ -176,7 +155,7 @@ def main():
 
     for metaphor in manual_annotations:
         if not all([metaphor["source frame"], metaphor["target frame"]]):
-            #print("Missing frames for", metaphor["category"])
+            # print("Missing frames for", metaphor["category"])
             stats['skipped'] += 1
             continue
         automatic_annotation = annotate_metaphor(metaphor)
