@@ -1,5 +1,4 @@
 import json
-import json
 from nltk.corpus import framenet as fn
 from nltk.corpus import wordnet as wn
 from nltk.corpus.reader.framenet import FramenetError
@@ -80,7 +79,7 @@ def build_lexical_units_file():
     if os.path.exists("data/lexical_units.jsonl"):
         with open("data/lexical_units.jsonl", "w", encoding='utf8') as f:
             print("File already exists, overwriting it")
-            
+
     i = 0
     for metanet_class in metanet_classes:
         print(f'Processing {metanet_class["metaphor"]}, ({i}/{len(metanet_classes)})')
@@ -108,7 +107,7 @@ def build_lexical_units_file():
             }
         }
 
-        for data_source in ["metanet",  "framenet", "wordnet", "conceptnet"]:
+        for data_source in  ["metanet", "framenet", "wordnet", ]:
             lexical_units["lus"][data_source] = retrieve_lus_from(data_source, metanet_class, metanet_frames)
         
         lexical_units["source frame"] = metanet_class["source frame"]

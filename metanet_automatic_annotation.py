@@ -162,7 +162,7 @@ def main():
         automatic_annotations.append(automatic_annotation)
         stats = update_stats(stats, metaphor, automatic_annotation)
         
-    with open("metanet_automatic_annotation_D.json", "w", encoding='utf8') as f:
+    with open("data/metanet_automatic_annotation.json", "w", encoding='utf8') as f:
         automatic_annotations.insert(0, stats)
         json.dump(automatic_annotations, f, indent=4)
 
