@@ -83,11 +83,11 @@ def preprocess_sentence(sentence):
         prep_sent.append(tmp)
     return prep_sent
 
-def find_candidate_annotation(lexical_units, automatic_annotation):
+def find_candidate_annotation(lexical_units, automatic_annotation, data_sources):
     res = {"source": set(), "target": set(), "type": ""}
     sentence = preprocess_sentence(automatic_annotation["sentence"])
     for key in ["source", "target"]:
-        for data_source in ["metanet", "framenet", "wordnet", "conceptnet"]:
+        for data_source in data_sources:
             for lu in lexical_units[key + " frame"][data_source]:
                 for lemma, token in sentence:
                     if lu == lemma:
@@ -95,7 +95,7 @@ def find_candidate_annotation(lexical_units, automatic_annotation):
         res[key] = "/".join(res[key])
     return res
 
-def annotate_metaphor(metaphor):
+def annotate_metaphor(metaphor, data_sources):
     automatic_annotation = {
         "category": metaphor["category"],
         "sentence": metaphor["sentence"],
@@ -106,7 +106,7 @@ def annotate_metaphor(metaphor):
         "type": ""
     }
     lexical_units = build_LUs_set(automatic_annotation)
-    candidate = find_candidate_annotation(lexical_units, automatic_annotation)
+    candidate = find_candidate_annotation(lexical_units, automatic_annotation, data_sources)
     if candidate["source"] != "" and candidate["target"] != "":
         automatic_annotation["source"] = candidate["source"]
         automatic_annotation["target"] = candidate["target"]
@@ -155,7 +155,8 @@ def main():
         'false positives': 0,
         'true negatives': 0,
         'false negatives': 0,
-        'skipped': 0
+        'skipped': 0,
+        'data_sources': ['metanet', 'framenet', 'wordnet', 'conceptnet']
     }
     manual_annotations = retrieve_manual_annotations()
     automatic_annotations = []
@@ -168,7 +169,7 @@ def main():
             # print("Missing frames for", metaphor["category"])
             stats['skipped'] += 1
             continue
-        automatic_annotation = annotate_metaphor(metaphor)
+        automatic_annotation = annotate_metaphor(metaphor, stats['data_sources'])
         automatic_annotations.append(automatic_annotation)
         stats = update_stats(stats, metaphor, automatic_annotation)
         
