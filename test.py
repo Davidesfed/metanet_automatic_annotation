@@ -43,15 +43,19 @@ def main():
         }
 
         frame = metanet_frame.copy()
-        ancestors = metanet_frame["subcase of"]
+        depth = 1
+        ancestors = [(x,depth) for x in metanet_frame["subcase of"]]
         while len(ancestors) > 0:
-            ancestor_name = ancestors.pop(0)
-            lexical_units["ancestors"].add(ancestor_name)
+            ancestor_name, last_depth = ancestors.pop(0)
+            if (ancestor_name, last_depth) in lexical_units["ancestors"]:
+                continue
+            depth = last_depth + 1
+            lexical_units["ancestors"].add((ancestor_name, depth))
             for x in metanet_frames:
                 if x["frame"] == ancestor_name:
                     frame = x
                     break
-            ancestors.extend(frame["subcase of"])
+            ancestors.extend([(x,depth) for x in frame["subcase of"]])
         lexical_units["ancestors"] = list(lexical_units["ancestors"])
         print(lexical_units)
         break
