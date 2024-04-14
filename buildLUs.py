@@ -66,7 +66,7 @@ def build_lexical_units_file():
         i += 1
         lexical_units = {
             "frame": metanet_frame["frame"],
-            "ancestors": set(),
+            "ancestors": [],
             "lus": {
                 "metanet": [], 
                 "framenet": [], 
@@ -81,12 +81,13 @@ def build_lexical_units_file():
         frame = metanet_frame.copy()
         depth = 1
         ancestors = [(x,depth) for x in metanet_frame["subcase of"]]
+        #print(f'Ancestors of {metanet_frame["frame"]}: {lexical_units["ancestors"]}')
         while len(ancestors) > 0:
             ancestor_name, last_depth = ancestors.pop(0)
-            if (ancestor_name, last_depth) in lexical_units["ancestors"]:
+            if ancestor_name in [anc[0] for anc in lexical_units["ancestors"]]:
                 continue
-            lexical_units["ancestors"].add((ancestor_name, last_depth))
             depth = last_depth + 1
+            lexical_units["ancestors"].append((ancestor_name, last_depth))
             for x in metanet_frames:
                 if x["frame"] == ancestor_name:
                     frame = x
