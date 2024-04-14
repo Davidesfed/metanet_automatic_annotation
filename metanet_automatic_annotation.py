@@ -126,7 +126,8 @@ def update_stats(stats, manual_annotation, automatic_annotation):
     # Da qui sicuramente MAN e AUT hanno prodotto annotazioni diverse
     if manual_annotation["source"] == "" and manual_annotation["target"] == "" and automatic_annotation["source"] != "" and automatic_annotation["target"] != "":
         stats["false positives"] += 1
-        print(manual_annotation, automatic_annotation)
+        with open('data/false_positives.jsonl', 'a', encoding='utf8') as f:
+            f.write(json.dumps(automatic_annotation) + "\n")
     
     if manual_annotation["source"] != "" and manual_annotation["target"] != "" and automatic_annotation["source"] == "" and automatic_annotation["target"] == "":
         stats["false negatives"] += 1
@@ -152,6 +153,9 @@ def main():
     }
     manual_annotations = retrieve_manual_annotations()
     automatic_annotations = []
+
+    with open('data/false_positives.jsonl', 'w', encoding='utf8') as f:
+        pass
 
     for metaphor in manual_annotations:
         if not all([metaphor["source frame"], metaphor["target frame"]]):
