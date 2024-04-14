@@ -75,7 +75,7 @@ def build_lexical_units_file():
             }
         }
 
-        for data_source in  ["metanet", "framenet", "wordnet",]:
+        for data_source in  ["metanet", "framenet", "wordnet", "conceptnet"]:
             lexical_units["lus"][data_source] = retrieve_lus_from(data_source, metanet_frame)
         
         frame = metanet_frame.copy()
