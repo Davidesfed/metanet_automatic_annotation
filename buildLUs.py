@@ -85,8 +85,8 @@ def build_lexical_units_file():
             ancestor_name, last_depth = ancestors.pop(0)
             if (ancestor_name, last_depth) in lexical_units["ancestors"]:
                 continue
+            lexical_units["ancestors"].add((ancestor_name, last_depth))
             depth = last_depth + 1
-            lexical_units["ancestors"].add((ancestor_name, depth))
             for x in metanet_frames:
                 if x["frame"] == ancestor_name:
                     frame = x
