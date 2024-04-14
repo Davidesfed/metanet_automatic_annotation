@@ -24,8 +24,37 @@ TEST = [
 ]
 
 def main():
-    print(wn.synsets("Seeing"))
-        
+
+    with open("data/metanet_frames.jsonl", "r", encoding='utf8') as f:
+        metanet_frames = [json.loads(line) for line in f.readlines()]
+
+    for metanet_frame in metanet_frames:
+        if metanet_frame["frame"] != "Body of water":
+            continue
+        lexical_units = {
+            "frame": metanet_frame["frame"],
+            "ancestors": set(),
+            "lus": {
+                "metanet": [], 
+                "framenet": [], 
+                "wordnet": [],
+                "conceptnet": []
+            }
+        }
+
+        frame = metanet_frame.copy()
+        ancestors = metanet_frame["subcase of"]
+        while len(ancestors) > 0:
+            ancestor_name = ancestors.pop(0)
+            lexical_units["ancestors"].add(ancestor_name)
+            for x in metanet_frames:
+                if x["frame"] == ancestor_name:
+                    frame = x
+                    break
+            ancestors.extend(frame["subcase of"])
+        lexical_units["ancestors"] = list(lexical_units["ancestors"])
+        print(lexical_units)
+        break
 
 
 if __name__ == "__main__":
