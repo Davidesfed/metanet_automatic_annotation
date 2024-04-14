@@ -35,59 +35,65 @@ def retrieve_manual_annotations():
     
     return manual_annotations
 
-def build_LUs_set(automatic_annotation):
+def lus_expansion(metanet_frame, metanet_frames, max_depth):
+    result = metanet_frame['lus']
+    if max_depth == 0:
+        return result
+    for ancestor_name, depth in metanet_frame['ancestors']:
+        if depth > max_depth:
+            continue
+        try:
+            ancestor_frame = next(x for x in metanet_frames if x['frame'] == ancestor_name)
+        except StopIteration:
+            continue
+        for key in ancestor_frame['lus'].keys():
+            result[key].extend(ancestor_frame['lus'][key])
+    return result
+            
+
+def build_LUs_set(automatic_annotation, max_depth=1):
     # This function will create the data/lexical_units.jsonl file.
     # If that file already exists, it will just read it
     if not os.path.exists("data/lexical_units.jsonl"):
         buildLUs.build_lexical_units_file()
 
+    lexical_units = {
+        'source frame': {'metanet': [], 'framenet': [], 'wordnet': [], 'conceptnet': []},
+        'target frame': {'metanet': [], 'framenet': [], 'wordnet': [], 'conceptnet': []}
+    }
     with open("data/lexical_units.jsonl", "r", encoding='utf8') as f:
-        for line in f:
-            lus = json.loads(line.strip())
-            if lus["category"] == automatic_annotation["category"]:
-                #print("Lexical units already built")
-                return lus
+        metanet_frames = [json.loads(line) for line in f.readlines()]
+
+    for metanet_frame in metanet_frames:
+        if metanet_frame["frame"] == automatic_annotation["source frame"].replace("_", " "):
+            lexical_units["source frame"] = lus_expansion(metanet_frame, metanet_frames, max_depth)
+        if metanet_frame["frame"] == automatic_annotation["target frame"].replace("_", " "):
+            lexical_units["target frame"] = lus_expansion(metanet_frame, metanet_frames, max_depth)
+                
+    return lexical_units
 
 def preprocess_sentence(sentence):
     tokens = word_tokenize(sentence)
     lemmatizer = WordNetLemmatizer()
     lemmas = [lemmatizer.lemmatize(token) for token in tokens]
-    # pos_tags = pos_tag(tokens)
     prep_sent = []
     for i in range(len(tokens)):
-        #new_tag = convert_tag(pos_tags[i][1])
-        #if new_tag == '':
-        #    continue
-        #lemma_pos = lemmas[i].lower() + '.' + new_tag
         lemma_pos = lemmas[i].lower()
         tmp = (lemma_pos, tokens[i])
         prep_sent.append(tmp)
     return prep_sent
 
-def convert_tag(tag):
-    if tag.startswith("NN"):
-        return 'n'
-    elif tag.startswith("JJ"):
-        return 'a'
-    elif tag.startswith("VB"):
-        return 'v'
-    elif tag.startswith("RB"):
-        return 'r'
-    else:
-        return ''
-
 def find_candidate_annotation(lexical_units, automatic_annotation):
     res = {"source": set(), "target": set(), "type": ""}
     sentence = preprocess_sentence(automatic_annotation["sentence"])
-    for data_source in ["framenet", "wordnet", "conceptnet", "metanet"]:
-        for source in lexical_units["lus"][data_source]["source"]:
-            for target in lexical_units["lus"][data_source]["target"]:
-                for lemma_pos, token in sentence:
-                    if source == lemma_pos:
-                        res["source"].add(token)
-                    if target == lemma_pos:
-                        res["target"].add(token)
-    return {"source": "/".join(res["source"]), "target": "/".join(res["target"]), "type": ""}
+    for key in ["source", "target"]:
+        for data_source in ["metanet", "framenet", "wordnet", "conceptnet"]:
+            for lu in lexical_units[key + " frame"][data_source]:
+                for lemma, token in sentence:
+                    if lu == lemma:
+                        res[key].add(token)
+        res[key] = "/".join(res[key])
+    return res
 
 def annotate_metaphor(metaphor):
     automatic_annotation = {
