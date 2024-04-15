@@ -21,7 +21,7 @@ from nltk.corpus.reader.framenet import FramenetError
 # given a MetaNet frame, returns the set of its associated Lexical Units
 def retrieve_lus(frame):
     lus = set()
-    with open("lexunits.jsonl", encoding="utf-8") as scraped_data:
+    with open("data/metanet_frames.jsonl", encoding="utf-8") as scraped_data:
         for line in scraped_data:
             scraped = json.loads(line.strip())
 
@@ -137,7 +137,7 @@ def main():
     # save "subcase of" frame relation in a dictionary
     super_frames_of = dict()
 
-    with open("metanet_frames.jsonl", encoding="utf-8") as scraped_data:
+    with open("data/metanet_frames.jsonl", encoding="utf-8") as scraped_data:
         for line in scraped_data:
             scraped = json.loads(line.strip())
             
