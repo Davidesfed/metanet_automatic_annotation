@@ -36,9 +36,9 @@ def retrieve_manual_annotations():
     return manual_annotations
 
 def lus_expansion(metanet_frame, metanet_frames, max_depth):
-    result = metanet_frame['lus']
+    lus = metanet_frame['lus']
     if max_depth == 0:
-        return result
+        return lus
     for ancestor_name, depth in metanet_frame['ancestors']:
         if depth > max_depth:
             continue
@@ -47,10 +47,9 @@ def lus_expansion(metanet_frame, metanet_frames, max_depth):
         except StopIteration:
             continue
         for key in ancestor_frame['lus'].keys():
-            result[key].extend(ancestor_frame['lus'][key])
-    return result
+            lus[key].extend(ancestor_frame['lus'][key])
+    return lus
             
-
 def build_LUs_set(automatic_annotation, max_depth=1):
     # This function will create the data/lexical_units.jsonl file.
     # If that file already exists, it will just read it
@@ -64,11 +63,16 @@ def build_LUs_set(automatic_annotation, max_depth=1):
     with open("data/lexical_units.jsonl", "r", encoding='utf8') as f:
         metanet_frames = [json.loads(line) for line in f.readlines()]
 
+    found = 0
     for metanet_frame in metanet_frames:
         if metanet_frame["frame"] == automatic_annotation["source frame"].replace("_", " "):
             lexical_units["source frame"] = lus_expansion(metanet_frame, metanet_frames, max_depth)
+            found += 1
         if metanet_frame["frame"] == automatic_annotation["target frame"].replace("_", " "):
             lexical_units["target frame"] = lus_expansion(metanet_frame, metanet_frames, max_depth)
+            found += 1
+        if found == 2:
+            break
                 
     return lexical_units
 
