@@ -1,13 +1,13 @@
 [
     {
         "true positives": {
-            "total": 116,
-            "equal": 56,
-            "diverse": 60
+            "total": 128,
+            "equal": 57,
+            "diverse": 71
         },
         "false positives": 14,
         "true negatives": 247,
-        "false negatives": 425,
+        "false negatives": 413,
         "skipped": 40,
         "data_sources": [
             "metanet",
@@ -553,7 +553,7 @@
         "source frame": "Substance",
         "target frame": "Time",
         "source": "sands",
-        "target": "days/lives",
+        "target": "lives/days",
         "type": ""
     },
     {
@@ -804,7 +804,7 @@
         "sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society",
         "source frame": "Group membership",
         "target frame": "Taxation",
-        "source": "dues/membership",
+        "source": "membership/dues",
         "target": "Taxes",
         "type": ""
     },
@@ -814,7 +814,7 @@
         "source frame": "Disease",
         "target frame": "Taxation",
         "source": "disease",
-        "target": "lawmakers/Governor/taxes",
+        "target": "lawmakers/taxes/Governor",
         "type": ""
     },
     {
@@ -831,7 +831,7 @@
         "sentence": "Government steals the people's wealth through overt and hidden taxes",
         "source frame": "Theft",
         "target frame": "Taxation",
-        "source": "steals/taxes",
+        "source": "taxes/steals",
         "target": "Government/taxes",
         "type": ""
     },
@@ -876,7 +876,7 @@
         "sentence": "According to the Tax Foundation, Texas residents on average shoulder the fifth lowest tax burden compared to other residents in the 50 states.",
         "source frame": "Burden",
         "target frame": "Taxation",
-        "source": "burden/shoulder",
+        "source": "shoulder/burden",
         "target": "tax/states/Tax",
         "type": ""
     },
@@ -885,7 +885,7 @@
         "sentence": "The Obama campaign is taking a swipe at Mitt Romney's tax plan in a new television ad, saying it will create a \"heavy load\" for the middle class.",
         "source frame": "Burden",
         "target frame": "Taxation",
-        "source": "load/heavy",
+        "source": "heavy/load",
         "target": "tax",
         "type": ""
     },
@@ -1047,8 +1047,8 @@
         "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
         "source frame": "Complex physical object",
         "target frame": "Society",
-        "source": "part/parts/whole",
-        "target": "Society/society",
+        "source": "parts/whole/part",
+        "target": "society/Society",
         "type": ""
     },
     {
@@ -1813,7 +1813,7 @@
         "source frame": "Crime",
         "target frame": "Poverty",
         "source": "crime",
-        "target": "poverty/poor",
+        "target": "poor/poverty",
         "type": ""
     },
     {
@@ -1848,7 +1848,7 @@
         "sentence": "As Election Day drew near, the candidates pulled into the final lap of the race.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "race/lap",
+        "source": "lap/race",
         "target": "Election",
         "type": ""
     },
@@ -2038,7 +2038,7 @@
         "source frame": "Bully",
         "target frame": "Nation",
         "source": "Bully",
-        "target": "World/International",
+        "target": "International/World",
         "type": ""
     },
     {
@@ -2065,7 +2065,7 @@
         "source frame": "Object",
         "target frame": "Nation",
         "source": "thing",
-        "target": "States/United",
+        "target": "United/States",
         "type": ""
     },
     {
@@ -2136,7 +2136,7 @@
         "sentence": "\u201cThis is a time to build a nation, brick by brick, pillar by pillar, not a time to tear down our brothers and sisters or pillage their property,\u201d",
         "source frame": "Building",
         "target frame": "Nation",
-        "source": "build/brick/pillar",
+        "source": "brick/build/pillar",
         "target": "nation",
         "type": ""
     },
@@ -2172,7 +2172,7 @@
         "sentence": "Iowa is the heart of the nation, where everyone greets you with a smile and you wave at strangers!",
         "source frame": "Body",
         "target frame": "Nation",
-        "source": "heart/you",
+        "source": "you/heart",
         "target": "nation",
         "type": ""
     },
@@ -2343,8 +2343,8 @@
         "sentence": "The government takes good care of its people.",
         "source frame": "Nurturant parent family",
         "target frame": "Moral action",
-        "source": "",
-        "target": "",
+        "source": "care",
+        "target": "good",
         "type": ""
     },
     {
@@ -2406,8 +2406,8 @@
         "sentence": "Liquid assets.",
         "source frame": "Liquid",
         "target frame": "Money",
-        "source": "",
-        "target": "",
+        "source": "Liquid",
+        "target": "assets",
         "type": ""
     },
     {
@@ -2667,8 +2667,8 @@
         "sentence": "It's time to take the next big step in my life.",
         "source frame": "Motion along a path",
         "target frame": "Life",
-        "source": "",
-        "target": "",
+        "source": "step",
+        "target": "step",
         "type": ""
     },
     {
@@ -3028,7 +3028,7 @@
         "source frame": "Vehicle",
         "target frame": "Institution",
         "source": "vehicles",
-        "target": "institutions/groups/people",
+        "target": "people/institutions/groups",
         "type": ""
     },
     {
@@ -3145,7 +3145,7 @@
         "source frame": "Business",
         "target frame": "Government",
         "source": "profit",
-        "target": "runs/government",
+        "target": "government/runs",
         "type": ""
     },
     {
@@ -3154,7 +3154,7 @@
         "source frame": "Business",
         "target frame": "Government",
         "source": "business",
-        "target": "general/government",
+        "target": "government/general",
         "type": ""
     },
     {
@@ -3289,7 +3289,7 @@
         "source frame": "Person",
         "target frame": "Idea",
         "source": "ideas",
-        "target": "ideas/theory",
+        "target": "theory/ideas",
         "type": ""
     },
     {
@@ -3360,8 +3360,8 @@
         "sentence": "He breathed new life into that idea.",
         "source frame": "Person",
         "target frame": "Idea",
-        "source": "He/idea/life",
-        "target": "new/idea",
+        "source": "life/He/idea",
+        "target": "idea/new",
         "type": ""
     },
     {
@@ -3388,7 +3388,7 @@
         "source frame": "Food",
         "target frame": "Idea",
         "source": "Food/can",
-        "target": "know/good/thought",
+        "target": "know/thought/good",
         "type": ""
     },
     {
@@ -3892,7 +3892,7 @@
         "source frame": "Barrier",
         "target frame": "Regulation",
         "source": "obstacles",
-        "target": "rules/regulations",
+        "target": "regulations/rules",
         "type": ""
     },
     {
@@ -3945,8 +3945,8 @@
         "sentence": "\u201cGovernment is not a machine, but a living thing. It falls, not under the theory of the universe, but under the theory of organic life. It is accountable to Darwin, not to Newton. It is modified by its environment, necessitated by its tasks, shaped to its functions by the sheer pressure of life. No living thing can have its organs offset against each other, as checks, and live.\"",
         "source frame": "Biological entity",
         "target frame": "Government institution",
-        "source": "",
-        "target": "",
+        "source": "life/thing",
+        "target": "Government/machine",
         "type": ""
     },
     {
@@ -3954,8 +3954,8 @@
         "sentence": "There can be no doubt that the federal government is the new slave master, something the Founding Fathers warned us against.",
         "source frame": "Work scenario",
         "target frame": "Government",
-        "source": "",
-        "target": "",
+        "source": "slave",
+        "target": "government/federal",
         "type": ""
     },
     {
@@ -3999,8 +3999,8 @@
         "sentence": "A proper government is only a policeman, acting as an agent of man\u2019s self-defense, and, as such, may resort to force only against those who start the use of force.",
         "source frame": "Work scenario",
         "target frame": "Government",
-        "source": "",
-        "target": "",
+        "source": "man",
+        "target": "government/force",
         "type": ""
     },
     {
@@ -4035,7 +4035,7 @@
         "sentence": "Big Father: The Government as Parent",
         "source frame": "Nuclear family",
         "target frame": "Government",
-        "source": "Father/Parent",
+        "source": "Parent/Father",
         "target": "Government",
         "type": ""
     },
@@ -4045,7 +4045,7 @@
         "source frame": "Nuclear family",
         "target frame": "Government",
         "source": "parent",
-        "target": "STATE/country/sovereign",
+        "target": "country/STATE/sovereign",
         "type": ""
     },
     {
@@ -4054,7 +4054,7 @@
         "source frame": "Leadership",
         "target frame": "Government",
         "source": "lead",
-        "target": "lead/government/federal",
+        "target": "government/federal/lead",
         "type": ""
     },
     {
@@ -4116,8 +4116,8 @@
         "sentence": "I believe in personal responsibility and the government shouldn't be a babysitter but I also believe in compassion for less advantageous people.",
         "source frame": "Child care",
         "target frame": "Government",
-        "source": "",
-        "target": "",
+        "source": "people/believe",
+        "target": "government/people",
         "type": ""
     },
     {
@@ -4134,8 +4134,8 @@
         "sentence": "One of the worst-run businesses in the United States is also the largest business in the nation. The federal government is in financial disarray. It spends more than it makes and its investments are not based on sound financial principles.",
         "source frame": "Business",
         "target frame": "Government institution",
-        "source": "business/businesses",
-        "target": "business/businesses",
+        "source": "businesses/business",
+        "target": "businesses/business",
         "type": ""
     },
     {
@@ -4161,8 +4161,8 @@
         "sentence": "If the injustice is part of the necessary friction of the machine of government, let it go, let it go: perchance it will wear smooth--certainly the machine will wear out. If the injustice has a spring, or a pulley, or a rope, or a crank, exclusively for itself, then perhaps you may consider whether the remedy will not be worse than the evil; but if it is of such a nature that it requires you to be the agent of injustice to another, then I say, break the law. Let your life be a counter-friction to stop the machine. What I have to do is to see, at any rate, that I do not lend myself to the wrong which I condemn.",
         "source frame": "Machine",
         "target frame": "Government institution",
-        "source": "",
-        "target": "",
+        "source": "pulley/machine",
+        "target": "government/machine",
         "type": ""
     },
     {
@@ -4170,8 +4170,8 @@
         "sentence": "They had elected him (Jackson) to conduct the Government and to keep and remove its moneys, and he meant to do so on the principle that it was a simple machine.",
         "source frame": "Machine",
         "target frame": "Government institution",
-        "source": "",
-        "target": "",
+        "source": "machine",
+        "target": "Government/machine",
         "type": ""
     },
     {
@@ -4881,7 +4881,7 @@
         "sentence": "Both sides girded for battle, as they knew the general election would be a hard-won fight.",
         "source frame": "War",
         "target frame": "Election",
-        "source": "fight/sides/battle",
+        "source": "battle/sides/fight",
         "target": "election",
         "type": ""
     },
@@ -5061,7 +5061,7 @@
         "sentence": "\"Although we have a long way to go before we can put this recession behind us, the gears of our economic engine do appear ... to be slowly turning once again,\"",
         "source frame": "Machine",
         "target frame": "Economy",
-        "source": "gears/engine",
+        "source": "engine/gears",
         "target": "economic",
         "type": ""
     },
@@ -5484,8 +5484,8 @@
         "sentence": "Our nation has been infested with the termites of corruption, the worms of immorality, and a virus of indifference and apathy.",
         "source frame": "Parasite",
         "target frame": "Corruption",
-        "source": "",
-        "target": "",
+        "source": "corruption",
+        "target": "immorality/corruption",
         "type": ""
     },
     {
@@ -5502,8 +5502,8 @@
         "sentence": "Corrupt officials are infecting our government at every level.",
         "source frame": "Disease",
         "target frame": "Corruption",
-        "source": "",
-        "target": "",
+        "source": "level",
+        "target": "Corrupt",
         "type": ""
     },
     {
@@ -6051,8 +6051,8 @@
         "sentence": "One down of the three pillars of \u201cunalienable\u201d rights that hold up this great country of ours.",
         "source frame": "Physical structure",
         "target frame": "Rights",
-        "source": "",
-        "target": "",
+        "source": "One",
+        "target": "rights",
         "type": ""
     },
     {
@@ -6421,7 +6421,7 @@
         "source frame": "Fierce animal",
         "target frame": "Bureaucracy",
         "source": "tentacle",
-        "target": "bureaucrats/Administration",
+        "target": "Administration/bureaucrats",
         "type": ""
     },
     {
@@ -6429,8 +6429,8 @@
         "sentence": "Lost in the bureaucratic maze of city's criminal justice system",
         "source frame": "Maze",
         "target frame": "Bureaucracy",
-        "source": "system/maze",
-        "target": "system/bureaucratic",
+        "source": "maze/system",
+        "target": "bureaucratic/system",
         "type": ""
     },
     {

@@ -9,56 +9,48 @@ from nltk.stem import WordNetLemmatizer
 import csv
 from nltk.corpus.reader.framenet import FramenetError
 from nltk.corpus import wordnet as wn
-from metanet_automatic_annotation import retrieve_manual_annotations
+from metanet_automatic_annotation import annotate_metaphor
+from metanet_automatic_annotation import update_stats
+from metanet_automatic_annotation import print_stats
 
 TEST = [
     {
-        "category": "WORDS ARE CONTAINERS",
-        "sentence": "That remark is completely impenetrable.",
-        "source frame": "Containing",
-        "target frame": "Word",
-        "source": "impenetrable",
-        "target": "remark",
-        "type": "AN"
+        "category": "ABILITY TO EVALUATE GOVERNMENT IS ABILITY TO SEE",
+        "sentence": "Government transparency enables the public to hold the government accountable for how they spend their money.",
+        "source frame": "Seeing",
+        "target frame": "Citizen evaluation of government",
+        "source": "transparency",
+        "target": "Government",
+        "type": "NN"
     }
 ]
 
 def main():
 
-    with open("data/metanet_frames.jsonl", "r", encoding='utf8') as f:
-        metanet_frames = [json.loads(line) for line in f.readlines()]
+    stats = {
+        'true positives': {
+            'total': 0,
+            'equal': 0,
+            'diverse': 0
+        },
+        'false positives': 0,
+        'true negatives': 0,
+        'false negatives': 0,
+        'skipped': 0,
+        'data_sources': ['metanet', 'framenet', 'wordnet', 'conceptnet']
+    }
+    automatic_annotations = []
 
-    for metanet_frame in metanet_frames:
-        if metanet_frame["frame"] != "Body of water":
+    for metaphor in TEST:
+        if not all([metaphor["source frame"], metaphor["target frame"]]):
+            # print("Missing frames for", metaphor["category"])
+            stats['skipped'] += 1
             continue
-        lexical_units = {
-            "frame": metanet_frame["frame"],
-            "ancestors": set(),
-            "lus": {
-                "metanet": [], 
-                "framenet": [], 
-                "wordnet": [],
-                "conceptnet": []
-            }
-        }
+        automatic_annotation = annotate_metaphor(metaphor, stats['data_sources'])
+        automatic_annotations.append(automatic_annotation)
+        stats = update_stats(stats, metaphor, automatic_annotation)
 
-        frame = metanet_frame.copy()
-        depth = 1
-        ancestors = [(x,depth) for x in metanet_frame["subcase of"]]
-        while len(ancestors) > 0:
-            ancestor_name, last_depth = ancestors.pop(0)
-            if (ancestor_name, last_depth) in lexical_units["ancestors"]:
-                continue
-            depth = last_depth + 1
-            lexical_units["ancestors"].add((ancestor_name, depth))
-            for x in metanet_frames:
-                if x["frame"] == ancestor_name:
-                    frame = x
-                    break
-            ancestors.extend([(x,depth) for x in frame["subcase of"]])
-        lexical_units["ancestors"] = list(lexical_units["ancestors"])
-        print(lexical_units)
-        break
+    print_stats(stats)
 
 
 if __name__ == "__main__":

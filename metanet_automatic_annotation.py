@@ -4,6 +4,7 @@ from nltk.stem import WordNetLemmatizer
 import csv
 import buildLUs
 import os
+import pprint
 
 def retrieve_manual_annotations():
     if os.path.exists("data/metanet_manual_annotations.json"):
@@ -96,10 +97,30 @@ def find_candidate_annotation(lexical_units, automatic_annotation, data_sources)
                 for lemma, token in sentence:
                     if lu == lemma:
                         res[key].add(token)
-        res[key] = "/".join(res[key])
+        res[key] = "/".join(res[key])  
     return res
 
-def annotate_metaphor(metaphor, data_sources):
+def build_ancestor_list(automatic_annotation, max_depth):
+    generalized_annotations = [automatic_annotation]
+    #return generalized_annotations
+    with open('data/metaphors_ancestor_hierarchy.json', 'r', encoding='utf8') as f:
+        metaphors_ancestor_hierarchy = json.load(f)
+    for metanet_class in metaphors_ancestor_hierarchy[automatic_annotation["category"]]:
+        if max_depth is not None and metanet_class["depth"] > max_depth:
+            continue
+        generalized_annotation = {
+            "category": metanet_class["category"],
+            "sentence": automatic_annotation["sentence"],
+            "source frame": metanet_class["source frame"],
+            "target frame": metanet_class["target frame"],
+            "source": "",
+            "target": "",
+            "type": ""
+        }
+        generalized_annotations.append(generalized_annotation)
+    return generalized_annotations
+
+def annotate_metaphor(metaphor, data_sources, max_depth=None):
     automatic_annotation = {
         "category": metaphor["category"],
         "sentence": metaphor["sentence"],
@@ -109,12 +130,16 @@ def annotate_metaphor(metaphor, data_sources):
         "target": "",
         "type": ""
     }
-    lexical_units = build_LUs_set(automatic_annotation)
-    candidate = find_candidate_annotation(lexical_units, automatic_annotation, data_sources)
-    if candidate["source"] != "" and candidate["target"] != "":
-        automatic_annotation["source"] = candidate["source"]
-        automatic_annotation["target"] = candidate["target"]
-        automatic_annotation["type"] = candidate["type"]
+
+    ancestor_metaphors = build_ancestor_list(automatic_annotation, max_depth)
+    for ancestor_metaphor in ancestor_metaphors:
+        lexical_units = build_LUs_set(ancestor_metaphor)
+        candidate = find_candidate_annotation(lexical_units, ancestor_metaphor, data_sources)
+        if candidate["source"] != "" and candidate["target"] != "":
+            automatic_annotation["source"] = candidate["source"]
+            automatic_annotation["target"] = candidate["target"]
+            automatic_annotation["type"] = candidate["type"]
+            break
     return automatic_annotation
 
 def update_stats(stats, manual_annotation, automatic_annotation):
@@ -146,8 +171,12 @@ def update_stats(stats, manual_annotation, automatic_annotation):
 
 def print_stats(stats):
     total = stats["true positives"]["total"] + stats["true negatives"] + stats["false positives"] + stats["false negatives"]
-    print("Number of metaphors analyzed: ", total)
-    print(stats)
+    print(f"Number of metaphors analyzed: {total}/{total + stats['skipped']}")
+    print(f'Data sources used: {", ".join(stats["data_sources"])}')
+    print(f'True positives: {stats["true positives"]["total"]}, of which EQUAL: {stats["true positives"]["equal"]} and DIVERSE: {stats["true positives"]["diverse"]}')
+    print(f'True negatives: {stats["true negatives"]}')
+    print(f'False positives: {stats["false positives"]}')
+    print(f'False negatives: {stats["false negatives"]}')
 
 def main():
     stats = {
@@ -169,6 +198,7 @@ def main():
         pass
 
     for metaphor in manual_annotations:
+        #print(f"Analyzing metaphor: {metaphor['category']}")
         if not all([metaphor["source frame"], metaphor["target frame"]]):
             # print("Missing frames for", metaphor["category"])
             stats['skipped'] += 1

@@ -1,0 +1,3666 @@
+{
+    "ABILITY TO EVALUATE GOVERNMENT IS ABILITY TO SEE": [
+        {
+            "category": "ABILITY TO EVALUATE IS ABILITY TO SEE",
+            "depth": 1,
+            "source frame": "Seeing",
+            "target frame": "Evaluation"
+        },
+        {
+            "category": "ABILITY TO KNOW IS ABILITY TO SEE",
+            "depth": 2,
+            "source frame": "Seeing",
+            "target frame": "Knowing"
+        }
+    ],
+    "ANALYSIS OF SOCIAL PROBLEMS IS DIAGNOSIS OF AFFLICTION": [],
+    "AMOUNT OF STATE IS SIZE OF OBJECT": [],
+    "AMOUNT OF RESOURCE IS BODY WEIGHT": [],
+    "AMOUNT OF PROGRESS TOWARD ENACTING LEGISLATION IS DISTANCE MOVED ALONG A PATH": [],
+    "AMOUNT OF PROGRESS IS AMOUNT OF DISTANCE MOVED": [],
+    "AMOUNT OF PROBLEM IS SIZE": [],
+    "AMOUNT OF POVERTY IS SIZE OF GEOGRAPHIC FEATURE": [
+        {
+            "category": "AMOUNT OF POVERTY IS SIZE",
+            "depth": 1,
+            "source frame": "Size",
+            "target frame": "Poverty"
+        },
+        {
+            "category": "AMOUNT OF STATE IS SIZE OF OBJECT",
+            "depth": 2,
+            "source frame": "Size",
+            "target frame": "State"
+        }
+    ],
+    "AMOUNT OF POVERTY IS SIZE": [
+        {
+            "category": "AMOUNT OF STATE IS SIZE OF OBJECT",
+            "depth": 1,
+            "source frame": "Size",
+            "target frame": "State"
+        }
+    ],
+    "AMOUNT OF GUNS IS A FLUID": [
+        {
+            "category": "MULTIPLICITY IS MASS",
+            "depth": 1,
+            "source frame": "Mass",
+            "target frame": "Multiplex"
+        }
+    ],
+    "AMOUNT OF GUN VIOLENCE IS A FLUID": [],
+    "ALTERNATIVES ARE DIFFERENT AVAILABLE PATHS": [],
+    "ALTERNATIVE LEGISLATION IS ALTERNATIVE PATH": [],
+    "ALLIANCES ARE FRIENDSHIPS": [],
+    "AIDS TO USING EDUCATIONAL OPPORTUNITIES ARE AIDS TO ACCESSING LOCATIONS ALONG A PATH": [
+        {
+            "category": "OPPORTUNITIES ARE LOCATIONS",
+            "depth": 1,
+            "source frame": "Location",
+            "target frame": "Opportunities"
+        }
+    ],
+    "AIDS TO IMPROVING ECONOMIC STATUS IS AID TO UPWARD MOTION": [
+        {
+            "category": "AIDS TO ACHIEVING A PURPOSE ARE AIDS TO REACHING A DESTINATION",
+            "depth": 1,
+            "source frame": "Aids to motion",
+            "target frame": "Aids to action"
+        }
+    ],
+    "WORSENING MOOD IS DOWNWARD MOTION": [],
+    "WORDS ARE CONTAINERS": [],
+    "WINNING AN ELECTION IS WINNING A WAR": [],
+    "WINNING AN ELECTION IS WINNING A RACE": [],
+    "WINNING AN ELECTION IS WINNING A BOXING MATCH": [],
+    "WHOLES ARE POSSESSORS": [],
+    "WHOLES ARE CONTAINERS": [],
+    "WELL-FUNCTIONING BUREAUCRACY IS A SMOOTHLY FUNCTIONING MACHINE": [],
+    "WELL-BEING IS WEALTH": [],
+    "WELL-BEING IS VERTICALITY": [],
+    "WEALTH REDISTRIBUTION IS RESOURCE TRANSFER": [
+        {
+            "category": "WEALTH IS A RESOURCE",
+            "depth": 1,
+            "source frame": "Resource",
+            "target frame": "Wealth"
+        }
+    ],
+    "WEALTH IS PROTECTION AGAINST HARM": [],
+    "WEALTH IS LINEAR SPATIAL SCALE": [],
+    "WEALTH IS A SUBSTANCE": [],
+    "WEALTH IS A RESOURCE": [],
+    "VOTING IS SPEAKING": [],
+    "VISUAL FIELD IS A CONTAINER": [],
+    "VIOLENCE IS A FLUID": [],
+    "UNDERSTANDING IS GRASPING": [
+        {
+            "category": "THINKING IS OBJECT MANIPULATION",
+            "depth": 1,
+            "source frame": "Object_manipulation",
+            "target frame": "Thinking about"
+        },
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 2,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "UNDERSTANDING IS FOLLOWING": [],
+    "UNDERSTANDING IS DIGESTING": [
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 1,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "UNCONTROLLED CRIME IS A RAMPAGING ANIMAL": [],
+    "UNCONSCIOUS IS DOWN": [],
+    "TRUST RELATIONSHIPS ARE BUILDINGS": [
+        {
+            "category": "RELATIONSHIPS ARE PHYSICAL STRUCTURES",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "RELATIONSHIPS ARE COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "RELATIONSHIPS ARE OBJECTS",
+            "depth": 3,
+            "source frame": "Object",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 3,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "TRUST IN GOVERNMENT IS A BUILDING": [
+        {
+            "category": "TRUST RELATIONSHIPS ARE BUILDINGS",
+            "depth": 1,
+            "source frame": "Building",
+            "target frame": "Trust relationship"
+        },
+        {
+            "category": "RELATIONSHIPS ARE PHYSICAL STRUCTURES",
+            "depth": 2,
+            "source frame": "Physical structure",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "RELATIONSHIPS ARE COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "RELATIONSHIPS ARE OBJECTS",
+            "depth": 4,
+            "source frame": "Object",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 4,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "TIME PERIODS ARE CONTAINERS": [],
+    "TIME IS MONEY": [
+        {
+            "category": "TIME IS A RESOURCE",
+            "depth": 1,
+            "source frame": "Resource",
+            "target frame": "Time"
+        }
+    ],
+    "TIME IS A SUBSTANCE": [],
+    "TIME IS A RESOURCE": [],
+    "TIME IS A MOVING OBJECT": [
+        {
+            "category": "NOW IS HERE",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Time"
+        }
+    ],
+    "TIME IS A LANDSCAPE THROUGH WHICH THE OBSERVER MOVES": [
+        {
+            "category": "NOW IS HERE",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Time"
+        }
+    ],
+    "TIME IS A COMMODITY": [
+        {
+            "category": "TIME IS A RESOURCE",
+            "depth": 1,
+            "source frame": "Resource",
+            "target frame": "Time"
+        }
+    ],
+    "THINKING IS SPEAKING": [
+        {
+            "category": "THINKING IS LINGUISTIC ACTIVITY",
+            "depth": 1,
+            "source frame": "Linguistic_activity",
+            "target frame": "Cognizing"
+        }
+    ],
+    "THINKING IS PERCEIVING": [],
+    "THINKING IS OBJECT MANIPULATION": [
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 1,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "THINKING IS MOVING": [],
+    "THINKING IS LINGUISTIC ACTIVITY": [],
+    "THEORIES ARE COMPLEX STRUCTURES": [
+        {
+            "category": "LOGICAL STRUCTURES ARE ERECT COMPLEX STRUCTURES",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Logical structure"
+        }
+    ],
+    "THEORIES ARE BUILDINGS": [
+        {
+            "category": "IDEAS ARE OBJECTS",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Idea"
+        },
+        {
+            "category": "THEORIES ARE COMPLEX STRUCTURES",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Theory"
+        },
+        {
+            "category": "LOGICAL STRUCTURES ARE ERECT COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Logical structure"
+        }
+    ],
+    "TERMINATION OF CONTROL IS LOSS OF A POSSESSION": [],
+    "TAXES ARE DUES": [],
+    "TAXES ARE DISEASES": [
+        {
+            "category": "SOCIAL PROBLEMS ARE DISEASES",
+            "depth": 1,
+            "source frame": "Disease",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 2,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        }
+    ],
+    "TAXATION IS THEFT": [
+        {
+            "category": "TAXATION IS CAUSING HARM",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Taxation"
+        }
+    ],
+    "TAXATION IS SLAVERY": [
+        {
+            "category": "TAXATION IS CAUSING HARM",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Taxation"
+        }
+    ],
+    "TAXATION IS PUNISHMENT": [
+        {
+            "category": "TAXATION IS CAUSING HARM",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Taxation"
+        }
+    ],
+    "TAXATION IS INVESTMENT": [],
+    "TAXATION IS IMPEDIMENTS TO MOTION": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "TAXATION IS FORCEFUL REMOVAL OF A SUBSTANCE": [],
+    "TAXATION IS CAUSING HARM": [],
+    "TAXATION IS A FORCE": [],
+    "TAXATION IS A BURDEN": [
+        {
+            "category": "TAXATION IS CAUSING HARM",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Taxation"
+        },
+        {
+            "category": "DIFFICULTIES IN ACTION ARE PHYSICAL BURDENS",
+            "depth": 1,
+            "source frame": "Burden",
+            "target frame": "Difficulties in action"
+        },
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 2,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "SYMPATHY IS WARMTH": [],
+    "SURVIVING CANCER IS WINNING A COMPETITION": [],
+    "SURVIVING CANCER IS HARMING CANCER": [],
+    "SUBJUGATION IS DOWN": [],
+    "STATUS IS VERTICALITY": [],
+    "STATES ARE PHYSICAL OBJECTS": [],
+    "STATES ARE LOCATIONS": [],
+    "STATE OF NATION IS LOCATION ALONG PATH": [
+        {
+            "category": "STATES ARE LOCATIONS",
+            "depth": 1,
+            "source frame": "Trajector landmark",
+            "target frame": "State"
+        }
+    ],
+    "SOLVING A PROBLEM IS FIXING A BROKEN OBJECT": [],
+    "SOCIETY IS A PERSON": [],
+    "SOCIETY IS A COMPLEX STRUCTURE": [
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS": [],
+    "SOCIAL PROBLEMS ARE DISEASES": [
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 1,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        }
+    ],
+    "SOCIAL PROBLEMS ARE ANIMATE ENTITIES": [],
+    "SOCIAL ORGANIZATIONS ARE PLANTS": [],
+    "SOCIAL GROUPS ARE CONTAINERS": [
+        {
+            "category": "SOCIAL GROUP IS A BOUNDED REGION",
+            "depth": 1,
+            "source frame": "Bounded region",
+            "target frame": "Social group"
+        }
+    ],
+    "SOCIAL GROUPS ARE COMPLEX STRUCTURES": [
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "SOCIAL GROUPS ARE BUILDINGS": [
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 2,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "SOCIAL GROUP IS A FAMILY": [],
+    "SOCIAL GROUP IS A FABRIC": [],
+    "SOCIAL GROUP IS A BOUNDED REGION": [],
+    "SOCIAL FUNCTIONING IS PHYSICAL HEALTH": [
+        {
+            "category": "SOCIETY IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Society"
+        }
+    ],
+    "SIMPLE IDEAS ARE WORDS": [
+        {
+            "category": "THINKING IS LINGUISTIC ACTIVITY",
+            "depth": 1,
+            "source frame": "Linguistic_activity",
+            "target frame": "Cognizing"
+        }
+    ],
+    "SIMILARITY IS PROXIMITY": [],
+    "SICKNESS IS DOWN": [],
+    "SEQUENCE OF ACTIONS IS A SEQUENCE OF MOVEMENTS": [],
+    "SENSING IS SMELLING": [],
+    "SELF-INITIATED STATE CHANGE IS SELF-PROPELLED MOTION": [
+        {
+            "category": "CHANGE OF STATE IS CHANGE OF LOCATION",
+            "depth": 1,
+            "source frame": "Motion along a path",
+            "target frame": "Change of state"
+        },
+        {
+            "category": "PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION",
+            "depth": 1,
+            "source frame": "Self propelled motion to a destination",
+            "target frame": "Purposeful action"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 2,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 3,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "SELECTION IS ADOPTION": [],
+    "SEEKING KNOWLEDGE IS SEARCHING": [
+        {
+            "category": "KNOWING IS PERCEIVING",
+            "depth": 1,
+            "source frame": "Perception",
+            "target frame": "Knowing"
+        },
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 2,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "SEEING IS TOUCHING": [],
+    "SCALES ARE PATHS": [],
+    "SAD IS DOWN": [],
+    "ROMANTIC RELATIONSHIPS ARE VEHICLES": [
+        {
+            "category": "RELATIONSHIPS ARE CONTAINERS",
+            "depth": 1,
+            "source frame": "Containing",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "RELATIONSHIPS ARE OBJECTS",
+            "depth": 2,
+            "source frame": "Object",
+            "target frame": "Relationship"
+        }
+    ],
+    "ROMANTIC RELATIONSHIP IS A JOURNEY": [],
+    "ROMANTIC RELATIONSHIP ENCOUNTERING DIFFICULTIES IS A VEHICLE ENCOUNTERING OBSTACLES": [],
+    "RIGHTS ARE TERRITORIES": [],
+    "RIGHTS ARE SHIELDS FROM HARM": [
+        {
+            "category": "RIGHTS ARE PHYSICAL ENTITIES",
+            "depth": 1,
+            "source frame": "Physical entity",
+            "target frame": "Rights"
+        }
+    ],
+    "RIGHTS ARE POSSESSIONS": [
+        {
+            "category": "RIGHTS ARE PHYSICAL ENTITIES",
+            "depth": 1,
+            "source frame": "Physical entity",
+            "target frame": "Rights"
+        }
+    ],
+    "RIGHTS ARE PHYSICAL ENTITIES": [],
+    "REVOLUTION IS TOPPLING A PHYSICAL OBJECT": [],
+    "RESOURCE IS A LIQUID": [],
+    "RELATIONSHIPS ARE PHYSICAL STRUCTURES": [
+        {
+            "category": "RELATIONSHIPS ARE COMPLEX STRUCTURES",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "RELATIONSHIPS ARE OBJECTS",
+            "depth": 2,
+            "source frame": "Object",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 2,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "RELATIONSHIPS ARE OBJECTS": [],
+    "RELATIONSHIPS ARE CONTAINERS": [
+        {
+            "category": "RELATIONSHIPS ARE OBJECTS",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Relationship"
+        }
+    ],
+    "RELATIONSHIPS ARE COMPLEX STRUCTURES": [
+        {
+            "category": "RELATIONSHIPS ARE OBJECTS",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Relationship"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "RELATIONSHIP IS A BOUNDED REGION IN SPACE": [],
+    "RELATEDNESS IS PROXIMITY": [],
+    "REGULATION IS A DISEASE": [],
+    "REFINING A LAW IS TRIMMING A PLANT": [],
+    "QUANTITY IS VERTICALITY": [],
+    "QUANTITY IS SIZE": [],
+    "QUALITIES ARE SUBSTANCES": [],
+    "PURPOSEFUL THINKING IS GOAL-DIRECTED MOTION": [],
+    "PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION": [],
+    "PURITY IS CLEANLINESS": [],
+    "PURIFYING IS CLEANSING": [],
+    "PUBLIC EVALUABILITY OF GOVERMNENT IS TRANSPARENCY": [],
+    "PSYCHOLOGICAL HARM IS PHYSICAL INJURY": [
+        {
+            "category": "HARM IS PHYSICAL INJURY",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Harm"
+        }
+    ],
+    "PROVING IS SHOWING": [],
+    "PROVIDE EDUCATIONAL OPPORTUNITY IS PROVIDING A RESOURCE": [
+        {
+            "category": "EDUCATION IS A RESOURCE",
+            "depth": 1,
+            "source frame": "Resource",
+            "target frame": "Education"
+        },
+        {
+            "category": "EDUCATION IS AN OBJECT",
+            "depth": 2,
+            "source frame": "Object",
+            "target frame": "Education"
+        }
+    ],
+    "PROGRESSING THROUGH LIFE IS MOVING THROUGH A TERRAIN": [
+        {
+            "category": "LIFE IS A SEQUENCE OF MOTIONS",
+            "depth": 1,
+            "source frame": "Motion along a path",
+            "target frame": "Life"
+        },
+        {
+            "category": "LIFE IS A JOURNEY",
+            "depth": 1,
+            "source frame": "Journey",
+            "target frame": "Life"
+        },
+        {
+            "category": "PROGRESS IS FORWARD MOTION ALONG A PATH",
+            "depth": 1,
+            "source frame": "Motion_along_a_path",
+            "target frame": "Action"
+        },
+        {
+            "category": "PROGRESSING THROUGH LIFE IS MOVING ALONG A PATH",
+            "depth": 1,
+            "source frame": "Motion along a path",
+            "target frame": "Life"
+        },
+        {
+            "category": "ACTION IS SELF-PROPELLED MOTION ALONG A PATH",
+            "depth": 2,
+            "source frame": "Self propelled motion",
+            "target frame": "Action"
+        },
+        {
+            "category": "PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION",
+            "depth": 2,
+            "source frame": "Self propelled motion to a destination",
+            "target frame": "Purposeful action"
+        },
+        {
+            "category": "ACTION IS MOTION ALONG A PATH",
+            "depth": 3,
+            "source frame": "Motion_along_a_path",
+            "target frame": "Action"
+        },
+        {
+            "category": "ACTION IS MOTION",
+            "depth": 4,
+            "source frame": "Motion",
+            "target frame": "Action"
+        }
+    ],
+    "PROGRESSING THROUGH LIFE IS MOVING ALONG A PATH": [],
+    "PROGRESS IS FORWARD MOTION ALONG A PATH": [],
+    "PREVENTING UTILIZATION OF EDUCATIONAL RESOURCES IS CLOSING A PORTAL": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "PREVENTING ENACTMENT OF LEGISLATION IS BLOCKING MOTION": [],
+    "PREVENTING ECONOMIC HARDSHIP IS SHIELDING FROM PHYSICAL HARM": [],
+    "PREVENTED CHANGE OF STATE IS PREVENTED CHANGE OF LOCATION": [],
+    "PREPARING IDEAS TO BE UNDERSTOOD IS FOOD PREPARATION": [],
+    "POWER IS CENTRALITY": [],
+    "POWER IS A POSSESSED OBJECT": [],
+    "POVERTY IS PHYSICAL HARM": [
+        {
+            "category": "ECONOMIC HARDSHIP IS PHYSICAL HARM",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Economic difficulty"
+        },
+        {
+            "category": "NEGATIVELY EVALUATED CONDITIONS ARE HARMFUL AGENTS",
+            "depth": 2,
+            "source frame": "Harm",
+            "target frame": "Negatively evaluated condition"
+        }
+    ],
+    "POVERTY IS A WEED": [
+        {
+            "category": "POVERTY IS A PLANT",
+            "depth": 1,
+            "source frame": "Plants",
+            "target frame": "Poverty"
+        }
+    ],
+    "POVERTY IS A PLANT": [],
+    "POVERTY IS A MOTION IMPEDIMENT": [],
+    "POVERTY IS A FIERCE CREATURE": [
+        {
+            "category": "SOCIAL PROBLEMS ARE ANIMATE ENTITIES",
+            "depth": 1,
+            "source frame": "Animate entity",
+            "target frame": "Social problems"
+        }
+    ],
+    "POVERTY IS A DISEASE": [
+        {
+            "category": "POVERTY IS PHYSICAL HARM",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Poverty"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE DISEASES",
+            "depth": 1,
+            "source frame": "Disease",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "ECONOMIC HARDSHIP IS PHYSICAL HARM",
+            "depth": 2,
+            "source frame": "Physical harm",
+            "target frame": "Economic difficulty"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 2,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "NEGATIVELY EVALUATED CONDITIONS ARE HARMFUL AGENTS",
+            "depth": 3,
+            "source frame": "Harm",
+            "target frame": "Negatively evaluated condition"
+        }
+    ],
+    "POVERTY IS A CRIME": [],
+    "POSITIVITY IS VERTICALITY": [],
+    "POLITICIANS ARE STAGE ACTORS": [],
+    "POLITICAL UNREST IS A WILDFIRE": [],
+    "POLITICAL REGION IS A VEHICLE": [
+        {
+            "category": "INSTITUTION IS A VEHICLE",
+            "depth": 1,
+            "source frame": "Vehicle",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A MACHINE",
+            "depth": 2,
+            "source frame": "Machine",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 5,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "POLITICAL PARTIES ARE SPORTS TEAMS": [],
+    "POLITICAL PARTIES ARE PEOPLE": [],
+    "POLITICAL PARTIES ARE CONTAINERS": [
+        {
+            "category": "GROUPS ARE CONTAINERS",
+            "depth": 1,
+            "source frame": "Containing",
+            "target frame": "Group"
+        }
+    ],
+    "POLITICAL IDEOLOGIES ARE LIVING ENTITIES": [],
+    "PHYSICAL STRENGTH IS VERTICALITY": [],
+    "PHASE OF AN ELECTION IS LEG IN A RACE": [],
+    "PERSONAL PREFERENCE IS TASTE": [],
+    "PERSISTING IS REMAINING ERECT": [
+        {
+            "category": "THEORIES ARE BUILDINGS",
+            "depth": 1,
+            "source frame": "Building",
+            "target frame": "Theory"
+        },
+        {
+            "category": "IDEAS ARE OBJECTS",
+            "depth": 2,
+            "source frame": "Object",
+            "target frame": "Idea"
+        },
+        {
+            "category": "THEORIES ARE COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Theory"
+        },
+        {
+            "category": "LOGICAL STRUCTURES ARE ERECT COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Logical structure"
+        }
+    ],
+    "PEOPLE ARE PLANTS": [],
+    "PEOPLE ARE ANIMALS": [],
+    "PAST IS BEHIND": [],
+    "PASSION IS HEAT": [
+        {
+            "category": "EMOTIONAL INTENSITY IS TEMPERATURE",
+            "depth": 1,
+            "source frame": "Heat",
+            "target frame": "Emotional intensity"
+        }
+    ],
+    "Ongoing causation is nourishing": [],
+    "ORGANIZATION IS PHYSICAL STRUCTURE": [],
+    "ORGANIZATION IS A MACHINE": [
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "OPPORTUNITIES ARE PORTALS": [],
+    "OPPORTUNITIES ARE PATHS": [],
+    "OPPORTUNITIES ARE OBJECTS": [],
+    "OPPORTUNITIES ARE LOCATIONS": [],
+    "NOW IS HERE": [],
+    "NOT PAYING TAXES IS AVOIDING OBSTACLES": [],
+    "NONVISUAL PERCEPTUAL SPACE IS PHYSICAL SPACE": [],
+    "NONFUNCTIONAL LEGISLATURE IS A BROKEN MACHINE": [],
+    "NONFUNCTIONAL BUREAUCRACY IS A BROKEN MACHINE": [],
+    "NEGATIVELY EVALUATED GOVERNMENT ACTIVITY IS DISGUSTING OBJECT": [],
+    "NEGATIVELY EVALUATED GOVERNMENT ACTIVITY IS DIRTY OBJECT": [],
+    "NEGATIVELY EVALUATED CONDITIONS ARE HARMFUL AGENTS": [],
+    "NEGATIVELY AFFECTING A LAW IS CAUSING HARM TO A PHYSICAL STRUCTURE": [],
+    "NEGATIVE EVALUATION OF GOVERNMENT ACTIVITY IS DISGUST": [],
+    "NEARBY COUNTRIES ARE NEIGHBORS": [],
+    "NATURE IS AN AGENT": [],
+    "NATURE IS A STRICT FATHER": [
+        {
+            "category": "NATURE IS AN AGENT",
+            "depth": 1,
+            "source frame": "Agentive causation",
+            "target frame": "Natural process"
+        }
+    ],
+    "NATURE IS A RESOURCE": [],
+    "NATIONS WHO ABUSE POWER ARE BULLIES": [],
+    "NATIONS NOT ABIDING BY INTERNATIONAL LAW ARE OUTLAWS": [],
+    "NATIONAL POLITICS IS A STAGE": [],
+    "NATIONAL POLITICS IS A SPORTS FIELD": [],
+    "NATIONAL POLITICS IS A BATTLEFIELD": [],
+    "NATIONAL POLITICAL FUNCTIONALITY IS PHYSICAL INTEGRITY": [],
+    "NATIONAL INFRUSTRUCTURE MAINTENANCE IS BUILDING MAINTENANCE": [],
+    "NATIONAL INFRASTRUCTURE IS A BUILDING": [],
+    "NATIONAL INFRASTRUCTURE DETERIORATION IS BUILDING EROSION": [],
+    "NATION IS CONTAINER": [],
+    "NATION IS AN OBJECT": [],
+    "NATION IS A VEHICLE": [
+        {
+            "category": "NATION IS A COMPLEX STRUCTURE",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Nation"
+        }
+    ],
+    "NATION IS A SYSTEM": [],
+    "NATION IS A PERSON": [],
+    "NATION IS A MACHINE": [
+        {
+            "category": "NATION IS A COMPLEX STRUCTURE",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Nation"
+        }
+    ],
+    "NATION IS A FAMILY": [],
+    "NATION IS A COMPLEX STRUCTURE": [],
+    "NATION IS A BUSINESS": [],
+    "NATION IS A BUILDING": [
+        {
+            "category": "NATION IS A COMPLEX STRUCTURE",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Nation"
+        }
+    ],
+    "NATION IS A BODY": [],
+    "NATION IS A BOAT": [],
+    "MULTIPLICITY IS MASS": [],
+    "MORE IS UP": [],
+    "MORE IS BIG": [],
+    "MORALITY IS WHOLENESS": [],
+    "MORALITY IS UPRIGHTNESS": [],
+    "MORALITY IS STRENGTH": [],
+    "MORALITY IS STRAIGHTNESS": [],
+    "MORALITY IS PURITY": [],
+    "MORALITY IS A STRAIGHT PATH": [],
+    "MORAL ORDER IS THE NATURAL ORDER": [],
+    "MORAL IS STRAIGHT": [],
+    "MORAL GROWTH IS PHYSICAL GROWTH": [],
+    "MORAL CORRUPTION IS A DESTRUCTIVE FORCE": [
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 1,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "MORAL AUTHORITY IS PARENTAL AUTHORITY": [],
+    "MORAL AGENTS ARE NURTURING PARENTS": [
+        {
+            "category": "MORAL ACTION IS NURTURANCE",
+            "depth": 1,
+            "source frame": "Nurturance",
+            "target frame": "Morality"
+        }
+    ],
+    "MORAL ACTION IS NURTURANCE": [],
+    "MORAL ACTION IS A FINANCIAL TRANSACTION": [],
+    "MONEY TRANSFER IS FLUID MOTION": [],
+    "MONEY IS A SUBSTANCE": [],
+    "MONEY IS A RESOURCE": [],
+    "MONEY IS A LIQUID": [
+        {
+            "category": "MONEY IS A SUBSTANCE",
+            "depth": 1,
+            "source frame": "Substance",
+            "target frame": "Money"
+        },
+        {
+            "category": "RESOURCE IS A LIQUID",
+            "depth": 1,
+            "source frame": "Liquid",
+            "target frame": "Resource"
+        }
+    ],
+    "MIND IS A PHYSICAL STRUCTURE": [],
+    "MIND IS A MACHINE": [],
+    "MIND IS A CONTAINER": [],
+    "MIND IS A COMPUTER": [
+        {
+            "category": "MIND IS A MACHINE",
+            "depth": 1,
+            "source frame": "Machine",
+            "target frame": "Mind"
+        }
+    ],
+    "MIND IS A BUILDING": [
+        {
+            "category": "MIND IS A PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Mind"
+        }
+    ],
+    "MIND IS A BODY": [],
+    "MEMORIZATION IS WRITING": [
+        {
+            "category": "THINKING IS LINGUISTIC ACTIVITY",
+            "depth": 1,
+            "source frame": "Linguistic_activity",
+            "target frame": "Cognizing"
+        }
+    ],
+    "MEANS OF IMPROVING ECONOMIC STATUS ARE PATHS TO MOVING OUT OF A LOCATION": [
+        {
+            "category": "MEANS ARE PATHS",
+            "depth": 1,
+            "source frame": "Self propelled motion to a destination",
+            "target frame": "Purposeful action"
+        }
+    ],
+    "MEANS ARE PATHS": [],
+    "MARRIAGE IS CLOTH": [],
+    "MARKET IS AN ACTOR": [],
+    "MARKET IS A NATURAL PROCESS": [],
+    "MARKET IS A FAMILY": [],
+    "MANNER OF ACTION IS MANNER OF MOVEMENT": [],
+    "MAKING RELATED IS CAUSING CONTACT": [],
+    "MAKING EDUCATIONAL OPPORTUNITY THE SAME FOR EVERYONE IS EQUALIZING QUANTITIES": [],
+    "MAKING A DECISION IS WEIGHING": [],
+    "MAINTAINING HIGHER SOCIAL STATUS IS MAINTAINING HOLD ON PHYSICAL POSITION": [
+        {
+            "category": "EXPERIENCING AN ECONOMIC STATUS IS BEING AT A LOCATION",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing an economic status"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 2,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 3,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "MACHINES ARE PEOPLE": [],
+    "LOW STATUS IS DOWN": [],
+    "LOSING AN ELECTION IS LOSING A WAR": [],
+    "LOSING AN ELECTION IS LOSING A RACE": [],
+    "LOSING AN ELECTION IS LOSING A BOXING MATCH": [],
+    "LOGICAL STRUCTURES ARE ERECT COMPLEX STRUCTURES": [],
+    "LIFE IS VERTICALITY": [],
+    "LIFE IS A SEQUENCE OF MOTIONS": [
+        {
+            "category": "ACTION IS SELF-PROPELLED MOTION ALONG A PATH",
+            "depth": 1,
+            "source frame": "Self propelled motion",
+            "target frame": "Action"
+        },
+        {
+            "category": "ACTION IS MOTION ALONG A PATH",
+            "depth": 2,
+            "source frame": "Motion_along_a_path",
+            "target frame": "Action"
+        },
+        {
+            "category": "ACTION IS MOTION",
+            "depth": 3,
+            "source frame": "Motion",
+            "target frame": "Action"
+        }
+    ],
+    "LIFE IS A PRECIOUS POSSESSION": [],
+    "LIFE IS A JOURNEY": [
+        {
+            "category": "ACTION IS SELF-PROPELLED MOTION ALONG A PATH",
+            "depth": 1,
+            "source frame": "Self propelled motion",
+            "target frame": "Action"
+        },
+        {
+            "category": "PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION",
+            "depth": 1,
+            "source frame": "Self propelled motion to a destination",
+            "target frame": "Purposeful action"
+        },
+        {
+            "category": "LIFE IS A SEQUENCE OF MOTIONS",
+            "depth": 1,
+            "source frame": "Motion along a path",
+            "target frame": "Life"
+        },
+        {
+            "category": "ACTION IS MOTION ALONG A PATH",
+            "depth": 2,
+            "source frame": "Motion_along_a_path",
+            "target frame": "Action"
+        },
+        {
+            "category": "ACTION IS MOTION",
+            "depth": 3,
+            "source frame": "Motion",
+            "target frame": "Action"
+        }
+    ],
+    "LIFE IS A COMPLEX STRUCTURE": [
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "LIBERAL MARKET IS A NURTURANT PARENT FAMILY": [
+        {
+            "category": "MARKET IS A FAMILY",
+            "depth": 1,
+            "source frame": "Family",
+            "target frame": "Market"
+        }
+    ],
+    "LESSER DEGREE OF GUN CONTROL LEGISLATION IS WEAKER PHYSICAL RESTRAINT": [
+        {
+            "category": "GUN CONTROL LEGISLATION IS PHYSICAL RESTRAINT",
+            "depth": 1,
+            "source frame": "Restraints",
+            "target frame": "Gun control legislation"
+        },
+        {
+            "category": "LAWS ARE PHYSICAL RESTRAINTS",
+            "depth": 2,
+            "source frame": "Restraints",
+            "target frame": "Law"
+        },
+        {
+            "category": "GUN CONTROL IS PHYSICAL RESTRAINT",
+            "depth": 2,
+            "source frame": "Constructed Restraints",
+            "target frame": "Gun control"
+        },
+        {
+            "category": "CONTROL IS PHYSICAL RESTRAINT",
+            "depth": 3,
+            "source frame": "Object manipulation",
+            "target frame": "Control"
+        },
+        {
+            "category": "CONTROL IS OBJECT MANIPULATION",
+            "depth": 4,
+            "source frame": "Object manipulation",
+            "target frame": "Control"
+        }
+    ],
+    "LESS IS SMALL": [],
+    "LESS IS DOWN": [],
+    "LEGITIMATE POWER IS AN ENTRUSTED OBJECT": [],
+    "LEGISLATURE IS A MACHINE": [],
+    "LEGISLATIVE ACTIVITY IS MOTION ALONG A PATH": [],
+    "LEGISLATIVE ACTIVITY IS MAKING OBJECTS": [],
+    "LEARNING IS GETTING NUTRITIOUS FOOD": [
+        {
+            "category": "ACQUIRING IDEAS IS EATING",
+            "depth": 1,
+            "source frame": "Eating",
+            "target frame": "Thinking about"
+        },
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 2,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "LEARNING IS ACQUIRING": [],
+    "LEADING IS A FORCE MOVING AN OBJECT FORWARD": [],
+    "LEADING A NATION IS STEERING A BOAT": [
+        {
+            "category": "LEADING A GROUP IS DRIVING A VEHICLE",
+            "depth": 1,
+            "source frame": "Vehicular motion",
+            "target frame": "Leadership"
+        },
+        {
+            "category": "GUIDED ACTION IS GUIDED MOTION ALONG A PATH",
+            "depth": 2,
+            "source frame": "Guided motion",
+            "target frame": "Action"
+        },
+        {
+            "category": "LEADING IS A FORCE MOVING AN OBJECT FORWARD",
+            "depth": 2,
+            "source frame": "Forced motion",
+            "target frame": "Leadership"
+        }
+    ],
+    "LEADING A NATION IS DRIVING A VEHICLE": [],
+    "LEADING A GROUP IS DRIVING A VEHICLE": [
+        {
+            "category": "GUIDED ACTION IS GUIDED MOTION ALONG A PATH",
+            "depth": 1,
+            "source frame": "Guided motion",
+            "target frame": "Action"
+        },
+        {
+            "category": "LEADING IS A FORCE MOVING AN OBJECT FORWARD",
+            "depth": 1,
+            "source frame": "Forced motion",
+            "target frame": "Leadership"
+        }
+    ],
+    "LEADER OF GROUP IS HEAD OF BODY": [],
+    "LEADER OF A NATION IS HEAD OF BODY": [],
+    "LAWS ARE PLANTS": [
+        {
+            "category": "LAWS ARE LIVING ENTITIES",
+            "depth": 1,
+            "source frame": "Animate entity",
+            "target frame": "Law"
+        }
+    ],
+    "LAWS ARE PHYSICAL STRUCTURES": [
+        {
+            "category": "LAWS ARE OBJECTS",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Law"
+        }
+    ],
+    "LAWS ARE PHYSICAL RESTRAINTS": [],
+    "LAWS ARE OBJECTS": [],
+    "LAWS ARE LIVING ENTITIES": [],
+    "LAW ENFORCEMENT IS SUPPORTING A STRUCTURE": [],
+    "LAISSEZ-FAIRE MARKET IS A STRICT FATHER FAMILY": [
+        {
+            "category": "MARKET IS A FAMILY",
+            "depth": 1,
+            "source frame": "Family",
+            "target frame": "Market"
+        }
+    ],
+    "LABOR IS A RESOURCE": [],
+    "KNOWING IS TOUCHING": [
+        {
+            "category": "KNOWING IS PERCEIVING",
+            "depth": 1,
+            "source frame": "Perception",
+            "target frame": "Knowing"
+        },
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 2,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "KNOWING IS SEEING": [
+        {
+            "category": "KNOWING IS PERCEIVING",
+            "depth": 1,
+            "source frame": "Perception",
+            "target frame": "Knowing"
+        },
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 2,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "KNOWING IS PERCEIVING": [
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 1,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "KEEPING ASSETS FROM BEING TAXED IS PLACING OBJECTS IN PROTECTED LOCATION": [
+        {
+            "category": "ECONOMIC RESOURCES ARE PHYSICAL ENTITIES",
+            "depth": 1,
+            "source frame": "Physical entity",
+            "target frame": "Economic resource"
+        }
+    ],
+    "JUDGES ARE SPORTS REFEREES": [],
+    "INTERRELATEDNESS IS PHYSICAL INTERCONNECTEDNESS": [],
+    "INTERNATIONAL RELATIONS ARE INTERPERSONAL RELATIONSHIPS": [],
+    "INTERNATIONAL DISAGREEMENTS ARE QUARRELS": [],
+    "INTERNATIONAL ASSOCIATION IS CONNECTION": [],
+    "INTERESTING IDEAS ARE APPETIZING FOODS": [],
+    "INTEREST IN IDEAS IS APPETITE FOR FOOD": [
+        {
+            "category": "COGNIZING IS EATING",
+            "depth": 1,
+            "source frame": "Eating",
+            "target frame": "Cognizing"
+        },
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 2,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "INTENSITY OF ACTIVITY IS HEAT": [],
+    "INSURMOUNTABLE DIFFERENCES IN WEALTH IS BARRIER TO ACCESSING A LOCATION": [
+        {
+            "category": "WEALTH IS LINEAR SPATIAL SCALE",
+            "depth": 1,
+            "source frame": "Scale",
+            "target frame": "Wealth"
+        }
+    ],
+    "INSTITUTIONS ARE PEOPLE": [
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 1,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 4,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "INSTITUTIONS ARE BUILDINGS": [
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 3,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "INSTITUTION IS AN ORGANISM": [
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 3,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "INSTITUTION IS A VEHICLE": [
+        {
+            "category": "INSTITUTION IS A MACHINE",
+            "depth": 1,
+            "source frame": "Machine",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 4,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "INSTITUTION IS A MACHINE": [
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 3,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "INSTITUTION IS A FACTORY": [],
+    "INSTITUTION IS A COMPLEX PHYSICAL OBJECT": [
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 2,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "INSTITUTION IS A BUSINESS": [],
+    "INHIBITTING ENACTMENT OF LEGISLATION IS IMPEDING MOTION": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "INFORMATION IS CONTENTS": [],
+    "INFLUENTIAL NATIONS ARE LEADERS": [],
+    "INEQUALITY IS BEING ON DIFFERENT VERTICAL LEVELS": [],
+    "INEFFICIENT GOVERNMENT IS A BLOATED BODY": [],
+    "INEFFECTIVE GOVERNMENT IS A POORLY-MANAGED BUSINESS": [],
+    "INCREASING GOVERNMENT DEBT IS RISING WATER LEVEL": [],
+    "INCREASING EVALUABILITY OF GOVERNMENT IS INCREASING TRANSPARENCY": [],
+    "INCREASING EVALUABILITY OF GOVERNMENT IS INCREASING LIGHT": [],
+    "INCREASE IN TAXATION IS OCCURENCE OF SUDDEN DESTRUCTIVE NATURAL FORCE": [
+        {
+            "category": "TAXATION IS A FORCE",
+            "depth": 1,
+            "source frame": "Force",
+            "target frame": "Taxation"
+        }
+    ],
+    "INCREASE IN QUANTITY IS UPWARD MOTION": [],
+    "INCREASE IN CRIME IS SPREAD OF DISEASE": [],
+    "INCREASE EASE OF ACTION IS INCREASE EASE OF MOTION": [],
+    "INCITING GOVERNING ACTION IS FORCED MOVEMENT": [],
+    "INABILITY TO UTILIZE EDUCATIONAL OPPORTUNITY IS INABILITY TO ACCESS A LOCATION": [
+        {
+            "category": "OPPORTUNITIES ARE LOCATIONS",
+            "depth": 1,
+            "source frame": "Location",
+            "target frame": "Opportunities"
+        }
+    ],
+    "INABILITY TO EVALUATE GOVERNMENT IS INABILITY TO SEE": [],
+    "IMPROVING EDUCATION IS FINANCIAL INVESTMENT": [],
+    "IMPROVING ECONOMIC STATUS IS UPWARD MOTION": [
+        {
+            "category": "CHANGE OF STATE IS CHANGE OF LOCATION",
+            "depth": 1,
+            "source frame": "Motion along a path",
+            "target frame": "Change of state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 2,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 3,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "IMPROVING ECONOMIC STATUS IS MOVING OUT OF AN UNDESIRABLE LOCATION": [
+        {
+            "category": "IMPROVING ECONOMIC STATUS IS MOVING OUT OF A LOCATION",
+            "depth": 1,
+            "source frame": "Motion away from a location",
+            "target frame": "Improving economic status"
+        }
+    ],
+    "IMPROVING ECONOMIC STATUS IS MOVING OUT OF A LOCATION": [],
+    "IMPROVING A STATE IS MOTION TO A PREFERRED LOCATION": [],
+    "IMPROVEMENT IN MOOD IS UPWARD MOTION": [],
+    "IMPORTANT IS CENTRAL": [],
+    "IMPORTANCE IS WEIGHT": [],
+    "IMPORTANCE IS SIZE": [],
+    "IMPEDIMENTS TO UTILIZING EDUCATIONAL OPPORTUNITIES IS OBSTACLES TO ACCESSING A LOCATION": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        },
+        {
+            "category": "OPPORTUNITIES ARE LOCATIONS",
+            "depth": 1,
+            "source frame": "Location",
+            "target frame": "Opportunities"
+        }
+    ],
+    "IMPEDIMENTS TO UTILIZING EDUCATIONAL OPPORTUNITIES IS ANTAGONISTIC FORCE": [
+        {
+            "category": "IMPEDIMENTS TO ACTION ARE ANTAGONISTIC FORCES",
+            "depth": 1,
+            "source frame": "Antagonistic force",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS WATER CONFINEMENT": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS PHYSICAL IMPEDIMENTS TO MOTION": [
+        {
+            "category": "IMPEDIMENTS TO ACTION ARE PHYSICAL IMPEDIMENTS TO MOTION",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS PHYSICAL BURDEN": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS EXPERIENCING A PHYSICAL AFFLICTION": [
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 1,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS ENVIRONMENTAL RESTRAINTS": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS ENVIRONMENTAL CONFINEMENT": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS CONSTRUCTED RESTRAINTS": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS CONSTRUCTED CONFINEMENT": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS CONFUSING PATHS TO MOVING OUT OF A LOCATION": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO IMPROVING ECONOMIC STATUS IS ANTAGONISTIC FORCE": [
+        {
+            "category": "IMPEDIMENTS TO ACTION ARE ANTAGONISTIC FORCES",
+            "depth": 1,
+            "source frame": "Antagonistic force",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "IMPEDIMENTS TO ACTION ARE PHYSICAL IMPEDIMENTS TO MOTION": [],
+    "IMPEDIMENTS TO ACTION ARE ANTAGONISTIC FORCES": [],
+    "IMMORALITY IS IMPURITY": [],
+    "IMMORALITY IS DISEASE": [],
+    "IMMORALITY IS DEGENERATION": [],
+    "IMMORAL IS CROOKED": [],
+    "ILLEGAL ACTIVITY IS BREAKING A PHYSICAL OBJECT": [],
+    "IDEOLOGIES ARE ORGANISMS": [],
+    "IDEAS ARE POSSESSIONS": [
+        {
+            "category": "IDEAS ARE OBJECTS",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Idea"
+        }
+    ],
+    "IDEAS ARE PEOPLE": [],
+    "IDEAS ARE OBJECTS": [],
+    "IDEAS ARE FOOD": [],
+    "IDEA SYSTEMS ARE FLUID MASSES": [],
+    "IDEA SYSTEMS ARE COMPLEX PHYSICAL SYSTEMS": [],
+    "HOUSEHOLD INCOME IS BLOOD": [],
+    "HIGH STATUS IS UP": [],
+    "HIERARCHY IS A VERTICAL STRUCTURE": [],
+    "HELP IS PHYSICAL SUPPORT": [],
+    "HEALTH IS VERTICALITY": [
+        {
+            "category": "WELL-BEING IS VERTICALITY",
+            "depth": 1,
+            "source frame": "Verticality",
+            "target frame": "Well-being"
+        }
+    ],
+    "HEALTH IS UP": [],
+    "HARM IS PHYSICAL INJURY": [],
+    "HAPPY IS UP": [],
+    "HAPPINESS IS VERTICALITY": [],
+    "GUNS ARE TARGETS OF PSYCHOLOGICAL FIXATION": [],
+    "GUNS ARE PESTS": [],
+    "GUNS ARE OBJECTS OF WORSHIP": [
+        {
+            "category": "GUNS ARE TARGETS OF PSYCHOLOGICAL FIXATION",
+            "depth": 1,
+            "source frame": "Psychological fixation",
+            "target frame": "Personal weapon"
+        }
+    ],
+    "GUNS ARE MAGICAL": [
+        {
+            "category": "GUNS ARE TARGETS OF PSYCHOLOGICAL FIXATION",
+            "depth": 1,
+            "source frame": "Psychological fixation",
+            "target frame": "Personal weapon"
+        }
+    ],
+    "GUNS ARE DRUGS": [
+        {
+            "category": "GUNS ARE TARGETS OF PSYCHOLOGICAL FIXATION",
+            "depth": 1,
+            "source frame": "Psychological fixation",
+            "target frame": "Personal weapon"
+        }
+    ],
+    "GUNS ARE A NATURAL DISASTER": [],
+    "GUNS ARE A DISEASE": [],
+    "GUN VIOLENCE IS PHYSICAL HARM": [],
+    "GUN VIOLENCE IS A PHYSICAL AFFLICTION": [
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 1,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        }
+    ],
+    "GUN VIOLENCE IS A FLUID": [
+        {
+            "category": "VIOLENCE IS A FLUID",
+            "depth": 1,
+            "source frame": "Fluid motion",
+            "target frame": "Violence"
+        }
+    ],
+    "GUN RIGHTS ARE VALUABLE POSSESSIONS": [
+        {
+            "category": "CITIZEN RIGHTS ARE POSSESSIONS",
+            "depth": 1,
+            "source frame": "Possession",
+            "target frame": "Rights"
+        },
+        {
+            "category": "RIGHTS ARE POSSESSIONS",
+            "depth": 2,
+            "source frame": "Possessable object",
+            "target frame": "Rights"
+        },
+        {
+            "category": "RIGHTS ARE PHYSICAL ENTITIES",
+            "depth": 3,
+            "source frame": "Physical entity",
+            "target frame": "Rights"
+        }
+    ],
+    "GUN OWNERSHIP IS INSANITY": [],
+    "GUN DEBATE IS A LIVING ENTITY": [],
+    "GUN CONTROL REGULATION IS PHYSICAL HARM": [],
+    "GUN CONTROL REGULATION IS A MOTION IMPEDIMENT": [],
+    "GUN CONTROL REGULATION IS A DISEASE": [
+        {
+            "category": "REGULATION IS A DISEASE",
+            "depth": 1,
+            "source frame": "Disease",
+            "target frame": "Regulation"
+        }
+    ],
+    "GUN CONTROL LEGISLATION IS PHYSICAL RESTRAINT": [
+        {
+            "category": "LAWS ARE PHYSICAL RESTRAINTS",
+            "depth": 1,
+            "source frame": "Restraints",
+            "target frame": "Law"
+        },
+        {
+            "category": "GUN CONTROL IS PHYSICAL RESTRAINT",
+            "depth": 1,
+            "source frame": "Constructed Restraints",
+            "target frame": "Gun control"
+        },
+        {
+            "category": "CONTROL IS PHYSICAL RESTRAINT",
+            "depth": 2,
+            "source frame": "Object manipulation",
+            "target frame": "Control"
+        },
+        {
+            "category": "CONTROL IS OBJECT MANIPULATION",
+            "depth": 3,
+            "source frame": "Object manipulation",
+            "target frame": "Control"
+        }
+    ],
+    "GUN CONTROL IS PHYSICAL RESTRAINT": [
+        {
+            "category": "CONTROL IS PHYSICAL RESTRAINT",
+            "depth": 1,
+            "source frame": "Object manipulation",
+            "target frame": "Control"
+        },
+        {
+            "category": "LAWS ARE PHYSICAL RESTRAINTS",
+            "depth": 1,
+            "source frame": "Restraints",
+            "target frame": "Law"
+        },
+        {
+            "category": "CONTROL IS OBJECT MANIPULATION",
+            "depth": 2,
+            "source frame": "Object manipulation",
+            "target frame": "Control"
+        }
+    ],
+    "GUN CONTROL ADVOCACY IS PHYSICAL HARM": [],
+    "GUIDED ACTION IS GUIDED MOTION ALONG A PATH": [],
+    "GROUPS ARE POSSESSORS": [],
+    "GROUPS ARE PART-WHOLE STRUCTURES": [],
+    "GROUPS ARE CONTAINERS": [],
+    "GROUP IS A BODY": [],
+    "GREED IS HUNGER": [
+        {
+            "category": "DESIRE IS HUNGER",
+            "depth": 1,
+            "source frame": "Hunger",
+            "target frame": "Desire"
+        }
+    ],
+    "GREATER DEGREE OF GUN CONTROL IS STRONGER PHYSICAL RESTRAINT": [],
+    "GOVERNMENTAL ASSESSING IS MEASURING": [],
+    "GOVERNMENTAL AGREEMENT IS PHYSICAL PROXIMITY": [],
+    "GOVERNMENT'S POSITIVE TREATMENT OF RIGHTS IS SUPPORTING A PHYSICAL STRUCTURE": [],
+    "GOVERNMENT'S POSITIVE TREATMENT OF RIGHTS IS STRENGTHENING AN OBJECT": [],
+    "GOVERNMENT'S POSITIVE TREATMENT OF RIGHTS IS DEFENDING A TERRITORY": [],
+    "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS TRESPASSING": [],
+    "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS TRAMPLING ON AN OBJECT": [],
+    "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS THEFT": [],
+    "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS INVADING A TERRITORY": [],
+    "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS DAMAGING A PHYSICAL STRUCTURE": [],
+    "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS ATTACKING": [],
+    "GOVERNMENT REGULATION IS SUFFOCATION": [],
+    "GOVERNMENT REGULATION IS A PHYSICAL CONSTRAINT": [],
+    "GOVERNMENT REGULATION IS A BURDEN": [],
+    "GOVERNMENT REGULATION IS A BARRIER": [],
+    "GOVERNMENT POWER IS BODILY STRENGTH": [],
+    "GOVERNMENT IS REFEREE": [],
+    "GOVERNMENT IS AN ORGANISM": [
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 1,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 4,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A SLAVE MASTER": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A SHEPHERD": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A SERVANT": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A POLICEMAN": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A PERSON": [
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 1,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 5,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A PATIENT": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING AN ILLNESS",
+            "depth": 1,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION",
+            "depth": 2,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        }
+    ],
+    "GOVERNMENT IS A PARENT": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A LEECH": [
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 1,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 5,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A LEADER": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A DRIVER": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A DOCTOR": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING AN ILLNESS",
+            "depth": 1,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION",
+            "depth": 2,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        }
+    ],
+    "GOVERNMENT IS A DISEASE": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING AN ILLNESS",
+            "depth": 1,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE DISEASES",
+            "depth": 1,
+            "source frame": "Disease",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION",
+            "depth": 2,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 2,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        }
+    ],
+    "GOVERNMENT IS A CHILDCARE PROVIDER": [
+        {
+            "category": "GOVERNMENT IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Government"
+        },
+        {
+            "category": "GOVERNMENT IS AN ORGANISM",
+            "depth": 2,
+            "source frame": "Biological entity",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS AN ORGANISM",
+            "depth": 3,
+            "source frame": "Biological entity",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 4,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 5,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 6,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT IS A BUSINESS": [
+        {
+            "category": "INSTITUTION IS A BUSINESS",
+            "depth": 1,
+            "source frame": "Business",
+            "target frame": "Institution"
+        }
+    ],
+    "GOVERNMENT INSTITUTION IS A PHYSICAL STRUCTURE": [
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 3,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT INSTITUTION IS A MACHINE": [
+        {
+            "category": "GOVERNMENT INSTITUTION IS A PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS A MACHINE",
+            "depth": 1,
+            "source frame": "Machine",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 4,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT INSTITUTION IS A BUILDING": [
+        {
+            "category": "GOVERNMENT INSTITUTION IS A PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTIONS ARE BUILDINGS",
+            "depth": 1,
+            "source frame": "Building",
+            "target frame": "Institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 4,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT INSTITUTION IS A BODY": [
+        {
+            "category": "GOVERNMENT INSTITUTION IS A PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Government institution"
+        },
+        {
+            "category": "INSTITUTION IS A COMPLEX PHYSICAL OBJECT",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Institution"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 3,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 4,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "GOVERNMENT INACTION IS SLEEPING": [],
+    "GOVERNMENT FUNCTIONALITY IS VERTICALITY": [
+        {
+            "category": "FUNCTIONALITY IS VERTICALITY",
+            "depth": 1,
+            "source frame": "Verticality",
+            "target frame": "Functionality"
+        }
+    ],
+    "GOVERNMENT DEBT IS OCEAN": [],
+    "GOVERNMENT CONTROL IS VERTICALITY": [],
+    "GOVERNMENT ASSISTANCE IS SUPPORT": [
+        {
+            "category": "ASSISTANCE IS SUPPORT",
+            "depth": 1,
+            "source frame": "Support",
+            "target frame": "Assistance"
+        }
+    ],
+    "GOVERNMENT ASSISTANCE IS AN ADDICTIVE DRUG": [],
+    "GOVERNMENT ASSISTANCE IS A TRAP": [],
+    "GOVERNMENT ASSISTANCE IS A HANDOUT": [],
+    "GOVERNMENT AND CITIZENS ARE PARTNERS": [],
+    "GOVERNING ACTION IS MOTION": [
+        {
+            "category": "ACTION IS MOTION",
+            "depth": 1,
+            "source frame": "Motion",
+            "target frame": "Action"
+        }
+    ],
+    "GOODNESS IS VERTICALITY": [],
+    "GOODNESS IS LIGHT": [],
+    "GAINING POWER IS GAINING A POSSESSION": [
+        {
+            "category": "ACHIEVING A PURPOSE IS ACQUIRING A DESIRED OBJECT",
+            "depth": 1,
+            "source frame": "Gain possession",
+            "target frame": "Purposeful action"
+        }
+    ],
+    "FUTURE OF A NATION IS PATH OF BOAT": [],
+    "FUTURE IS AHEAD": [],
+    "FUNCTIONALITY IS VERTICALITY": [],
+    "FUNCTIONAL LEGISLATURE IS A FUNCTIONING MACHINE": [],
+    "FULLY COMMUNICATING A SEQUENCE OF THOUGHT IS SPELLING": [
+        {
+            "category": "THINKING IS LINGUISTIC ACTIVITY",
+            "depth": 1,
+            "source frame": "Linguistic_activity",
+            "target frame": "Cognizing"
+        }
+    ],
+    "FREEDOM OF ACTION IS THE LACK OF IMPEDIMENTS TO MOVEMENT": [],
+    "FREEDOM IS A VALUABLE POSSESSION": [],
+    "FORMING WORDS IS SHAPING": [],
+    "FORCES ARE OBJECTS": [],
+    "FORCE TRANSFER IS OBJECT TRANSFER": [],
+    "FINANCIAL RESOURCES ARE PHYSICAL RESOURCES": [],
+    "FERVENT ADVOCACY IS INSANITY": [],
+    "EXTENT OF SOCIAL PROBLEMS IS EXTENT OF AFFLICTION": [],
+    "EXPLOITATION OF RESOURCES IS A PARASITIC INFECTION": [],
+    "EXPERIENCING AN ECONOMIC STATUS IS BEING AT A LOCATION": [
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 2,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "EXPERIENCING A STATE IS POSSESSING AN OBJECT": [
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 1,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "EXPERIENCING A STATE IS BEING AT A LOCATION": [
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 1,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "EXPERIENCING A NEGATIVE STATE IS EXPERIENCING HARM": [],
+    "EXPERIENCED STATE IS A PROXIMATE OBJECT": [
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 1,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY": [],
+    "EXISTING IS BEING PHYSICALLY AT THIS LOCATION": [],
+    "EXISTENCE IS VISIBILITY": [],
+    "EXCESS WEALTH IS OBSCENE": [
+        {
+            "category": "IMMORALITY IS IMPURITY",
+            "depth": 1,
+            "source frame": "Impurity",
+            "target frame": "Immorality"
+        }
+    ],
+    "EXCESS WEALTH IS LARGE GEOGRAPHIC FEATURES": [
+        {
+            "category": "QUANTITY IS SIZE",
+            "depth": 1,
+            "source frame": "Size",
+            "target frame": "Quantity"
+        }
+    ],
+    "EXCESS WEALTH IS EXCESS BODY WEIGHT": [
+        {
+            "category": "AMOUNT OF RESOURCE IS BODY WEIGHT",
+            "depth": 1,
+            "source frame": "Body weight",
+            "target frame": "Resource"
+        }
+    ],
+    "EXCESS WEALTH IS DISGUSTING": [
+        {
+            "category": "IMMORALITY IS IMPURITY",
+            "depth": 1,
+            "source frame": "Impurity",
+            "target frame": "Immorality"
+        }
+    ],
+    "EVIL IS DARK": [],
+    "EVENTS ARE OBJECTS": [],
+    "ESSENTIAL IS INTERNAL": [],
+    "EQUALITY IS BEING ON THE SAME VERTICAL LEVEL": [],
+    "ENVIRONMENTAL HARM IS PHYSICAL INJURY": [
+        {
+            "category": "HARM IS PHYSICAL INJURY",
+            "depth": 1,
+            "source frame": "Physical harm",
+            "target frame": "Harm"
+        }
+    ],
+    "ENTITLEMENT HOLDERS ARE LEECHES": [
+        {
+            "category": "EXPLOITATION OF RESOURCES IS A PARASITIC INFECTION",
+            "depth": 1,
+            "source frame": "Parasite",
+            "target frame": "Limited resource"
+        }
+    ],
+    "ENJOYING A RIGHT IS POSSESSING AN OBJECT": [],
+    "END OF AN ACTION IS THE END OF A PATH": [],
+    "ENACTING LEGISLATION IS CAUSING MOTION ALONG A PATH": [
+        {
+            "category": "CAUSED CHANGE OF STATE IS CAUSED CHANGE OF LOCATION",
+            "depth": 1,
+            "source frame": "Forced motion",
+            "target frame": "Caused change of state"
+        }
+    ],
+    "ENABLE ABILITY TO UTILIZE RESOURCES IS ENABLE ABILITY TO ACCESS LOCATIONS": [
+        {
+            "category": "INCREASE EASE OF ACTION IS INCREASE EASE OF MOTION",
+            "depth": 1,
+            "source frame": "Increase ease of motion",
+            "target frame": "Increase ease of action"
+        }
+    ],
+    "EMOTIONS ARE SUBSTANCES": [],
+    "EMOTIONS ARE OBJECTS": [],
+    "EMOTIONALLY MILD IS EXPERIENCING MILD TEMPERATURE": [],
+    "EMOTIONALLY INTENSE IS HOT": [
+        {
+            "category": "EMOTIONAL INTENSITY IS TEMPERATURE",
+            "depth": 1,
+            "source frame": "Heat",
+            "target frame": "Emotional intensity"
+        }
+    ],
+    "EMOTIONALLY INDIFFERENT IS COLD": [],
+    "EMOTIONAL INTIMACY IS PHYSICAL PROXIMITY": [],
+    "EMOTIONAL INTENSITY IS TEMPERATURE": [],
+    "EMOTION IS PRESSURE IN A CONTAINER": [],
+    "EMOTION IS A FORCE": [],
+    "ELECTIONS ARE COMPETITIVE SPORTS EVENTS": [
+        {
+            "category": "ELECTION IS A GAME",
+            "depth": 1,
+            "source frame": "Game",
+            "target frame": "Election"
+        }
+    ],
+    "ELECTION IS WAR": [],
+    "ELECTION IS A RACE": [
+        {
+            "category": "ELECTIONS ARE COMPETITIVE SPORTS EVENTS",
+            "depth": 1,
+            "source frame": "Competitive sport",
+            "target frame": "Election"
+        },
+        {
+            "category": "ELECTION IS A GAME",
+            "depth": 2,
+            "source frame": "Game",
+            "target frame": "Election"
+        }
+    ],
+    "ELECTION IS A GAME": [],
+    "ELECTION IS A BOXING MATCH": [
+        {
+            "category": "ELECTIONS ARE COMPETITIVE SPORTS EVENTS",
+            "depth": 1,
+            "source frame": "Competitive sport",
+            "target frame": "Election"
+        },
+        {
+            "category": "ELECTION IS A GAME",
+            "depth": 2,
+            "source frame": "Game",
+            "target frame": "Election"
+        }
+    ],
+    "EFFICIENT GOVERNMENT IS A LEAN BODY": [],
+    "EFFECTS ARE TRANSFERRED OBJECTS": [],
+    "EFFECTIVE GOVERNMENT IS A WELL-MANAGED BUSINESS": [],
+    "EFFECTIVE GOVERNMENT INSTITUTION IS A WELL-FUNCTIONING MACHINE": [],
+    "EFFECTIVE GOVERNMENT INSTITUTION IS A STRONG BUILDING": [],
+    "EFFECTIVE GOVERNMENT INSTITUTION IS A HEALTHY BODY": [],
+    "EDUCATIONAL EVALUATION IS GAMBLING": [],
+    "EDUCATION IS COMPONENT OF BUILDING": [
+        {
+            "category": "EDUCATION IS AN OBJECT",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Education"
+        }
+    ],
+    "EDUCATION IS AN OBJECT": [],
+    "EDUCATION IS A RESOURCE": [
+        {
+            "category": "EDUCATION IS AN OBJECT",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Education"
+        }
+    ],
+    "ECONOMY IS A MACHINE": [
+        {
+            "category": "ECONOMY IS A COMPLEX STRUCTURE",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Economy"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 2,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "ECONOMY IS A COMPLEX STRUCTURE": [
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "ECONOMY IS A BODY": [
+        {
+            "category": "SOCIETY IS A PERSON",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Society"
+        }
+    ],
+    "ECONOMIC STATUS IS A POINT ON A SCALE": [
+        {
+            "category": "BEING IN A STATE IS BEING AT A POINT ON A LINEAR SCALE",
+            "depth": 1,
+            "source frame": "Scale",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 2,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 3,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "ECONOMIC RESOURCES ARE PHYSICAL ENTITIES": [],
+    "ECONOMIC RESOURCE IS A LIMITED NATURAL RESOURCE": [
+        {
+            "category": "ECONOMIC RESOURCES ARE PHYSICAL ENTITIES",
+            "depth": 1,
+            "source frame": "Physical entity",
+            "target frame": "Economic resource"
+        }
+    ],
+    "ECONOMIC HARDSHIP IS PHYSICAL HARM": [
+        {
+            "category": "NEGATIVELY EVALUATED CONDITIONS ARE HARMFUL AGENTS",
+            "depth": 1,
+            "source frame": "Harm",
+            "target frame": "Negatively evaluated condition"
+        }
+    ],
+    "EASE OF ACTION IS EASE OF MOTION ALONG A PATH": [],
+    "DOING EVIL IS FALLING": [],
+    "DISTURBING IDEAS ARE DISGUSTING FOODS": [
+        {
+            "category": "COGNITIVE AVERSION IS PHYSICAL DISGUST",
+            "depth": 1,
+            "source frame": "Disgusting",
+            "target frame": "Idea"
+        }
+    ],
+    "DISTINGUISHING IS DIVIDING": [],
+    "DISEASES ARE BURDENS": [],
+    "DISEASE TREATMENT IS WAR": [],
+    "DISAGREEMENT IS DIVISION": [],
+    "DIPLOMACY IS WAR": [
+        {
+            "category": "ARGUMENT IS WAR",
+            "depth": 1,
+            "source frame": "War",
+            "target frame": "Argument"
+        },
+        {
+            "category": "ARGUMENT IS PHYSICAL COMBAT",
+            "depth": 2,
+            "source frame": "Physical combat",
+            "target frame": "Argument"
+        }
+    ],
+    "DIFFICULTY IS PHYSICAL STRUGGLE": [],
+    "DIFFICULTY IS HEAVINESS": [],
+    "DIFFICULTY IS HARDNESS": [],
+    "DIFFICULTIES IN PROGRESSING THROUGH LIFE ARE IMPEDIMENTS TO MOTION ALONG A PATH": [],
+    "DIFFICULTIES IN KNOWING ARE VISUAL OBSTRUCTIONS": [],
+    "DIFFICULTIES IN ACTION ARE PHYSICAL BURDENS": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "DIFFICULTIES IN A ROMANTIC RELATIONSHIP ARE IMPEDIMENTS TO MOTION ALONG A PATH": [],
+    "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT": [],
+    "DIFFERING IDEOLOGIES ARE ADVERSARIES": [],
+    "DIFFERENT MEANS OF ACHIEVING A PURPOSE ARE DIFFERENT PATHS TO A DESTINATION": [],
+    "DEVELOPING AN ATTRIBUTE IS CULTIVATION": [],
+    "DESIRE IS HUNGER": [],
+    "DEMOCRATIC IDEOLOGY IS A COMMODITY": [],
+    "DEMOCRATIC DECISION-MAKING IS TOWNHALL DECISION-MAKING": [],
+    "DEMOCRATIC DECISION-MAKING IS PARTNERSHIP DECISION-MAKING": [],
+    "DEMOCRACY IS AN EQUAL PARTNERSHIP": [],
+    "DEMOCRACY IS A TOWN MEETING": [],
+    "DEMOCRACY IS A PLANT": [
+        {
+            "category": "POLITICAL IDEOLOGIES ARE LIVING ENTITIES",
+            "depth": 1,
+            "source frame": "Biological entity",
+            "target frame": "Ideology"
+        }
+    ],
+    "DEMOCRACY IS A FACADE": [],
+    "DEMOCRACY IS A BIRD": [],
+    "DEGREE OF SIMILARITY IS DEGREE OF PROXIMITY": [],
+    "DEGREE OF MORALITY IS PHYSICAL HEIGHT": [],
+    "DEGREE IS DISTANCE ALONG A PATH": [],
+    "DECREASE IN QUANTITY IS DOWNWARD MOTION": [],
+    "DEBT IS PHYSICAL IMPEDIMENTS TO MOTION": [
+        {
+            "category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Motion impediments",
+            "target frame": "Difficulties in action"
+        }
+    ],
+    "DEBT IS AN ORGANISM": [],
+    "DEBATING IS ONE-ON-ONE PHYSICAL FIGHTING": [
+        {
+            "category": "ARGUMENT IS PHYSICAL COMBAT",
+            "depth": 1,
+            "source frame": "Physical combat",
+            "target frame": "Argument"
+        }
+    ],
+    "CURRICULUM IS A FIXED PATH": [],
+    "CRITICIZING IS ATTACKING": [],
+    "CRIME IS AN ANIMAL": [
+        {
+            "category": "MORAL CORRUPTION IS A DESTRUCTIVE FORCE",
+            "depth": 1,
+            "source frame": "Destructive force",
+            "target frame": "Moral corruption"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE ANIMATE ENTITIES",
+            "depth": 1,
+            "source frame": "Animate entity",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 2,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "CRIME IS A DISEASE": [
+        {
+            "category": "SOCIAL PROBLEMS ARE DISEASES",
+            "depth": 1,
+            "source frame": "Disease",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 2,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        }
+    ],
+    "CREATING IS MAKING": [],
+    "CREATING A LAW IS GROWING A PLANT": [],
+    "COUNTRY IS A CHILD": [],
+    "CORRUPTION IS EROSION": [
+        {
+            "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
+            "depth": 1,
+            "source frame": "Destructive_natural_process",
+            "target frame": "Corruption"
+        },
+        {
+            "category": "MORAL CORRUPTION IS A DESTRUCTIVE FORCE",
+            "depth": 2,
+            "source frame": "Destructive force",
+            "target frame": "Moral corruption"
+        },
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 3,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "CORRUPTION IS DECAY": [
+        {
+            "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
+            "depth": 1,
+            "source frame": "Destructive_natural_process",
+            "target frame": "Corruption"
+        },
+        {
+            "category": "MORAL CORRUPTION IS A DESTRUCTIVE FORCE",
+            "depth": 2,
+            "source frame": "Destructive force",
+            "target frame": "Moral corruption"
+        },
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 3,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "CORRUPTION IS A TERMITE INFESTATION": [
+        {
+            "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
+            "depth": 1,
+            "source frame": "Destructive_natural_process",
+            "target frame": "Corruption"
+        },
+        {
+            "category": "MORAL CORRUPTION IS A DESTRUCTIVE FORCE",
+            "depth": 2,
+            "source frame": "Destructive force",
+            "target frame": "Moral corruption"
+        },
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 3,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "CORRUPTION IS A DISEASE": [
+        {
+            "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
+            "depth": 1,
+            "source frame": "Destructive_natural_process",
+            "target frame": "Corruption"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE DISEASES",
+            "depth": 1,
+            "source frame": "Disease",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "MORAL CORRUPTION IS A DESTRUCTIVE FORCE",
+            "depth": 2,
+            "source frame": "Destructive force",
+            "target frame": "Moral corruption"
+        },
+        {
+            "category": "SOCIAL PROBLEMS ARE PHYSICAL AFFLICTIONS",
+            "depth": 2,
+            "source frame": "Physical affliction",
+            "target frame": "Social problems"
+        },
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 3,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS": [
+        {
+            "category": "MORAL CORRUPTION IS A DESTRUCTIVE FORCE",
+            "depth": 1,
+            "source frame": "Destructive force",
+            "target frame": "Moral corruption"
+        },
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 2,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "CORRUPTION EFFECT IS DISEASE EFFECT": [],
+    "CORPORATIONS ARE PEOPLE": [],
+    "COOPERATIVE NATIONS ARE GOOD CITIZENS": [],
+    "CONTROL IS VERTICALITY": [],
+    "CONTROL IS UP": [],
+    "CONTROL IS PHYSICAL RESTRAINT": [
+        {
+            "category": "CONTROL IS OBJECT MANIPULATION",
+            "depth": 1,
+            "source frame": "Object manipulation",
+            "target frame": "Control"
+        }
+    ],
+    "CONTROL IS OBJECT MANIPULATION": [],
+    "CONTROL IS A POSSESSION": [],
+    "CONTROL IS A BOUNDED REGION": [],
+    "CONSUMING TOO MANY RESOURCES IS EATING TOO MUCH FOOD": [],
+    "CONSUMING RESOURCES IS EATING": [],
+    "CONSTITUENTS ARE CONTENTS": [],
+    "CONSIDERING THE IMPORTANCE OF RIGHTS IS PLAYING A GAME": [],
+    "CONSCIOUSNESS IS VERTICALITY": [],
+    "CONSCIOUS IS UP": [],
+    "COMPUTERS ARE PEOPLE": [
+        {
+            "category": "MACHINES ARE PEOPLE",
+            "depth": 1,
+            "source frame": "Person",
+            "target frame": "Machine"
+        }
+    ],
+    "COMPULSION IS A COMPELLING FORCE": [],
+    "COMPLEX IDEAS ARE SENTENCES": [
+        {
+            "category": "THINKING IS LINGUISTIC ACTIVITY",
+            "depth": 1,
+            "source frame": "Linguistic_activity",
+            "target frame": "Cognizing"
+        }
+    ],
+    "COMPETITION IS A RACE": [],
+    "COMPANY IS A FAMILY": [
+        {
+            "category": "COMMUNITY IS A FAMILY",
+            "depth": 1,
+            "source frame": "Family",
+            "target frame": "Community"
+        },
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 2,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "SOCIAL GROUP IS A FAMILY",
+            "depth": 2,
+            "source frame": "Family",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 3,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "COMPANY IS A COMPLEX STRUCTURE": [
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "COMMUNITY IS A FAMILY": [
+        {
+            "category": "SOCIAL GROUPS ARE COMPLEX STRUCTURES",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Social group"
+        },
+        {
+            "category": "SOCIAL GROUP IS A FAMILY",
+            "depth": 1,
+            "source frame": "Family",
+            "target frame": "Social group"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 2,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "COMMUNICATING IS SHOWING": [],
+    "COMMUNICATING IS POINTING": [
+        {
+            "category": "COMMUNICATING IS SHOWING",
+            "depth": 1,
+            "source frame": "Cause to see",
+            "target frame": "Communication"
+        }
+    ],
+    "COMMUNICATING IS OBJECT TRANSFER": [],
+    "COMMUNICATING IS GUIDING": [],
+    "COMMUNICATING IS FEEDING": [],
+    "COMMUNICATING IS DRAWING A PICTURE": [
+        {
+            "category": "COMMUNICATING IS SHOWING",
+            "depth": 1,
+            "source frame": "Cause to see",
+            "target frame": "Communication"
+        }
+    ],
+    "COGNIZING IS EATING": [
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 1,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "COGNIZING IS BODILY FUNCTIONING": [],
+    "COGNITIVE AVERSION IS PHYSICAL DISGUST": [],
+    "CLASS INTERACTION IS PHYSICAL COMBAT": [
+        {
+            "category": "ARGUMENT IS PHYSICAL COMBAT",
+            "depth": 1,
+            "source frame": "Physical combat",
+            "target frame": "Argument"
+        }
+    ],
+    "CITIZENS ARE SLAVES": [],
+    "CITIZENS ARE EYES AND EARS": [
+        {
+            "category": "NATION IS A BODY",
+            "depth": 1,
+            "source frame": "Body",
+            "target frame": "Nation"
+        }
+    ],
+    "CITIZENS ARE EMPLOYERS": [],
+    "CITIZEN RIGHTS ARE TERRITORIES": [
+        {
+            "category": "RIGHTS ARE TERRITORIES",
+            "depth": 1,
+            "source frame": "Territory",
+            "target frame": "Rights"
+        }
+    ],
+    "CITIZEN RIGHTS ARE SHIELDS FROM HARM": [
+        {
+            "category": "RIGHTS ARE SHIELDS FROM HARM",
+            "depth": 1,
+            "source frame": "Protecting",
+            "target frame": "Rights"
+        },
+        {
+            "category": "RIGHTS ARE PHYSICAL ENTITIES",
+            "depth": 2,
+            "source frame": "Physical entity",
+            "target frame": "Rights"
+        }
+    ],
+    "CITIZEN RIGHTS ARE POSSESSIONS": [
+        {
+            "category": "RIGHTS ARE POSSESSIONS",
+            "depth": 1,
+            "source frame": "Possessable object",
+            "target frame": "Rights"
+        },
+        {
+            "category": "RIGHTS ARE PHYSICAL ENTITIES",
+            "depth": 2,
+            "source frame": "Physical entity",
+            "target frame": "Rights"
+        }
+    ],
+    "CITIZEN RIGHTS ARE PHYSICAL STRUCTURES": [
+        {
+            "category": "RIGHTS ARE PHYSICAL ENTITIES",
+            "depth": 1,
+            "source frame": "Physical entity",
+            "target frame": "Rights"
+        }
+    ],
+    "CHANGE OF STATE IS CHANGE OF POSSESSION": [
+        {
+            "category": "EXPERIENCING A STATE IS POSSESSING AN OBJECT",
+            "depth": 1,
+            "source frame": "Possession",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 2,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "CHANGE OF STATE IS CHANGE OF LOCATION": [
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 2,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "CHANGE IS LOSS": [],
+    "CHANGE IS ACQUISITION": [],
+    "CHANGE IN MOOD IS VERTICAL MOVEMENT": [
+        {
+            "category": "CHANGE OF STATE IS CHANGE OF LOCATION",
+            "depth": 1,
+            "source frame": "Motion along a path",
+            "target frame": "Change of state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 2,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 3,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "CHANGE IN CONTROLLER IS TRANSFER OF POSSESSION": [],
+    "CERTAIN IS FIRM": [],
+    "CENSORSHIP IS PHYSICAL RESTRAINING OF MOUTH": [],
+    "CAUSING TO EXIST IS OBJECT CREATION": [],
+    "CAUSING ECONOMIC HARDSHIP IS CAUSING PHYSICAL HARM": [],
+    "CAUSING DECREASE IN CRIME IS TREATING DISEASE": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING AN ILLNESS",
+            "depth": 1,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION",
+            "depth": 2,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        }
+    ],
+    "CAUSES ARE FORCES": [],
+    "CAUSED INABILITY TO ACT IS PREVENTION OF MOTION ALONG A PATH": [
+        {
+            "category": "CAUSES ARE FORCES",
+            "depth": 1,
+            "source frame": "Force",
+            "target frame": "Causation"
+        }
+    ],
+    "CAUSED IMPROVED ECONOMIC STATUS IS CAUSED UPWARD MOTION": [
+        {
+            "category": "CAUSED CHANGE OF STATE IS CAUSED CHANGE OF LOCATION",
+            "depth": 1,
+            "source frame": "Forced motion",
+            "target frame": "Caused change of state"
+        }
+    ],
+    "CAUSED IMPOVERISHMENT IS CAUSED DOWNWARD MOTION": [
+        {
+            "category": "CAUSED CHANGE OF STATE IS CAUSED CHANGE OF LOCATION",
+            "depth": 1,
+            "source frame": "Forced motion",
+            "target frame": "Caused change of state"
+        }
+    ],
+    "CAUSED CHANGE OF STATE IS CAUSED CHANGE OF LOCATION": [],
+    "CAUSE INCREASE IN QUANTITY IS CAUSE UPWARD MOTION": [],
+    "CAUSATION IS OBJECT TRANSFER": [],
+    "CAUSATION IS AGENTIVE CAUSATION": [],
+    "CATEGORIES ARE BOUNDED REGIONS": [],
+    "CAREER IS A COMPLEX STRUCTURE": [
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 1,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "CAREER IS A BUILDING": [
+        {
+            "category": "CAREER IS A COMPLEX STRUCTURE",
+            "depth": 1,
+            "source frame": "Complex physical object",
+            "target frame": "Career"
+        },
+        {
+            "category": "ORGANIZATION IS PHYSICAL STRUCTURE",
+            "depth": 2,
+            "source frame": "Physical structure",
+            "target frame": "Organization"
+        }
+    ],
+    "CANCER TREATMENT IS WAR": [
+        {
+            "category": "DISEASE TREATMENT IS WAR",
+            "depth": 1,
+            "source frame": "War",
+            "target frame": "Disease treatment"
+        }
+    ],
+    "CANCER TREATMENT IS GAMBLING": [],
+    "CANCER PATIENT IS PHYSICAL COMBATANT": [],
+    "CANCER IS PHYSICAL COMBAT": [],
+    "BUSINESSES ARE LIVING ENTITIES": [],
+    "BUSINESS COMPETITION IS COMPETITIVE SPORTS": [],
+    "BUREAUCRATS ARE MACHINE PARTS": [
+        {
+            "category": "BUREAUCRACY IS A MACHINE",
+            "depth": 1,
+            "source frame": "Machine",
+            "target frame": "Bureaucracy"
+        }
+    ],
+    "BUREAUCRATS ARE FACTORY WORKERS": [],
+    "BUREAUCRACY IS A MACHINE": [],
+    "BUREACRACY IS AN OCTOPUS": [],
+    "BUREACRACY IS A MAZE": [],
+    "BODY IS A CONTAINER FOR EMOTIONS": [],
+    "BELIEFS ARE POSSESSIONS": [
+        {
+            "category": "IDEAS ARE OBJECTS",
+            "depth": 1,
+            "source frame": "Object",
+            "target frame": "Idea"
+        },
+        {
+            "category": "IDEAS ARE POSSESSIONS",
+            "depth": 1,
+            "source frame": "Possession",
+            "target frame": "Idea"
+        }
+    ],
+    "BEING WEALTHY IS BEING FREE": [
+        {
+            "category": "FREEDOM OF ACTION IS THE LACK OF IMPEDIMENTS TO MOVEMENT",
+            "depth": 1,
+            "source frame": "Physical impediments to motion",
+            "target frame": "Freedom of action"
+        }
+    ],
+    "BEING WEALTHY IS BEING AT A HIGH LOCATION": [
+        {
+            "category": "ECONOMIC STATUS IS A POINT ON A SCALE",
+            "depth": 1,
+            "source frame": "Scale",
+            "target frame": "Economic status"
+        },
+        {
+            "category": "BEING IN A STATE IS BEING AT A POINT ON A LINEAR SCALE",
+            "depth": 2,
+            "source frame": "Scale",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 3,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 4,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "BEING POISED TO KNOW IS BEING POSITIONED TO SEE WELL": [],
+    "BEING IN A STATE IS BEING AT A POINT ON A LINEAR SCALE": [
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 2,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "BEING IN A MIDDLE CLASS IS BEING IN THE MIDDLE OF A SCALE": [
+        {
+            "category": "ECONOMIC STATUS IS A POINT ON A SCALE",
+            "depth": 1,
+            "source frame": "Scale",
+            "target frame": "Economic status"
+        },
+        {
+            "category": "BEING IN A STATE IS BEING AT A POINT ON A LINEAR SCALE",
+            "depth": 2,
+            "source frame": "Scale",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 3,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 4,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "BEING IN A LOW SOCIAL CLASS IS BEING LOW ON A SCALE": [
+        {
+            "category": "ECONOMIC STATUS IS A POINT ON A SCALE",
+            "depth": 1,
+            "source frame": "Scale",
+            "target frame": "Economic status"
+        },
+        {
+            "category": "BEING IN A STATE IS BEING AT A POINT ON A LINEAR SCALE",
+            "depth": 2,
+            "source frame": "Scale",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 3,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 4,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "BEING IN A HIGH SOCIAL CLASS IS BEING HIGH ON A SCALE": [
+        {
+            "category": "ECONOMIC STATUS IS A POINT ON A SCALE",
+            "depth": 1,
+            "source frame": "Scale",
+            "target frame": "Economic status"
+        },
+        {
+            "category": "BEING IN A STATE IS BEING AT A POINT ON A LINEAR SCALE",
+            "depth": 2,
+            "source frame": "Scale",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 3,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 4,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "CANCER IS A JOURNEY": [
+        {
+            "category": "PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION",
+            "depth": 1,
+            "source frame": "Self propelled motion to a destination",
+            "target frame": "Purposeful action"
+        }
+    ],
+    "BEING IMPOVERISHED IS BEING IN A BOUNDED REGION": [
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 2,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "BEING IMPOVERISHED IS BEING AT A LOW LOCATION": [
+        {
+            "category": "BEING IMPOVERISHED IS BEING IN A BOUNDED REGION",
+            "depth": 1,
+            "source frame": "Being in a Bounded Region",
+            "target frame": "Impoverished"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 2,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 3,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "BEING IMMORAL IS BEING LOW": [],
+    "BEING GOOD IS BEING UPRIGHT": [],
+    "BEING ALIVE IS BEING PHYSICALLY AT THIS LOCATION": [
+        {
+            "category": "EXISTING IS BEING PHYSICALLY AT THIS LOCATION",
+            "depth": 1,
+            "source frame": "Being at a location",
+            "target frame": "Existence"
+        }
+    ],
+    "BECOMING IMPOVERISHED IS MOVING DOWNWARDS": [
+        {
+            "category": "CHANGE OF STATE IS CHANGE OF LOCATION",
+            "depth": 1,
+            "source frame": "Motion along a path",
+            "target frame": "Change of state"
+        },
+        {
+            "category": "EXPERIENCING A STATE IS BEING AT A LOCATION",
+            "depth": 2,
+            "source frame": "Being at a location",
+            "target frame": "Experiencing a state"
+        },
+        {
+            "category": "EXPERIENCE OF A STATE IS SPATIAL RELATION WITH AN ENTITY",
+            "depth": 3,
+            "source frame": "Spatial relation",
+            "target frame": "Experiencing a state"
+        }
+    ],
+    "BAD IS STINKY": [],
+    "AUGMENTING ECONOMIC ASSETS IS CREATING OBJECTS": [
+        {
+            "category": "ECONOMIC RESOURCES ARE PHYSICAL ENTITIES",
+            "depth": 1,
+            "source frame": "Physical entity",
+            "target frame": "Economic resource"
+        }
+    ],
+    "ATTRIBUTES OF GOVERNMENT ARE ENTITIES": [],
+    "ATTRIBUTES ARE POSSESSIONS": [
+        {
+            "category": "STATES ARE PHYSICAL OBJECTS",
+            "depth": 1,
+            "source frame": "Physical entity",
+            "target frame": "State"
+        }
+    ],
+    "ATTRIBUTES ARE ENTITIES": [],
+    "ATTAINING CONTROL IS GAINING A POSSESSION": [],
+    "ASSISTANCE IS SUPPORT": [],
+    "ASSESSING IS MEASURING": [],
+    "ARITHMETIC IS OBJECT CONSTRUCTION": [],
+    "ARGUMENT IS WAR": [
+        {
+            "category": "ARGUMENT IS PHYSICAL COMBAT",
+            "depth": 1,
+            "source frame": "Physical combat",
+            "target frame": "Argument"
+        }
+    ],
+    "ARGUMENT IS PHYSICAL COMBAT": [],
+    "ANGER IS THE HEAT OF FLUID IN A CONTAINER": [
+        {
+            "category": "ANGER IS HEAT",
+            "depth": 1,
+            "source frame": "Heat",
+            "target frame": "Anger"
+        },
+        {
+            "category": "ANGER IS PRESSURE IN A CONTAINER",
+            "depth": 1,
+            "source frame": "Pressure_in_a_container",
+            "target frame": "Anger"
+        },
+        {
+            "category": "EMOTIONAL INTENSITY IS TEMPERATURE",
+            "depth": 2,
+            "source frame": "Heat",
+            "target frame": "Emotional intensity"
+        },
+        {
+            "category": "EMOTIONS ARE SUBSTANCES",
+            "depth": 2,
+            "source frame": "Substance",
+            "target frame": "Emotion"
+        },
+        {
+            "category": "EMOTION IS PRESSURE IN A CONTAINER",
+            "depth": 2,
+            "source frame": "Pressure in a container",
+            "target frame": "Emotion"
+        }
+    ],
+    "ANGER IS PRESSURE IN A CONTAINER": [
+        {
+            "category": "EMOTIONS ARE SUBSTANCES",
+            "depth": 1,
+            "source frame": "Substance",
+            "target frame": "Emotion"
+        },
+        {
+            "category": "EMOTION IS PRESSURE IN A CONTAINER",
+            "depth": 1,
+            "source frame": "Pressure in a container",
+            "target frame": "Emotion"
+        }
+    ],
+    "ANGER IS INSANITY": [],
+    "ANGER IS HEAT": [
+        {
+            "category": "EMOTIONAL INTENSITY IS TEMPERATURE",
+            "depth": 1,
+            "source frame": "Heat",
+            "target frame": "Emotional intensity"
+        }
+    ],
+    "ANGER IS FIRE": [
+        {
+            "category": "ANGER IS HEAT",
+            "depth": 1,
+            "source frame": "Heat",
+            "target frame": "Anger"
+        },
+        {
+            "category": "EMOTIONAL INTENSITY IS TEMPERATURE",
+            "depth": 2,
+            "source frame": "Heat",
+            "target frame": "Emotional intensity"
+        }
+    ],
+    "ANALYZING IS DISSECTING": [],
+    "AIDS TO IMPROVING ECONOMIC STATUS ARE TICKETS TO A DESTINATION": [],
+    "AIDS TO ACHIEVING A PURPOSE ARE AIDS TO REACHING A DESTINATION": [],
+    "AID TO KNOWING IS A LIGHT SOURCE": [],
+    "AGREEMENT IS PHYSICAL PROXIMITY": [],
+    "AFFECTION IS WARMTH": [],
+    "ADVOCATING GUN CONTROL IS ZEALOTRY": [],
+    "ADVOCATING GUN CONTROL IS INSANITY": [
+        {
+            "category": "FERVENT ADVOCACY IS INSANITY",
+            "depth": 1,
+            "source frame": "Insanity",
+            "target frame": "Advocacy"
+        }
+    ],
+    "ADVOCACY IS PHYSICAL COMBAT": [
+        {
+            "category": "ARGUMENT IS PHYSICAL COMBAT",
+            "depth": 1,
+            "source frame": "Physical combat",
+            "target frame": "Argument"
+        }
+    ],
+    "ADDRESSING SOCIAL PROBLEMS IS WAGING WAR": [
+        {
+            "category": "NEGATIVELY EVALUATED CONDITIONS ARE HARMFUL AGENTS",
+            "depth": 1,
+            "source frame": "Harm",
+            "target frame": "Negatively evaluated condition"
+        }
+    ],
+    "ADDRESSING SOCIAL PROBLEMS IS TREATING AN ILLNESS": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION",
+            "depth": 1,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        }
+    ],
+    "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION": [],
+    "ADDRESSING POVERTY IS WAGING WAR": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS WAGING WAR",
+            "depth": 1,
+            "source frame": "War",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "NEGATIVELY EVALUATED CONDITIONS ARE HARMFUL AGENTS",
+            "depth": 2,
+            "source frame": "Harm",
+            "target frame": "Negatively evaluated condition"
+        }
+    ],
+    "ADDRESSING POVERTY IS TREATING AN ILLNESS": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING AN ILLNESS",
+            "depth": 1,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION",
+            "depth": 2,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        }
+    ],
+    "ADDRESSING GUN VIOLENCE IS WAGING WAR": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS WAGING WAR",
+            "depth": 1,
+            "source frame": "War",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "NEGATIVELY EVALUATED CONDITIONS ARE HARMFUL AGENTS",
+            "depth": 2,
+            "source frame": "Harm",
+            "target frame": "Negatively evaluated condition"
+        }
+    ],
+    "ADDRESSING ECONOMIC PROBLEMS IS TREATING AN ILLNESS": [
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING AN ILLNESS",
+            "depth": 1,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        },
+        {
+            "category": "ADDRESSING SOCIAL PROBLEMS IS TREATING A PHYSICAL AFFLICTION",
+            "depth": 2,
+            "source frame": "Treating a physical affliction",
+            "target frame": "Addressing social problems"
+        }
+    ],
+    "ADDRESSING CRIME IS CONTROLLING AN ANIMAL": [],
+    "ACTIVITIES ARE JOURNEYS": [],
+    "ACTIVITIES ARE BOUNDED REGIONS IN SPACE": [],
+    "ACTION IS SELF-PROPELLED MOTION ALONG A PATH": [
+        {
+            "category": "ACTION IS MOTION ALONG A PATH",
+            "depth": 1,
+            "source frame": "Motion_along_a_path",
+            "target frame": "Action"
+        },
+        {
+            "category": "ACTION IS MOTION",
+            "depth": 2,
+            "source frame": "Motion",
+            "target frame": "Action"
+        }
+    ],
+    "ACTION IS MOTION ALONG A PATH": [
+        {
+            "category": "ACTION IS MOTION",
+            "depth": 1,
+            "source frame": "Motion",
+            "target frame": "Action"
+        }
+    ],
+    "ACTION IS MOTION": [],
+    "ACTION IS BEING IN A LOCATION": [],
+    "ACQUIRING IDEAS IS EATING": [
+        {
+            "category": "COGNIZING IS BODILY FUNCTIONING",
+            "depth": 1,
+            "source frame": "Cognizing",
+            "target frame": "Bodily_functioning"
+        }
+    ],
+    "ACHIEVING POWER IS MOVING UPWARDS": [],
+    "ACHIEVING GUN RIGHTS IS REACHING A DESTINATION": [
+        {
+            "category": "ACHIEVING A PURPOSE IS REACHING A DESTINATION",
+            "depth": 1,
+            "source frame": "Self propelled motion to a destination",
+            "target frame": "Purposeful action"
+        }
+    ],
+    "ACHIEVING A PURPOSE IS REACHING A DESTINATION": [],
+    "ACHIEVING A PURPOSE IS ACQUIRING A DESIRED OBJECT": [],
+    "ACCESS TO KNOWLEDGE IS ACCESS TO AN OBJECT": [],
+    "ACCESS TO EDUCATION IS ACCESS TO AN OBJECT": [],
+    "ACCEPTING IS SWALLOWING": [],
+    "ABUSIVE POLITICAL LEADERS ARE PHYSICAL BULLIES": [],
+    "ABILITY TO KNOW IS ABILITY TO SEE": [],
+    "ABILITY TO EVALUATE IS ABILITY TO SEE": [
+        {
+            "category": "ABILITY TO KNOW IS ABILITY TO SEE",
+            "depth": 1,
+            "source frame": "Seeing",
+            "target frame": "Knowing"
+        }
+    ]
+}
