@@ -97,7 +97,6 @@ def find_candidate_annotation(lexical_units, automatic_annotation, data_sources)
                 for lemma, token in sentence:
                     if lu == lemma:
                         res[key].add(token)
-        res[key] = "/".join(res[key])  
     return res
 
 def build_ancestor_list(automatic_annotation, max_depth):
@@ -120,14 +119,21 @@ def build_ancestor_list(automatic_annotation, max_depth):
         generalized_annotations.append(generalized_annotation)
     return generalized_annotations
 
+def elect_annotation(automatic_annotation, candidate):
+    if len(candidate["source"]) > 0:
+        automatic_annotation["source"].update(candidate["source"])
+    if len(candidate["target"]) > 0:
+        automatic_annotation["target"].update(candidate["target"])
+    return automatic_annotation
+
 def annotate_metaphor(metaphor, data_sources, max_depth=None):
     automatic_annotation = {
         "category": metaphor["category"],
         "sentence": metaphor["sentence"],
         "source frame": metaphor["source frame"],
         "target frame": metaphor["target frame"],
-        "source": "",
-        "target": "",
+        "source": set(),
+        "target": set(),
         "type": ""
     }
 
@@ -135,83 +141,29 @@ def annotate_metaphor(metaphor, data_sources, max_depth=None):
     for ancestor_metaphor in ancestor_metaphors:
         lexical_units = build_LUs_set(ancestor_metaphor)
         candidate = find_candidate_annotation(lexical_units, ancestor_metaphor, data_sources)
-        if candidate["source"] != "" and candidate["target"] != "":
-            automatic_annotation["source"] = candidate["source"]
-            automatic_annotation["target"] = candidate["target"]
-            automatic_annotation["type"] = candidate["type"]
-            break
+        automatic_annotation = elect_annotation(automatic_annotation, candidate)
+    automatic_annotation["source"] = "/".join(automatic_annotation["source"])
+    automatic_annotation["target"] = "/".join(automatic_annotation["target"])
     return automatic_annotation
 
-def update_stats(stats, manual_annotation, automatic_annotation):
-    if all([manual_annotation["source"], automatic_annotation["source"], manual_annotation["target"], automatic_annotation["target"]]):
-        stats["true positives"]["total"] += 1
-        flag = 0
-        for cand_source in automatic_annotation["source"].split("/"):
-            for cand_target in automatic_annotation["target"].split("/"):
-                if manual_annotation["source"] == cand_source and manual_annotation["target"] == cand_target and flag == 0:
-                    stats["true positives"]["equal"] += 1
-                    flag = 1
-        if flag == 0:
-            stats["true positives"]["diverse"] += 1
-        
-    
-    if not any([manual_annotation["source"], automatic_annotation["source"], manual_annotation["target"], automatic_annotation["target"]]):
-        stats["true negatives"] += 1
-    
-    # Da qui sicuramente MAN e AUT hanno prodotto annotazioni diverse
-    if manual_annotation["source"] == "" and manual_annotation["target"] == "" and automatic_annotation["source"] != "" and automatic_annotation["target"] != "":
-        stats["false positives"] += 1
-        with open('data/false_positives.jsonl', 'a', encoding='utf8') as f:
-            f.write(json.dumps(automatic_annotation) + "\n")
-    
-    if manual_annotation["source"] != "" and manual_annotation["target"] != "" and automatic_annotation["source"] == "" and automatic_annotation["target"] == "":
-        stats["false negatives"] += 1
-    
-    return stats
-
-def print_stats(stats):
-    total = stats["true positives"]["total"] + stats["true negatives"] + stats["false positives"] + stats["false negatives"]
-    print(f"Number of metaphors analyzed: {total}/{total + stats['skipped']}")
-    print(f'Data sources used: {", ".join(stats["data_sources"])}')
-    print(f'True positives: {stats["true positives"]["total"]}, of which EQUAL: {stats["true positives"]["equal"]} and DIVERSE: {stats["true positives"]["diverse"]}')
-    print(f'True negatives: {stats["true negatives"]}')
-    print(f'False positives: {stats["false positives"]}')
-    print(f'False negatives: {stats["false negatives"]}')
-
 def main():
-    stats = {
-        'true positives': {
-            'total': 0,
-            'equal': 0,
-            'diverse': 0
-        },
-        'false positives': 0,
-        'true negatives': 0,
-        'false negatives': 0,
-        'skipped': 0,
-        'data_sources': ['metanet', 'framenet', 'wordnet', 'conceptnet']
-    }
     manual_annotations = retrieve_manual_annotations()
     automatic_annotations = []
+    data_sources = ['metanet', 'framenet', 'wordnet', 'conceptnet']
 
-    with open('data/false_positives.jsonl', 'w', encoding='utf8') as f:
-        pass
-
-    for metaphor in manual_annotations:
-        #print(f"Analyzing metaphor: {metaphor['category']}")
+    for i, metaphor in enumerate(manual_annotations):
+        if i%50 == 0:
+            print('Progress:', i, '/', len(manual_annotations))
         if not all([metaphor["source frame"], metaphor["target frame"]]):
             # print("Missing frames for", metaphor["category"])
-            stats['skipped'] += 1
             continue
-        automatic_annotation = annotate_metaphor(metaphor, stats['data_sources'])
+        automatic_annotation = annotate_metaphor(metaphor, data_sources)
         automatic_annotations.append(automatic_annotation)
-        stats = update_stats(stats, metaphor, automatic_annotation)
         
-    with open("data/metanet_automatic_annotation.json", "w", encoding='utf8') as f:
-        automatic_annotations.insert(0, stats)
+    with open("data/metanet_automatic_annotations.json", "w", encoding='utf8') as f:
+        automatic_annotations.insert(0, {'data_sources': data_sources})
         json.dump(automatic_annotations, f, indent=4)
-
-    print_stats(stats)
+        print("Automatic annotations saved in data/metanet_automatic_annotation.json")
 
 if __name__ == '__main__': 
     main()
