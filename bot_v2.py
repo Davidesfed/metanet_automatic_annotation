@@ -34,7 +34,8 @@ def retrieve_lus(frame):
                     try:
                         lus.update([lu for lu in fn.frame(fn_frame).lexUnit])
                     except FramenetError as err:
-                        print(f"WARNING - MISSING FRAMENET FRAME: {err}")
+                        pass
+                        #print(f"WARNING - MISSING FRAMENET FRAME: {err}")
     
     return lus
 
