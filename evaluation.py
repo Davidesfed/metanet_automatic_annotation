@@ -1,5 +1,20 @@
 import json
-import os
+
+def load_data():
+    with open('data/metanet_manual_annotations.json', 'r', encoding='utf8') as f:
+        manual_annotations = json.load(f)
+    with open('data/metanet_automatic_annotations.json', 'r', encoding='utf8') as f:
+        automatic_annotations = json.load(f)
+        data_sources = automatic_annotations.pop(0)['data_sources']
+    return manual_annotations, automatic_annotations, data_sources
+
+def clear_output_files(stats):
+    for key in stats.keys():
+        name = key.replace(' ', '_')
+        if name == 'data_sources':
+            open(f'data/results/{name}.json', 'w').close()
+        else:
+            open(f'data/results/{name}.jsonl', 'w').close()
 
 def compute_label(manual_annotation, automatic_annotation):
     label = ""
@@ -62,7 +77,6 @@ def print_stats(stats):
         if key not in ['true positives','skipped', 'data_sources']:
             print(f'{key.capitalize()}: {stats[key]}')
 
-
 def main():
     stats = {
         'true positives': {
@@ -81,31 +95,23 @@ def main():
         'data_sources': ''
     }
 
-    with open('data/metanet_manual_annotations.json', 'r', encoding='utf8') as f:
-        manual_annotations = json.load(f)
-    with open('data/metanet_automatic_annotations.json', 'r', encoding='utf8') as f:
-        automatic_annotations = json.load(f)
-        stats['data_sources'] = automatic_annotations.pop(0)['data_sources']
-        
-    for key in stats.keys():
-        name = key.replace(' ', '_')
-        with open(f'data/results/{name}.jsonl', 'w', encoding='utf8') as f:
-            pass
+    manual_annotations, automatic_annotations, stats['data_sources'] = load_data()
+    clear_output_files(stats)
     
     for i in range(len(manual_annotations)):
         for j in range(len(automatic_annotations)):
-            manual_annotation = manual_annotations[i]
-            automatic_annotation = automatic_annotations[j]
-            if manual_annotation['category'] == automatic_annotation['category']:
-                stats = update_stats(stats, manual_annotation, automatic_annotation)
+            if manual_annotations[i]['sentence'] == automatic_annotations[j]['sentence']:
+                stats = update_stats(stats, manual_annotations[i], automatic_annotations[j])
                 break
             elif j > i:
                 stats['skipped'] += 1
                 with open(f'data/results/skipped.jsonl', 'a', encoding='utf8') as f:
-                    f.write(json.dumps(manual_annotation) + "\n")
+                    f.write(json.dumps(manual_annotations[i]) + "\n")
                 break
 
-        
+    with open(f'data/results/data_sources.json', 'a', encoding='utf8') as f:
+        json.dump(stats['data_sources'], f, indent=4)
+
     print_stats(stats)
 
 if __name__ == "__main__":
