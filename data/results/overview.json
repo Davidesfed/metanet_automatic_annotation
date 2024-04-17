@@ -1,0 +1,21 @@
+{
+    "true positives": {
+        "total": 132,
+        "equal": 61,
+        "diverse": 71
+    },
+    "false positives": 14,
+    "true negatives": 145,
+    "false negatives": 183,
+    "true source positives": 76,
+    "true target positives": 150,
+    "false source positives": 59,
+    "false target positives": 43,
+    "skipped": 40,
+    "data_sources": [
+        "metanet",
+        "framenet",
+        "wordnet",
+        "conceptnet"
+    ]
+}

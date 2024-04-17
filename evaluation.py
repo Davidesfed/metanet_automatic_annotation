@@ -1,5 +1,7 @@
 import json
 
+EVAL_FOLDER = 'data/results/'
+
 def load_data():
     with open('data/metanet_manual_annotations.json', 'r', encoding='utf8') as f:
         manual_annotations = json.load(f)
@@ -9,12 +11,13 @@ def load_data():
     return manual_annotations, automatic_annotations, data_sources
 
 def clear_output_files(stats):
+    open(f'{EVAL_FOLDER}true_positives_equal.jsonl', 'w').close()
+    open(f'{EVAL_FOLDER}true_positives_diverse.jsonl', 'w').close()
     for key in stats.keys():
         name = key.replace(' ', '_')
-        if name == 'data_sources':
-            open(f'data/results/{name}.json', 'w').close()
-        else:
-            open(f'data/results/{name}.jsonl', 'w').close()
+        if name in ['data_sources', 'true_positives']:
+            continue
+        open(f'{EVAL_FOLDER}{name}.jsonl', 'w').close()
 
 def compute_label(manual_annotation, automatic_annotation):
     label = ""
@@ -48,22 +51,19 @@ def update_stats(stats, manual_annotation, automatic_annotation):
     lb = label.replace(' ', '_')
     if label == 'true positives':
         stats[label]['total'] += 1
-        flag = 0
         for cand_source in automatic_annotation["source"].split("/"):
             for cand_target in automatic_annotation["target"].split("/"):
-                if manual_annotation["source"] == cand_source and manual_annotation["target"] == cand_target and flag == 0:
+                if manual_annotation["source"] == cand_source and manual_annotation["target"] == cand_target:
                     stats["true positives"]["equal"] += 1
-                    flag = 1
-                    with open(f'data/results/{lb}_equal.jsonl', 'a', encoding='utf8') as f:
+                    with open(f'{EVAL_FOLDER}{lb}_equal.jsonl', 'a', encoding='utf8') as f:
                         f.write(json.dumps(automatic_annotation) + "\n")
-        if flag == 0:
-            stats["true positives"]["diverse"] += 1
-            with open(f'data/results/{lb}_diverse.jsonl', 'a', encoding='utf8') as f:
-                f.write(json.dumps(automatic_annotation) + "\n")
-    
+                    return stats
+        stats["true positives"]["diverse"] += 1
+        with open(f'{EVAL_FOLDER}{lb}_diverse.jsonl', 'a', encoding='utf8') as f:
+            f.write(json.dumps(automatic_annotation) + "\n")
     else:
         stats[label] += 1
-        with open(f'data/results/{lb}.jsonl', 'a', encoding='utf8') as f:
+        with open(f'{EVAL_FOLDER}{lb}.jsonl', 'a', encoding='utf8') as f:
             f.write(json.dumps(automatic_annotation) + "\n")
     return stats
 
@@ -105,12 +105,12 @@ def main():
                 break
             elif j > i:
                 stats['skipped'] += 1
-                with open(f'data/results/skipped.jsonl', 'a', encoding='utf8') as f:
+                with open(f'{EVAL_FOLDER}skipped.jsonl', 'a', encoding='utf8') as f:
                     f.write(json.dumps(manual_annotations[i]) + "\n")
                 break
 
-    with open(f'data/results/data_sources.json', 'a', encoding='utf8') as f:
-        json.dump(stats['data_sources'], f, indent=4)
+    with open(f'{EVAL_FOLDER}overview.json', 'w', encoding='utf8') as f:
+        json.dump(stats, f, indent=4)
 
     print_stats(stats)
 
