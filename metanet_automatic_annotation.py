@@ -2,7 +2,6 @@ import json
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import csv
-import buildLUs
 import os
 import pprint
 
@@ -52,11 +51,6 @@ def lus_expansion(metanet_frame, metanet_frames, max_depth):
     return lus
             
 def build_LUs_set(automatic_annotation, max_depth=1):
-    # This function will create the data/lexical_units.jsonl file.
-    # If that file already exists, it will just read it
-    if not os.path.exists("data/lexical_units.jsonl"):
-        buildLUs.build_lexical_units_file()
-
     lexical_units = {
         'source frame': {'metanet': [], 'framenet': [], 'wordnet': [], 'conceptnet': []},
         'target frame': {'metanet': [], 'framenet': [], 'wordnet': [], 'conceptnet': []}
@@ -100,24 +94,24 @@ def find_candidate_annotation(lexical_units, automatic_annotation, data_sources)
     return res
 
 def build_ancestor_list(automatic_annotation, max_depth):
-    generalized_annotations = [automatic_annotation]
-    #return generalized_annotations
-    with open('data/metaphors_ancestor_hierarchy.json', 'r', encoding='utf8') as f:
-        metaphors_ancestor_hierarchy = json.load(f)
-    for metanet_class in metaphors_ancestor_hierarchy[automatic_annotation["category"]]:
-        if max_depth is not None and metanet_class["depth"] > max_depth:
+    ancestor_list = [automatic_annotation]
+    # return generalized_annotations
+    with open('data/metaphor_ancestors.json', 'r', encoding='utf8') as f:
+        metaphor_ancestors = json.load(f)
+    for ancestor_class in metaphor_ancestors[automatic_annotation["category"]]:
+        if max_depth is not None and ancestor_class["depth"] > max_depth:
             continue
-        generalized_annotation = {
-            "category": metanet_class["category"],
+        ancestor = {
+            "category": ancestor_class["category"],
             "sentence": automatic_annotation["sentence"],
-            "source frame": metanet_class["source frame"],
-            "target frame": metanet_class["target frame"],
+            "source frame": ancestor_class["source frame"],
+            "target frame": ancestor_class["target frame"],
             "source": "",
             "target": "",
             "type": ""
         }
-        generalized_annotations.append(generalized_annotation)
-    return generalized_annotations
+        ancestor_list.append(ancestor)
+    return ancestor_list
 
 def elect_annotation(automatic_annotation, candidate):
     if len(candidate["source"]) > 0:
