@@ -1,4 +1,4 @@
-{"category": "ANGER IS INSANITY", "sentence": "He got so angry, he went out of his mind.", "source frame": "Insanity", "target frame": "Anger", "source": "", "target": "angry/mind", "type": ""}
+{"category": "ANGER IS INSANITY", "sentence": "He got so angry, he went out of his mind.", "source frame": "Insanity", "target frame": "Anger", "source": "", "target": "mind/angry", "type": ""}
 {"category": "WORDS ARE CONTAINERS", "sentence": "He writes sentences in such a way as to seal up the meaning in them.", "source frame": "Containing", "target frame": "Word", "source": "", "target": "meaning/sentences", "type": ""}
 {"category": "WINNING AN ELECTION IS WINNING A BOXING MATCH", "sentence": "The Tea Party candidate knocked out the mainline Republican candidate in the primary.", "source frame": "Physical competition", "target frame": "Election", "source": "", "target": "primary", "type": ""}
 {"category": "UNDERSTANDING IS GRASPING", "sentence": "He just can't seem to grasp the concept.", "source frame": "Object manipulation", "target frame": "Understanding", "source": "", "target": "grasp", "type": ""}
@@ -6,7 +6,7 @@
 {"category": "UNCONTROLLED CRIME IS A RAMPAGING ANIMAL", "sentence": "gang crime ravages inner cities, destroys families, and causes whole neighborhoods to hunker down in fear", "source frame": "Animal", "target frame": "Crime", "source": "", "target": "crime", "type": ""}
 {"category": "TIME IS A RESOURCE", "sentence": "We don't have much time.", "source frame": "Resource", "target frame": "Time", "source": "", "target": "time", "type": ""}
 {"category": "TIME IS A LANDSCAPE THROUGH WHICH THE OBSERVER MOVES", "sentence": "That's all behind us now.", "source frame": "Motion along a path", "target frame": "Time", "source": "", "target": "now", "type": ""}
-{"category": "SEQUENCE OF ACTIONS IS A SEQUENCE OF MOVEMENTS", "sentence": "Create a complete, measurable, action plan which includes all the steps necessary to achieve your goal.", "source frame": "Motion along a path", "target frame": "Action", "source": "", "target": "steps/action", "type": ""}
+{"category": "SEQUENCE OF ACTIONS IS A SEQUENCE OF MOVEMENTS", "sentence": "Create a complete, measurable, action plan which includes all the steps necessary to achieve your goal.", "source frame": "Motion along a path", "target frame": "Action", "source": "", "target": "action/steps", "type": ""}
 {"category": "SENSING IS SMELLING", "sentence": "I smell a rat.", "source frame": "Smelling", "target frame": "Perception", "source": "", "target": "smell", "type": ""}
 {"category": "SAD IS DOWN", "sentence": "I'm feeling down.", "source frame": "Being at a Low Location", "target frame": "Sadness", "source": "", "target": "feeling", "type": ""}
 {"category": "SAD IS DOWN", "sentence": "I'm depressed.", "source frame": "Being at a Low Location", "target frame": "Sadness", "source": "", "target": "depressed", "type": ""}

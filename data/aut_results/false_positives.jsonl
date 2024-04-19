@@ -1,7 +1,7 @@
 {"category": "ANGER IS INSANITY", "sentence": "I'm mad!", "source frame": "Insanity", "target frame": "Anger", "source": "mad", "target": "mad", "type": ""}
 {"category": "UNDERSTANDING IS FOLLOWING", "sentence": "I don't follow you.", "source frame": "Guided motion", "target frame": "Understanding", "source": "follow", "target": "follow", "type": ""}
 {"category": "THINKING IS PERCEIVING", "sentence": "I see that the two lines must be equal, but I don't know how to prove it.", "source frame": "Perception", "target frame": "Thinking about", "source": "see", "target": "know", "type": ""}
-{"category": "TAXES ARE DUES", "sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society", "source frame": "Group membership", "target frame": "Taxation", "source": "membership/dues", "target": "Taxes", "type": ""}
+{"category": "TAXES ARE DUES", "sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society", "source frame": "Group membership", "target frame": "Taxation", "source": "dues/membership", "target": "Taxes", "type": ""}
 {"category": "STATUS IS VERTICALITY", "sentence": "He has a lofty position.", "source frame": "Verticality", "target frame": "Status", "source": "position", "target": "position", "type": ""}
 {"category": "PSYCHOLOGICAL HARM IS PHYSICAL INJURY", "sentence": "Her death hurt him.", "source frame": "Physical harm", "target frame": "Psychological harm", "source": "hurt", "target": "hurt", "type": ""}
 {"category": "MORALITY IS UPRIGHTNESS", "sentence": "He's an upstanding citizen.", "source frame": "Upright_posture", "target frame": "Morality", "source": "upstanding", "target": "upstanding", "type": ""}
