@@ -22,7 +22,7 @@
         "sentence": "He doesn't know how big our national debt is.",
         "source frame": "Size",
         "target frame": "Quantity",
-        "source": "big/how",
+        "source": "how/big",
         "target": "how",
         "type": ""
     },
@@ -33,6 +33,15 @@
         "target frame": "Purity",
         "source": "clean",
         "target": "impurities",
+        "type": ""
+    },
+    {
+        "category": "NATION IS A MACHINE",
+        "sentence": "...and asked them to be serious towards bringing a full-fledged budget at the earliest to ensure that the country functions smoothly.",
+        "source frame": "Machine",
+        "target frame": "Nation",
+        "source": "smoothly",
+        "target": "country",
         "type": ""
     },
     {
@@ -90,6 +99,15 @@
         "type": ""
     },
     {
+        "category": "GOVERNMENT IS A DISEASE",
+        "sentence": "Once the stage has been set, radical surgery will be required to actually remove the malignant tumor that Cancerous Government has become.",
+        "source frame": "Health treatment",
+        "target frame": "Government institution",
+        "source": "tumor",
+        "target": "government",
+        "type": ""
+    },
+    {
         "category": "EMOTIONS ARE OBJECTS",
         "sentence": "He hid his love from her.",
         "source frame": "Object",
@@ -103,8 +121,26 @@
         "sentence": "With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "start/running",
+        "source": "running/start",
         "target": "primary",
+        "type": ""
+    },
+    {
+        "category": "EDUCATIONAL EVALUATION IS GAMBLING",
+        "sentence": "Apparently, I\u2019m not the only parent who\u2019s concerned about high stakes testing.",
+        "source frame": "Gambling",
+        "target frame": "Educational evaluation",
+        "source": "high",
+        "target": "testing",
+        "type": ""
+    },
+    {
+        "category": "DEBT IS PHYSICAL IMPEDIMENTS TO MOTION",
+        "sentence": "Debt is holding me back from reaching my goals.",
+        "source frame": "Motion impediments",
+        "target frame": "Debt",
+        "source": "back",
+        "target": "debt",
         "type": ""
     },
     {

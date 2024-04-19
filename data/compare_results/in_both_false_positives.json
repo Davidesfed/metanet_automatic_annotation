@@ -25,6 +25,11 @@
         "target": "senate"
     },
     {
+        "sentence": "All the bridges that used to span this river are now gone.",
+        "source": "be",
+        "target": "be"
+    },
+    {
         "sentence": "In economic development, the equivalent of having a level playing field is equality of access to basic services.",
         "source": "level",
         "target": "equality"

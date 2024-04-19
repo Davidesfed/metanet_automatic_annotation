@@ -9,6 +9,15 @@
         "type": ""
     },
     {
+        "category": "AMOUNT OF GUN VIOLENCE IS A FLUID",
+        "sentence": "We have not found a way to stem this rising flood of gun violence.",
+        "source frame": "Fluid motion",
+        "target frame": "Injurious gun use",
+        "source": "flood/rising",
+        "target": "violence/gun",
+        "type": ""
+    },
+    {
         "category": "THEORIES ARE BUILDINGS",
         "sentence": "This theory has a solid foundation.",
         "source frame": "Building",
@@ -22,8 +31,8 @@
         "sentence": "America Tax Slaves Work 6.5 Months Every Year to Pay for Government",
         "source frame": "Servitude",
         "target frame": "Taxation",
-        "source": "slaves/work",
-        "target": "tax/government",
+        "source": "work/slaves",
+        "target": "government/tax",
         "type": ""
     },
     {
@@ -40,8 +49,17 @@
         "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
         "source frame": "Complex physical object",
         "target frame": "Society",
-        "source": "parts/whole/stability/part",
+        "source": "whole/stability/parts/part",
         "target": "society",
+        "type": ""
+    },
+    {
+        "category": "SOCIAL GROUP IS A FABRIC",
+        "sentence": "Cop scandals fray the social fabric.",
+        "source frame": "Textile",
+        "target frame": "Social group",
+        "source": "fray/fabric",
+        "target": "social",
         "type": ""
     },
     {
@@ -68,7 +86,7 @@
         "source frame": "Complex physical object",
         "target frame": "Nation",
         "source": "parts",
-        "target": "students/nation",
+        "target": "nation/students",
         "type": ""
     },
     {
@@ -104,7 +122,7 @@
         "source frame": "Nuclear family",
         "target frame": "Government",
         "source": "parent/persons",
-        "target": "sovereign/country/state",
+        "target": "state/sovereign/country",
         "type": ""
     },
     {
@@ -112,7 +130,7 @@
         "sentence": "Crime is a beast ravaging the city.",
         "source frame": "Fierce animal",
         "target frame": "Crime",
-        "source": "beast/ravaging",
+        "source": "ravaging/beast",
         "target": "crime",
         "type": ""
     },
@@ -130,7 +148,7 @@
         "sentence": "She went back to sleep.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "back/went",
+        "source": "went/back",
         "target": "sleep",
         "type": ""
     },

@@ -72,7 +72,7 @@
     {
         "sentence": "Senate Majority Leader Harry Reid, D-Nevada, told reporters that the next 24 hours would be \"very important\" toward efforts to reach a deal to lessen the harshest impacts of the fiscal cliff, a combination of broad tax hikes and deep spending cuts due to take effect at the start of the new year.",
         "source": "",
-        "target": "leader/senate"
+        "target": "senate/leader"
     },
     {
         "sentence": "President Obama said the international community has made great strides toward locking down loose nuclear material, but warned the threat of nuclear materials falling into the hands of terrorist remains.",
@@ -696,7 +696,7 @@
     },
     {
         "sentence": "Mr. Romney will likely fight hard in the state, given his family ties, but he has an uphill battle.",
-        "source": "fight/battle",
+        "source": "battle/fight",
         "target": ""
     },
     {
@@ -1121,7 +1121,7 @@
     },
     {
         "sentence": "We've reached the end.",
-        "source": "end/reach",
+        "source": "reach/end",
         "target": ""
     },
     {

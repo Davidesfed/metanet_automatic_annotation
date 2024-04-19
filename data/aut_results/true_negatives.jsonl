@@ -62,7 +62,6 @@
 {"category": "EXISTENCE IS VISIBILITY", "sentence": "The dodo disappeared in the 1600s.", "source frame": "Visual evaluation", "target frame": "Existence", "source": "", "target": "", "type": ""}
 {"category": "ESSENTIAL IS INTERNAL", "sentence": "It's what's on the inside that counts.", "source frame": "Containment", "target frame": "Essence", "source": "", "target": "", "type": ""}
 {"category": "ESSENTIAL IS INTERNAL", "sentence": "She only has surface charm.", "source frame": "Containment", "target frame": "Essence", "source": "", "target": "", "type": ""}
-{"category": "ENTITLEMENT HOLDERS ARE LEECHES", "sentence": "The welfare queens will suck this nation's coffers dry.", "source frame": "Parasite", "target frame": "Impoverished", "source": "", "target": "", "type": ""}
 {"category": "EMOTIONALLY MILD IS EXPERIENCING MILD TEMPERATURE", "sentence": "She's lukewarm about him.", "source frame": "Temperature", "target frame": "Emotional intensity", "source": "", "target": "", "type": ""}
 {"category": "EMOTIONALLY INDIFFERENT IS COLD", "sentence": "Ice-queen", "source frame": "Temperature", "target frame": "Emotional intensity", "source": "", "target": "", "type": ""}
 {"category": "EMOTIONAL INTIMACY IS PHYSICAL PROXIMITY", "sentence": "They're very close.", "source frame": "Proximity", "target frame": "Intimacy", "source": "", "target": "", "type": ""}
@@ -73,7 +72,6 @@
 {"category": "DISTURBING IDEAS ARE DISGUSTING FOODS", "sentence": "That's bullshit!", "source frame": "Disgusting", "target frame": "Idea", "source": "", "target": "", "type": ""}
 {"category": "DISTINGUISHING IS DIVIDING", "sentence": "What separates the men from the boys?", "source frame": "Dividing", "target frame": "Distinguishing", "source": "", "target": "", "type": ""}
 {"category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT", "sentence": "Our project has hit a roadblock.", "source frame": "Motion impediments", "target frame": "Difficulties in action", "source": "", "target": "", "type": ""}
-{"category": "DIFFICULTIES ARE IMPEDIMENTS TO MOVEMENT", "sentence": "What's holding you back from pursuing your dreams?", "source frame": "Motion impediments", "target frame": "Difficulties in action", "source": "", "target": "", "type": ""}
 {"category": "DIFFERENT MEANS OF ACHIEVING A PURPOSE ARE DIFFERENT PATHS TO A DESTINATION", "sentence": "To be cool, you have to wear your overalls this way.", "source frame": "Self propelled motion to a destination", "target frame": "Purposeful action", "source": "", "target": "", "type": ""}
 {"category": "DIFFERENT MEANS OF ACHIEVING A PURPOSE ARE DIFFERENT PATHS TO A DESTINATION", "sentence": "However you want to go about repairing it is fine with me.", "source frame": "Self propelled motion to a destination", "target frame": "Purposeful action", "source": "", "target": "", "type": ""}
 {"category": "DESIRE IS HUNGER", "sentence": "He's drooling over a new car.", "source frame": "Hunger", "target frame": "Desire", "source": "", "target": "", "type": ""}

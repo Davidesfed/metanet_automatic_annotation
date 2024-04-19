@@ -34,7 +34,7 @@
 {"sentence": "This theory has a solid foundation.", "source": "foundation", "target": ""}
 {"sentence": "The theoretical framework needs to be filled in with empirical data.", "source": "framework", "target": ""}
 {"sentence": "America Tax Slaves Work 6.5 Months Every Year to Pay for Government", "source": "", "target": "government/tax"}
-{"sentence": "The state cannot pay its bills and poorly educates its young, and its taxation punishes whatever success that its suffocating regulatory regime does not prevent.", "source": "", "target": "do/taxation/state/regime"}
+{"sentence": "The state cannot pay its bills and poorly educates its young, and its taxation punishes whatever success that its suffocating regulatory regime does not prevent.", "source": "", "target": "state/regime/do/taxation"}
 {"sentence": "High sales taxes hurt local small businesses.", "source": "", "target": "tax"}
 {"sentence": "We are being taxed to death!", "source": "", "target": "tax"}
 {"sentence": "Remember when President Obama literally laughed out loud at the idea his health-care plan would impose taxes on the middle class?", "source": "", "target": "tax"}
@@ -80,7 +80,7 @@
 {"sentence": "She made great strides in her dissertation.", "source": "make", "target": ""}
 {"sentence": "Her soul was scrubbed clean of impurities.", "source": "clean", "target": ""}
 {"sentence": "You must cleanse your soul of sin.", "source": "", "target": ""}
-{"sentence": "The impure must be washed clean through contrition.", "source": "clean/wash", "target": ""}
+{"sentence": "The impure must be washed clean through contrition.", "source": "wash/clean", "target": ""}
 {"sentence": "The accusation wounded her.", "source": "", "target": ""}
 {"sentence": "My pride was wounded.", "source": "", "target": ""}
 {"sentence": "She recovered from the wound to her psyche, but scars remained.", "source": "", "target": ""}
@@ -91,7 +91,7 @@
 {"sentence": "Just give me the raw facts.", "source": "", "target": ""}
 {"sentence": "He holds all the power.", "source": "", "target": ""}
 {"sentence": "Though politically the country is free, its people remain chained by poverty.", "source": "", "target": "poverty"}
-{"sentence": "The epidemic of poverty is spreading in America, and it's taking its toll on American families.", "source": "", "target": "poverty/family"}
+{"sentence": "The epidemic of poverty is spreading in America, and it's taking its toll on American families.", "source": "", "target": "family/poverty"}
 {"sentence": "The wildfire of revolution rapidly spread throughout the land.", "source": "", "target": ""}
 {"sentence": "His strength declined as he aged.", "source": "", "target": ""}
 {"sentence": "Last Legs of Campaign Can Decide Race", "source": "race", "target": ""}
@@ -111,7 +111,7 @@
 {"sentence": "If the President doesn't show some leadership, the country will grind to a halt.", "source": "", "target": "country"}
 {"sentence": "...and asked them to be serious towards bringing a full-fledged budget at the earliest to ensure that the country functions smoothly.", "source": "", "target": "country"}
 {"sentence": "\"Are They Parts of Our Nation? Tanzanian and Zambian University Students\u2019 Attitude to the European and South Asian Minorities Compared\"", "source": "", "target": "nation"}
-{"sentence": "No one built this country on their own. This nation is great because we built it together.", "source": "", "target": "country/nation"}
+{"sentence": "No one built this country on their own. This nation is great because we built it together.", "source": "", "target": "nation/country"}
 {"sentence": "Our country is burdened by debt and that may sink us in the rough waters ahead.", "source": "", "target": "country"}
 {"sentence": "The grazing field was covered with sheep.", "source": "", "target": ""}
 {"sentence": "The city is expanding the number of recycling containers in parks.", "source": "", "target": "number"}
@@ -127,14 +127,14 @@
 {"sentence": "It's imprinted in my mind forever.", "source": "", "target": ""}
 {"sentence": "It is unclear how the new law applies to this situation.", "source": "apply", "target": ""}
 {"sentence": "Before we draw any conclusions, we must weigh both sides of the issue.", "source": "", "target": ""}
-{"sentence": "The engine is dying; we need to repair it.", "source": "", "target": "engine/repair"}
+{"sentence": "The engine is dying; we need to repair it.", "source": "", "target": "repair/engine"}
 {"sentence": "It was a hard-fought battle, but in the end Romney didn't have the numbers to overpower Obama.", "source": "battle", "target": ""}
 {"sentence": "While Perry appeared to be the frontrunner, Romney came out ahead in the GOP primary.", "source": "", "target": ""}
 {"sentence": "In the presidential race of 2008, John McCain came up short.", "source": "race", "target": ""}
 {"sentence": "During the Democratic primary in 2008, John Edwards came out swinging but was swiftly knocked out of the election.", "source": "", "target": "election"}
-{"sentence": "She hasn't gone as far in life as her parents had hoped.", "source": "hop/go", "target": ""}
+{"sentence": "She hasn't gone as far in life as her parents had hoped.", "source": "go/hop", "target": ""}
 {"sentence": "His life has taken a good course.", "source": "", "target": ""}
-{"sentence": "As I've traveled through life, I've made a lot of friends along the way.", "source": "make/travel/way", "target": ""}
+{"sentence": "As I've traveled through life, I've made a lot of friends along the way.", "source": "travel/way/make", "target": ""}
 {"sentence": "He has changed his direction in life, and taken a more spiritual path.", "source": "", "target": ""}
 {"sentence": "She has very little money.", "source": "little", "target": ""}
 {"sentence": "The number of available parking spaces continues to shrink.", "source": "", "target": "number"}
@@ -170,7 +170,7 @@
 {"sentence": "Germany Leads the World", "source": "", "target": ""}
 {"sentence": "China leads successful wildlife crime crackdown", "source": "", "target": ""}
 {"sentence": "Moving up the social ladder: The bottom rung vs the top rung", "source": "", "target": ""}
-{"sentence": "Tom Barrett: Put state government on a diet", "source": "", "target": "government/state"}
+{"sentence": "Tom Barrett: Put state government on a diet", "source": "", "target": "state/government"}
 {"sentence": "Debt, debt, debt; we're drowning in it. This morning, the Office for National Statistics published the latest estimates of public sector borrowing. Though borrowing is falling faster than anticipated, thanks to the fact that spending cuts are finally beginning to kick in, the national debt has risen to 64.2 per cent of GDP. More significantly, we now owe more than \u00a31 trillion, or around \u00a316,000 for every person in the country.", "source": "", "target": ""}
 {"sentence": "Increasing transparency in government (title of article, International Journal on World Peace)", "source": "", "target": ""}
 {"sentence": "The issue is central to these negotiations.", "source": "central", "target": ""}
@@ -262,7 +262,7 @@
 {"sentence": "We will navigate the choppy waters of recession into smooth fiscal sailing.", "source": "", "target": ""}
 {"sentence": "'Pakistan's economy has ability to navigate through choppy waters'", "source": "", "target": ""}
 {"sentence": "With a heavy Republican majority, Congress churned out bill after bill.", "source": "", "target": "bill"}
-{"sentence": "With a unified House and Senate, the well-oiled gears of government turn smoothly.", "source": "", "target": "government/senate"}
+{"sentence": "With a unified House and Senate, the well-oiled gears of government turn smoothly.", "source": "", "target": "senate/government"}
 {"sentence": "\"I look forward to helping keep the legislative wheels turning smoothly in our 105-day session\"", "source": "", "target": "legislative"}
 {"sentence": "Cloture would make the legislative gears turn smoothly.", "source": "", "target": "legislative"}
 {"sentence": "The theory is spelled out in chapter 4.", "source": "", "target": ""}
@@ -283,7 +283,7 @@
 {"sentence": "I can feel a headache approaching", "source": "", "target": ""}
 {"sentence": "My symptoms went away.", "source": "", "target": ""}
 {"sentence": "The Bible clearly teaches that our struggle to live righteously is a struggle against the dark forces of Satan that seeks to rule us.", "source": "", "target": ""}
-{"sentence": "Smog pollution is an environmental malaise.", "source": "", "target": "pollution/smog"}
+{"sentence": "Smog pollution is an environmental malaise.", "source": "", "target": "smog/pollution"}
 {"sentence": "Ecologists are nursing the Bay back to health.", "source": "", "target": ""}
 {"sentence": "The \"takers\" in this society are leeches on the success of job creators.", "source": "leech", "target": ""}
 {"sentence": "Finally, all my educational goals are in reach.", "source": "reach", "target": ""}
@@ -300,10 +300,10 @@
 {"sentence": "...the fight for the White House is being waged on intensely local terrain...", "source": "fight", "target": ""}
 {"sentence": "the war for the presidency is nearly over", "source": "war", "target": ""}
 {"sentence": "Campaign Craft: The Strategies, Tactics, and Art of Political Campaign Management", "source": "", "target": ""}
-{"sentence": "The GOP presidential race has a new front-runner: Gov. Rick Perry.", "source": "front-runner/race", "target": ""}
+{"sentence": "The GOP presidential race has a new front-runner: Gov. Rick Perry.", "source": "race/front-runner", "target": ""}
 {"sentence": "With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.", "source": "", "target": ""}
 {"sentence": "The Iowa caucuses in January 2012 serve as the starting line of the marathon primary-election campaigns necessary ...", "source": "marathon", "target": ""}
-{"sentence": "Hutchinson the front-runner in 2014 governor's race", "source": "front-runner/race", "target": ""}
+{"sentence": "Hutchinson the front-runner in 2014 governor's race", "source": "race/front-runner", "target": ""}
 {"sentence": "Too often it is post mortem head scratching, as if democratic strategists do not realize every candidate is a pawn on the national. chessboard", "source": "pawn", "target": ""}
 {"sentence": "Randy has a plan to turn a bloated government of Washington bureaucrats into a lean and efficient government", "source": "", "target": "government"}
 {"sentence": "Like some it is supposed to serve, Massachusetts government has become flabby.", "source": "", "target": "government"}
@@ -311,7 +311,7 @@
 {"sentence": "With The Economy Humming, Will Manufacturing Software Help Manufacturers Stay In Tune?", "source": "", "target": "economy"}
 {"sentence": "The economy is falling apart.", "source": "", "target": "economy"}
 {"sentence": "The very thought of it makes me sick.", "source": "", "target": "thought"}
-{"sentence": "A Triumph in the War Against Cancer", "source": "triumph/war", "target": ""}
+{"sentence": "A Triumph in the War Against Cancer", "source": "war/triumph", "target": ""}
 {"sentence": "This situation is hard to bear.", "source": "", "target": ""}
 {"sentence": "This is a very hard problem to solve.", "source": "", "target": ""}
 {"sentence": "My life is going nowhere - I'm just spinning my wheels.", "source": "go", "target": ""}
@@ -367,7 +367,7 @@
 {"sentence": "The government acquired control of the company's assets.", "source": "", "target": "control"}
 {"sentence": "... allow courts to circumvent the First Amendment, slowly eroding the freedom of the press in a much more subtle manner than if they gagged the media directly.", "source": "", "target": ""}
 {"sentence": "The government should not muzzle the press.", "source": "", "target": ""}
-{"sentence": "Another round of cuts will cripple the economy.", "source": "cut/cripple", "target": ""}
+{"sentence": "Another round of cuts will cripple the economy.", "source": "cripple/cut", "target": ""}
 {"sentence": "Tomatoes technically fall within the fruit category.", "source": "", "target": ""}
 {"sentence": "I wouldn't put him in the friend category, exactly.", "source": "", "target": ""}
 {"sentence": "Stars whose careers collapsed in a relatively short amount of time", "source": "", "target": "career"}
@@ -396,7 +396,7 @@
 {"sentence": "He was just about to burst with anger.", "source": "", "target": "anger"}
 {"sentence": "There seems to be growing friendship between Shia Iran and its Sunni-dominated neighbours.", "source": "", "target": ""}
 {"sentence": "The most powerful weapon in the war against obesity might be something we all understand: cold, hard cash.", "source": "weapon/war", "target": ""}
-{"sentence": "How America's losing the war on poverty", "source": "war/lose", "target": ""}
+{"sentence": "How America's losing the war on poverty", "source": "lose/war", "target": ""}
 {"sentence": "Debt Ceiling Deal: Wrong Diagnosis Leads to Wrong Treatment for What Ails the Economy", "source": "treatment", "target": ""}
 {"sentence": "Improving access to education is the only sure way to cure us of poverty.", "source": "cure", "target": ""}
 {"sentence": "Law enforcement officers have often described these arrests as a way of reining in criminals whose other, more serious activities present a danger to the public.", "source": "", "target": "criminal"}
@@ -424,6 +424,6 @@
 {"sentence": "He finally managed to get a smile out of her.", "source": "get", "target": ""}
 {"sentence": "She landed four huge accounts this year.", "source": "", "target": ""}
 {"sentence": "Will House Republicans Get Bullied into a Tax Hike By Obama?", "source": "", "target": ""}
-{"sentence": "On the other hand, it's making him look indecisive, and as Pat said, he's being pushed around by the generals, by the Secretary of State and by others.", "source": "", "target": "secretary/state/general"}
+{"sentence": "On the other hand, it's making him look indecisive, and as Pat said, he's being pushed around by the generals, by the Secretary of State and by others.", "source": "", "target": "state/secretary/general"}
 {"sentence": "The issue was exposed to the light of day.", "source": "", "target": ""}
 {"sentence": "His judgement is clouded.", "source": "", "target": ""}

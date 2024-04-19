@@ -156,7 +156,7 @@
         "sentence": "Your insincere apology just added fuel to the fire.",
         "source frame": "Fire",
         "target frame": "Anger",
-        "source": "fuel/fire",
+        "source": "fire/fuel",
         "target": "",
         "type": ""
     },
@@ -219,7 +219,7 @@
         "sentence": "WE CANNOT HAVE ISLANDS OF PROSPERITY NEXT TO OCEANS OF POVERTY AND SQUALOR",
         "source frame": "Geographic feature",
         "target frame": "Poverty",
-        "source": "oceans/islands",
+        "source": "islands/oceans",
         "target": "poverty",
         "type": ""
     },
@@ -237,8 +237,8 @@
         "sentence": "We have not found a way to stem this rising flood of gun violence.",
         "source frame": "Fluid motion",
         "target frame": "Injurious gun use",
-        "source": "rising/flood",
-        "target": "",
+        "source": "flood/rising",
+        "target": "violence/gun",
         "type": ""
     },
     {
@@ -247,7 +247,7 @@
         "source frame": "Fluid motion",
         "target frame": "Injurious gun use",
         "source": "",
-        "target": "",
+        "target": "violence/gun",
         "type": ""
     },
     {
@@ -345,7 +345,7 @@
         "sentence": "Despite the debt crisis, the welfare bureaucracy continued to hum along, producing checks every month.",
         "source frame": "Machine",
         "target frame": "Bureaucracy",
-        "source": "",
+        "source": "hum/along",
         "target": "bureaucracy",
         "type": ""
     },
@@ -786,7 +786,7 @@
         "sentence": "But meanwhile, you may not have noticed that our government gave away control of the Internet.",
         "source frame": "Lose possession",
         "target frame": "Control",
-        "source": "",
+        "source": "away/gave",
         "target": "control",
         "type": ""
     },
@@ -795,7 +795,7 @@
         "sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society",
         "source frame": "Group membership",
         "target frame": "Taxation",
-        "source": "membership/dues",
+        "source": "dues/membership",
         "target": "taxes",
         "type": ""
     },
@@ -805,7 +805,7 @@
         "source frame": "Disease",
         "target frame": "Taxation",
         "source": "disease",
-        "target": "governor/lawmakers/taxes",
+        "target": "taxes/lawmakers/governor",
         "type": ""
     },
     {
@@ -822,8 +822,8 @@
         "sentence": "Government steals the people's wealth through overt and hidden taxes",
         "source frame": "Theft",
         "target frame": "Taxation",
-        "source": "steals/taxes",
-        "target": "government/taxes",
+        "source": "taxes/steals",
+        "target": "taxes/government",
         "type": ""
     },
     {
@@ -831,8 +831,8 @@
         "sentence": "America Tax Slaves Work 6.5 Months Every Year to Pay for Government",
         "source frame": "Servitude",
         "target frame": "Taxation",
-        "source": "slaves/work",
-        "target": "tax/government",
+        "source": "work/slaves",
+        "target": "government/tax",
         "type": ""
     },
     {
@@ -841,7 +841,7 @@
         "source frame": "Punishment",
         "target frame": "Taxation",
         "source": "",
-        "target": "regime/taxation/state",
+        "target": "state/regime/taxation",
         "type": ""
     },
     {
@@ -867,8 +867,8 @@
         "sentence": "According to the Tax Foundation, Texas residents on average shoulder the fifth lowest tax burden compared to other residents in the 50 states.",
         "source frame": "Burden",
         "target frame": "Taxation",
-        "source": "shoulder/burden",
-        "target": "tax/states",
+        "source": "burden/shoulder",
+        "target": "states/tax",
         "type": ""
     },
     {
@@ -1038,7 +1038,7 @@
         "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
         "source frame": "Complex physical object",
         "target frame": "Society",
-        "source": "parts/whole/stability/part",
+        "source": "whole/stability/parts/part",
         "target": "society",
         "type": ""
     },
@@ -1129,7 +1129,7 @@
         "source frame": "Textile",
         "target frame": "Social group",
         "source": "fray/fabric",
-        "target": "",
+        "target": "social",
         "type": ""
     },
     {
@@ -1461,7 +1461,7 @@
         "sentence": "He doesn't know how big our national debt is.",
         "source frame": "Size",
         "target frame": "Quantity",
-        "source": "big/how",
+        "source": "how/big",
         "target": "how",
         "type": ""
     },
@@ -1488,7 +1488,7 @@
         "sentence": "We are trying to find the most elegant approach to solving this problem.",
         "source frame": "Self propelled motion to a destination",
         "target frame": "Thinking about",
-        "source": "find/approach",
+        "source": "approach/find",
         "target": "",
         "type": ""
     },
@@ -1569,7 +1569,7 @@
         "sentence": "The impure must be washed clean through contrition.",
         "source frame": "Cleanliness",
         "target frame": "Purity",
-        "source": "clean/washed",
+        "source": "washed/clean",
         "target": "",
         "type": ""
     },
@@ -1831,7 +1831,7 @@
         "source frame": "Crime",
         "target frame": "Poverty",
         "source": "crime",
-        "target": "poor/poverty",
+        "target": "poverty/poor",
         "type": ""
     },
     {
@@ -1974,7 +1974,7 @@
         "sentence": "Since the enactment of SB 163 (Evans), the three branches of state government have been working smoothly in the transition process called for in that landmark legislation.",
         "source frame": "Machine",
         "target frame": "Organization",
-        "source": "working",
+        "source": "working/smoothly",
         "target": "government",
         "type": ""
     },
@@ -2173,7 +2173,7 @@
         "source frame": "Object",
         "target frame": "Nation",
         "source": "thing",
-        "target": "states/united",
+        "target": "united/states",
         "type": ""
     },
     {
@@ -2208,7 +2208,7 @@
         "sentence": "...and asked them to be serious towards bringing a full-fledged budget at the earliest to ensure that the country functions smoothly.",
         "source frame": "Machine",
         "target frame": "Nation",
-        "source": "",
+        "source": "smoothly",
         "target": "country",
         "type": ""
     },
@@ -2227,7 +2227,7 @@
         "source frame": "Complex physical object",
         "target frame": "Nation",
         "source": "parts",
-        "target": "students/nation",
+        "target": "nation/students",
         "type": ""
     },
     {
@@ -2244,7 +2244,7 @@
         "sentence": "\u201cThis is a time to build a nation, brick by brick, pillar by pillar, not a time to tear down our brothers and sisters or pillage their property,\u201d",
         "source frame": "Building",
         "target frame": "Nation",
-        "source": "pillar/brick/build",
+        "source": "build/brick/pillar",
         "target": "nation",
         "type": ""
     },
@@ -2263,7 +2263,7 @@
         "source frame": "Building",
         "target frame": "Nation",
         "source": "built/bedrock",
-        "target": "governments/nation",
+        "target": "nation/governments",
         "type": ""
     },
     {
@@ -2451,7 +2451,7 @@
         "sentence": "The government takes good care of its people.",
         "source frame": "Nurturant parent family",
         "target frame": "Moral action",
-        "source": "people/care",
+        "source": "care/people",
         "target": "good",
         "type": ""
     },
@@ -2577,7 +2577,7 @@
         "sentence": "We've been working on this problem all day and now we're running out of steam.",
         "source frame": "Machine",
         "target frame": "Mind",
-        "source": "working",
+        "source": "working/running",
         "target": "",
         "type": ""
     },
@@ -2820,7 +2820,7 @@
         "sentence": "As I've traveled through life, I've made a lot of friends along the way.",
         "source frame": "Journey",
         "target frame": "Life",
-        "source": "traveled/made/way",
+        "source": "way/traveled/made",
         "target": "",
         "type": ""
     },
@@ -2865,8 +2865,8 @@
         "sentence": "Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.",
         "source frame": "Create object",
         "target frame": "Legislative action",
-        "source": "make/producing",
-        "target": "law/bills",
+        "source": "producing/make",
+        "target": "bills/law",
         "type": ""
     },
     {
@@ -3153,7 +3153,7 @@
         "sentence": "The Crumbling Walls of the Roman Catholic Church",
         "source frame": "Building",
         "target frame": "Institution",
-        "source": "walls/church",
+        "source": "church/walls",
         "target": "",
         "type": ""
     },
@@ -3172,7 +3172,7 @@
         "source frame": "Biological entity",
         "target frame": "Institution",
         "source": "",
-        "target": "institution/organization",
+        "target": "organization/institution",
         "type": ""
     },
     {
@@ -3181,7 +3181,7 @@
         "source frame": "Vehicle",
         "target frame": "Institution",
         "source": "vehicles/driven",
-        "target": "people/subcultures/common/groups/institutions",
+        "target": "common/groups/institutions/subcultures/people",
         "type": ""
     },
     {
@@ -3207,7 +3207,7 @@
         "sentence": "In this view, educational instititions are factories that take less productive workers as their raw materials, apply doses of training, and create more productive workers as outputs.",
         "source frame": "Factory",
         "target frame": "Institution",
-        "source": "factories",
+        "source": "workers/factories",
         "target": "",
         "type": ""
     },
@@ -3217,7 +3217,7 @@
         "source frame": "Business",
         "target frame": "Institution",
         "source": "businesses",
-        "target": "businesses/institutions",
+        "target": "institutions/businesses",
         "type": ""
     },
     {
@@ -3226,7 +3226,7 @@
         "source frame": "Business",
         "target frame": "Institution",
         "source": "businesses",
-        "target": "businesses/institutions",
+        "target": "institutions/businesses",
         "type": ""
     },
     {
@@ -3234,7 +3234,7 @@
         "sentence": "Senate Republicans blocked legislation Wednesday that would have established a  billion jobs program putting veterans back to work tending to the country's federal lands and bolstering local police and fire departments.",
         "source frame": "Impediment to motion",
         "target frame": "Legislation enactment",
-        "source": "",
+        "source": "back",
         "target": "legislation",
         "type": ""
     },
@@ -3523,7 +3523,7 @@
         "source frame": "Person",
         "target frame": "Idea",
         "source": "ideas",
-        "target": "theory/ideas",
+        "target": "ideas/theory",
         "type": ""
     },
     {
@@ -3595,7 +3595,7 @@
         "source frame": "Person",
         "target frame": "Idea",
         "source": "life/idea",
-        "target": "new/idea",
+        "target": "idea/new",
         "type": ""
     },
     {
@@ -3621,8 +3621,8 @@
         "sentence": "Food for thought nust be appetizing. Chemistry students usually can write acceptable exposition if they know good writing is expected",
         "source frame": "Food",
         "target frame": "Idea",
-        "source": "can/food",
-        "target": "good/thought/know",
+        "source": "food/can",
+        "target": "thought/know/good",
         "type": ""
     },
     {
@@ -3702,7 +3702,7 @@
         "sentence": "Our work in the African continent [. . .] is supported by Tear Fund",
         "source frame": "Support",
         "target frame": "Aids to action",
-        "source": "fund/supported",
+        "source": "supported/fund",
         "target": "",
         "type": ""
     },
@@ -3846,7 +3846,7 @@
         "sentence": "The primary reason Americans are addicted to guns is due to the National Rifle Association's very effective \u2014 and immoral \u2014 campaign to instill fear into the heart of our citizens, which has paralyzed the soul of America.",
         "source frame": "Addiction",
         "target frame": "Personal weapon",
-        "source": "addicted/paralyzed",
+        "source": "paralyzed/addicted",
         "target": "guns/rifle",
         "type": ""
     },
@@ -3874,7 +3874,7 @@
         "source frame": "Physical affliction",
         "target frame": "Injurious gun use",
         "source": "",
-        "target": "",
+        "target": "violence/gun",
         "type": ""
     },
     {
@@ -3883,7 +3883,7 @@
         "source frame": "Physical affliction",
         "target frame": "Injurious gun use",
         "source": "",
-        "target": "",
+        "target": "violence/gun",
         "type": ""
     },
     {
@@ -3901,7 +3901,7 @@
         "source frame": "Motion-affecting objects",
         "target frame": "Gun control legislation",
         "source": "",
-        "target": "",
+        "target": "gun/control",
         "type": ""
     },
     {
@@ -3910,7 +3910,7 @@
         "source frame": "Motion-affecting objects",
         "target frame": "Gun control legislation",
         "source": "",
-        "target": "",
+        "target": "gun/control",
         "type": ""
     },
     {
@@ -4000,7 +4000,7 @@
         "source frame": "Containing",
         "target frame": "Group",
         "source": "contains",
-        "target": "group/members",
+        "target": "members/group",
         "type": ""
     },
     {
@@ -4009,7 +4009,7 @@
         "source frame": "Containing",
         "target frame": "Group",
         "source": "",
-        "target": "group/members",
+        "target": "members/group",
         "type": ""
     },
     {
@@ -4189,7 +4189,7 @@
         "source frame": "Barrier",
         "target frame": "Regulation",
         "source": "obstacles",
-        "target": "rules/regulations",
+        "target": "regulations/rules",
         "type": ""
     },
     {
@@ -4260,7 +4260,7 @@
         "sentence": "Citizen Sheep Government Shepherds",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "shepherds/sheep",
+        "source": "sheep/shepherds",
         "target": "government",
         "type": ""
     },
@@ -4269,8 +4269,8 @@
         "sentence": "Such a power does not destroy, but it prevents existence; it does not tyrannize, but it compresses, enervates, extinguishes, and stupefies a people, till each nation is reduced to nothing better than a flock of timid and industrious animals, of which the government is the shepherd.",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "people/shepherd",
-        "target": "government/animals/people/flock",
+        "source": "shepherd/people",
+        "target": "government/people/animals/flock",
         "type": ""
     },
     {
@@ -4278,7 +4278,7 @@
         "sentence": "Obama and the Progressives do not believe this. They believe they must decide what is best. In their view Americans are sheep and they are the shepherd.",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "believe/shepherd/sheep",
+        "source": "shepherd/sheep/believe",
         "target": "",
         "type": ""
     },
@@ -4315,7 +4315,7 @@
         "source frame": "Health treatment",
         "target frame": "Government institution",
         "source": "",
-        "target": "",
+        "target": "government",
         "type": ""
     },
     {
@@ -4342,7 +4342,7 @@
         "source frame": "Nuclear family",
         "target frame": "Government",
         "source": "parent/persons",
-        "target": "sovereign/country/state",
+        "target": "state/sovereign/country",
         "type": ""
     },
     {
@@ -4405,7 +4405,7 @@
         "source frame": "Health treatment",
         "target frame": "Government institution",
         "source": "tumor",
-        "target": "",
+        "target": "government",
         "type": ""
     },
     {
@@ -4413,7 +4413,7 @@
         "sentence": "I believe in personal responsibility and the government shouldn't be a babysitter but I also believe in compassion for less advantageous people.",
         "source frame": "Child care",
         "target frame": "Government",
-        "source": "people/believe",
+        "source": "believe/people",
         "target": "government/people",
         "type": ""
     },
@@ -4432,7 +4432,7 @@
         "source frame": "Business",
         "target frame": "Government institution",
         "source": "business/businesses",
-        "target": "government/businesses/business",
+        "target": "government/business/businesses",
         "type": ""
     },
     {
@@ -4458,7 +4458,7 @@
         "sentence": "If the injustice is part of the necessary friction of the machine of government, let it go, let it go: perchance it will wear smooth--certainly the machine will wear out. If the injustice has a spring, or a pulley, or a rope, or a crank, exclusively for itself, then perhaps you may consider whether the remedy will not be worse than the evil; but if it is of such a nature that it requires you to be the agent of injustice to another, then I say, break the law. Let your life be a counter-friction to stop the machine. What I have to do is to see, at any rate, that I do not lend myself to the wrong which I condemn.",
         "source frame": "Machine",
         "target frame": "Government institution",
-        "source": "machine/part/pulley",
+        "source": "machine/break/pulley/part",
         "target": "government/machine",
         "type": ""
     },
@@ -4486,7 +4486,7 @@
         "source frame": "Verticality",
         "target frame": "Government institution",
         "source": "",
-        "target": "",
+        "target": "government",
         "type": ""
     },
     {
@@ -4495,7 +4495,7 @@
         "source frame": "Verticality",
         "target frame": "Government institution",
         "source": "",
-        "target": "",
+        "target": "government",
         "type": ""
     },
     {
@@ -4612,7 +4612,7 @@
         "source frame": "Motion along a path",
         "target frame": "Governing action",
         "source": "",
-        "target": "state/step",
+        "target": "step/state",
         "type": ""
     },
     {
@@ -4827,7 +4827,7 @@
         "sentence": "Should Welfare parasites be allowed to bleed working Americans for the rest of their lives without attempting to help themselves?",
         "source frame": "Parasite",
         "target frame": "Limited resource",
-        "source": "parasites",
+        "source": "bleed/parasites",
         "target": "",
         "type": ""
     },
@@ -4890,7 +4890,7 @@
         "sentence": "What state is the project in?",
         "source frame": "Being at a location",
         "target frame": "Experiencing a state",
-        "source": "",
+        "source": "is",
         "target": "",
         "type": ""
     },
@@ -4917,7 +4917,7 @@
         "sentence": "All the bridges that used to span this river are now gone.",
         "source frame": "Being at a location",
         "target frame": "Existence",
-        "source": "",
+        "source": "are",
         "target": "are",
         "type": ""
     },
@@ -4972,7 +4972,7 @@
         "source frame": "Physical harm",
         "target frame": "Environmental harm",
         "source": "",
-        "target": "caused",
+        "target": "oil/spill/caused",
         "type": ""
     },
     {
@@ -4999,7 +4999,7 @@
         "source frame": "Parasite",
         "target frame": "Impoverished",
         "source": "",
-        "target": "",
+        "target": "welfare/queens",
         "type": ""
     },
     {
@@ -5016,7 +5016,7 @@
         "sentence": "We are reaching the end of the house-buying process.",
         "source frame": "Motion to a location",
         "target frame": "Action",
-        "source": "reaching/end",
+        "source": "end/reaching",
         "target": "process",
         "type": ""
     },
@@ -5214,7 +5214,7 @@
         "sentence": "Mr. Romney will likely fight hard in the state, given his family ties, but he has an uphill battle.",
         "source frame": "War",
         "target frame": "Election",
-        "source": "fight/battle",
+        "source": "battle/fight",
         "target": "",
         "type": ""
     },
@@ -5223,7 +5223,7 @@
         "sentence": "Both sides girded for battle, as they knew the general election would be a hard-won fight.",
         "source frame": "War",
         "target frame": "Election",
-        "source": "fight/battle/sides",
+        "source": "battle/fight/sides",
         "target": "election",
         "type": ""
     },
@@ -5250,7 +5250,7 @@
         "sentence": "The GOP presidential race has a new front-runner: Gov. Rick Perry.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "front-runner/race",
+        "source": "race/front-runner",
         "target": "",
         "type": ""
     },
@@ -5259,7 +5259,7 @@
         "sentence": "This year's US presidential election is shaping up to be a very close race, with the incumbent currently in front, but his challenger close on his heels.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "race",
+        "source": "front/race",
         "target": "election",
         "type": ""
     },
@@ -5277,7 +5277,7 @@
         "sentence": "Noem sprints to election finish line with stop in Elk Point, SD.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "finish/sprints",
+        "source": "sprints/line/finish",
         "target": "election",
         "type": ""
     },
@@ -5295,7 +5295,7 @@
         "sentence": "With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "start/running",
+        "source": "running/start",
         "target": "primary",
         "type": ""
     },
@@ -5304,7 +5304,7 @@
         "sentence": "The Iowa caucuses in January 2012 serve as the starting line of the marathon primary-election campaigns necessary ...",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "campaigns/starting/marathon",
+        "source": "campaigns/line/marathon/starting",
         "target": "",
         "type": ""
     },
@@ -5313,7 +5313,7 @@
         "sentence": "Hutchinson the front-runner in 2014 governor's race",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "front-runner/race",
+        "source": "race/front-runner",
         "target": "",
         "type": ""
     },
@@ -5340,7 +5340,7 @@
         "sentence": "Beasley won the first round of Democratic primary for lieutenant governor in 1970, but failed to win a majority.",
         "source frame": "Physical competition",
         "target frame": "Election",
-        "source": "won/round/win",
+        "source": "round/win/won",
         "target": "majority/primary",
         "type": ""
     },
@@ -5350,7 +5350,7 @@
         "source frame": "Body",
         "target frame": "Government institution",
         "source": "",
-        "target": "",
+        "target": "government",
         "type": ""
     },
     {
@@ -5359,7 +5359,7 @@
         "source frame": "Machine",
         "target frame": "Government institution",
         "source": "machine",
-        "target": "",
+        "target": "government",
         "type": ""
     },
     {
@@ -5368,7 +5368,7 @@
         "source frame": "Body",
         "target frame": "Government institution",
         "source": "",
-        "target": "",
+        "target": "government",
         "type": ""
     },
     {
@@ -5376,7 +5376,7 @@
         "sentence": "Apparently, I\u2019m not the only parent who\u2019s concerned about high stakes testing.",
         "source frame": "Gambling",
         "target frame": "Educational evaluation",
-        "source": "",
+        "source": "high",
         "target": "testing",
         "type": ""
     },
@@ -5403,7 +5403,7 @@
         "sentence": "\"Although we have a long way to go before we can put this recession behind us, the gears of our economic engine do appear ... to be slowly turning once again,\"",
         "source frame": "Machine",
         "target frame": "Economy",
-        "source": "gears/engine",
+        "source": "engine/gears",
         "target": "economic",
         "type": ""
     },
@@ -5484,7 +5484,7 @@
         "sentence": "The cancer patient fought a long, hard, battle, but she eventually succumbed to her disease.",
         "source frame": "War",
         "target frame": "Disease treatment",
-        "source": "fought/battle",
+        "source": "battle/fought",
         "target": "patient",
         "type": ""
     },
@@ -5592,7 +5592,7 @@
         "sentence": "What's holding you back from pursuing your dreams?",
         "source frame": "Motion impediments",
         "target frame": "Difficulties in action",
-        "source": "",
+        "source": "back",
         "target": "",
         "type": ""
     },
@@ -5682,7 +5682,7 @@
         "sentence": "plant the seeds of democracy",
         "source frame": "Plants",
         "target frame": "Democratic ideology",
-        "source": "seeds/plant",
+        "source": "plant/seeds",
         "target": "",
         "type": ""
     },
@@ -5745,7 +5745,7 @@
         "sentence": "Debt is holding me back from reaching my goals.",
         "source frame": "Motion impediments",
         "target frame": "Debt",
-        "source": "",
+        "source": "back",
         "target": "debt",
         "type": ""
     },
@@ -5755,7 +5755,7 @@
         "source frame": "Biological entity",
         "target frame": "Debt",
         "source": "",
-        "target": "credit/debt",
+        "target": "debt/credit",
         "type": ""
     },
     {
@@ -5781,7 +5781,7 @@
         "sentence": "Crime is a beast ravaging the city.",
         "source frame": "Fierce animal",
         "target frame": "Crime",
-        "source": "beast/ravaging",
+        "source": "ravaging/beast",
         "target": "crime",
         "type": ""
     },
@@ -5844,7 +5844,7 @@
         "sentence": "Our government is afflicted with the cancer of corruption.",
         "source frame": "Disease",
         "target frame": "Corruption",
-        "source": "cancer/corruption/afflicted",
+        "source": "afflicted/corruption/cancer",
         "target": "corruption",
         "type": ""
     },
@@ -5979,7 +5979,7 @@
         "sentence": "He has control over all the workers.",
         "source frame": "Possession",
         "target frame": "Control",
-        "source": "control/has",
+        "source": "has/control",
         "target": "control",
         "type": ""
     },
@@ -5989,7 +5989,7 @@
         "source frame": "Possession",
         "target frame": "Control",
         "source": "",
-        "target": "power/hold",
+        "target": "hold/power",
         "type": ""
     },
     {
@@ -6483,7 +6483,7 @@
         "sentence": "My headache went away.",
         "source frame": "Lose possession",
         "target frame": "Change of state",
-        "source": "",
+        "source": "away",
         "target": "",
         "type": ""
     },
@@ -6582,7 +6582,7 @@
         "sentence": "Another round of cuts will cripple the economy.",
         "source frame": "Harm to living entity",
         "target frame": "Economic difficulty",
-        "source": "cuts/cripple",
+        "source": "cripple/cuts",
         "target": "",
         "type": ""
     },
@@ -6646,7 +6646,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "process/step",
+        "target": "step/process",
         "type": ""
     },
     {
@@ -6655,7 +6655,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "do/work",
+        "target": "work/do",
         "type": ""
     },
     {
@@ -6772,7 +6772,7 @@
         "source frame": "Fierce animal",
         "target frame": "Bureaucracy",
         "source": "tentacle",
-        "target": "bureaucrats/administration",
+        "target": "administration/bureaucrats",
         "type": ""
     },
     {
@@ -7015,7 +7015,7 @@
         "source frame": "Physical combat",
         "target frame": "Argument",
         "source": "",
-        "target": "point/argument",
+        "target": "argument/point",
         "type": ""
     },
     {
@@ -7167,7 +7167,7 @@
         "sentence": "The most powerful weapon in the war against obesity might be something we all understand: cold, hard cash.",
         "source frame": "War",
         "target frame": "Addressing social problems",
-        "source": "weapon/war",
+        "source": "war/weapon",
         "target": "",
         "type": ""
     },
@@ -7204,7 +7204,7 @@
         "source frame": "Animal",
         "target frame": "Crime",
         "source": "",
-        "target": "criminals/activities",
+        "target": "activities/criminals",
         "type": ""
     },
     {
@@ -7320,7 +7320,7 @@
         "sentence": "She went back to sleep.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "back/went",
+        "source": "went/back",
         "target": "sleep",
         "type": ""
     },
@@ -7365,7 +7365,7 @@
         "sentence": "The car is in motion.",
         "source frame": "Being at a location",
         "target frame": "Action",
-        "source": "",
+        "source": "is",
         "target": "",
         "type": ""
     },
@@ -7437,7 +7437,7 @@
         "sentence": "We've reached the end.",
         "source frame": "Self propelled motion to a destination",
         "target frame": "Purposeful action",
-        "source": "reached/end",
+        "source": "end/reached",
         "target": "",
         "type": ""
     },
@@ -7546,7 +7546,7 @@
         "source frame": "Bully",
         "target frame": "State leadership",
         "source": "",
-        "target": "state/secretary/generals",
+        "target": "generals/state/secretary",
         "type": ""
     },
     {

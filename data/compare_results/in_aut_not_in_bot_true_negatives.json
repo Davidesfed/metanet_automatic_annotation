@@ -45,15 +45,6 @@
         "type": ""
     },
     {
-        "category": "EXISTING IS BEING PHYSICALLY AT THIS LOCATION",
-        "sentence": "All the bridges that used to span this river are now gone.",
-        "source frame": "Being at a location",
-        "target frame": "Existence",
-        "source": "",
-        "target": "are",
-        "type": ""
-    },
-    {
         "category": "EASE OF ACTION IS EASE OF MOTION ALONG A PATH",
         "sentence": "It is smooth sailing from here on in in the application process.",
         "source frame": "Motion along a path",
@@ -68,7 +59,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "process/step",
+        "target": "step/process",
         "type": ""
     },
     {

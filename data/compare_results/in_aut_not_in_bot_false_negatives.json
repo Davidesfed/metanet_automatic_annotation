@@ -27,48 +27,12 @@
         "type": ""
     },
     {
-        "category": "AMOUNT OF GUN VIOLENCE IS A FLUID",
-        "sentence": "We have not found a way to stem this rising flood of gun violence.",
-        "source frame": "Fluid motion",
-        "target frame": "Injurious gun use",
-        "source": "rising/flood",
-        "target": "",
-        "type": ""
-    },
-    {
         "category": "LOSING AN ELECTION IS LOSING A WAR",
         "sentence": "While at first the numbers were on his side, eventually Gore had to admit defeat to Bush in 2000.",
         "source frame": "War",
         "target frame": "Election",
         "source": "side",
         "target": "",
-        "type": ""
-    },
-    {
-        "category": "EFFECTIVE GOVERNMENT INSTITUTION IS A WELL-FUNCTIONING MACHINE",
-        "sentence": "Our state government, a well oiled machine of efficiency.",
-        "source frame": "Machine",
-        "target frame": "Government institution",
-        "source": "machine",
-        "target": "",
-        "type": ""
-    },
-    {
-        "category": "WELL-FUNCTIONING BUREAUCRACY IS A SMOOTHLY FUNCTIONING MACHINE",
-        "sentence": "Despite the debt crisis, the welfare bureaucracy continued to hum along, producing checks every month.",
-        "source frame": "Machine",
-        "target frame": "Bureaucracy",
-        "source": "",
-        "target": "bureaucracy",
-        "type": ""
-    },
-    {
-        "category": "TERMINATION OF CONTROL IS LOSS OF A POSSESSION",
-        "sentence": "But meanwhile, you may not have noticed that our government gave away control of the Internet.",
-        "source frame": "Lose possession",
-        "target frame": "Control",
-        "source": "",
-        "target": "control",
         "type": ""
     },
     {
@@ -81,21 +45,12 @@
         "type": ""
     },
     {
-        "category": "INHIBITTING ENACTMENT OF LEGISLATION IS IMPEDING MOTION",
-        "sentence": "Senate Republicans blocked legislation Wednesday that would have established a  billion jobs program putting veterans back to work tending to the country's federal lands and bolstering local police and fire departments.",
-        "source frame": "Impediment to motion",
-        "target frame": "Legislation enactment",
-        "source": "",
-        "target": "legislation",
-        "type": ""
-    },
-    {
         "category": "ENVIRONMENTAL HARM IS PHYSICAL INJURY",
         "sentence": "The oil spill has caused a shock to the environment.",
         "source frame": "Physical harm",
         "target frame": "Environmental harm",
         "source": "",
-        "target": "caused",
+        "target": "oil/spill/caused",
         "type": ""
     },
     {

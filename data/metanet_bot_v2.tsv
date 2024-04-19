@@ -1,9 +1,9 @@
 #candidate_src	#candidate_tgt	#sentence
 		Government transparency enables the public to hold the government accountable for how they spend their money.
 		Beijing has encouraged regional authorities to introduce sunshine policies that tackle corruption through increased transparency.
-	leader/senate	"Senate Majority Leader Harry Reid, D-Nevada, told reporters that the next 24 hours would be ""very important"" toward efforts to reach a deal to lessen the harshest impacts of the fiscal cliff, a combination of broad tax hikes and deep spending cuts due to take effect at the start of the new year."
+	senate/leader	"Senate Majority Leader Harry Reid, D-Nevada, told reporters that the next 24 hours would be ""very important"" toward efforts to reach a deal to lessen the harshest impacts of the fiscal cliff, a combination of broad tax hikes and deep spending cuts due to take effect at the start of the new year."
 		President Obama said the international community has made great strides toward locking down loose nuclear material, but warned the threat of nuclear materials falling into the hands of terrorist remains.
-ocean/island	poverty	WE CANNOT HAVE ISLANDS OF PROSPERITY NEXT TO OCEANS OF POVERTY AND SQUALOR
+island/ocean	poverty	WE CANNOT HAVE ISLANDS OF PROSPERITY NEXT TO OCEANS OF POVERTY AND SQUALOR
 flood	gun	flood of guns
 flood	gun	We have not found a way to stem this rising flood of gun violence.
 	gun	We are drowning in an ocean of gun violence.
@@ -13,8 +13,8 @@ flood	gun	We have not found a way to stem this rising flood of gun violence.
 		That remark is completely impenetrable.
 		Whatever Emily meant, it's likely to be locked up in that cryptic little verse forever.
 	meaning	He writes sentences in such a way as to seal up the meaning in them.
-win/victory	win	President Obama won a major victory in November.
-rival/race	rival	In the Supervisors race, my candidate came out slightly ahead of his closest rival.
+victory/win	win	President Obama won a major victory in November.
+race/rival	rival	In the Supervisors race, my candidate came out slightly ahead of his closest rival.
 		The Tea Party candidate knocked out the mainline Republican candidate in the primary.
 possess	part	The eye possesses several parts.
 belong	part	Which car part belongs to which car?
@@ -70,15 +70,15 @@ framework		The theoretical framework needs to be filled in with empirical data.
 lose	control	The dummies were 2-to-1 in favor of the Arizona immigration law; the court gutted it. Only those dummies, not in a state of denial, understand that we the people have lost control of our government.
 give	control	But meanwhile, you may not have noticed that our government gave away control of the Internet.
 membership	tax	Taxes, after all, are dues that we pay for the privileges of membership in an organized society
-disease	tax/governor/lawmaker	"During a panel discussion that included Washington Governor Christine Gregoire and Nevada Governor Brian Sandoval, Brown accused California lawmakers of adhering to ""the notion that taxes are like some kind of sexually transmitted disease,"" the Los Angeles Times reports."
+disease	lawmaker/governor/tax	"During a panel discussion that included Washington Governor Christine Gregoire and Nevada Governor Brian Sandoval, Brown accused California lawmakers of adhering to ""the notion that taxes are like some kind of sexually transmitted disease,"" the Los Angeles Times reports."
 infect	tax	Those insidious taxes infect every aspect of our lives.
-steal	tax/government	Government steals the people's wealth through overt and hidden taxes
+steal	government/tax	Government steals the people's wealth through overt and hidden taxes
 	government/tax	America Tax Slaves Work 6.5 Months Every Year to Pay for Government
-	do/taxation/state/regime	The state cannot pay its bills and poorly educates its young, and its taxation punishes whatever success that its suffocating regulatory regime does not prevent.
+	state/regime/do/taxation	The state cannot pay its bills and poorly educates its young, and its taxation punishes whatever success that its suffocating regulatory regime does not prevent.
 	tax	High sales taxes hurt local small businesses.
 	tax	We are being taxed to death!
-shoulder/burden	tax/state	According to the Tax Foundation, Texas residents on average shoulder the fifth lowest tax burden compared to other residents in the 50 states.
-load/heavy	tax	"The Obama campaign is taking a swipe at Mitt Romney's tax plan in a new television ad, saying it will create a ""heavy load"" for the middle class."
+burden/shoulder	state/tax	According to the Tax Foundation, Texas residents on average shoulder the fifth lowest tax burden compared to other residents in the 50 states.
+heavy/load	tax	"The Obama campaign is taking a swipe at Mitt Romney's tax plan in a new television ad, saying it will create a ""heavy load"" for the middle class."
 heavy	tax	President Obama decided to target certain and specific products or services he deems unhealthy and levied heavy taxes on them.
 	tax	Remember when President Obama literally laughed out loud at the idea his health-care plan would impose taxes on the middle class?
 burden/cause	tax	The new president delivered on his tax cut promises, which, combined with a recession in 2001, caused the tax burden to fall considerably.
@@ -155,7 +155,7 @@ make		She made great strides in her dissertation.
 	pure	He's pure evil.
 clean		Her soul was scrubbed clean of impurities.
 		You must cleanse your soul of sin.
-clean/wash		The impure must be washed clean through contrition.
+wash/clean		The impure must be washed clean through contrition.
 		Increased transparency has increased the public's confidence in government.
 		It was a traumatic experience.
 		Her death hurt him.
@@ -182,7 +182,7 @@ halt	bill	The Senator's filibuster halted the passage of the bill.
 vine	poverty	We are not free from the creeping vines of poverty.
 weed	poverty	Mother Martha is working to loosen the strangling weeds of poverty and watching children blossom and thrive under her care.
 	poverty	Though politically the country is free, its people remain chained by poverty.
-	poverty/family	The epidemic of poverty is spreading in America, and it's taking its toll on American families.
+	family/poverty	The epidemic of poverty is spreading in America, and it's taking its toll on American families.
 symptom	poverty	As President Obama has said, we can't treat the symptoms of poverty in isolation.
 crime	poverty/poor	He appealed to logos (logic) by trying to analyze why poverty is a crime and tries to differentiate it from being poor.
 		The President played his part magnificently.
@@ -213,7 +213,7 @@ path	opportunity	His job offer opened up new paths of opportunity for him.
 		Nature Tries to Shift Outer Banks, But Man Keeps Shoveling It Back
 		... we must deepen our understanding of the economic value of nature and invest in the vital services that it provides for us, if we are to have a truly sustainable economic future.
 		To start with, everything we are made of and everything we make comes from the environment.
-bully	international/world	International Poll Finds U.S. Still Viewed As World's Bully
+bully	world/international	International Poll Finds U.S. Still Viewed As World's Bully
 		Great Powers and Outlaw States: Unequal Sovereigns in the International Legal Order
 		Romney Back on National Stage, If Only Briefly
 		Obama accused the Republicans of moving the goalposts in the debate about the deficit.
@@ -222,7 +222,7 @@ bully	international/world	International Poll Finds U.S. Still Viewed As World's 
 		But Scott Brown’s win in the Massachusetts Senate race does raise a bigger question: is the system broken? I fear the answer is yes.
 		Infrastructure: The Foundation for Wealth and Poverty Reduction
 		The infrastructure that is the foundation of our nation is eroding, endangering the whole structure of our economy.
-contain	world/nation	Our nation contains some of the best entrepreneurs in the world.
+contain	nation/world	Our nation contains some of the best entrepreneurs in the world.
 thing	state	Only one thing stands between Western civilization and chaos: the United States.
 gear	nation	Saltykov explored the psychological problems resulting from the shifting of a nation's gears, of creating a new way of life.
 	nation	We must rouse our nation from its slumber.
@@ -230,10 +230,10 @@ gear	nation	Saltykov explored the psychological problems resulting from the shif
 	country	...and asked them to be serious towards bringing a full-fledged budget at the earliest to ensure that the country functions smoothly.
 family	national	Our national arguments are family arguments, we still talk to each other at the end of the day.
 	nation	"""Are They Parts of Our Nation? Tanzanian and Zambian University Students’ Attitude to the European and South Asian Minorities Compared"""
-	country/nation	No one built this country on their own. This nation is great because we built it together.
-build/pillar/brick	nation	“This is a time to build a nation, brick by brick, pillar by pillar, not a time to tear down our brothers and sisters or pillage their property,”
+	nation/country	No one built this country on their own. This nation is great because we built it together.
+pillar/build/brick	nation	“This is a time to build a nation, brick by brick, pillar by pillar, not a time to tear down our brothers and sisters or pillage their property,”
 brick	nation	They represent the brick and mortar of our nation's developing infrastructure.
-build/bedrock	nation	"""Our nation is built on the bedrock principle that governments derive their just powers from the consent of the governed."""
+bedrock/build	nation	"""Our nation is built on the bedrock principle that governments derive their just powers from the consent of the governed."""
 body	nation	Within a federalist framework the nation is a body in crisis threatened from within by one of its own. It is about to be dismembered.
 heart	nation	Iowa is the heart of the nation, where everyone greets you with a smile and you wave at strangers!
 ship	state	Scuttling the Ship of State to appease climate activists
@@ -282,7 +282,7 @@ walk		I'm walking on egg shells.
 slog		We slogged through it.
 apply		It is unclear how the new law applies to this situation.
 		Before we draw any conclusions, we must weigh both sides of the issue.
-	engine/repair	The engine is dying; we need to repair it.
+	repair/engine	The engine is dying; we need to repair it.
 		He is low on the totem pole.
 battle		It was a hard-fought battle, but in the end Romney didn't have the numbers to overpower Obama.
 defeat	defeat	While at first the numbers were on his side, eventually Gore had to admit defeat to Bush in 2000.
@@ -291,16 +291,16 @@ race		In the presidential race of 2008, John McCain came up short.
 		During the Republican primary, several candidates jockeyed for the frontrunner position, but Huntsman quickly fell behind and bowed out.
 	election	During the Democratic primary in 2008, John Edwards came out swinging but was swiftly knocked out of the election.
 step	step	It's time to take the next big step in my life.
-hop/go		She hasn't gone as far in life as her parents had hoped.
+go/hop		She hasn't gone as far in life as her parents had hoped.
 		His life has taken a good course.
 go		I go where my path leads me.
 go		I go where my path leads me.
-make/travel/way		As I've traveled through life, I've made a lot of friends along the way.
+travel/way/make		As I've traveled through life, I've made a lot of friends along the way.
 		He has changed his direction in life, and taken a more spiritual path.
 little		She has very little money.
 	number	The number of available parking spaces continues to shrink.
 		Her temperature is going down.
-make/produce	bill/law	Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.
+make/produce	law/bill	Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.
 		This gives me a great idea!
 get		I got a much better idea of what was going on after the last meeting.
 acquire		She had acquired an intimate knowledge of the terrain, which now helped her to travel quickly.
@@ -340,11 +340,11 @@ church		The Crumbling Walls of the Roman Catholic Church
 		
 vehicle	institution/group	I would venture to conclude from this that institutions are vehicles of subcultures driven by groups of people with a common destination
 machine	institution	More especially, the analogy mentioned between institutions and machines must not be interpreted as proposing the theory that institutions are machines—in some essentialist sense.
-factory	institution/society	Society’s great institutions are factories of ideas, regularly churning out new frameworks, insights, and understanding.
+factory	society/institution	Society’s great institutions are factories of ideas, regularly churning out new frameworks, insights, and understanding.
 factory		In this view, educational instititions are factories that take less productive workers as their raw materials, apply doses of training, and create more productive workers as outputs.
 business	institution	Religious institutions are businesses, the sermons are infomercials, the verse are nothing but commercial slogans.
 business	institution	Institutions Are Businesses, Too
-put	legislation/senate	Senate Republicans blocked legislation Wednesday that would have established a  billion jobs program putting veterans back to work tending to the country's federal lands and bolstering local police and fire departments.
+put	senate/legislation	Senate Republicans blocked legislation Wednesday that would have established a  billion jobs program putting veterans back to work tending to the country's federal lands and bolstering local police and fire departments.
 	bill	This mini-controversy erupted when Republicans introduced a string of amendments in a final effort to obstruct passage of the reconciliation bill.
 		The detective couldn't get much information out of the partial shoe print.
 		Tree rings contain the story of the region.
@@ -354,7 +354,7 @@ put	legislation/senate	Senate Republicans blocked legislation Wednesday that wou
 		The upwardly mobile are moving into nicer neighborhoods.
 		Moving up the social ladder: The bottom rung vs the top rung
 bloated	government	Tax Revolt: The Rebellion Against an Overbearing, Bloated, Arrogant, and Abusive Government
-	government/state	Tom Barrett: Put state government on a diet
+	state/government	Tom Barrett: Put state government on a diet
 		
 	government	The point, however, is that saying that government is inefficient because it does not turn a profit is the equivalent of saying that Peyton Manning is a poor quarterback because he doesn’t hit enough home runs. He’s not supposed to.
 business	government	The business of municipal government is, in general, the most poorly managed business in the world.
@@ -423,8 +423,8 @@ disease	gun	‘America’s gun disease is a national security issue’
 		Cynicism has killed the gun-control debate
 	gun	saddle the American people with gun control
 	gun	gun control trap
-sickness	control/gun	gun control sickness
-shackle	control/gun	oppressive shackles of gun control
+sickness	gun/control	gun control sickness
+shackle	gun/control	oppressive shackles of gun control
 	lobby	the gun lobby has squashed federal funding
 guide		She guided him through the problem.
 walk		She walked him through the analysis.
@@ -463,15 +463,15 @@ player	government	Government should be a referee, not an active player
 thing/life	government	"“Government is not a machine, but a living thing. It falls, not under the theory of the universe, but under the theory of organic life. It is accountable to Darwin, not to Newton. It is modified by its environment, necessitated by its tasks, shaped to its functions by the sheer pressure of life. No living thing can have its organs offset against each other, as checks, and live."""
 	government	There can be no doubt that the federal government is the new slave master, something the Founding Fathers warned us against.
 shepherd/sheep	government	Citizen Sheep Government Shepherds
-shepherd/people	government/flock	Such a power does not destroy, but it prevents existence; it does not tyrannize, but it compresses, enervates, extinguishes, and stupefies a people, till each nation is reduced to nothing better than a flock of timid and industrious animals, of which the government is the shepherd.
+shepherd/people	flock/government	Such a power does not destroy, but it prevents existence; it does not tyrannize, but it compresses, enervates, extinguishes, and stupefies a people, till each nation is reduced to nothing better than a flock of timid and industrious animals, of which the government is the shepherd.
 believe/shepherd		Obama and the Progressives do not believe this. They believe they must decide what is best. In their view Americans are sheep and they are the shepherd.
 	government	The government should cater to the needs of its citizens.
 man	force/government	A proper government is only a policeman, acting as an agent of man’s self-defense, and, as such, may resort to force only against those who start the use of force.
 	government	The US government loves you. In fact, it loves you so much that it’s willing shackle your legs together. Just to protect you – tough love, baby. Now, it may hurt a bit but just try to breathe through the pain. Remember – it hurts the government more than it hurts you.
 	government	The government is infected with corruption.
 cure		We must cure our ailing democracy with an infusion of new politicians.
-parent/father	government	Big Father: The Government as Parent
-parent/person	sovereign/state	"Doctrine of Parens Patriae."" Parens Patriae means literally, ""parent of the country."" It refers traditionally to the role of STATE as sovereign and guardian of persons under legal disability."
+father/parent	government	Big Father: The Government as Parent
+person/parent	sovereign/state	"Doctrine of Parens Patriae."" Parens Patriae means literally, ""parent of the country."" It refers traditionally to the role of STATE as sovereign and guardian of persons under legal disability."
 lead	lead/government	"""In my view, the federal government should lead the way.  The bill we’ve introduced requires the federal government to increase its use of renewable electricity and reduce its overall energy consumption in federal buildings, both new and old.  We can’t expect consumers to embrace energy efficient technology if their government does not do the same."""
 follow	government	Parents are so uneducated about health that they will follow the government down any misguided path.
 	government	The Syrian government is driving Syria into a dangerous zone.
@@ -511,7 +511,7 @@ move	move	Congress moved quickly to avoid a governmental shutdown.
 		'Pakistan's economy has ability to navigate through choppy waters'
 	down	The servers are back up after having been down for days.
 	bill	With a heavy Republican majority, Congress churned out bill after bill.
-	government/senate	With a unified House and Senate, the well-oiled gears of government turn smoothly.
+	senate/government	With a unified House and Senate, the well-oiled gears of government turn smoothly.
 	legislative	"""I look forward to helping keep the legislative wheels turning smoothly in our 105-day session"""
 	legislative	Cloture would make the legislative gears turn smoothly.
 		Do I need to spell it out for you?
@@ -543,15 +543,15 @@ be	be	All the bridges that used to span this river are now gone.
 		She only has surface charm.
 level	equality	In economic development, the equivalent of having a level playing field is equality of access to basic services.
 cause	cause	The oil spill has caused a shock to the environment.
-	pollution/smog	Smog pollution is an environmental malaise.
+	smog/pollution	Smog pollution is an environmental malaise.
 		Ecologists are nursing the Bay back to health.
 		The welfare queens will suck this nation's coffers dry.
 leech		"The ""takers"" in this society are leeches on the success of job creators."
-end/reach	process	We are reaching the end of the house-buying process.
+reach/end	process	We are reaching the end of the house-buying process.
 reach		Finally, all my educational goals are in reach.
 enter		We are entering the last stages of filing for bankruptcy.
 push	legislation	Democrats Push Through Historic, Controversial Health Care Legislation
-move	bill/senate	The Senate voted 92-5 Tuesday to move the bill forward to a full vote later this week.
+move	senate/bill	The Senate voted 92-5 Tuesday to move the bill forward to a full vote later this week.
 		He's filled with jealousy.
 		She's overflowing with love.
 		You have to set your jealousy aside.
@@ -569,18 +569,18 @@ cold		His mother was always cold and unloving when he was a child.
 		That joke is side-splittingly funny.
 fight		...the fight for the White House is being waged on intensely local terrain...
 war		the war for the presidency is nearly over
-fight/battle		Mr. Romney will likely fight hard in the state, given his family ties, but he has an uphill battle.
-fight/battle	election	Both sides girded for battle, as they knew the general election would be a hard-won fight.
+battle/fight		Mr. Romney will likely fight hard in the state, given his family ties, but he has an uphill battle.
+battle/fight	election	Both sides girded for battle, as they knew the general election would be a hard-won fight.
 		The underdog and his advisers plotted how best to overpower the incumbent.
 		Campaign Craft: The Strategies, Tactics, and Art of Political Campaign Management
-front-runner/race		The GOP presidential race has a new front-runner: Gov. Rick Perry.
-challenger/race	challenger/election	This year's US presidential election is shaping up to be a very close race, with the incumbent currently in front, but his challenger close on his heels.
+race/front-runner		The GOP presidential race has a new front-runner: Gov. Rick Perry.
+race/challenger	challenger/election	This year's US presidential election is shaping up to be a very close race, with the incumbent currently in front, but his challenger close on his heels.
 		At the turn, it's Obama by a nose.
 sprint	election	Noem sprints to election finish line with stop in Elk Point, SD.
 race		The race continues as Perry and Romney jockey for position, with Gingrich trailing behind.
 		With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.
 marathon		The Iowa caucuses in January 2012 serve as the starting line of the marathon primary-election campaigns necessary ...
-front-runner/race		Hutchinson the front-runner in 2014 governor's race
+race/front-runner		Hutchinson the front-runner in 2014 governor's race
 pawn		Too often it is post mortem head scratching, as if democratic strategists do not realize every candidate is a pawn on the national. chessboard
 		the candidates came out punching
 win	win	Beasley won the first round of Democratic primary for lieutenant governor in 1970, but failed to win a majority.
@@ -599,8 +599,8 @@ process	process	It is smooth sailing from here on in in the application process.
 		That's bullshit!
 		What separates the men from the boys?
 victory	doctor	The doctors at the CDC led the way to victory against the flu epidemic.
-fight/battle	patient	The cancer patient fought a long, hard, battle, but she eventually succumbed to her disease.
-triumph/war		A Triumph in the War Against Cancer
+battle/fight	patient	The cancer patient fought a long, hard, battle, but she eventually succumbed to her disease.
+war/triumph		A Triumph in the War Against Cancer
 arsenal	doctor	With nothing left in their leukemia-fighting arsenal, the doctors were down to Dilaudid, a derivative of morphine...
 divide		Americans are divided as to whether a third major party is needed in U.S. politics today
 weapon	diplomacy	The Weapons of Diplomacy, and the Human Factor
@@ -640,7 +640,7 @@ infect	crime	Crime has infected communities everywhere.
 erode	corruption	Corruption is eroding the public trust in government.
 rot		Stopping the rot in public life.
 	corruption	Our nation has been infested with the termites of corruption, the worms of immorality, and a virus of indifference and apathy.
-cancer/afflict	corruption	Our government is afflicted with the cancer of corruption.
+afflict/cancer	corruption	Our government is afflicted with the cancer of corruption.
 infect	corrupt	Corrupt officials are infecting our government at every level.
 	corruption	California Cities Struggling Under Wave of Corruption
 	corruption	FIFA facing corruption 'tsunami'
@@ -697,7 +697,7 @@ guide		This book will guide you step by step how to apply for citizenship.
 		My mind is tired.
 slavery		This new slavery is a total dependence by individuals and families on government for the materials and funds necessary to maintain a minimum standard of living.
 enslave	state	...the people of America’s needs and priorities become second to the needs of the state and the people of America become enslaved to the state.
-ear/eye	state	Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State
+eye/ear	state	Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State
 		Nine reasons why we should fire Congress
 	right	We need to protect our rights from infringement.
 protect	right	Do gun rights protect against tyranny?
@@ -723,14 +723,14 @@ get		I got a headache.
 		Next year's budget is fairly solid at this point.
 		... allow courts to circumvent the First Amendment, slowly eroding the freedom of the press in a much more subtle manner than if they gagged the media directly.
 		The government should not muzzle the press.
-cut/cripple		Another round of cuts will cripple the economy.
+cripple/cut		Another round of cuts will cripple the economy.
 treatment	crime	Thriving community centers have proven to be an effective treatment against violent crime in a number of neighborhoods.
 		The trial thrust O.J.'s attorney's into the limelight.
 	bring	FDR's leadership brought the country out of the depression.
 		That experience pushed him over the edge
 move	move	Regulations keep me from moving ahead with this housing project.
 		Sudden illness stopped his progress.
-process	process/step	He's really gotten hung up at that step in the process.
+process	step/process	He's really gotten hung up at that step in the process.
 	do/so	He is so caught up in his work he can't do anything else.
 		He was held up in the meeting.
 force	force	She was forced into an arranged marriage.
@@ -742,9 +742,9 @@ thing	career	How to make a career out of things you would do even for free.
 	career	Stars whose careers collapsed in a relatively short amount of time
 	business	Here are some tips to grow your business.
 lose	lose	It's Now Apple And Samsung's Game To Lose--Everyone Else Is An Also-Ran
-machine/cog	bureaucratic	You could call me just a work-for-hire hack, and a willing, contented cog in a bureaucratic machine.
+cog/machine	bureaucratic	You could call me just a work-for-hire hack, and a willing, contented cog in a bureaucratic machine.
 cog	bureaucracy	Confronted with the grinding cogs of bureaucracy, but needing a new cap, Coltrane shrugged and filled out the form.
-tentacle	bureaucrat/administration	The creation of this board of unelected bureaucrats is yet another tentacle of the Obama Administration digging its way into the doctors-patient relationship.
+tentacle	administration/bureaucrat	The creation of this board of unelected bureaucrats is yet another tentacle of the Obama Administration digging its way into the doctors-patient relationship.
 maze	bureaucratic	Lost in the bureaucratic maze of city's criminal justice system
 	anger	He was filled with anger.
 		She couldn't contain her joy.
@@ -804,9 +804,9 @@ dissect		The hallways are filled with the sounds of middle school students, prim
 		We're finally on the same page.
 		Who's with me?
 warm		She's warming up to her new brother-in-law.
-fanatic	control/gun	Of course, gun control fanatics pay little attention to facts.
+fanatic	gun/control	Of course, gun control fanatics pay little attention to facts.
 weapon/war		The most powerful weapon in the war against obesity might be something we all understand: cold, hard cash.
-war/lose		How America's losing the war on poverty
+lose/war		How America's losing the war on poverty
 treatment		Debt Ceiling Deal: Wrong Diagnosis Leads to Wrong Treatment for What Ails the Economy
 cure		Improving access to education is the only sure way to cure us of poverty.
 	criminal	Law enforcement officers have often described these arrests as a way of reining in criminals whose other, more serious activities present a danger to the public.
@@ -835,7 +835,7 @@ feed		He's been feeding her lies all these years.
 		This article is hard to digest.
 rise		Hitler's rise to power cannot be attributed to one event, but a mixture of factors including events happening outside Germany...
 		Regensburg’s political influence reached its peak when Regensburg was city of the Perpetual Diet or General Assembly of the Imperial Estates of the Holy Roman Empire from 1663 to 1806.
-end/reach		We've reached the end.
+reach/end		We've reached the end.
 end		We are seeing the light at the end of the tunnel.
 		We only have  short way to go.
 		We're where we wanted to go.
@@ -847,7 +847,7 @@ get		I kept getting close to a world championship, but it kept escaping me.
 get		He finally managed to get a smile out of her.
 		She landed four huge accounts this year.
 		Will House Republicans Get Bullied into a Tax Hike By Obama?
-	secretary/state/general	On the other hand, it's making him look indecisive, and as Pat said, he's being pushed around by the generals, by the Secretary of State and by others.
+	state/secretary/general	On the other hand, it's making him look indecisive, and as Pat said, he's being pushed around by the generals, by the Secretary of State and by others.
 blind		The US is blind to the limits of Palestinian politics.
 		The issue was exposed to the light of day.
 		The government covered up the high levels of radiation.

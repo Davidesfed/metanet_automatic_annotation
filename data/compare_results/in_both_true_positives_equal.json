@@ -1,7 +1,7 @@
 [
     {
         "sentence": "WE CANNOT HAVE ISLANDS OF PROSPERITY NEXT TO OCEANS OF POVERTY AND SQUALOR",
-        "source": "ocean/island",
+        "source": "island/ocean",
         "target": "poverty"
     },
     {
@@ -18,6 +18,11 @@
         "sentence": "Which car part belongs to which car?",
         "source": "belong",
         "target": "part"
+    },
+    {
+        "sentence": "Despite the debt crisis, the welfare bureaucracy continued to hum along, producing checks every month.",
+        "source": "hum",
+        "target": "bureaucracy"
     },
     {
         "sentence": "The voters of Dillon have clearly spoken.",
@@ -40,9 +45,14 @@
         "target": "control"
     },
     {
+        "sentence": "But meanwhile, you may not have noticed that our government gave away control of the Internet.",
+        "source": "give",
+        "target": "control"
+    },
+    {
         "sentence": "During a panel discussion that included Washington Governor Christine Gregoire and Nevada Governor Brian Sandoval, Brown accused California lawmakers of adhering to \"the notion that taxes are like some kind of sexually transmitted disease,\" the Los Angeles Times reports.",
         "source": "disease",
-        "target": "tax/governor/lawmaker"
+        "target": "lawmaker/governor/tax"
     },
     {
         "sentence": "Those insidious taxes infect every aspect of our lives.",
@@ -52,12 +62,12 @@
     {
         "sentence": "Government steals the people's wealth through overt and hidden taxes",
         "source": "steal",
-        "target": "tax/government"
+        "target": "government/tax"
     },
     {
         "sentence": "According to the Tax Foundation, Texas residents on average shoulder the fifth lowest tax burden compared to other residents in the 50 states.",
-        "source": "shoulder/burden",
-        "target": "tax/state"
+        "source": "burden/shoulder",
+        "target": "state/tax"
     },
     {
         "sentence": "President Obama decided to target certain and specific products or services he deems unhealthy and levied heavy taxes on them.",
@@ -127,7 +137,7 @@
     {
         "sentence": "Our nation contains some of the best entrepreneurs in the world.",
         "source": "contain",
-        "target": "world/nation"
+        "target": "nation/world"
     },
     {
         "sentence": "Saltykov explored the psychological problems resulting from the shifting of a nation's gears, of creating a new way of life.",
@@ -141,7 +151,7 @@
     },
     {
         "sentence": "\u201cThis is a time to build a nation, brick by brick, pillar by pillar, not a time to tear down our brothers and sisters or pillage their property,\u201d",
-        "source": "build/pillar/brick",
+        "source": "pillar/build/brick",
         "target": "nation"
     },
     {
@@ -151,7 +161,7 @@
     },
     {
         "sentence": "\"Our nation is built on the bedrock principle that governments derive their just powers from the consent of the governed.\"",
-        "source": "build/bedrock",
+        "source": "bedrock/build",
         "target": "nation"
     },
     {
@@ -192,7 +202,7 @@
     {
         "sentence": "Society\u2019s great institutions are factories of ideas, regularly churning out new frameworks, insights, and understanding.",
         "source": "factory",
-        "target": "institution/society"
+        "target": "society/institution"
     },
     {
         "sentence": "Religious institutions are businesses, the sermons are infomercials, the verse are nothing but commercial slogans.",
@@ -277,11 +287,11 @@
     {
         "sentence": "Such a power does not destroy, but it prevents existence; it does not tyrannize, but it compresses, enervates, extinguishes, and stupefies a people, till each nation is reduced to nothing better than a flock of timid and industrious animals, of which the government is the shepherd.",
         "source": "shepherd/people",
-        "target": "government/flock"
+        "target": "flock/government"
     },
     {
         "sentence": "Big Father: The Government as Parent",
-        "source": "parent/father",
+        "source": "father/parent",
         "target": "government"
     },
     {
@@ -312,16 +322,16 @@
     {
         "sentence": "The Senate voted 92-5 Tuesday to move the bill forward to a full vote later this week.",
         "source": "move",
-        "target": "bill/senate"
+        "target": "senate/bill"
     },
     {
         "sentence": "Both sides girded for battle, as they knew the general election would be a hard-won fight.",
-        "source": "fight/battle",
+        "source": "battle/fight",
         "target": "election"
     },
     {
         "sentence": "This year's US presidential election is shaping up to be a very close race, with the incumbent currently in front, but his challenger close on his heels.",
-        "source": "challenger/race",
+        "source": "race/challenger",
         "target": "challenger/election"
     },
     {
@@ -356,7 +366,7 @@
     },
     {
         "sentence": "Our government is afflicted with the cancer of corruption.",
-        "source": "cancer/afflict",
+        "source": "afflict/cancer",
         "target": "corruption"
     },
     {
@@ -371,7 +381,7 @@
     },
     {
         "sentence": "You could call me just a work-for-hire hack, and a willing, contented cog in a bureaucratic machine.",
-        "source": "machine/cog",
+        "source": "cog/machine",
         "target": "bureaucratic"
     },
     {
@@ -382,7 +392,7 @@
     {
         "sentence": "The creation of this board of unelected bureaucrats is yet another tentacle of the Obama Administration digging its way into the doctors-patient relationship.",
         "source": "tentacle",
-        "target": "bureaucrat/administration"
+        "target": "administration/bureaucrat"
     },
     {
         "sentence": "Lost in the bureaucratic maze of city's criminal justice system",

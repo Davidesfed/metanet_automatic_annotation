@@ -1,5 +1,5 @@
-{"filename": "true_positives_equal", "in_bot_not_in_aut": 2, "in_aut_not_in_bot": 16, "in_both": 81}
-{"filename": "true_positives_diverse", "in_bot_not_in_aut": 11, "in_aut_not_in_bot": 18, "in_both": 42}
-{"filename": "false_positives", "in_bot_not_in_aut": 6, "in_aut_not_in_bot": 11, "in_both": 10}
-{"filename": "true_negatives", "in_bot_not_in_aut": 24, "in_aut_not_in_bot": 9, "in_both": 231}
-{"filename": "false_negatives", "in_bot_not_in_aut": 57, "in_aut_not_in_bot": 12, "in_both": 372}
+{"filename": "true_positives_equal", "in_bot_not_in_aut": 0, "in_aut_not_in_bot": 18, "in_both": 83}
+{"filename": "true_positives_diverse", "in_bot_not_in_aut": 9, "in_aut_not_in_bot": 22, "in_both": 44}
+{"filename": "false_positives", "in_bot_not_in_aut": 5, "in_aut_not_in_bot": 11, "in_both": 11}
+{"filename": "true_negatives", "in_bot_not_in_aut": 24, "in_aut_not_in_bot": 8, "in_both": 231}
+{"filename": "false_negatives", "in_bot_not_in_aut": 62, "in_aut_not_in_bot": 7, "in_both": 367}

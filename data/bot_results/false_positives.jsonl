@@ -1,5 +1,5 @@
-{"sentence": "President Obama won a major victory in November.", "source": "win/victory", "target": "win"}
-{"sentence": "In the Supervisors race, my candidate came out slightly ahead of his closest rival.", "source": "rival/race", "target": "rival"}
+{"sentence": "President Obama won a major victory in November.", "source": "victory/win", "target": "win"}
+{"sentence": "In the Supervisors race, my candidate came out slightly ahead of his closest rival.", "source": "race/rival", "target": "rival"}
 {"sentence": "I don't follow you.", "source": "follow", "target": "follow"}
 {"sentence": "I see that the two lines must be equal, but I don't know how to prove it.", "source": "see", "target": "know"}
 {"sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society", "source": "membership", "target": "tax"}
@@ -11,6 +11,6 @@
 {"sentence": "He has control over all the workers.", "source": "have", "target": "control"}
 {"sentence": "He possesses the power to heal small animals.", "source": "possess", "target": "power"}
 {"sentence": "Regulations keep me from moving ahead with this housing project.", "source": "move", "target": "move"}
-{"sentence": "He's really gotten hung up at that step in the process.", "source": "process", "target": "process/step"}
+{"sentence": "He's really gotten hung up at that step in the process.", "source": "process", "target": "step/process"}
 {"sentence": "She was forced into an arranged marriage.", "source": "force", "target": "force"}
 {"sentence": "It's Now Apple And Samsung's Game To Lose--Everyone Else Is An Also-Ran", "source": "lose", "target": "lose"}

@@ -6,7 +6,7 @@
     },
     {
         "sentence": "The Obama campaign is taking a swipe at Mitt Romney's tax plan in a new television ad, saying it will create a \"heavy load\" for the middle class.",
-        "source": "load/heavy",
+        "source": "heavy/load",
         "target": "tax"
     },
     {
@@ -17,7 +17,7 @@
     {
         "sentence": "International Poll Finds U.S. Still Viewed As World's Bully",
         "source": "bully",
-        "target": "international/world"
+        "target": "world/international"
     },
     {
         "sentence": "Only one thing stands between Western civilization and chaos: the United States.",
@@ -42,7 +42,7 @@
     {
         "sentence": "Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.",
         "source": "make/produce",
-        "target": "bill/law"
+        "target": "law/bill"
     },
     {
         "sentence": "The president is steering the country into unknown waters.",
@@ -53,6 +53,11 @@
         "sentence": "I've almost got an idea, but I can't quite put my finger on it.",
         "source": "finger",
         "target": "idea"
+    },
+    {
+        "sentence": "Senate Republicans blocked legislation Wednesday that would have established a  billion jobs program putting veterans back to work tending to the country's federal lands and bolstering local police and fire departments.",
+        "source": "put",
+        "target": "senate/legislation"
     },
     {
         "sentence": "The theory of relativity gave birth to an enormous number of ideas in physics.",
@@ -87,12 +92,12 @@
     {
         "sentence": "gun control sickness",
         "source": "sickness",
-        "target": "control/gun"
+        "target": "gun/control"
     },
     {
         "sentence": "oppressive shackles of gun control",
         "source": "shackle",
-        "target": "control/gun"
+        "target": "gun/control"
     },
     {
         "sentence": "Government should be a referee, not an active player",
@@ -136,7 +141,7 @@
     },
     {
         "sentence": "We are reaching the end of the house-buying process.",
-        "source": "end/reach",
+        "source": "reach/end",
         "target": "process"
     },
     {
@@ -155,6 +160,11 @@
         "target": "win"
     },
     {
+        "sentence": "Our state government, a well oiled machine of efficiency.",
+        "source": "machine",
+        "target": "government"
+    },
+    {
         "sentence": "force-feed the economy back to health",
         "source": "back",
         "target": "economy"
@@ -166,7 +176,7 @@
     },
     {
         "sentence": "The cancer patient fought a long, hard, battle, but she eventually succumbed to her disease.",
-        "source": "fight/battle",
+        "source": "battle/fight",
         "target": "patient"
     },
     {
@@ -191,7 +201,7 @@
     },
     {
         "sentence": "Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State",
-        "source": "ear/eye",
+        "source": "eye/ear",
         "target": "state"
     },
     {
@@ -202,7 +212,7 @@
     {
         "sentence": "Of course, gun control fanatics pay little attention to facts.",
         "source": "fanatic",
-        "target": "control/gun"
+        "target": "gun/control"
     },
     {
         "sentence": "Congress' refusal to compromise is moving the country toward economic ruin.",

@@ -18,7 +18,13 @@ def retrieve_lus_from(data_source, metanet_frame):
 
 def retrieve_lus_from_metanet(metanet_frame):
     lexical_units = [re.sub(r'\.(n|r|v|a)', '', x) for x in metanet_frame["lus"]]
-    return lexical_units
+    result = []
+    for lu in lexical_units:
+        if lu.find(" ") == -1:
+            result.append(lu)
+            continue
+        result.extend(lu.split(" "))
+    return result
 
 def retrieve_lus_from_framenet(metanet_frame):
     lexical_units = set()
@@ -75,7 +81,7 @@ def build_lexical_units_file():
             }
         }
 
-        for data_source in  ["metanet", "framenet", "wordnet", "conceptnet"]:
+        for data_source in  ["metanet", "framenet", "wordnet",  "conceptnet"]:
             lexical_units["lus"][data_source] = retrieve_lus_from(data_source, metanet_frame)
         
         frame = metanet_frame.copy()

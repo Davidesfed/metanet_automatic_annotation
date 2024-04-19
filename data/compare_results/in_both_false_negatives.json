@@ -167,7 +167,7 @@
     {
         "sentence": "The state cannot pay its bills and poorly educates its young, and its taxation punishes whatever success that its suffocating regulatory regime does not prevent.",
         "source": "",
-        "target": "do/taxation/state/regime"
+        "target": "state/regime/do/taxation"
     },
     {
         "sentence": "We are being taxed to death!",
@@ -247,11 +247,6 @@
     {
         "sentence": "By early afternoon, queues were already building up.",
         "source": "build",
-        "target": ""
-    },
-    {
-        "sentence": "Cop scandals fray the social fabric.",
-        "source": "fray/fabric",
         "target": ""
     },
     {
@@ -351,7 +346,7 @@
     },
     {
         "sentence": "The impure must be washed clean through contrition.",
-        "source": "clean/wash",
+        "source": "wash/clean",
         "target": ""
     },
     {
@@ -407,7 +402,7 @@
     {
         "sentence": "The epidemic of poverty is spreading in America, and it's taking its toll on American families.",
         "source": "",
-        "target": "poverty/family"
+        "target": "family/poverty"
     },
     {
         "sentence": "His strength declined as he aged.",
@@ -470,14 +465,9 @@
         "target": "country"
     },
     {
-        "sentence": "...and asked them to be serious towards bringing a full-fledged budget at the earliest to ensure that the country functions smoothly.",
-        "source": "",
-        "target": "country"
-    },
-    {
         "sentence": "No one built this country on their own. This nation is great because we built it together.",
         "source": "",
-        "target": "country/nation"
+        "target": "nation/country"
     },
     {
         "sentence": "The grazing field was covered with sheep.",
@@ -547,7 +537,7 @@
     {
         "sentence": "The engine is dying; we need to repair it.",
         "source": "",
-        "target": "engine/repair"
+        "target": "repair/engine"
     },
     {
         "sentence": "It was a hard-fought battle, but in the end Romney didn't have the numbers to overpower Obama.",
@@ -571,7 +561,7 @@
     },
     {
         "sentence": "She hasn't gone as far in life as her parents had hoped.",
-        "source": "hop/go",
+        "source": "go/hop",
         "target": ""
     },
     {
@@ -581,7 +571,7 @@
     },
     {
         "sentence": "As I've traveled through life, I've made a lot of friends along the way.",
-        "source": "make/travel/way",
+        "source": "travel/way/make",
         "target": ""
     },
     {
@@ -722,7 +712,7 @@
     {
         "sentence": "Tom Barrett: Put state government on a diet",
         "source": "",
-        "target": "government/state"
+        "target": "state/government"
     },
     {
         "sentence": "The issue is central to these negotiations.",
@@ -995,11 +985,6 @@
         "target": "government"
     },
     {
-        "sentence": "Once the stage has been set, radical surgery will be required to actually remove the malignant tumor that Cancerous Government has become.",
-        "source": "",
-        "target": "set/government"
-    },
-    {
         "sentence": "Can I decide what size soda I want to drink? No, that\u2019s the nanny state\u2019s job.",
         "source": "",
         "target": "state"
@@ -1092,7 +1077,7 @@
     {
         "sentence": "With a unified House and Senate, the well-oiled gears of government turn smoothly.",
         "source": "",
-        "target": "government/senate"
+        "target": "senate/government"
     },
     {
         "sentence": "\"I look forward to helping keep the legislative wheels turning smoothly in our 105-day session\"",
@@ -1197,7 +1182,7 @@
     {
         "sentence": "Smog pollution is an environmental malaise.",
         "source": "",
-        "target": "pollution/smog"
+        "target": "smog/pollution"
     },
     {
         "sentence": "Ecologists are nursing the Bay back to health.",
@@ -1276,7 +1261,7 @@
     },
     {
         "sentence": "The GOP presidential race has a new front-runner: Gov. Rick Perry.",
-        "source": "front-runner/race",
+        "source": "race/front-runner",
         "target": ""
     },
     {
@@ -1286,7 +1271,7 @@
     },
     {
         "sentence": "Hutchinson the front-runner in 2014 governor's race",
-        "source": "front-runner/race",
+        "source": "race/front-runner",
         "target": ""
     },
     {
@@ -1305,11 +1290,6 @@
         "target": "government"
     },
     {
-        "sentence": "Apparently, I\u2019m not the only parent who\u2019s concerned about high stakes testing.",
-        "source": "",
-        "target": ""
-    },
-    {
         "sentence": "With The Economy Humming, Will Manufacturing Software Help Manufacturers Stay In Tune?",
         "source": "",
         "target": "economy"
@@ -1326,7 +1306,7 @@
     },
     {
         "sentence": "A Triumph in the War Against Cancer",
-        "source": "triumph/war",
+        "source": "war/triumph",
         "target": ""
     },
     {
@@ -1383,11 +1363,6 @@
         "sentence": "He is a person of very high moral standards.",
         "source": "",
         "target": "moral"
-    },
-    {
-        "sentence": "Debt is holding me back from reaching my goals.",
-        "source": "",
-        "target": "debt"
     },
     {
         "sentence": "Credit card debt has been growing significantly",
@@ -1571,7 +1546,7 @@
     },
     {
         "sentence": "Another round of cuts will cripple the economy.",
-        "source": "cut/cripple",
+        "source": "cripple/cut",
         "target": ""
     },
     {
@@ -1716,7 +1691,7 @@
     },
     {
         "sentence": "How America's losing the war on poverty",
-        "source": "war/lose",
+        "source": "lose/war",
         "target": ""
     },
     {
@@ -1847,7 +1822,7 @@
     {
         "sentence": "On the other hand, it's making him look indecisive, and as Pat said, he's being pushed around by the generals, by the Secretary of State and by others.",
         "source": "",
-        "target": "secretary/state/general"
+        "target": "state/secretary/general"
     },
     {
         "sentence": "The issue was exposed to the light of day.",

@@ -40,7 +40,7 @@
         "sentence": "Since the enactment of SB 163 (Evans), the three branches of state government have been working smoothly in the transition process called for in that landmark legislation.",
         "source frame": "Machine",
         "target frame": "Organization",
-        "source": "working",
+        "source": "working/smoothly",
         "target": "government",
         "type": ""
     },

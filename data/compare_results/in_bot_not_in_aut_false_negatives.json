@@ -30,6 +30,11 @@
         "target": "society"
     },
     {
+        "sentence": "Cop scandals fray the social fabric.",
+        "source": "fray/fabric",
+        "target": ""
+    },
+    {
         "sentence": "The coup toppled the brutal dictatorship.",
         "source": "",
         "target": ""
@@ -83,6 +88,11 @@
         "sentence": "The infrastructure that is the foundation of our nation is eroding, endangering the whole structure of our economy.",
         "source": "",
         "target": ""
+    },
+    {
+        "sentence": "...and asked them to be serious towards bringing a full-fledged budget at the earliest to ensure that the country functions smoothly.",
+        "source": "",
+        "target": "country"
     },
     {
         "sentence": "\"Are They Parts of Our Nation? Tanzanian and Zambian University Students\u2019 Attitude to the European and South Asian Minorities Compared\"",
@@ -215,6 +225,11 @@
         "target": "government"
     },
     {
+        "sentence": "Once the stage has been set, radical surgery will be required to actually remove the malignant tumor that Cancerous Government has become.",
+        "source": "",
+        "target": "set/government"
+    },
+    {
         "sentence": "Our country's poor are addicted to welfare.",
         "source": "",
         "target": ""
@@ -240,9 +255,19 @@
         "target": ""
     },
     {
+        "sentence": "Apparently, I\u2019m not the only parent who\u2019s concerned about high stakes testing.",
+        "source": "",
+        "target": ""
+    },
+    {
         "sentence": "Tips on how to cultivate openness to change.",
         "source": "cultivate",
         "target": ""
+    },
+    {
+        "sentence": "Debt is holding me back from reaching my goals.",
+        "source": "",
+        "target": "debt"
     },
     {
         "sentence": "Our nation has been infested with the termites of corruption, the worms of immorality, and a virus of indifference and apathy.",
