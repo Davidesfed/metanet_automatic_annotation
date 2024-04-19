@@ -14,8 +14,8 @@ def retrieve_manual_annotations():
             return manual_annotations
 
     manual_annotations = []
-    with open('data/category_lexical_units.json', 'r', encoding='utf8') as f:
-        metaphors = json.load(f)
+    with open('data/metanet_classes.jsonl', 'r', encoding='utf8') as f:
+        metanet_classes = [json.loads(line) for line in f.readlines()]
     with open("data/metanet_annotation.csv", "r", encoding='utf8') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -26,13 +26,13 @@ def retrieve_manual_annotations():
                 "target": row["Target"],
                 "type": row["Type"]
             }
-            for metaphor in metaphors:
-                if annotation["category"] == metaphor["category"]:
-                    annotation["source frame"] = metaphor["source frame"]
-                    annotation["target frame"] = metaphor["target frame"]
+            for metanet_class in metanet_classes:
+                if annotation["category"] == metanet_class["metaphor"]:
+                    annotation["source frame"] = metanet_class["source frame"]
+                    annotation["target frame"] = metanet_class["target frame"]
             manual_annotations.append(annotation)
 
-    with open("data/metanet_manual_annotation.json", "w", encoding='utf8') as f:
+    with open("data/metanet_manual_annotations.json", "w", encoding='utf8') as f:
         json.dump(manual_annotations, f, indent=4)
     
     return manual_annotations
@@ -174,9 +174,6 @@ def main():
     for i, metaphor in enumerate(manual_annotations):
         if i%50 == 0:
             print('Progress:', i, '/', len(manual_annotations))
-        # if not all([metaphor["source frame"], metaphor["target frame"]]):
-            # print("Missing frames for", metaphor["category"])
-            # continue
         automatic_annotation = annotate_metaphor(metaphor, data_sources)
         automatic_annotations.append(automatic_annotation)
         
