@@ -351,8 +351,8 @@ INSTITUTIONS ARE PEOPLE,"Their practices and policies have put them right in the
 INSTITUTIONS ARE BUILDINGS,The Crumbling Walls of the Roman Catholic Church,walls,Church,NN
 INSTITUTIONS ARE BUILDINGS,Institutional reform,,,-
 INSTITUTION IS AN ORGANISM,"May 27, 2011 – The “health” of an institution is measured by the effectiveness of its organization and mission, and also by how well it plans for the future.",health,institution,NN
-INSTITUTION IS A VEHICLE,I would venture to conclude from this that institutions are vehicles of subcultures driven by groups of people with a common destination,vehicles,institution,NN
-INSTITUTION IS A MACHINE,"More especially, the analogy mentioned between institutions and machines must not be interpreted as proposing the theory that institutions are machines—in some essentialist sense.",machines,institution,NN
+INSTITUTION IS A VEHICLE,I would venture to conclude from this that institutions are vehicles of subcultures driven by groups of people with a common destination,vehicles,institutions,NN
+INSTITUTION IS A MACHINE,"More especially, the analogy mentioned between institutions and machines must not be interpreted as proposing the theory that institutions are machines—in some essentialist sense.",machines,institutions,NN
 INSTITUTION IS A FACTORY,"Society’s great institutions are factories of ideas, regularly churning out new frameworks, insights, and understanding.",factories,institutions,NN
 INSTITUTION IS A FACTORY,"In this view, educational instititions are factories that take less productive workers as their raw materials, apply doses of training, and create more productive workers as outputs.",factories,institutions,NN
 INSTITUTION IS A BUSINESS,"Religious institutions are businesses, the sermons are infomercials, the verse are nothing but commercial slogans.",businesses,institutions,NN
@@ -462,7 +462,7 @@ GOVERNMENT REGULATION IS SUFFOCATION,The entrepreneur was suffocated by the all 
 GOVERNMENT REGULATION IS SUFFOCATION,Small business in the United States is literally being suffocated by red tape.,suffocated,red tape,VN
 GOVERNMENT REGULATION IS A PHYSICAL CONSTRAINT,The restrictive regulations are holding back innovation.,holding back,regulations,VN
 GOVERNMENT REGULATION IS A PHYSICAL CONSTRAINT,Any greater government regulation will only handcuff the industry and reduce the significant benefits hedge funds offer to the markets.,handcuff,regulation,VN
-GOVERNMENT REGULATION IS A BURDEN,The burdens of regulation on corporations hold down their profit margins.,burden,regulations,NN
+GOVERNMENT REGULATION IS A BURDEN,The burdens of regulation on corporations hold down their profit margins.,burdens,regulation,NN
 GOVERNMENT REGULATION IS A BARRIER,All these rules and regulations are obstacles to innovation.,obstacles,regulations,NN
 GOVERNMENT POWER IS BODILY STRENGTH,"Obama, Dems flex muscles on energy policy as platform embraces options",,,-
 GOVERNMENT POWER IS BODILY STRENGTH,China Using Government Muscle to Turbo Charge its Auto Industry,muscle,government,NN

@@ -68,7 +68,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "step/process",
+        "target": "process/step",
         "type": ""
     },
     {
@@ -77,7 +77,7 @@
         "source frame": "Competitive sport",
         "target frame": "Economic competition",
         "source": "",
-        "target": "lose/game",
+        "target": "game/lose",
         "type": ""
     }
 ]

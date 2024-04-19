@@ -22,8 +22,8 @@
         "sentence": "America Tax Slaves Work 6.5 Months Every Year to Pay for Government",
         "source frame": "Servitude",
         "target frame": "Taxation",
-        "source": "work/slaves",
-        "target": "government/tax",
+        "source": "slaves/work",
+        "target": "tax/government",
         "type": ""
     },
     {
@@ -40,7 +40,7 @@
         "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
         "source frame": "Complex physical object",
         "target frame": "Society",
-        "source": "stability/whole/parts/part",
+        "source": "parts/whole/stability/part",
         "target": "society",
         "type": ""
     },
@@ -104,7 +104,7 @@
         "source frame": "Nuclear family",
         "target frame": "Government",
         "source": "parent/persons",
-        "target": "state/country/sovereign",
+        "target": "sovereign/country/state",
         "type": ""
     },
     {
@@ -112,7 +112,7 @@
         "sentence": "Crime is a beast ravaging the city.",
         "source frame": "Fierce animal",
         "target frame": "Crime",
-        "source": "ravaging/beast",
+        "source": "beast/ravaging",
         "target": "crime",
         "type": ""
     },
@@ -130,7 +130,7 @@
         "sentence": "She went back to sleep.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "went/back",
+        "source": "back/went",
         "target": "sleep",
         "type": ""
     },

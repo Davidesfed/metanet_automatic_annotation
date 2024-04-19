@@ -3171,7 +3171,7 @@
         "category": "INSTITUTION IS A VEHICLE",
         "sentence": "I would venture to conclude from this that institutions are vehicles of subcultures driven by groups of people with a common destination",
         "source": "vehicles",
-        "target": "institution",
+        "target": "institutions",
         "type": "NN",
         "source frame": "Vehicle",
         "target frame": "Institution"
@@ -3180,7 +3180,7 @@
         "category": "INSTITUTION IS A MACHINE",
         "sentence": "More especially, the analogy mentioned between institutions and machines must not be interpreted as proposing the theory that institutions are machines\u2014in some essentialist sense.",
         "source": "machines",
-        "target": "institution",
+        "target": "institutions",
         "type": "NN",
         "source frame": "Machine",
         "target frame": "Institution"
@@ -4169,8 +4169,8 @@
     {
         "category": "GOVERNMENT REGULATION IS A BURDEN",
         "sentence": "The burdens of regulation on corporations hold down their profit margins.",
-        "source": "burden",
-        "target": "regulations",
+        "source": "burdens",
+        "target": "regulation",
         "type": "NN",
         "source frame": "Burden",
         "target frame": "Regulation"

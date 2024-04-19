@@ -103,7 +103,7 @@
         "sentence": "With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "running/start",
+        "source": "start/running",
         "target": "primary",
         "type": ""
     },

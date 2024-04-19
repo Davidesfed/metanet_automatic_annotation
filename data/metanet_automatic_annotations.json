@@ -76,7 +76,7 @@
         "source frame": "Insanity",
         "target frame": "Anger",
         "source": "",
-        "target": "mind/angry",
+        "target": "angry/mind",
         "type": ""
     },
     {
@@ -120,7 +120,7 @@
         "sentence": "He's burning with rage.",
         "source frame": "Heat",
         "target frame": "Anger",
-        "source": "",
+        "source": "burning",
         "target": "rage",
         "type": ""
     },
@@ -165,7 +165,7 @@
         "sentence": "After the argument, Dave was smoldering for days.",
         "source frame": "Fire",
         "target frame": "Anger",
-        "source": "",
+        "source": "smoldering",
         "target": "",
         "type": ""
     },
@@ -219,8 +219,8 @@
         "sentence": "WE CANNOT HAVE ISLANDS OF PROSPERITY NEXT TO OCEANS OF POVERTY AND SQUALOR",
         "source frame": "Geographic feature",
         "target frame": "Poverty",
-        "source": "",
-        "target": "POVERTY",
+        "source": "oceans/islands",
+        "target": "poverty",
         "type": ""
     },
     {
@@ -237,7 +237,7 @@
         "sentence": "We have not found a way to stem this rising flood of gun violence.",
         "source frame": "Fluid motion",
         "target frame": "Injurious gun use",
-        "source": "flood",
+        "source": "rising/flood",
         "target": "",
         "type": ""
     },
@@ -283,7 +283,7 @@
         "source frame": "Containing",
         "target frame": "Word",
         "source": "",
-        "target": "meaning/sentences",
+        "target": "sentences/meaning",
         "type": ""
     },
     {
@@ -318,7 +318,7 @@
         "sentence": "The eye possesses several parts.",
         "source frame": "Possession",
         "target frame": "Part whole",
-        "source": "",
+        "source": "possesses",
         "target": "parts",
         "type": ""
     },
@@ -327,7 +327,7 @@
         "sentence": "Which car part belongs to which car?",
         "source frame": "Possession",
         "target frame": "Part whole",
-        "source": "",
+        "source": "belongs",
         "target": "part",
         "type": ""
     },
@@ -336,7 +336,7 @@
         "sentence": "The book contains more than 150 recipes for cabbage.",
         "source frame": "Containing",
         "target frame": "Part whole",
-        "source": "book",
+        "source": "book/contains",
         "target": "",
         "type": ""
     },
@@ -381,7 +381,7 @@
         "sentence": "The voters of Dillon have clearly spoken.",
         "source frame": "Speaking",
         "target frame": "Voting",
-        "source": "",
+        "source": "spoken",
         "target": "voters",
         "type": ""
     },
@@ -418,7 +418,7 @@
         "source frame": "Object manipulation",
         "target frame": "Understanding",
         "source": "",
-        "target": "",
+        "target": "got",
         "type": ""
     },
     {
@@ -454,7 +454,7 @@
         "source frame": "Animal",
         "target frame": "Crime",
         "source": "",
-        "target": "Crime",
+        "target": "crime",
         "type": ""
     },
     {
@@ -499,7 +499,7 @@
         "source frame": "Building",
         "target frame": "Government legitimacy",
         "source": "",
-        "target": "trust/government",
+        "target": "government/trust",
         "type": ""
     },
     {
@@ -544,7 +544,7 @@
         "source frame": "Substance",
         "target frame": "Time",
         "source": "sands",
-        "target": "days/lives",
+        "target": "lives/days",
         "type": ""
     },
     {
@@ -571,7 +571,7 @@
         "source frame": "Moving object",
         "target frame": "Time",
         "source": "",
-        "target": "Time",
+        "target": "time",
         "type": ""
     },
     {
@@ -777,7 +777,7 @@
         "sentence": "The dummies were 2-to-1 in favor of the Arizona immigration law; the court gutted it. Only those dummies, not in a state of denial, understand that we the people have lost control of our government.",
         "source frame": "Lose possession",
         "target frame": "Control",
-        "source": "",
+        "source": "lost",
         "target": "control",
         "type": ""
     },
@@ -795,8 +795,8 @@
         "sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society",
         "source frame": "Group membership",
         "target frame": "Taxation",
-        "source": "dues/membership",
-        "target": "Taxes",
+        "source": "membership/dues",
+        "target": "taxes",
         "type": ""
     },
     {
@@ -805,7 +805,7 @@
         "source frame": "Disease",
         "target frame": "Taxation",
         "source": "disease",
-        "target": "taxes/Governor/lawmakers",
+        "target": "governor/lawmakers/taxes",
         "type": ""
     },
     {
@@ -823,7 +823,7 @@
         "source frame": "Theft",
         "target frame": "Taxation",
         "source": "steals/taxes",
-        "target": "taxes/Government",
+        "target": "government/taxes",
         "type": ""
     },
     {
@@ -831,8 +831,8 @@
         "sentence": "America Tax Slaves Work 6.5 Months Every Year to Pay for Government",
         "source frame": "Servitude",
         "target frame": "Taxation",
-        "source": "Work",
-        "target": "Tax/Government",
+        "source": "slaves/work",
+        "target": "tax/government",
         "type": ""
     },
     {
@@ -841,7 +841,7 @@
         "source frame": "Punishment",
         "target frame": "Taxation",
         "source": "",
-        "target": "taxation/state/regime",
+        "target": "regime/taxation/state",
         "type": ""
     },
     {
@@ -868,7 +868,7 @@
         "source frame": "Burden",
         "target frame": "Taxation",
         "source": "shoulder/burden",
-        "target": "tax/Tax/states",
+        "target": "tax/states",
         "type": ""
     },
     {
@@ -912,8 +912,8 @@
         "sentence": "New Taxes Burdensome for Farm and Ranch Families",
         "source frame": "Burden",
         "target frame": "Taxation",
-        "source": "Burdensome",
-        "target": "Taxes",
+        "source": "burdensome",
+        "target": "taxes",
         "type": ""
     },
     {
@@ -1038,8 +1038,8 @@
         "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
         "source frame": "Complex physical object",
         "target frame": "Society",
-        "source": "part/parts/stability/whole",
-        "target": "Society/society",
+        "source": "parts/whole/stability/part",
+        "target": "society",
         "type": ""
     },
     {
@@ -1083,7 +1083,7 @@
         "sentence": "My business is growing like a weed.",
         "source frame": "Plants",
         "target frame": "Organization",
-        "source": "",
+        "source": "growing",
         "target": "",
         "type": ""
     },
@@ -1128,7 +1128,7 @@
         "sentence": "Cop scandals fray the social fabric.",
         "source frame": "Textile",
         "target frame": "Social group",
-        "source": "fabric/fray",
+        "source": "fray/fabric",
         "target": "",
         "type": ""
     },
@@ -1183,7 +1183,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "action/steps",
+        "target": "steps/action",
         "type": ""
     },
     {
@@ -1201,7 +1201,7 @@
         "source frame": "Self propelled motion to a destination",
         "target frame": "Self-initiated state change",
         "source": "",
-        "target": "",
+        "target": "climbed",
         "type": ""
     },
     {
@@ -1218,7 +1218,7 @@
         "sentence": "He's looking for meaning in his life and isn't finding any.",
         "source frame": "Searching",
         "target frame": "Knowing",
-        "source": "meaning",
+        "source": "",
         "target": "",
         "type": ""
     },
@@ -1461,7 +1461,7 @@
         "sentence": "He doesn't know how big our national debt is.",
         "source frame": "Size",
         "target frame": "Quantity",
-        "source": "how/big",
+        "source": "big/how",
         "target": "how",
         "type": ""
     },
@@ -1488,7 +1488,7 @@
         "sentence": "We are trying to find the most elegant approach to solving this problem.",
         "source frame": "Self propelled motion to a destination",
         "target frame": "Thinking about",
-        "source": "approach/find",
+        "source": "find/approach",
         "target": "",
         "type": ""
     },
@@ -1497,7 +1497,7 @@
         "sentence": "She made great strides in her dissertation.",
         "source frame": "Self propelled motion to a destination",
         "target frame": "Purposeful action",
-        "source": "",
+        "source": "made",
         "target": "",
         "type": ""
     },
@@ -1516,7 +1516,7 @@
         "source frame": "Self propelled motion to a destination",
         "target frame": "Purposeful action",
         "source": "",
-        "target": "",
+        "target": "moving",
         "type": ""
     },
     {
@@ -1569,7 +1569,7 @@
         "sentence": "The impure must be washed clean through contrition.",
         "source frame": "Cleanliness",
         "target frame": "Purity",
-        "source": "clean",
+        "source": "clean/washed",
         "target": "",
         "type": ""
     },
@@ -1677,7 +1677,7 @@
         "sentence": "He made it this far in life without a partner, he can survive without one going forward.",
         "source frame": "Motion along a path",
         "target frame": "Life",
-        "source": "",
+        "source": "going",
         "target": "",
         "type": ""
     },
@@ -1687,7 +1687,7 @@
         "source frame": "Motion_along_a_path",
         "target frame": "Action",
         "source": "",
-        "target": "writing",
+        "target": "",
         "type": ""
     },
     {
@@ -1695,8 +1695,8 @@
         "sentence": "Let's keep moving forward on this experiment.",
         "source frame": "Motion_along_a_path",
         "target frame": "Action",
-        "source": "",
-        "target": "",
+        "source": "moving",
+        "target": "moving",
         "type": ""
     },
     {
@@ -1722,7 +1722,7 @@
         "sentence": "The Senator's filibuster halted the passage of the bill.",
         "source frame": "Motion impediments",
         "target frame": "Legislation enactment",
-        "source": "",
+        "source": "halted",
         "target": "bill",
         "type": ""
     },
@@ -1884,8 +1884,8 @@
         "sentence": "As Election Day drew near, the candidates pulled into the final lap of the race.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "race/lap",
-        "target": "Election",
+        "source": "lap/race",
+        "target": "election",
         "type": ""
     },
     {
@@ -1893,7 +1893,7 @@
         "sentence": "Last Legs of Campaign Can Decide Race",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "Race/Campaign",
+        "source": "campaign/race",
         "target": "",
         "type": ""
     },
@@ -1911,8 +1911,8 @@
         "sentence": "Bloom where you are planted.",
         "source frame": "Plants",
         "target frame": "Person",
-        "source": "",
-        "target": "you",
+        "source": "planted",
+        "target": "",
         "type": ""
     },
     {
@@ -1974,7 +1974,7 @@
         "sentence": "Since the enactment of SB 163 (Evans), the three branches of state government have been working smoothly in the transition process called for in that landmark legislation.",
         "source frame": "Machine",
         "target frame": "Organization",
-        "source": "",
+        "source": "working",
         "target": "government",
         "type": ""
     },
@@ -1984,7 +1984,7 @@
         "source frame": "Portals",
         "target frame": "Opportunities",
         "source": "door",
-        "target": "Opportunity",
+        "target": "opportunity",
         "type": ""
     },
     {
@@ -2082,8 +2082,8 @@
         "sentence": "International Poll Finds U.S. Still Viewed As World's Bully",
         "source frame": "Bully",
         "target frame": "Nation",
-        "source": "Bully",
-        "target": "World/International",
+        "source": "bully",
+        "target": "world/international",
         "type": ""
     },
     {
@@ -2163,8 +2163,8 @@
         "sentence": "Our nation contains some of the best entrepreneurs in the world.",
         "source frame": "Resource container",
         "target frame": "Nation",
-        "source": "",
-        "target": "nation/world",
+        "source": "contains",
+        "target": "world/nation",
         "type": ""
     },
     {
@@ -2173,7 +2173,7 @@
         "source frame": "Object",
         "target frame": "Nation",
         "source": "thing",
-        "target": "States/United",
+        "target": "states/united",
         "type": ""
     },
     {
@@ -2226,8 +2226,8 @@
         "sentence": "\"Are They Parts of Our Nation? Tanzanian and Zambian University Students\u2019 Attitude to the European and South Asian Minorities Compared\"",
         "source frame": "Complex physical object",
         "target frame": "Nation",
-        "source": "",
-        "target": "Nation",
+        "source": "parts",
+        "target": "students/nation",
         "type": ""
     },
     {
@@ -2280,7 +2280,7 @@
         "sentence": "Iowa is the heart of the nation, where everyone greets you with a smile and you wave at strangers!",
         "source frame": "Body",
         "target frame": "Nation",
-        "source": "you/heart",
+        "source": "heart",
         "target": "nation",
         "type": ""
     },
@@ -2289,8 +2289,8 @@
         "sentence": "Scuttling the Ship of State to appease climate activists",
         "source frame": "Boat",
         "target frame": "Nation",
-        "source": "Ship",
-        "target": "State",
+        "source": "ship",
+        "target": "state",
         "type": ""
     },
     {
@@ -2496,8 +2496,8 @@
         "sentence": "The money is gushing out of my retirement account.",
         "source frame": "Fluid motion",
         "target frame": "Money",
-        "source": "",
-        "target": "account/money",
+        "source": "gushing",
+        "target": "money/account",
         "type": ""
     },
     {
@@ -2514,7 +2514,7 @@
         "sentence": "Liquid assets.",
         "source frame": "Liquid",
         "target frame": "Money",
-        "source": "Liquid",
+        "source": "liquid",
         "target": "assets",
         "type": ""
     },
@@ -2524,7 +2524,7 @@
         "source frame": "Liquid",
         "target frame": "Money",
         "source": "",
-        "target": "Currency",
+        "target": "currency",
         "type": ""
     },
     {
@@ -2577,7 +2577,7 @@
         "sentence": "We've been working on this problem all day and now we're running out of steam.",
         "source frame": "Machine",
         "target frame": "Mind",
-        "source": "",
+        "source": "working",
         "target": "",
         "type": ""
     },
@@ -2641,7 +2641,7 @@
         "source frame": "Self propelled motion to a destination",
         "target frame": "Purposeful action",
         "source": "",
-        "target": "Do",
+        "target": "do",
         "type": ""
     },
     {
@@ -2658,7 +2658,7 @@
         "sentence": "We're skipping right along.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "",
+        "source": "skipping",
         "target": "",
         "type": ""
     },
@@ -2667,8 +2667,8 @@
         "sentence": "I'm walking on egg shells.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "",
-        "target": "",
+        "source": "walking",
+        "target": "walking",
         "type": ""
     },
     {
@@ -2676,7 +2676,7 @@
         "sentence": "We slogged through it.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "",
+        "source": "slogged",
         "target": "",
         "type": ""
     },
@@ -2685,7 +2685,7 @@
         "sentence": "It is unclear how the new law applies to this situation.",
         "source frame": "Cause contact",
         "target frame": "Relationship",
-        "source": "",
+        "source": "applies",
         "target": "",
         "type": ""
     },
@@ -2704,7 +2704,7 @@
         "source frame": "Person",
         "target frame": "Machine",
         "source": "",
-        "target": "repair/engine",
+        "target": "engine/repair",
         "type": ""
     },
     {
@@ -2767,7 +2767,7 @@
         "source frame": "Physical competition",
         "target frame": "Election",
         "source": "",
-        "target": "election/primary",
+        "target": "swinging/election/primary",
         "type": ""
     },
     {
@@ -2784,7 +2784,7 @@
         "sentence": "She hasn't gone as far in life as her parents had hoped.",
         "source frame": "Journey",
         "target frame": "Life",
-        "source": "",
+        "source": "hoped/gone",
         "target": "",
         "type": ""
     },
@@ -2820,7 +2820,7 @@
         "sentence": "As I've traveled through life, I've made a lot of friends along the way.",
         "source frame": "Journey",
         "target frame": "Life",
-        "source": "way",
+        "source": "traveled/made/way",
         "target": "",
         "type": ""
     },
@@ -2865,8 +2865,8 @@
         "sentence": "Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.",
         "source frame": "Create object",
         "target frame": "Legislative action",
-        "source": "make",
-        "target": "bills/law",
+        "source": "make/producing",
+        "target": "law/bills",
         "type": ""
     },
     {
@@ -2883,7 +2883,7 @@
         "sentence": "I got a much better idea of what was going on after the last meeting.",
         "source frame": "Gain possession",
         "target frame": "Learning",
-        "source": "",
+        "source": "got",
         "target": "",
         "type": ""
     },
@@ -2892,7 +2892,7 @@
         "sentence": "She had acquired an intimate knowledge of the terrain, which now helped her to travel quickly.",
         "source frame": "Gain possession",
         "target frame": "Learning",
-        "source": "",
+        "source": "acquired",
         "target": "knowledge",
         "type": ""
     },
@@ -2910,7 +2910,7 @@
         "sentence": "The president is steering the country into unknown waters.",
         "source frame": "Steering a boat",
         "target frame": "State leadership",
-        "source": "",
+        "source": "steering",
         "target": "president",
         "type": ""
     },
@@ -3117,7 +3117,7 @@
         "sentence": "He has an appetite for learning.",
         "source frame": "Food",
         "target frame": "Idea",
-        "source": "",
+        "source": "has",
         "target": "",
         "type": ""
     },
@@ -3126,7 +3126,7 @@
         "sentence": "He has an insatiable curiosity.",
         "source frame": "Food",
         "target frame": "Idea",
-        "source": "",
+        "source": "has",
         "target": "",
         "type": ""
     },
@@ -3135,7 +3135,7 @@
         "sentence": "Trading has really heated up this week.",
         "source frame": "Heat",
         "target frame": "Activity",
-        "source": "",
+        "source": "heated",
         "target": "",
         "type": ""
     },
@@ -3144,7 +3144,7 @@
         "sentence": "Their practices and policies have put them right in the cross hairs and it is only a matter of time before someone pulls the trigger. When that happens, one will be left to wonder whether it is a suicide, a homicide or a mercy killing.",
         "source frame": "Person",
         "target frame": "Institution",
-        "source": "them/someone",
+        "source": "someone",
         "target": "",
         "type": ""
     },
@@ -3153,7 +3153,7 @@
         "sentence": "The Crumbling Walls of the Roman Catholic Church",
         "source frame": "Building",
         "target frame": "Institution",
-        "source": "Church/Walls",
+        "source": "walls/church",
         "target": "",
         "type": ""
     },
@@ -3163,7 +3163,7 @@
         "source frame": "Building",
         "target frame": "Institution",
         "source": "",
-        "target": "Institutional",
+        "target": "institutional",
         "type": ""
     },
     {
@@ -3180,8 +3180,8 @@
         "sentence": "I would venture to conclude from this that institutions are vehicles of subcultures driven by groups of people with a common destination",
         "source frame": "Vehicle",
         "target frame": "Institution",
-        "source": "vehicles",
-        "target": "people/groups/common/institutions/subcultures",
+        "source": "vehicles/driven",
+        "target": "people/subcultures/common/groups/institutions",
         "type": ""
     },
     {
@@ -3190,7 +3190,7 @@
         "source frame": "Machine",
         "target frame": "Institution",
         "source": "machines",
-        "target": "institutions/machines",
+        "target": "machines/institutions",
         "type": ""
     },
     {
@@ -3199,7 +3199,7 @@
         "source frame": "Factory",
         "target frame": "Institution",
         "source": "factories",
-        "target": "institutions/Society",
+        "target": "society/institutions",
         "type": ""
     },
     {
@@ -3217,7 +3217,7 @@
         "source frame": "Business",
         "target frame": "Institution",
         "source": "businesses",
-        "target": "institutions/businesses",
+        "target": "businesses/institutions",
         "type": ""
     },
     {
@@ -3225,8 +3225,8 @@
         "sentence": "Institutions Are Businesses, Too",
         "source frame": "Business",
         "target frame": "Institution",
-        "source": "",
-        "target": "",
+        "source": "businesses",
+        "target": "businesses/institutions",
         "type": ""
     },
     {
@@ -3315,8 +3315,8 @@
         "sentence": "Tax Revolt: The Rebellion Against an Overbearing, Bloated, Arrogant, and Abusive Government",
         "source frame": "Excess body weight",
         "target frame": "Government",
-        "source": "Bloated",
-        "target": "Tax/Government",
+        "source": "bloated",
+        "target": "government/tax",
         "type": ""
     },
     {
@@ -3325,7 +3325,7 @@
         "source frame": "Excess body weight",
         "target frame": "Government",
         "source": "",
-        "target": "state/government",
+        "target": "government/state",
         "type": ""
     },
     {
@@ -3343,7 +3343,7 @@
         "source frame": "Business",
         "target frame": "Government",
         "source": "business",
-        "target": "general/government",
+        "target": "government/general",
         "type": ""
     },
     {
@@ -3378,8 +3378,8 @@
         "sentence": "As It Opens to Outsiders, Cuba Is Infected by Crime",
         "source frame": "Disease",
         "target frame": "Crime",
-        "source": "Infected",
-        "target": "Crime",
+        "source": "infected",
+        "target": "crime",
         "type": ""
     },
     {
@@ -3387,8 +3387,8 @@
         "sentence": "Bloomberg Goes to Washington to Push Gun Laws, but Senate Has Other Ideas",
         "source frame": "Forced motion",
         "target frame": "Governing action",
-        "source": "Push",
-        "target": "Senate",
+        "source": "push",
+        "target": "senate",
         "type": ""
     },
     {
@@ -3397,7 +3397,7 @@
         "source frame": "Forced motion",
         "target frame": "Governing action",
         "source": "",
-        "target": "lawmakers/administration",
+        "target": "administration/lawmakers",
         "type": ""
     },
     {
@@ -3450,7 +3450,7 @@
         "sentence": "Texaco is a relatively small player in the California gasoline market but a bigger factor in the Eastern states that want to follow California's lead.",
         "source frame": "Size",
         "target frame": "Importance",
-        "source": "small",
+        "source": "small/bigger",
         "target": "",
         "type": ""
     },
@@ -3523,7 +3523,7 @@
         "source frame": "Person",
         "target frame": "Idea",
         "source": "ideas",
-        "target": "ideas/theory",
+        "target": "theory/ideas",
         "type": ""
     },
     {
@@ -3531,7 +3531,7 @@
         "sentence": "He is the father of modern biology.",
         "source frame": "Person",
         "target frame": "Idea",
-        "source": "He",
+        "source": "",
         "target": "",
         "type": ""
     },
@@ -3594,8 +3594,8 @@
         "sentence": "He breathed new life into that idea.",
         "source frame": "Person",
         "target frame": "Idea",
-        "source": "life/He/idea",
-        "target": "idea/new",
+        "source": "life/idea",
+        "target": "new/idea",
         "type": ""
     },
     {
@@ -3621,8 +3621,8 @@
         "sentence": "Food for thought nust be appetizing. Chemistry students usually can write acceptable exposition if they know good writing is expected",
         "source frame": "Food",
         "target frame": "Idea",
-        "source": "can/Food",
-        "target": "good/know/thought",
+        "source": "can/food",
+        "target": "good/thought/know",
         "type": ""
     },
     {
@@ -3702,7 +3702,7 @@
         "sentence": "Our work in the African continent [. . .] is supported by Tear Fund",
         "source frame": "Support",
         "target frame": "Aids to action",
-        "source": "Fund",
+        "source": "fund/supported",
         "target": "",
         "type": ""
     },
@@ -3846,8 +3846,8 @@
         "sentence": "The primary reason Americans are addicted to guns is due to the National Rifle Association's very effective \u2014 and immoral \u2014 campaign to instill fear into the heart of our citizens, which has paralyzed the soul of America.",
         "source frame": "Addiction",
         "target frame": "Personal weapon",
-        "source": "",
-        "target": "guns/Rifle",
+        "source": "addicted/paralyzed",
+        "target": "guns/rifle",
         "type": ""
     },
     {
@@ -3919,7 +3919,7 @@
         "source frame": "Disease",
         "target frame": "Gun control",
         "source": "sickness",
-        "target": "control/gun",
+        "target": "gun/control",
         "type": ""
     },
     {
@@ -3928,7 +3928,7 @@
         "source frame": "Constructed Restraints",
         "target frame": "Gun control",
         "source": "shackles",
-        "target": "control/gun",
+        "target": "gun/control",
         "type": ""
     },
     {
@@ -3954,8 +3954,8 @@
         "sentence": "She walked him through the analysis.",
         "source frame": "Guided motion",
         "target frame": "Action",
-        "source": "",
-        "target": "",
+        "source": "walked",
+        "target": "walked",
         "type": ""
     },
     {
@@ -3963,7 +3963,7 @@
         "sentence": "She led him through the rough parts of the course.",
         "source frame": "Guided motion",
         "target frame": "Action",
-        "source": "",
+        "source": "led",
         "target": "",
         "type": ""
     },
@@ -3972,7 +3972,7 @@
         "sentence": "The Milky Way belongs to a cluster of galaxies.",
         "source frame": "Possession",
         "target frame": "Group",
-        "source": "",
+        "source": "belongs",
         "target": "cluster",
         "type": ""
     },
@@ -3981,7 +3981,7 @@
         "sentence": "Our galaxy has at least 100 billion planets.",
         "source frame": "Possession",
         "target frame": "Group",
-        "source": "",
+        "source": "has",
         "target": "",
         "type": ""
     },
@@ -3999,7 +3999,7 @@
         "sentence": "This group contains twenty members.",
         "source frame": "Containing",
         "target frame": "Group",
-        "source": "",
+        "source": "contains",
         "target": "group/members",
         "type": ""
     },
@@ -4143,7 +4143,7 @@
         "sentence": "The entrepreneur was suffocated by the all the onerous regulations he had to follow.",
         "source frame": "Stop airflow",
         "target frame": "Regulation",
-        "source": "",
+        "source": "suffocated",
         "target": "regulations",
         "type": ""
     },
@@ -4152,7 +4152,7 @@
         "sentence": "Small business in the United States is literally being suffocated by red tape.",
         "source frame": "Stop airflow",
         "target frame": "Regulation",
-        "source": "",
+        "source": "suffocated",
         "target": "",
         "type": ""
     },
@@ -4206,7 +4206,7 @@
         "sentence": "China Using Government Muscle to Turbo Charge its Auto Industry",
         "source frame": "Physical strength",
         "target frame": "government power",
-        "source": "Muscle",
+        "source": "muscle",
         "target": "",
         "type": ""
     },
@@ -4225,7 +4225,7 @@
         "source frame": "Game",
         "target frame": "Government",
         "source": "player",
-        "target": "Government",
+        "target": "government",
         "type": ""
     },
     {
@@ -4243,7 +4243,7 @@
         "source frame": "Biological entity",
         "target frame": "Government institution",
         "source": "life/thing",
-        "target": "machine/Government",
+        "target": "government/machine",
         "type": ""
     },
     {
@@ -4260,8 +4260,8 @@
         "sentence": "Citizen Sheep Government Shepherds",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "Sheep",
-        "target": "Government",
+        "source": "shepherds/sheep",
+        "target": "government",
         "type": ""
     },
     {
@@ -4270,7 +4270,7 @@
         "source frame": "Shepherding",
         "target frame": "Government",
         "source": "people/shepherd",
-        "target": "flock/animals/people/government",
+        "target": "government/animals/people/flock",
         "type": ""
     },
     {
@@ -4278,7 +4278,7 @@
         "sentence": "Obama and the Progressives do not believe this. They believe they must decide what is best. In their view Americans are sheep and they are the shepherd.",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "sheep/They/shepherd/they/what/believe",
+        "source": "believe/shepherd/sheep",
         "target": "",
         "type": ""
     },
@@ -4305,7 +4305,7 @@
         "sentence": "The US government loves you. In fact, it loves you so much that it\u2019s willing shackle your legs together. Just to protect you \u2013 tough love, baby. Now, it may hurt a bit but just try to breathe through the pain. Remember \u2013 it hurts the government more than it hurts you.",
         "source frame": "Person",
         "target frame": "Government",
-        "source": "baby/love/you/loves",
+        "source": "baby/loves/love",
         "target": "government",
         "type": ""
     },
@@ -4332,8 +4332,8 @@
         "sentence": "Big Father: The Government as Parent",
         "source frame": "Nuclear family",
         "target frame": "Government",
-        "source": "Father/Parent",
-        "target": "Government",
+        "source": "father/parent",
+        "target": "government",
         "type": ""
     },
     {
@@ -4342,7 +4342,7 @@
         "source frame": "Nuclear family",
         "target frame": "Government",
         "source": "parent/persons",
-        "target": "STATE/country/sovereign",
+        "target": "sovereign/country/state",
         "type": ""
     },
     {
@@ -4351,7 +4351,7 @@
         "source frame": "Leadership",
         "target frame": "Government",
         "source": "lead/buildings",
-        "target": "lead/federal/government",
+        "target": "government/federal/lead",
         "type": ""
     },
     {
@@ -4359,7 +4359,7 @@
         "sentence": "Parents are so uneducated about health that they will follow the government down any misguided path.",
         "source frame": "Leadership",
         "target frame": "Government",
-        "source": "they/follow",
+        "source": "follow",
         "target": "government",
         "type": ""
     },
@@ -4377,7 +4377,7 @@
         "sentence": "The current Japanese government is steering the country toward Socialism.",
         "source frame": "Vehicular motion",
         "target frame": "Governing action",
-        "source": "",
+        "source": "steering",
         "target": "government/country",
         "type": ""
     },
@@ -4414,7 +4414,7 @@
         "source frame": "Child care",
         "target frame": "Government",
         "source": "people/believe",
-        "target": "people/government",
+        "target": "government/people",
         "type": ""
     },
     {
@@ -4422,7 +4422,7 @@
         "sentence": "Can I decide what size soda I want to drink? No, that\u2019s the nanny state\u2019s job.",
         "source frame": "Child care",
         "target frame": "Government",
-        "source": "what",
+        "source": "",
         "target": "state",
         "type": ""
     },
@@ -4432,7 +4432,7 @@
         "source frame": "Business",
         "target frame": "Government institution",
         "source": "business/businesses",
-        "target": "business/government/businesses",
+        "target": "government/businesses/business",
         "type": ""
     },
     {
@@ -4458,7 +4458,7 @@
         "sentence": "If the injustice is part of the necessary friction of the machine of government, let it go, let it go: perchance it will wear smooth--certainly the machine will wear out. If the injustice has a spring, or a pulley, or a rope, or a crank, exclusively for itself, then perhaps you may consider whether the remedy will not be worse than the evil; but if it is of such a nature that it requires you to be the agent of injustice to another, then I say, break the law. Let your life be a counter-friction to stop the machine. What I have to do is to see, at any rate, that I do not lend myself to the wrong which I condemn.",
         "source frame": "Machine",
         "target frame": "Government institution",
-        "source": "What/pulley/machine/part",
+        "source": "machine/part/pulley",
         "target": "government/machine",
         "type": ""
     },
@@ -4468,7 +4468,7 @@
         "source frame": "Machine",
         "target frame": "Government institution",
         "source": "machine",
-        "target": "machine/Government",
+        "target": "government/machine",
         "type": ""
     },
     {
@@ -4512,7 +4512,7 @@
         "sentence": "The poor in our country need a boost up.",
         "source frame": "Support",
         "target frame": "Assistance",
-        "source": "up",
+        "source": "",
         "target": "",
         "type": ""
     },
@@ -4602,8 +4602,8 @@
         "sentence": "Congress moved quickly to avoid a governmental shutdown.",
         "source frame": "Motion along a path",
         "target frame": "Governing action",
-        "source": "",
-        "target": "",
+        "source": "moved",
+        "target": "moved",
         "type": ""
     },
     {
@@ -4693,7 +4693,7 @@
         "source frame": "Operating a machine",
         "target frame": "Legislative action",
         "source": "",
-        "target": "government/Senate",
+        "target": "government/senate",
         "type": ""
     },
     {
@@ -4782,7 +4782,7 @@
         "sentence": "Promises should be articulated clearly.",
         "source frame": "Crafting",
         "target frame": "Forming words",
-        "source": "",
+        "source": "articulated",
         "target": "",
         "type": ""
     },
@@ -4918,7 +4918,7 @@
         "source frame": "Being at a location",
         "target frame": "Existence",
         "source": "",
-        "target": "",
+        "target": "are",
         "type": ""
     },
     {
@@ -4972,7 +4972,7 @@
         "source frame": "Physical harm",
         "target frame": "Environmental harm",
         "source": "",
-        "target": "",
+        "target": "caused",
         "type": ""
     },
     {
@@ -4981,7 +4981,7 @@
         "source frame": "Physical harm",
         "target frame": "Environmental harm",
         "source": "",
-        "target": "pollution/Smog",
+        "target": "pollution/smog",
         "type": ""
     },
     {
@@ -5016,7 +5016,7 @@
         "sentence": "We are reaching the end of the house-buying process.",
         "source frame": "Motion to a location",
         "target frame": "Action",
-        "source": "end",
+        "source": "reaching/end",
         "target": "process",
         "type": ""
     },
@@ -5034,7 +5034,7 @@
         "sentence": "We are entering the last stages of filing for bankruptcy.",
         "source frame": "Motion to a location",
         "target frame": "Action",
-        "source": "",
+        "source": "entering",
         "target": "",
         "type": ""
     },
@@ -5043,8 +5043,8 @@
         "sentence": "Democrats Push Through Historic, Controversial Health Care Legislation",
         "source frame": "Forced motion",
         "target frame": "Legislation enactment",
-        "source": "Push",
-        "target": "Legislation",
+        "source": "push",
+        "target": "legislation",
         "type": ""
     },
     {
@@ -5115,7 +5115,7 @@
         "sentence": "The argument really heated up when she accused him of losing the car on purpose.",
         "source frame": "Heat",
         "target frame": "Emotion",
-        "source": "",
+        "source": "heated",
         "target": "",
         "type": ""
     },
@@ -5151,7 +5151,7 @@
         "sentence": "As the argument continued, things really heated up.",
         "source frame": "Heat",
         "target frame": "Emotional intensity",
-        "source": "",
+        "source": "heated",
         "target": "",
         "type": ""
     },
@@ -5160,7 +5160,7 @@
         "sentence": "Their relationship cooled off and they soon parted ways.",
         "source frame": "Heat",
         "target frame": "Emotional intensity",
-        "source": "",
+        "source": "cooled",
         "target": "",
         "type": ""
     },
@@ -5223,7 +5223,7 @@
         "sentence": "Both sides girded for battle, as they knew the general election would be a hard-won fight.",
         "source frame": "War",
         "target frame": "Election",
-        "source": "sides/fight/battle",
+        "source": "fight/battle/sides",
         "target": "election",
         "type": ""
     },
@@ -5241,7 +5241,7 @@
         "sentence": "Campaign Craft: The Strategies, Tactics, and Art of Political Campaign Management",
         "source frame": "War",
         "target frame": "Election",
-        "source": "Campaign",
+        "source": "campaign",
         "target": "",
         "type": ""
     },
@@ -5250,7 +5250,7 @@
         "sentence": "The GOP presidential race has a new front-runner: Gov. Rick Perry.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "race/front-runner",
+        "source": "front-runner/race",
         "target": "",
         "type": ""
     },
@@ -5277,7 +5277,7 @@
         "sentence": "Noem sprints to election finish line with stop in Elk Point, SD.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "sprints/finish",
+        "source": "finish/sprints",
         "target": "election",
         "type": ""
     },
@@ -5304,7 +5304,7 @@
         "sentence": "The Iowa caucuses in January 2012 serve as the starting line of the marathon primary-election campaigns necessary ...",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "marathon/campaigns",
+        "source": "campaigns/starting/marathon",
         "target": "",
         "type": ""
     },
@@ -5313,7 +5313,7 @@
         "sentence": "Hutchinson the front-runner in 2014 governor's race",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "race/front-runner",
+        "source": "front-runner/race",
         "target": "",
         "type": ""
     },
@@ -5340,7 +5340,7 @@
         "sentence": "Beasley won the first round of Democratic primary for lieutenant governor in 1970, but failed to win a majority.",
         "source frame": "Physical competition",
         "target frame": "Election",
-        "source": "round/win",
+        "source": "won/round/win",
         "target": "majority/primary",
         "type": ""
     },
@@ -5377,7 +5377,7 @@
         "source frame": "Gambling",
         "target frame": "Educational evaluation",
         "source": "",
-        "target": "",
+        "target": "testing",
         "type": ""
     },
     {
@@ -5395,7 +5395,7 @@
         "source frame": "Machine",
         "target frame": "Economy",
         "source": "",
-        "target": "Economy",
+        "target": "economy",
         "type": ""
     },
     {
@@ -5484,7 +5484,7 @@
         "sentence": "The cancer patient fought a long, hard, battle, but she eventually succumbed to her disease.",
         "source frame": "War",
         "target frame": "Disease treatment",
-        "source": "battle",
+        "source": "fought/battle",
         "target": "patient",
         "type": ""
     },
@@ -5493,7 +5493,7 @@
         "sentence": "A Triumph in the War Against Cancer",
         "source frame": "War",
         "target frame": "Disease treatment",
-        "source": "War",
+        "source": "war",
         "target": "",
         "type": ""
     },
@@ -5511,7 +5511,7 @@
         "sentence": "Americans are divided as to whether a third major party is needed in U.S. politics today",
         "source frame": "Separation",
         "target frame": "Argument",
-        "source": "to",
+        "source": "divided",
         "target": "",
         "type": ""
     },
@@ -5520,8 +5520,8 @@
         "sentence": "The Weapons of Diplomacy, and the Human Factor",
         "source frame": "War",
         "target frame": "Diplomacy",
-        "source": "Weapons",
-        "target": "Diplomacy",
+        "source": "weapons",
+        "target": "diplomacy",
         "type": ""
     },
     {
@@ -5556,7 +5556,7 @@
         "sentence": "My life is going nowhere - I'm just spinning my wheels.",
         "source frame": "Motion along a path",
         "target frame": "Life",
-        "source": "",
+        "source": "going",
         "target": "",
         "type": ""
     },
@@ -5629,7 +5629,7 @@
         "source frame": "Self propelled motion to a destination",
         "target frame": "Purposeful action",
         "source": "",
-        "target": "Do",
+        "target": "do",
         "type": ""
     },
     {
@@ -5746,7 +5746,7 @@
         "source frame": "Motion impediments",
         "target frame": "Debt",
         "source": "",
-        "target": "Debt",
+        "target": "debt",
         "type": ""
     },
     {
@@ -5755,7 +5755,7 @@
         "source frame": "Biological entity",
         "target frame": "Debt",
         "source": "",
-        "target": "debt/Credit",
+        "target": "credit/debt",
         "type": ""
     },
     {
@@ -5772,7 +5772,7 @@
         "sentence": "He attacked the speaker with harsh words of criticism.",
         "source frame": "Attacking",
         "target frame": "Criticizing",
-        "source": "",
+        "source": "attacked",
         "target": "criticism",
         "type": ""
     },
@@ -5781,8 +5781,8 @@
         "sentence": "Crime is a beast ravaging the city.",
         "source frame": "Fierce animal",
         "target frame": "Crime",
-        "source": "beast",
-        "target": "Crime",
+        "source": "beast/ravaging",
+        "target": "crime",
         "type": ""
     },
     {
@@ -5791,7 +5791,7 @@
         "source frame": "Disease",
         "target frame": "Crime",
         "source": "infected",
-        "target": "Crime",
+        "target": "crime",
         "type": ""
     },
     {
@@ -5817,8 +5817,8 @@
         "sentence": "Corruption is eroding the public trust in government.",
         "source frame": "Erosion",
         "target frame": "Corruption",
-        "source": "eroding/Corruption",
-        "target": "Corruption",
+        "source": "corruption/eroding",
+        "target": "corruption",
         "type": ""
     },
     {
@@ -5844,7 +5844,7 @@
         "sentence": "Our government is afflicted with the cancer of corruption.",
         "source frame": "Disease",
         "target frame": "Corruption",
-        "source": "corruption/cancer",
+        "source": "cancer/corruption/afflicted",
         "target": "corruption",
         "type": ""
     },
@@ -5853,8 +5853,8 @@
         "sentence": "Corrupt officials are infecting our government at every level.",
         "source frame": "Disease",
         "target frame": "Corruption",
-        "source": "level",
-        "target": "Corrupt",
+        "source": "infecting/level",
+        "target": "corrupt",
         "type": ""
     },
     {
@@ -5862,8 +5862,8 @@
         "sentence": "California Cities Struggling Under Wave of Corruption",
         "source frame": "Destructive_natural_process",
         "target frame": "Corruption",
-        "source": "Corruption",
-        "target": "Corruption",
+        "source": "corruption",
+        "target": "corruption",
         "type": ""
     },
     {
@@ -5979,7 +5979,7 @@
         "sentence": "He has control over all the workers.",
         "source frame": "Possession",
         "target frame": "Control",
-        "source": "control",
+        "source": "control/has",
         "target": "control",
         "type": ""
     },
@@ -5989,7 +5989,7 @@
         "source frame": "Possession",
         "target frame": "Control",
         "source": "",
-        "target": "hold/power",
+        "target": "power/hold",
         "type": ""
     },
     {
@@ -6006,7 +6006,7 @@
         "sentence": "He possesses the power to heal small animals.",
         "source frame": "Possession",
         "target frame": "Control",
-        "source": "",
+        "source": "possesses",
         "target": "power",
         "type": ""
     },
@@ -6060,7 +6060,7 @@
         "sentence": "Developing nations are gobbling up our fossil fuels at any alarming rate.",
         "source frame": "Overeating",
         "target frame": "Resource consumption",
-        "source": "",
+        "source": "gobbling",
         "target": "",
         "type": ""
     },
@@ -6159,7 +6159,7 @@
         "sentence": "Vanity finally drove me to have the operation.",
         "source frame": "Force",
         "target frame": "Compulsion",
-        "source": "",
+        "source": "drove",
         "target": "",
         "type": ""
     },
@@ -6178,7 +6178,7 @@
         "source frame": "Race",
         "target frame": "Competition",
         "source": "",
-        "target": "",
+        "target": "playing",
         "type": ""
     },
     {
@@ -6222,7 +6222,7 @@
         "sentence": "He pointed out that global warming is real.",
         "source frame": "Cause_to_perceive",
         "target frame": "Communication",
-        "source": "",
+        "source": "pointed",
         "target": "",
         "type": ""
     },
@@ -6348,7 +6348,7 @@
         "sentence": "...the people of America\u2019s needs and priorities become second to the needs of the state and the people of America become enslaved to the state.",
         "source frame": "Servitude",
         "target frame": "Nation",
-        "source": "",
+        "source": "enslaved",
         "target": "state/people",
         "type": ""
     },
@@ -6357,8 +6357,8 @@
         "sentence": "Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State",
         "source frame": "Person",
         "target frame": "Government",
-        "source": "",
-        "target": "State",
+        "source": "eyes/ears",
+        "target": "state",
         "type": ""
     },
     {
@@ -6402,7 +6402,7 @@
         "sentence": "One down of the three pillars of \u201cunalienable\u201d rights that hold up this great country of ours.",
         "source frame": "Physical structure",
         "target frame": "Rights",
-        "source": "One",
+        "source": "",
         "target": "rights",
         "type": ""
     },
@@ -6420,7 +6420,7 @@
         "sentence": "I got a headache.",
         "source frame": "Possession change",
         "target frame": "Change of state",
-        "source": "got",
+        "source": "",
         "target": "",
         "type": ""
     },
@@ -6438,7 +6438,7 @@
         "sentence": "He went crazy.",
         "source frame": "Motion along a path",
         "target frame": "Change of state",
-        "source": "",
+        "source": "went",
         "target": "",
         "type": ""
     },
@@ -6456,7 +6456,7 @@
         "sentence": "I came out of my depression.",
         "source frame": "Motion along a path",
         "target frame": "Change of state",
-        "source": "",
+        "source": "came",
         "target": "",
         "type": ""
     },
@@ -6465,7 +6465,7 @@
         "sentence": "He went over the edge.",
         "source frame": "Motion along a path",
         "target frame": "Change of state",
-        "source": "",
+        "source": "went",
         "target": "",
         "type": ""
     },
@@ -6474,7 +6474,7 @@
         "sentence": "Things have gone from bad to worse lately.",
         "source frame": "Motion along a path",
         "target frame": "Change of state",
-        "source": "",
+        "source": "gone",
         "target": "",
         "type": ""
     },
@@ -6492,7 +6492,7 @@
         "sentence": "He lost his faith.",
         "source frame": "Lose possession",
         "target frame": "Change of state",
-        "source": "",
+        "source": "lost",
         "target": "",
         "type": ""
     },
@@ -6510,7 +6510,7 @@
         "sentence": "I got a headache.",
         "source frame": "Gain possession",
         "target frame": "Change of state",
-        "source": "",
+        "source": "got",
         "target": "",
         "type": ""
     },
@@ -6546,7 +6546,7 @@
         "sentence": "The plans for the trip have finally been firmed up.",
         "source frame": "Firmness",
         "target frame": "Certainty",
-        "source": "",
+        "source": "firmed",
         "target": "",
         "type": ""
     },
@@ -6610,7 +6610,7 @@
         "source frame": "Force",
         "target frame": "Causation",
         "source": "",
-        "target": "",
+        "target": "brought",
         "type": ""
     },
     {
@@ -6618,7 +6618,7 @@
         "sentence": "That experience pushed him over the edge",
         "source frame": "Force",
         "target frame": "Causation",
-        "source": "",
+        "source": "pushed",
         "target": "",
         "type": ""
     },
@@ -6627,8 +6627,8 @@
         "sentence": "Regulations keep me from moving ahead with this housing project.",
         "source frame": "Motion along a path",
         "target frame": "Action",
-        "source": "",
-        "target": "",
+        "source": "moving",
+        "target": "moving",
         "type": ""
     },
     {
@@ -6655,7 +6655,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "work/do",
+        "target": "do/work",
         "type": ""
     },
     {
@@ -6672,8 +6672,8 @@
         "sentence": "She was forced into an arranged marriage.",
         "source frame": "Forced motion",
         "target frame": "Caused change of state",
-        "source": "",
-        "target": "",
+        "source": "forced",
+        "target": "forced",
         "type": ""
     },
     {
@@ -6681,7 +6681,7 @@
         "sentence": "Her parents kept pushing her until she succeeded.",
         "source frame": "Forced motion",
         "target frame": "Caused change of state",
-        "source": "",
+        "source": "pushing",
         "target": "",
         "type": ""
     },
@@ -6745,7 +6745,7 @@
         "source frame": "Competitive sport",
         "target frame": "Economic competition",
         "source": "",
-        "target": "Game/Lose",
+        "target": "game/lose",
         "type": ""
     },
     {
@@ -6772,7 +6772,7 @@
         "source frame": "Fierce animal",
         "target frame": "Bureaucracy",
         "source": "tentacle",
-        "target": "Administration/bureaucrats",
+        "target": "bureaucrats/administration",
         "type": ""
     },
     {
@@ -6781,7 +6781,7 @@
         "source frame": "Maze",
         "target frame": "Bureaucracy",
         "source": "system/maze",
-        "target": "bureaucratic/system",
+        "target": "system/bureaucratic",
         "type": ""
     },
     {
@@ -6888,7 +6888,7 @@
         "sentence": "She has a sunny disposition.",
         "source frame": "Possession",
         "target frame": "Attribute",
-        "source": "",
+        "source": "has",
         "target": "",
         "type": ""
     },
@@ -6897,7 +6897,7 @@
         "sentence": "This place has lost a lot of its charm.",
         "source frame": "Possession",
         "target frame": "Attribute",
-        "source": "",
+        "source": "has",
         "target": "",
         "type": ""
     },
@@ -6924,7 +6924,7 @@
         "sentence": "You could talk about the dealerships, auto dealerships that were closed down when the government got control of a couple of the auto companies, an awful lot of people lost jobs, businesses were closed, and so on.",
         "source frame": "Gain possession",
         "target frame": "Control",
-        "source": "",
+        "source": "got",
         "target": "control",
         "type": ""
     },
@@ -6934,7 +6934,7 @@
         "source frame": "Gain possession",
         "target frame": "Control",
         "source": "",
-        "target": "Control",
+        "target": "control",
         "type": ""
     },
     {
@@ -6987,7 +6987,7 @@
         "sentence": "He bombarded them with clever arguments.",
         "source frame": "War",
         "target frame": "Argument",
-        "source": "",
+        "source": "bombarded",
         "target": "arguments",
         "type": ""
     },
@@ -7015,7 +7015,7 @@
         "source frame": "Physical combat",
         "target frame": "Argument",
         "source": "",
-        "target": "argument/point",
+        "target": "point/argument",
         "type": ""
     },
     {
@@ -7122,7 +7122,7 @@
         "sentence": "Ecologists Shed New Light On Effects of Light Pollution On Wildlife",
         "source frame": "Seeing",
         "target frame": "Knowing",
-        "source": "Light",
+        "source": "light",
         "target": "",
         "type": ""
     },
@@ -7149,7 +7149,7 @@
         "sentence": "She's warming up to her new brother-in-law.",
         "source frame": "Heat",
         "target frame": "Affection",
-        "source": "",
+        "source": "warming",
         "target": "",
         "type": ""
     },
@@ -7159,7 +7159,7 @@
         "source frame": "Zealotry",
         "target frame": "Gun control",
         "source": "fanatics",
-        "target": "control/gun",
+        "target": "gun/control",
         "type": ""
     },
     {
@@ -7167,7 +7167,7 @@
         "sentence": "The most powerful weapon in the war against obesity might be something we all understand: cold, hard cash.",
         "source frame": "War",
         "target frame": "Addressing social problems",
-        "source": "war/weapon",
+        "source": "weapon/war",
         "target": "",
         "type": ""
     },
@@ -7185,7 +7185,7 @@
         "sentence": "Debt Ceiling Deal: Wrong Diagnosis Leads to Wrong Treatment for What Ails the Economy",
         "source frame": "Treating a physical affliction",
         "target frame": "Addressing social problems",
-        "source": "Treatment",
+        "source": "treatment",
         "target": "",
         "type": ""
     },
@@ -7204,7 +7204,7 @@
         "source frame": "Animal",
         "target frame": "Crime",
         "source": "",
-        "target": "activities/criminals",
+        "target": "criminals/activities",
         "type": ""
     },
     {
@@ -7257,7 +7257,7 @@
         "sentence": "Outside of washing the windows, what else did you do?",
         "source frame": "Bounded region",
         "target frame": "Activity",
-        "source": "Outside",
+        "source": "",
         "target": "",
         "type": ""
     },
@@ -7303,7 +7303,7 @@
         "source frame": "Self propelled motion",
         "target frame": "Action",
         "source": "",
-        "target": "",
+        "target": "drank",
         "type": ""
     },
     {
@@ -7311,7 +7311,7 @@
         "sentence": "He went on with what he was doing.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "",
+        "source": "went",
         "target": "doing",
         "type": ""
     },
@@ -7320,7 +7320,7 @@
         "sentence": "She went back to sleep.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "back",
+        "source": "back/went",
         "target": "sleep",
         "type": ""
     },
@@ -7347,8 +7347,8 @@
         "sentence": "Congress' refusal to compromise is moving the country toward economic ruin.",
         "source frame": "Motion_along_a_path",
         "target frame": "Action",
-        "source": "",
-        "target": "",
+        "source": "moving",
+        "target": "moving",
         "type": ""
     },
     {
@@ -7392,7 +7392,7 @@
         "sentence": "We pitched them the idea and they ate it right up.",
         "source frame": "Eating",
         "target frame": "Thinking about",
-        "source": "",
+        "source": "ate",
         "target": "idea",
         "type": ""
     },
@@ -7437,7 +7437,7 @@
         "sentence": "We've reached the end.",
         "source frame": "Self propelled motion to a destination",
         "target frame": "Purposeful action",
-        "source": "end",
+        "source": "reached/end",
         "target": "",
         "type": ""
     },
@@ -7500,7 +7500,7 @@
         "sentence": "Seize the opportunity.",
         "source frame": "Gain possession",
         "target frame": "Purposeful action",
-        "source": "Seize",
+        "source": "seize",
         "target": "",
         "type": ""
     },
@@ -7509,7 +7509,7 @@
         "sentence": "I kept getting close to a world championship, but it kept escaping me.",
         "source frame": "Gain possession",
         "target frame": "Purposeful action",
-        "source": "",
+        "source": "getting",
         "target": "",
         "type": ""
     },
@@ -7536,7 +7536,7 @@
         "sentence": "Will House Republicans Get Bullied into a Tax Hike By Obama?",
         "source frame": "Bully",
         "target frame": "State leadership",
-        "source": "Bullied",
+        "source": "bullied",
         "target": "",
         "type": ""
     },
@@ -7546,7 +7546,7 @@
         "source frame": "Bully",
         "target frame": "State leadership",
         "source": "",
-        "target": "generals/State/Secretary",
+        "target": "state/secretary/generals",
         "type": ""
     },
     {
