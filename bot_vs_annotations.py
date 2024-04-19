@@ -2,6 +2,18 @@ import json
 import csv
 from nltk.stem import WordNetLemmatizer
 
+EVAL_DIR = "data/bot_results"
+
+def clear_output_files():
+    for name in ['true_positives_equal.jsonl', 'true_positives_diverse.jsonl', 
+                 'false_positives.jsonl', 'true_negatives.jsonl', 'false_negatives.jsonl']:
+        open(f'{EVAL_DIR}/{name}', 'w').close()
+
+def write_to_file(file, sentence, src, tgt):
+    with open(f"{EVAL_DIR}/{file}", "a", encoding='utf-8') as f:
+        json.dump({"sentence": sentence, "source": src, "target": tgt}, f)
+        f.write("\n")
+
 def main():
     # counters for metaphors annotated by either bot or humans
     correct_positives = 0
@@ -12,7 +24,9 @@ def main():
     i = 1
     count = 0
 
-    with open("C:/Users/Stefano/Desktop/Università/a.a. 2022-2023/Tesi/CoCoS-Metaphor/1 - Dataset building/metanet_annotation.csv", "r", encoding='utf-8', newline="") as  csvfile:
+    clear_output_files()
+
+    with open("data/metanet_annotation.csv", "r", encoding='utf-8', newline="") as  csvfile:
         csv_reader = csv.reader(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         next(csv_reader, None)  #skip header
 
@@ -26,7 +40,7 @@ def main():
 
             if ann_type != '': #else, the metaphor has not been annotated yet
                 count += 1
-                with open("metanet_bot_v2.tsv", "r", encoding='utf-8', newline="") as  tsvfile:
+                with open("data/metanet_bot_v2.tsv", "r", encoding='utf-8', newline="") as  tsvfile:
                     found = False
                     pre_total = correct_positives + wrong_positives + false_positives + true_negatives + false_negatives
 
@@ -52,16 +66,21 @@ def main():
                                     if wnl.lemmatize(ann_src.lower(), ann_src_pos) in src_candidates \
                                                 and wnl.lemmatize(ann_tgt.lower(), ann_tgt_pos) in tgt_candidates:
                                         correct_positives += 1
+                                        write_to_file("true_positives_equal.jsonl", sentence, bot_src, bot_tgt)
                                     else:
                                         wrong_positives += 1
+                                        write_to_file("true_positives_diverse.jsonl", bot_sentence, bot_src, bot_tgt)
                                 else:
                                     false_positives += 1
-                                    print(f"FALSE POSITIVE - sentence: \"{bot_sentence}\"; src: \"{bot_src}\"; tgt: \"{bot_tgt}\"")
+                                    #print(f"FALSE POSITIVE - sentence: \"{bot_sentence}\"; src: \"{bot_src}\"; tgt: \"{bot_tgt}\"")
+                                    write_to_file("false_positives.jsonl", bot_sentence, bot_src, bot_tgt)
                             else:
                                 if ann_yes:
                                     false_negatives += 1
+                                    write_to_file("false_negatives.jsonl", bot_sentence, bot_src, bot_tgt)
                                 else:
                                     true_negatives += 1
+                                    write_to_file("true_negatives.jsonl", bot_sentence, bot_src, bot_tgt)
                     post_total = correct_positives + wrong_positives + false_positives + true_negatives + false_negatives
                     if post_total != pre_total + 1:
                         print(">>>", pre_total, post_total, sentence)
@@ -81,6 +100,18 @@ def main():
         
         print(f"Loss = {1 - (correct_positives + true_negatives) / total :.2%}")
         print(f"Correct positives / positives = {correct_positives / total_positives :.2%}\n")
+        with open(f"{EVAL_DIR}/bot_overview.json", "w") as f:
+            stats = {
+                "total_annotations": total,
+                "true positives": {
+                    "equal": correct_positives,
+                    "diverse": wrong_positives
+                },
+                "true_negatives": true_negatives,
+                "false_positives": false_positives,
+                "false_negatives": false_negatives,
+            }
+            json.dump(stats, f, indent=4)
 
 
 

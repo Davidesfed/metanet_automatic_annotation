@@ -1,0 +1,10 @@
+{
+    "total_annotations": 836,
+    "true positives": {
+        "equal": 83,
+        "diverse": 53
+    },
+    "true_negatives": 255,
+    "false_positives": 16,
+    "false_negatives": 429
+}
