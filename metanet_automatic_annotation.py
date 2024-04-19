@@ -1,8 +1,10 @@
 import json
 from nltk.tokenize import word_tokenize
+from nltk.tag import pos_tag
 from nltk.stem import WordNetLemmatizer
 import csv
 import os
+
 import pprint
 
 def retrieve_manual_annotations():
@@ -71,22 +73,41 @@ def build_LUs_set(automatic_annotation, max_depth=1):
                 
     return lexical_units
 
+def universal_to_wordnet(tagged_sentence):
+    wordnet_tokens = []
+    for token in tagged_sentence:
+        if token[1] == "NOUN":
+            wordnet_tokens.append((token[0].lower(), 'n'))
+        if token[1] == "ADJ":
+            wordnet_tokens.append((token[0].lower(), 'a'))
+        if token[1] == "VERB":
+            wordnet_tokens.append((token[0].lower(), 'v'))
+        if token[1] == "ADV":
+            wordnet_tokens.append((token[0].lower(), 'r'))
+        if token[1] not in ["NOUN", "ADJ", "VERB", "ADV"]:
+            wordnet_tokens.append((token[0].lower(), ''))
+    
+    return wordnet_tokens
+
 def preprocess_sentence(sentence):
     tokens = word_tokenize(sentence)
     lemmatizer = WordNetLemmatizer()
-    lemmas = [lemmatizer.lemmatize(token) for token in tokens]
+    pos_tags = pos_tag(tokens, tagset='universal')
+    pos_tags = universal_to_wordnet(pos_tags)
     prep_sent = []
-    for i in range(len(tokens)):
-        lemma_pos = lemmas[i].lower()
-        tmp = (lemma_pos, tokens[i])
-        prep_sent.append(tmp)
+    for token, pos in pos_tags:
+        if pos == '':
+            prep_sent.append(('-', token))
+        else:
+            prep_sent.append((lemmatizer.lemmatize(token, pos), token))
+    #print("Lemmas: ", prep_sent)
     return prep_sent
 
-def find_candidate_annotation(lexical_units, automatic_annotation, data_sources):
+def find_candidate_annotation(lexical_units, sentence, data_sources):
     res = {"source": set(), "target": set(), "type": ""}
-    sentence = preprocess_sentence(automatic_annotation["sentence"])
     for key in ["source", "target"]:
         for data_source in data_sources:
+            # print(f"LUs of {data_source}: ", lexical_units[key + " frame"][data_source])
             for lu in lexical_units[key + " frame"][data_source]:
                 for lemma, token in sentence:
                     if lu == lemma:
@@ -131,6 +152,7 @@ def annotate_metaphor(metaphor, data_sources, max_depth=None):
         "type": ""
     }
 
+    prep_sentence = preprocess_sentence(metaphor["sentence"])
     ancestor_metaphors = build_ancestor_list(automatic_annotation, max_depth)
     count = 0
     for ancestor_metaphor in ancestor_metaphors:
@@ -138,7 +160,7 @@ def annotate_metaphor(metaphor, data_sources, max_depth=None):
             count += 1
             continue
         lexical_units = build_LUs_set(ancestor_metaphor)
-        candidate = find_candidate_annotation(lexical_units, ancestor_metaphor, data_sources)
+        candidate = find_candidate_annotation(lexical_units, prep_sentence, data_sources)
         automatic_annotation = elect_annotation(automatic_annotation, candidate)
     automatic_annotation["source"] = "/".join(automatic_annotation["source"]) if count < len(ancestor_metaphors) else None
     automatic_annotation["target"] = "/".join(automatic_annotation["target"]) if count < len(ancestor_metaphors) else None
