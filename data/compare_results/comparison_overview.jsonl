@@ -1,0 +1,5 @@
+{"filename": "true_positives_equal", "in_bot_not_in_aut": 31, "in_aut_not_in_bot": 9, "in_both": 52}
+{"filename": "true_positives_diverse", "in_bot_not_in_aut": 16, "in_aut_not_in_bot": 34, "in_both": 37}
+{"filename": "false_positives", "in_bot_not_in_aut": 9, "in_aut_not_in_bot": 7, "in_both": 7}
+{"filename": "true_negatives", "in_bot_not_in_aut": 20, "in_aut_not_in_bot": 12, "in_both": 235}
+{"filename": "false_negatives", "in_bot_not_in_aut": 55, "in_aut_not_in_bot": 35, "in_both": 374}

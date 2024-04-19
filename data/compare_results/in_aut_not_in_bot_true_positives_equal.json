@@ -1,0 +1,83 @@
+[
+    {
+        "category": "THEORIES ARE BUILDINGS",
+        "sentence": "This theory has a solid foundation.",
+        "source frame": "Building",
+        "target frame": "Theory",
+        "source": "foundation",
+        "target": "theory",
+        "type": ""
+    },
+    {
+        "category": "TAXATION IS CAUSING HARM",
+        "sentence": "High sales taxes hurt local small businesses.",
+        "source frame": "Physical harm",
+        "target frame": "Taxation",
+        "source": "hurt",
+        "target": "taxes",
+        "type": ""
+    },
+    {
+        "category": "SOCIETY IS A COMPLEX STRUCTURE",
+        "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
+        "source frame": "Complex physical object",
+        "target frame": "Society",
+        "source": "part/parts/stability/whole",
+        "target": "Society/society",
+        "type": ""
+    },
+    {
+        "category": "RELATIONSHIPS ARE PHYSICAL STRUCTURES",
+        "sentence": "Their relationship is built on a solid foundation of trust and commitment.",
+        "source frame": "Physical structure",
+        "target frame": "Relationship",
+        "source": "built",
+        "target": "relationship",
+        "type": ""
+    },
+    {
+        "category": "RELATIONSHIPS ARE COMPLEX STRUCTURES",
+        "sentence": "It takes work to build any relationship.",
+        "source frame": "Complex physical object",
+        "target frame": "Relationship",
+        "source": "build",
+        "target": "relationship",
+        "type": ""
+    },
+    {
+        "category": "GROUPS ARE PART-WHOLE STRUCTURES",
+        "sentence": "Earth is part of the group of \"terrestrial\" planets.",
+        "source frame": "Part_whole",
+        "target frame": "Group",
+        "source": "part",
+        "target": "group",
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT IS A PERSON",
+        "sentence": "The US government loves you. In fact, it loves you so much that it\u2019s willing shackle your legs together. Just to protect you \u2013 tough love, baby. Now, it may hurt a bit but just try to breathe through the pain. Remember \u2013 it hurts the government more than it hurts you.",
+        "source frame": "Person",
+        "target frame": "Government",
+        "source": "baby/love/you/loves",
+        "target": "government",
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT IS A PARENT",
+        "sentence": "Doctrine of Parens Patriae.\" Parens Patriae means literally, \"parent of the country.\" It refers traditionally to the role of STATE as sovereign and guardian of persons under legal disability.",
+        "source frame": "Nuclear family",
+        "target frame": "Government",
+        "source": "parent/persons",
+        "target": "STATE/country/sovereign",
+        "type": ""
+    },
+    {
+        "category": "ACHIEVING POWER IS MOVING UPWARDS",
+        "sentence": "Hitler's rise to power cannot be attributed to one event, but a mixture of factors including events happening outside Germany...",
+        "source frame": "Upward motion",
+        "target frame": "Power",
+        "source": "rise",
+        "target": "power",
+        "type": ""
+    }
+]

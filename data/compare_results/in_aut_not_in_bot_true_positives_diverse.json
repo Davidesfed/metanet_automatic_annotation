@@ -1,0 +1,308 @@
+[
+    {
+        "category": "TAXATION IS SLAVERY",
+        "sentence": "America Tax Slaves Work 6.5 Months Every Year to Pay for Government",
+        "source frame": "Servitude",
+        "target frame": "Taxation",
+        "source": "Work",
+        "target": "Tax/Government",
+        "type": ""
+    },
+    {
+        "category": "TAXATION IS A BURDEN",
+        "sentence": "Remember when President Obama literally laughed out loud at the idea his health-care plan would impose taxes on the middle class?",
+        "source frame": "Burden",
+        "target frame": "Taxation",
+        "source": "idea",
+        "target": "taxes",
+        "type": ""
+    },
+    {
+        "category": "TAXATION IS A BURDEN",
+        "sentence": "New Taxes Burdensome for Farm and Ranch Families",
+        "source frame": "Burden",
+        "target frame": "Taxation",
+        "source": "Burdensome",
+        "target": "Taxes",
+        "type": ""
+    },
+    {
+        "category": "SOCIETY IS A PERSON",
+        "sentence": "Our society is suffering from many social problems.",
+        "source frame": "Person",
+        "target frame": "Society",
+        "source": "society",
+        "target": "society",
+        "type": ""
+    },
+    {
+        "category": "QUANTITY IS SIZE",
+        "sentence": "He doesn't know how big our national debt is.",
+        "source frame": "Size",
+        "target frame": "Quantity",
+        "source": "how/big",
+        "target": "how",
+        "type": ""
+    },
+    {
+        "category": "PURITY IS CLEANLINESS",
+        "sentence": "Her soul was scrubbed clean of impurities.",
+        "source frame": "Cleanliness",
+        "target frame": "Purity",
+        "source": "clean",
+        "target": "impurities",
+        "type": ""
+    },
+    {
+        "category": "OPPORTUNITIES ARE PORTALS",
+        "sentence": "Opportunity is an open door.",
+        "source frame": "Portals",
+        "target frame": "Opportunities",
+        "source": "door",
+        "target": "Opportunity",
+        "type": ""
+    },
+    {
+        "category": "NATION IS A BOAT",
+        "sentence": "Scuttling the Ship of State to appease climate activists",
+        "source frame": "Boat",
+        "target frame": "Nation",
+        "source": "Ship",
+        "target": "State",
+        "type": ""
+    },
+    {
+        "category": "NATION IS A BOAT",
+        "sentence": "Our country is burdened by debt and that may sink us in the rough waters ahead.",
+        "source frame": "Boat",
+        "target frame": "Nation",
+        "source": "waters",
+        "target": "country",
+        "type": ""
+    },
+    {
+        "category": "MORE IS BIG",
+        "sentence": "The city is expanding the number of recycling containers in parks.",
+        "source frame": "Size",
+        "target frame": "Quantity",
+        "source": "number",
+        "target": "number",
+        "type": ""
+    },
+    {
+        "category": "MONEY IS A LIQUID",
+        "sentence": "Liquid assets.",
+        "source frame": "Liquid",
+        "target frame": "Money",
+        "source": "Liquid",
+        "target": "assets",
+        "type": ""
+    },
+    {
+        "category": "LESS IS SMALL",
+        "sentence": "The number of available parking spaces continues to shrink.",
+        "source frame": "Size",
+        "target frame": "Quantity",
+        "source": "number",
+        "target": "number",
+        "type": ""
+    },
+    {
+        "category": "INSTITUTION IS A VEHICLE",
+        "sentence": "I would venture to conclude from this that institutions are vehicles of subcultures driven by groups of people with a common destination",
+        "source frame": "Vehicle",
+        "target frame": "Institution",
+        "source": "vehicles",
+        "target": "people/groups/common/institutions/subcultures",
+        "type": ""
+    },
+    {
+        "category": "INSTITUTION IS A MACHINE",
+        "sentence": "More especially, the analogy mentioned between institutions and machines must not be interpreted as proposing the theory that institutions are machines\u2014in some essentialist sense.",
+        "source frame": "Machine",
+        "target frame": "Institution",
+        "source": "machines",
+        "target": "institutions/machines",
+        "type": ""
+    },
+    {
+        "category": "INCREASE IN CRIME IS SPREAD OF DISEASE",
+        "sentence": "As It Opens to Outsiders, Cuba Is Infected by Crime",
+        "source frame": "Disease",
+        "target frame": "Crime",
+        "source": "Infected",
+        "target": "Crime",
+        "type": ""
+    },
+    {
+        "category": "IDEAS ARE FOOD",
+        "sentence": "This is what happens when science serves up facts more indigestible than evolution. We end up with a society where the masses live in outright ignorance and denial, while the dominant institutions, thanks to market and political expediency, continually reorganize themselves around actionable intelligence as it comes in.",
+        "source frame": "Food",
+        "target frame": "Idea",
+        "source": "market",
+        "target": "ignorance",
+        "type": ""
+    },
+    {
+        "category": "IDEAS ARE FOOD",
+        "sentence": "Food for thought nust be appetizing. Chemistry students usually can write acceptable exposition if they know good writing is expected",
+        "source frame": "Food",
+        "target frame": "Idea",
+        "source": "can/Food",
+        "target": "good/know/thought",
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT REGULATION IS A BURDEN",
+        "sentence": "The burdens of regulation on corporations hold down their profit margins.",
+        "source frame": "Burden",
+        "target frame": "Regulation",
+        "source": "burdens",
+        "target": "regulation",
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT IS A SLAVE MASTER",
+        "sentence": "There can be no doubt that the federal government is the new slave master, something the Founding Fathers warned us against.",
+        "source frame": "Work scenario",
+        "target frame": "Government",
+        "source": "slave",
+        "target": "government/federal",
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT IS A SHEPHERD",
+        "sentence": "Citizen Sheep Government Shepherds",
+        "source frame": "Shepherding",
+        "target frame": "Government",
+        "source": "Sheep",
+        "target": "Government",
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT IS A CHILDCARE PROVIDER",
+        "sentence": "Can I decide what size soda I want to drink? No, that\u2019s the nanny state\u2019s job.",
+        "source frame": "Child care",
+        "target frame": "Government",
+        "source": "what",
+        "target": "state",
+        "type": ""
+    },
+    {
+        "category": "EMOTIONS ARE OBJECTS",
+        "sentence": "He hid his love from her.",
+        "source frame": "Object",
+        "target frame": "Emotion",
+        "source": "love",
+        "target": "love",
+        "type": ""
+    },
+    {
+        "category": "ELECTION IS A RACE",
+        "sentence": "With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.",
+        "source frame": "Race",
+        "target frame": "Election",
+        "source": "start/running",
+        "target": "primary",
+        "type": ""
+    },
+    {
+        "category": "DIPLOMACY IS WAR",
+        "sentence": "The Weapons of Diplomacy, and the Human Factor",
+        "source frame": "War",
+        "target frame": "Diplomacy",
+        "source": "Weapons",
+        "target": "Diplomacy",
+        "type": ""
+    },
+    {
+        "category": "CRIME IS A DISEASE",
+        "sentence": "Crime has infected communities everywhere.",
+        "source frame": "Disease",
+        "target frame": "Crime",
+        "source": "infected",
+        "target": "Crime",
+        "type": ""
+    },
+    {
+        "category": "CORRUPTION IS EROSION",
+        "sentence": "Corruption is eroding the public trust in government.",
+        "source frame": "Erosion",
+        "target frame": "Corruption",
+        "source": "eroding/Corruption",
+        "target": "Corruption",
+        "type": ""
+    },
+    {
+        "category": "CORRUPTION IS A TERMITE INFESTATION",
+        "sentence": "Our nation has been infested with the termites of corruption, the worms of immorality, and a virus of indifference and apathy.",
+        "source frame": "Parasite",
+        "target frame": "Corruption",
+        "source": "corruption",
+        "target": "corruption/immorality",
+        "type": ""
+    },
+    {
+        "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
+        "sentence": "California Cities Struggling Under Wave of Corruption",
+        "source frame": "Destructive_natural_process",
+        "target frame": "Corruption",
+        "source": "Corruption",
+        "target": "Corruption",
+        "type": ""
+    },
+    {
+        "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
+        "sentence": "FIFA facing corruption 'tsunami'",
+        "source frame": "Destructive_natural_process",
+        "target frame": "Corruption",
+        "source": "corruption",
+        "target": "corruption",
+        "type": ""
+    },
+    {
+        "category": "CONTROL IS A POSSESSION",
+        "sentence": "She regained control of the assembly.",
+        "source frame": "Possession",
+        "target frame": "Control",
+        "source": "control",
+        "target": "control",
+        "type": ""
+    },
+    {
+        "category": "CITIZENS ARE SLAVES",
+        "sentence": "This new slavery is a total dependence by individuals and families on government for the materials and funds necessary to maintain a minimum standard of living.",
+        "source frame": "Servitude",
+        "target frame": "Nation",
+        "source": "slavery",
+        "target": "government",
+        "type": ""
+    },
+    {
+        "category": "CITIZEN RIGHTS ARE POSSESSIONS",
+        "sentence": "Don't let anyone take away your right to vote.",
+        "source frame": "Possession",
+        "target frame": "Rights",
+        "source": "take",
+        "target": "right",
+        "type": ""
+    },
+    {
+        "category": "CITIZEN RIGHTS ARE PHYSICAL STRUCTURES",
+        "sentence": "One down of the three pillars of \u201cunalienable\u201d rights that hold up this great country of ours.",
+        "source frame": "Physical structure",
+        "target frame": "Rights",
+        "source": "One",
+        "target": "rights",
+        "type": ""
+    },
+    {
+        "category": "ACTION IS SELF-PROPELLED MOTION ALONG A PATH",
+        "sentence": "She went back to sleep.",
+        "source frame": "Self propelled motion",
+        "target frame": "Action",
+        "source": "back",
+        "target": "sleep",
+        "type": ""
+    }
+]

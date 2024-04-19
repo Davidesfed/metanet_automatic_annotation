@@ -1,0 +1,47 @@
+[
+    {
+        "sentence": "President Obama won a major victory in November.",
+        "source": "win/victory",
+        "target": "win"
+    },
+    {
+        "sentence": "In the Supervisors race, my candidate came out slightly ahead of his closest rival.",
+        "source": "rival/race",
+        "target": "rival"
+    },
+    {
+        "sentence": "All the bridges that used to span this river are now gone.",
+        "source": "be",
+        "target": "be"
+    },
+    {
+        "sentence": "It is smooth sailing from here on in in the application process.",
+        "source": "process",
+        "target": "process"
+    },
+    {
+        "sentence": "He possesses the power to heal small animals.",
+        "source": "possess",
+        "target": "power"
+    },
+    {
+        "sentence": "Regulations keep me from moving ahead with this housing project.",
+        "source": "move",
+        "target": "move"
+    },
+    {
+        "sentence": "He's really gotten hung up at that step in the process.",
+        "source": "process",
+        "target": "process/step"
+    },
+    {
+        "sentence": "She was forced into an arranged marriage.",
+        "source": "force",
+        "target": "force"
+    },
+    {
+        "sentence": "It's Now Apple And Samsung's Game To Lose--Everyone Else Is An Also-Ran",
+        "source": "lose",
+        "target": "lose"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "sentence": "I'm mad!",
+        "source": "mad",
+        "target": ""
+    },
+    {
+        "sentence": "He is under my control.",
+        "source": "",
+        "target": "control"
+    },
+    {
+        "sentence": "He has a lofty position.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "Increased transparency has increased the public's confidence in government.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "Her death hurt him.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "The President played his part magnificently.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "Romney Back on National Stage, If Only Briefly",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "Could Texas be a battleground state?",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "Infrastructure: The Foundation for Wealth and Poverty Reduction",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "He's an upstanding citizen.",
+        "source": "",
+        "target": "upstanding"
+    },
+    {
+        "sentence": "Japan's Spat With China Takes Big Toll on Tourism",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "France has close ties to former colony Tunisia",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "The upwardly mobile are moving into nicer neighborhoods.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "The point, however, is that saying that government is inefficient because it does not turn a profit is the equivalent of saying that Peyton Manning is a poor quarterback because he doesn\u2019t hit enough home runs. He\u2019s not supposed to.",
+        "source": "",
+        "target": "government"
+    },
+    {
+        "sentence": "Stay up to date on Sunlight\u2019s work in D.C., throughout the country and around the world, as well as the latest open government, transparency and technology news.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "The World Bank has issued its latest index of corruption and transparency. The world\u2019s largest democracy, India, is looking a bit red-faced.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "He has a lofty position.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "The poor deserve a hand up, not a handout.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "As citizens, we must work together with our government to advance the good of our nation.",
+        "source": "",
+        "target": ""
+    },
+    {
+        "sentence": "The arms race.",
+        "source": "race",
+        "target": ""
+    }
+]
