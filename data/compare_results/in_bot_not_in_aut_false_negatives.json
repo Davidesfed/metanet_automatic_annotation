@@ -1,5 +1,10 @@
 [
     {
+        "sentence": "He's burning with rage.",
+        "source": "",
+        "target": "rage"
+    },
+    {
         "sentence": "This theory has a solid foundation.",
         "source": "foundation",
         "target": ""
@@ -80,6 +85,11 @@
         "target": ""
     },
     {
+        "sentence": "\"Are They Parts of Our Nation? Tanzanian and Zambian University Students\u2019 Attitude to the European and South Asian Minorities Compared\"",
+        "source": "",
+        "target": "nation"
+    },
+    {
         "sentence": "Our country is burdened by debt and that may sink us in the rough waters ahead.",
         "source": "",
         "target": "country"
@@ -93,6 +103,11 @@
         "sentence": "The number of available parking spaces continues to shrink.",
         "source": "",
         "target": "number"
+    },
+    {
+        "sentence": "She had acquired an intimate knowledge of the terrain, which now helped her to travel quickly.",
+        "source": "acquire",
+        "target": ""
     },
     {
         "sentence": "Obama is the head of the country, whether some people don't like democracy or not.",
@@ -145,6 +160,11 @@
         "target": "ignorance"
     },
     {
+        "sentence": "She walked him through the analysis.",
+        "source": "walk",
+        "target": ""
+    },
+    {
         "sentence": "Earth is part of the group of \"terrestrial\" planets.",
         "source": "",
         "target": "group"
@@ -193,11 +213,6 @@
         "sentence": "The US government loves you. In fact, it loves you so much that it\u2019s willing shackle your legs together. Just to protect you \u2013 tough love, baby. Now, it may hurt a bit but just try to breathe through the pain. Remember \u2013 it hurts the government more than it hurts you.",
         "source": "",
         "target": "government"
-    },
-    {
-        "sentence": "Can I decide what size soda I want to drink? No, that\u2019s the nanny state\u2019s job.",
-        "source": "",
-        "target": "state"
     },
     {
         "sentence": "Our country's poor are addicted to welfare.",
@@ -256,11 +271,6 @@
     },
     {
         "sentence": "Don't let anyone take away your right to vote.",
-        "source": "",
-        "target": "right"
-    },
-    {
-        "sentence": "One down of the three pillars of \u201cunalienable\u201d rights that hold up this great country of ours.",
         "source": "",
         "target": "right"
     },

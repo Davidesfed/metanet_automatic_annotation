@@ -27,12 +27,39 @@
         "type": ""
     },
     {
+        "category": "PROGRESS IS FORWARD MOTION ALONG A PATH",
+        "sentence": "Let's keep moving forward on this experiment.",
+        "source frame": "Motion_along_a_path",
+        "target frame": "Action",
+        "source": "moving",
+        "target": "moving",
+        "type": ""
+    },
+    {
+        "category": "ORGANIZATION IS A MACHINE",
+        "sentence": "Since the enactment of SB 163 (Evans), the three branches of state government have been working smoothly in the transition process called for in that landmark legislation.",
+        "source frame": "Machine",
+        "target frame": "Organization",
+        "source": "working",
+        "target": "government",
+        "type": ""
+    },
+    {
         "category": "MORALITY IS UPRIGHTNESS",
         "sentence": "He's an upstanding citizen.",
         "source frame": "Upright_posture",
         "target frame": "Morality",
         "source": "upstanding",
         "target": "upstanding",
+        "type": ""
+    },
+    {
+        "category": "MANNER OF ACTION IS MANNER OF MOVEMENT",
+        "sentence": "I'm walking on egg shells.",
+        "source frame": "Self propelled motion",
+        "target frame": "Action",
+        "source": "walking",
+        "target": "walking",
         "type": ""
     },
     {
@@ -60,6 +87,15 @@
         "target frame": "Competition",
         "source": "race",
         "target": "race",
+        "type": ""
+    },
+    {
+        "category": "ACTION IS SELF-PROPELLED MOTION ALONG A PATH",
+        "sentence": "He went on with what he was doing.",
+        "source frame": "Self propelled motion",
+        "target frame": "Action",
+        "source": "went",
+        "target": "doing",
         "type": ""
     }
 ]

@@ -2,8 +2,11 @@ import json
 import csv
 
 BOT_DIR = "data/bot_results"
-AUT_ANN_DIR = "data/results"
+AUT_ANN_DIR = "data/aut_results"
 COMPARE_DIR = "data/compare_results"
+
+def clear_output_files():
+    open(f"{COMPARE_DIR}/comparison_overview.jsonl", "w").close()
 
 def compute_differences(bot_results, aut_results):
     in_bot_not_in_aut = []
@@ -57,6 +60,8 @@ def main():
         "false_negatives.jsonl": ["false_negatives.jsonl", "true_source_positives.jsonl", "true_target_positives.jsonl"]
     }
 
+    clear_output_files()
+    
     for filename in filenames_bot:
         with open(f"{BOT_DIR}/{filename}", "r", encoding='utf8') as f:
             bot_results = [json.loads(line) for line in f]

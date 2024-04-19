@@ -27,56 +27,11 @@
         "type": ""
     },
     {
-        "category": "INSTITUTION IS A BUSINESS",
-        "sentence": "Institutions Are Businesses, Too",
-        "source frame": "Business",
-        "target frame": "Institution",
-        "source": "",
-        "target": "",
-        "type": ""
-    },
-    {
-        "category": "GOVERNING ACTION IS MOTION",
-        "sentence": "Congress moved quickly to avoid a governmental shutdown.",
-        "source frame": "Motion along a path",
-        "target frame": "Governing action",
-        "source": "",
-        "target": "",
-        "type": ""
-    },
-    {
-        "category": "ENVIRONMENTAL HARM IS PHYSICAL INJURY",
-        "sentence": "The oil spill has caused a shock to the environment.",
-        "source frame": "Physical harm",
-        "target frame": "Environmental harm",
-        "source": "",
-        "target": "",
-        "type": ""
-    },
-    {
-        "category": "COMPETITION IS A RACE",
-        "sentence": "We\u2019ve been playing chess for years, and he\u2019s finally pulling ahead of me.",
-        "source frame": "Race",
-        "target frame": "Competition",
-        "source": "",
-        "target": "",
-        "type": ""
-    },
-    {
-        "category": "ACTION IS MOTION ALONG A PATH",
-        "sentence": "Congress' refusal to compromise is moving the country toward economic ruin.",
-        "source frame": "Motion_along_a_path",
-        "target frame": "Action",
-        "source": "",
-        "target": "",
-        "type": ""
-    },
-    {
         "category": "AMOUNT OF GUN VIOLENCE IS A FLUID",
         "sentence": "We have not found a way to stem this rising flood of gun violence.",
         "source frame": "Fluid motion",
         "target frame": "Injurious gun use",
-        "source": "flood",
+        "source": "rising/flood",
         "target": "",
         "type": ""
     },
@@ -99,57 +54,12 @@
         "type": ""
     },
     {
-        "category": "AMOUNT OF POVERTY IS SIZE OF GEOGRAPHIC FEATURE",
-        "sentence": "WE CANNOT HAVE ISLANDS OF PROSPERITY NEXT TO OCEANS OF POVERTY AND SQUALOR",
-        "source frame": "Geographic feature",
-        "target frame": "Poverty",
-        "source": "",
-        "target": "POVERTY",
-        "type": ""
-    },
-    {
-        "category": "WHOLES ARE POSSESSORS",
-        "sentence": "The eye possesses several parts.",
-        "source frame": "Possession",
-        "target frame": "Part whole",
-        "source": "",
-        "target": "parts",
-        "type": ""
-    },
-    {
-        "category": "WHOLES ARE POSSESSORS",
-        "sentence": "Which car part belongs to which car?",
-        "source frame": "Possession",
-        "target frame": "Part whole",
-        "source": "",
-        "target": "part",
-        "type": ""
-    },
-    {
         "category": "WELL-FUNCTIONING BUREAUCRACY IS A SMOOTHLY FUNCTIONING MACHINE",
         "sentence": "Despite the debt crisis, the welfare bureaucracy continued to hum along, producing checks every month.",
         "source frame": "Machine",
         "target frame": "Bureaucracy",
         "source": "",
         "target": "bureaucracy",
-        "type": ""
-    },
-    {
-        "category": "VOTING IS SPEAKING",
-        "sentence": "The voters of Dillon have clearly spoken.",
-        "source frame": "Speaking",
-        "target frame": "Voting",
-        "source": "",
-        "target": "voters",
-        "type": ""
-    },
-    {
-        "category": "TERMINATION OF CONTROL IS LOSS OF A POSSESSION",
-        "sentence": "The dummies were 2-to-1 in favor of the Arizona immigration law; the court gutted it. Only those dummies, not in a state of denial, understand that we the people have lost control of our government.",
-        "source frame": "Lose possession",
-        "target frame": "Control",
-        "source": "",
-        "target": "control",
         "type": ""
     },
     {
@@ -171,42 +81,6 @@
         "type": ""
     },
     {
-        "category": "PREVENTING ENACTMENT OF LEGISLATION IS BLOCKING MOTION",
-        "sentence": "The Senator's filibuster halted the passage of the bill.",
-        "source frame": "Motion impediments",
-        "target frame": "Legislation enactment",
-        "source": "",
-        "target": "bill",
-        "type": ""
-    },
-    {
-        "category": "NATION IS CONTAINER",
-        "sentence": "Our nation contains some of the best entrepreneurs in the world.",
-        "source frame": "Resource container",
-        "target frame": "Nation",
-        "source": "",
-        "target": "nation/world",
-        "type": ""
-    },
-    {
-        "category": "MONEY TRANSFER IS FLUID MOTION",
-        "sentence": "The money is gushing out of my retirement account.",
-        "source frame": "Fluid motion",
-        "target frame": "Money",
-        "source": "",
-        "target": "account/money",
-        "type": ""
-    },
-    {
-        "category": "LEADING A NATION IS STEERING A BOAT",
-        "sentence": "The president is steering the country into unknown waters.",
-        "source frame": "Steering a boat",
-        "target frame": "State leadership",
-        "source": "",
-        "target": "president",
-        "type": ""
-    },
-    {
         "category": "INHIBITTING ENACTMENT OF LEGISLATION IS IMPEDING MOTION",
         "sentence": "Senate Republicans blocked legislation Wednesday that would have established a  billion jobs program putting veterans back to work tending to the country's federal lands and bolstering local police and fire departments.",
         "source frame": "Impediment to motion",
@@ -216,102 +90,21 @@
         "type": ""
     },
     {
-        "category": "GUNS ARE DRUGS",
-        "sentence": "The primary reason Americans are addicted to guns is due to the National Rifle Association's very effective \u2014 and immoral \u2014 campaign to instill fear into the heart of our citizens, which has paralyzed the soul of America.",
-        "source frame": "Addiction",
-        "target frame": "Personal weapon",
+        "category": "ENVIRONMENTAL HARM IS PHYSICAL INJURY",
+        "sentence": "The oil spill has caused a shock to the environment.",
+        "source frame": "Physical harm",
+        "target frame": "Environmental harm",
         "source": "",
-        "target": "guns/Rifle",
+        "target": "caused",
         "type": ""
     },
     {
-        "category": "GROUPS ARE POSSESSORS",
-        "sentence": "The Milky Way belongs to a cluster of galaxies.",
-        "source frame": "Possession",
-        "target frame": "Group",
+        "category": "COMPETITION IS A RACE",
+        "sentence": "We\u2019ve been playing chess for years, and he\u2019s finally pulling ahead of me.",
+        "source frame": "Race",
+        "target frame": "Competition",
         "source": "",
-        "target": "cluster",
-        "type": ""
-    },
-    {
-        "category": "GROUPS ARE CONTAINERS",
-        "sentence": "This group contains twenty members.",
-        "source frame": "Containing",
-        "target frame": "Group",
-        "source": "",
-        "target": "group/members",
-        "type": ""
-    },
-    {
-        "category": "GOVERNMENT REGULATION IS SUFFOCATION",
-        "sentence": "The entrepreneur was suffocated by the all the onerous regulations he had to follow.",
-        "source frame": "Stop airflow",
-        "target frame": "Regulation",
-        "source": "",
-        "target": "regulations",
-        "type": ""
-    },
-    {
-        "category": "GOVERNMENT IS A DRIVER",
-        "sentence": "The current Japanese government is steering the country toward Socialism.",
-        "source frame": "Vehicular motion",
-        "target frame": "Governing action",
-        "source": "",
-        "target": "government/country",
-        "type": ""
-    },
-    {
-        "category": "CRITICIZING IS ATTACKING",
-        "sentence": "He attacked the speaker with harsh words of criticism.",
-        "source frame": "Attacking",
-        "target frame": "Criticizing",
-        "source": "",
-        "target": "criticism",
-        "type": ""
-    },
-    {
-        "category": "CITIZENS ARE SLAVES",
-        "sentence": "...the people of America\u2019s needs and priorities become second to the needs of the state and the people of America become enslaved to the state.",
-        "source frame": "Servitude",
-        "target frame": "Nation",
-        "source": "",
-        "target": "state/people",
-        "type": ""
-    },
-    {
-        "category": "CITIZENS ARE EYES AND EARS",
-        "sentence": "Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State",
-        "source frame": "Person",
-        "target frame": "Government",
-        "source": "",
-        "target": "State",
-        "type": ""
-    },
-    {
-        "category": "ATTAINING CONTROL IS GAINING A POSSESSION",
-        "sentence": "You could talk about the dealerships, auto dealerships that were closed down when the government got control of a couple of the auto companies, an awful lot of people lost jobs, businesses were closed, and so on.",
-        "source frame": "Gain possession",
-        "target frame": "Control",
-        "source": "",
-        "target": "control",
-        "type": ""
-    },
-    {
-        "category": "ARGUMENT IS WAR",
-        "sentence": "He bombarded them with clever arguments.",
-        "source frame": "War",
-        "target frame": "Argument",
-        "source": "",
-        "target": "arguments",
-        "type": ""
-    },
-    {
-        "category": "ACQUIRING IDEAS IS EATING",
-        "sentence": "We pitched them the idea and they ate it right up.",
-        "source frame": "Eating",
-        "target frame": "Thinking about",
-        "source": "",
-        "target": "idea",
+        "target": "playing",
         "type": ""
     }
 ]

@@ -58,7 +58,7 @@ def update_stats(stats, manual_annotation, automatic_annotation):
         stats[label]['total'] += 1
         for cand_source in automatic_annotation["source"].split("/"):
             for cand_target in automatic_annotation["target"].split("/"):
-                if manual_annotation["source"] == cand_source and manual_annotation["target"] == cand_target:
+                if manual_annotation["source"].lower() == cand_source and manual_annotation["target"].lower() == cand_target:
                     stats["true positives"]["equal"] += 1
                     with open(f'{EVAL_DIR}/{lb}_equal.jsonl', 'a', encoding='utf8') as f:
                         f.write(json.dumps(automatic_annotation) + "\n")

@@ -15,11 +15,6 @@
         "target": ""
     },
     {
-        "sentence": "He's burning with rage.",
-        "source": "",
-        "target": "rage"
-    },
-    {
         "sentence": "Those are inflammatory remarks.",
         "source": "",
         "target": ""
@@ -480,11 +475,6 @@
         "target": "country"
     },
     {
-        "sentence": "\"Are They Parts of Our Nation? Tanzanian and Zambian University Students\u2019 Attitude to the European and South Asian Minorities Compared\"",
-        "source": "",
-        "target": "nation"
-    },
-    {
         "sentence": "No one built this country on their own. This nation is great because we built it together.",
         "source": "",
         "target": "country/nation"
@@ -612,11 +602,6 @@
     {
         "sentence": "I got a much better idea of what was going on after the last meeting.",
         "source": "get",
-        "target": ""
-    },
-    {
-        "sentence": "She had acquired an intimate knowledge of the terrain, which now helped her to travel quickly.",
-        "source": "acquire",
         "target": ""
     },
     {
@@ -905,11 +890,6 @@
         "target": ""
     },
     {
-        "sentence": "She walked him through the analysis.",
-        "source": "walk",
-        "target": ""
-    },
-    {
         "sentence": "She led him through the rough parts of the course.",
         "source": "lead",
         "target": ""
@@ -1018,6 +998,11 @@
         "sentence": "Once the stage has been set, radical surgery will be required to actually remove the malignant tumor that Cancerous Government has become.",
         "source": "",
         "target": "set/government"
+    },
+    {
+        "sentence": "Can I decide what size soda I want to drink? No, that\u2019s the nanny state\u2019s job.",
+        "source": "",
+        "target": "state"
     },
     {
         "sentence": "Rising food prices can topple governments",
@@ -1541,6 +1526,11 @@
     },
     {
         "sentence": "We need to protect our rights from infringement.",
+        "source": "",
+        "target": "right"
+    },
+    {
+        "sentence": "One down of the three pillars of \u201cunalienable\u201d rights that hold up this great country of ours.",
         "source": "",
         "target": "right"
     },

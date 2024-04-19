@@ -25,9 +25,19 @@
         "target": ""
     },
     {
+        "sentence": "Let's keep moving forward on this experiment.",
+        "source": "",
+        "target": "move"
+    },
+    {
         "sentence": "The President played his part magnificently.",
         "source": "",
         "target": ""
+    },
+    {
+        "sentence": "Since the enactment of SB 163 (Evans), the three branches of state government have been working smoothly in the transition process called for in that landmark legislation.",
+        "source": "",
+        "target": "government"
     },
     {
         "sentence": "Romney Back on National Stage, If Only Briefly",
@@ -48,6 +58,11 @@
         "sentence": "He's an upstanding citizen.",
         "source": "",
         "target": "upstanding"
+    },
+    {
+        "sentence": "I'm walking on egg shells.",
+        "source": "walk",
+        "target": ""
     },
     {
         "sentence": "Japan's Spat With China Takes Big Toll on Tourism",
@@ -98,5 +113,10 @@
         "sentence": "The arms race.",
         "source": "race",
         "target": ""
+    },
+    {
+        "sentence": "He went on with what he was doing.",
+        "source": "",
+        "target": "do"
     }
 ]

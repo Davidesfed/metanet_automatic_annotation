@@ -10,6 +10,11 @@
         "target": "tax"
     },
     {
+        "sentence": "The Senator's filibuster halted the passage of the bill.",
+        "source": "halt",
+        "target": "bill"
+    },
+    {
         "sentence": "International Poll Finds U.S. Still Viewed As World's Bully",
         "source": "bully",
         "target": "international/world"
@@ -25,6 +30,11 @@
         "target": "good"
     },
     {
+        "sentence": "The money is gushing out of my retirement account.",
+        "source": "gush",
+        "target": "money"
+    },
+    {
         "sentence": "It's time to take the next big step in my life.",
         "source": "step",
         "target": "step"
@@ -33,6 +43,11 @@
         "sentence": "Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.",
         "source": "make/produce",
         "target": "bill/law"
+    },
+    {
+        "sentence": "The president is steering the country into unknown waters.",
+        "source": "steer",
+        "target": "president"
     },
     {
         "sentence": "I've almost got an idea, but I can't quite put my finger on it.",
@@ -110,6 +125,11 @@
         "target": "government"
     },
     {
+        "sentence": "Congress moved quickly to avoid a governmental shutdown.",
+        "source": "move",
+        "target": "move"
+    },
+    {
         "sentence": "A large force is needed to move a heavy object.",
         "source": "object",
         "target": "force"
@@ -160,11 +180,6 @@
         "target": "democracy"
     },
     {
-        "sentence": "Crime is a beast ravaging the city.",
-        "source": "ravage",
-        "target": "crime"
-    },
-    {
         "sentence": "Corrupt officials are infecting our government at every level.",
         "source": "infect",
         "target": "corrupt"
@@ -175,6 +190,11 @@
         "target": "right"
     },
     {
+        "sentence": "Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State",
+        "source": "ear/eye",
+        "target": "state"
+    },
+    {
         "sentence": "How to make a career out of things you would do even for free.",
         "source": "thing",
         "target": "career"
@@ -183,5 +203,10 @@
         "sentence": "Of course, gun control fanatics pay little attention to facts.",
         "source": "fanatic",
         "target": "control/gun"
+    },
+    {
+        "sentence": "Congress' refusal to compromise is moving the country toward economic ruin.",
+        "source": "move",
+        "target": "move"
     }
 ]

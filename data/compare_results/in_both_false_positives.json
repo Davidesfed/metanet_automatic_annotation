@@ -33,5 +33,20 @@
         "sentence": "He has control over all the workers.",
         "source": "have",
         "target": "control"
+    },
+    {
+        "sentence": "He possesses the power to heal small animals.",
+        "source": "possess",
+        "target": "power"
+    },
+    {
+        "sentence": "Regulations keep me from moving ahead with this housing project.",
+        "source": "move",
+        "target": "move"
+    },
+    {
+        "sentence": "She was forced into an arranged marriage.",
+        "source": "force",
+        "target": "force"
     }
 ]

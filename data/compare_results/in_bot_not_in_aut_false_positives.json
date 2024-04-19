@@ -20,24 +20,9 @@
         "target": "process"
     },
     {
-        "sentence": "He possesses the power to heal small animals.",
-        "source": "possess",
-        "target": "power"
-    },
-    {
-        "sentence": "Regulations keep me from moving ahead with this housing project.",
-        "source": "move",
-        "target": "move"
-    },
-    {
         "sentence": "He's really gotten hung up at that step in the process.",
         "source": "process",
         "target": "process/step"
-    },
-    {
-        "sentence": "She was forced into an arranged marriage.",
-        "source": "force",
-        "target": "force"
     },
     {
         "sentence": "It's Now Apple And Samsung's Game To Lose--Everyone Else Is An Also-Ran",

@@ -335,11 +335,6 @@
         "target": ""
     },
     {
-        "sentence": "Let's keep moving forward on this experiment.",
-        "source": "",
-        "target": "move"
-    },
-    {
         "sentence": "I'm afraid I haven't gotten very far in grading the exams.",
         "source": "",
         "target": ""
@@ -373,11 +368,6 @@
         "sentence": "I admire the way this automated collection system is put together.",
         "source": "",
         "target": "collection"
-    },
-    {
-        "sentence": "Since the enactment of SB 163 (Evans), the three branches of state government have been working smoothly in the transition process called for in that landmark legislation.",
-        "source": "",
-        "target": "government"
     },
     {
         "sentence": "We've got plenty of chances left.",
@@ -492,11 +482,6 @@
     {
         "sentence": "We're skipping right along.",
         "source": "skip",
-        "target": ""
-    },
-    {
-        "sentence": "I'm walking on egg shells.",
-        "source": "walk",
         "target": ""
     },
     {
@@ -1123,11 +1108,6 @@
         "sentence": "He drank himself out of the promotion.",
         "source": "",
         "target": ""
-    },
-    {
-        "sentence": "He went on with what he was doing.",
-        "source": "",
-        "target": "do"
     },
     {
         "sentence": "Devastation from the hurricane thrust the nation into recession.",
