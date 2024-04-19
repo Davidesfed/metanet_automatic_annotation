@@ -156,7 +156,7 @@
         "sentence": "Your insincere apology just added fuel to the fire.",
         "source frame": "Fire",
         "target frame": "Anger",
-        "source": "fire/fuel",
+        "source": "fuel/fire",
         "target": "",
         "type": ""
     },
@@ -283,7 +283,7 @@
         "source frame": "Containing",
         "target frame": "Word",
         "source": "",
-        "target": "sentences/meaning",
+        "target": "meaning/sentences",
         "type": ""
     },
     {
@@ -499,7 +499,7 @@
         "source frame": "Building",
         "target frame": "Government legitimacy",
         "source": "",
-        "target": "government/trust",
+        "target": "trust/government",
         "type": ""
     },
     {
@@ -795,7 +795,7 @@
         "sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society",
         "source frame": "Group membership",
         "target frame": "Taxation",
-        "source": "membership/dues",
+        "source": "dues/membership",
         "target": "Taxes",
         "type": ""
     },
@@ -805,7 +805,7 @@
         "source frame": "Disease",
         "target frame": "Taxation",
         "source": "disease",
-        "target": "taxes/lawmakers/Governor",
+        "target": "taxes/Governor/lawmakers",
         "type": ""
     },
     {
@@ -822,7 +822,7 @@
         "sentence": "Government steals the people's wealth through overt and hidden taxes",
         "source frame": "Theft",
         "target frame": "Taxation",
-        "source": "taxes/steals",
+        "source": "steals/taxes",
         "target": "taxes/Government",
         "type": ""
     },
@@ -841,7 +841,7 @@
         "source frame": "Punishment",
         "target frame": "Taxation",
         "source": "",
-        "target": "taxation/regime/state",
+        "target": "taxation/state/regime",
         "type": ""
     },
     {
@@ -867,8 +867,8 @@
         "sentence": "According to the Tax Foundation, Texas residents on average shoulder the fifth lowest tax burden compared to other residents in the 50 states.",
         "source frame": "Burden",
         "target frame": "Taxation",
-        "source": "burden/shoulder",
-        "target": "states/Tax/tax",
+        "source": "shoulder/burden",
+        "target": "tax/Tax/states",
         "type": ""
     },
     {
@@ -876,7 +876,7 @@
         "sentence": "The Obama campaign is taking a swipe at Mitt Romney's tax plan in a new television ad, saying it will create a \"heavy load\" for the middle class.",
         "source frame": "Burden",
         "target frame": "Taxation",
-        "source": "load/heavy",
+        "source": "heavy/load",
         "target": "tax",
         "type": ""
     },
@@ -1038,8 +1038,8 @@
         "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
         "source frame": "Complex physical object",
         "target frame": "Society",
-        "source": "part/whole/parts/stability",
-        "target": "society/Society",
+        "source": "part/parts/stability/whole",
+        "target": "Society/society",
         "type": ""
     },
     {
@@ -1183,7 +1183,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "steps/action",
+        "target": "action/steps",
         "type": ""
     },
     {
@@ -1328,6 +1328,24 @@
         "target frame": "Romantic relationship",
         "source": "",
         "target": "",
+        "type": ""
+    },
+    {
+        "category": "REVOLUTION IS TOPPLING A PHYSICAL OBJECT",
+        "sentence": "The coup toppled the brutal dictatorship.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "REVOLUTION IS TOPPLING A PHYSICAL OBJECT",
+        "sentence": "The Revolutionary and Napoleonic Wars tore down the ancient structure of Europe",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -1553,6 +1571,15 @@
         "target frame": "Purity",
         "source": "clean",
         "target": "",
+        "type": ""
+    },
+    {
+        "category": "PUBLIC EVALUABILITY OF GOVERMNENT IS TRANSPARENCY",
+        "sentence": "Increased transparency has increased the public's confidence in government.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -1808,6 +1835,24 @@
         "type": ""
     },
     {
+        "category": "POLITICIANS ARE STAGE ACTORS",
+        "sentence": "The President played his part magnificently.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "POLITICAL UNREST IS A WILDFIRE",
+        "sentence": "The wildfire of revolution rapidly spread throughout the land.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "POLITICAL REGION IS A VEHICLE",
         "sentence": "They are rocking the ship of state.",
         "source frame": "Vehicle",
@@ -1848,7 +1893,7 @@
         "sentence": "Last Legs of Campaign Can Decide Race",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "Campaign/Race",
+        "source": "Race/Campaign",
         "target": "",
         "type": ""
     },
@@ -1979,6 +2024,15 @@
         "type": ""
     },
     {
+        "category": "NEARBY COUNTRIES ARE NEIGHBORS",
+        "sentence": "Canada is by far the closest of all our neighbors.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "NATURE IS AN AGENT",
         "sentence": "3rd Winter Weather Advisory in 3 weeks. Think Mother Nature doesn't want an early spring\u00a0:P",
         "source frame": "Agentive causation",
@@ -2029,7 +2083,52 @@
         "source frame": "Bully",
         "target frame": "Nation",
         "source": "Bully",
-        "target": "International/World",
+        "target": "World/International",
+        "type": ""
+    },
+    {
+        "category": "NATIONS NOT ABIDING BY INTERNATIONAL LAW ARE OUTLAWS",
+        "sentence": "Great Powers and Outlaw States: Unequal Sovereigns in the International Legal Order",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "NATIONAL POLITICS IS A STAGE",
+        "sentence": "Romney Back on National Stage, If Only Briefly",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "NATIONAL POLITICS IS A SPORTS FIELD",
+        "sentence": "Obama accused the Republicans of moving the goalposts in the debate about the deficit.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "NATIONAL POLITICS IS A BATTLEFIELD",
+        "sentence": "Could Texas be a battleground state?",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "NATIONAL POLITICS IS A BATTLEFIELD",
+        "sentence": "Women: We Want You on the Political Battlefield",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -2042,12 +2141,30 @@
         "type": ""
     },
     {
+        "category": "NATIONAL INFRASTRUCTURE IS A BUILDING",
+        "sentence": "Infrastructure: The Foundation for Wealth and Poverty Reduction",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "NATIONAL INFRASTRUCTURE DETERIORATION IS BUILDING EROSION",
+        "sentence": "The infrastructure that is the foundation of our nation is eroding, endangering the whole structure of our economy.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "NATION IS CONTAINER",
         "sentence": "Our nation contains some of the best entrepreneurs in the world.",
         "source frame": "Resource container",
         "target frame": "Nation",
         "source": "",
-        "target": "world/nation",
+        "target": "nation/world",
         "type": ""
     },
     {
@@ -2127,7 +2244,7 @@
         "sentence": "\u201cThis is a time to build a nation, brick by brick, pillar by pillar, not a time to tear down our brothers and sisters or pillage their property,\u201d",
         "source frame": "Building",
         "target frame": "Nation",
-        "source": "pillar/build/brick",
+        "source": "pillar/brick/build",
         "target": "nation",
         "type": ""
     },
@@ -2145,7 +2262,7 @@
         "sentence": "\"Our nation is built on the bedrock principle that governments derive their just powers from the consent of the governed.\"",
         "source frame": "Building",
         "target frame": "Nation",
-        "source": "bedrock/built",
+        "source": "built/bedrock",
         "target": "governments/nation",
         "type": ""
     },
@@ -2334,7 +2451,7 @@
         "sentence": "The government takes good care of its people.",
         "source frame": "Nurturant parent family",
         "target frame": "Moral action",
-        "source": "care/people",
+        "source": "people/care",
         "target": "good",
         "type": ""
     },
@@ -2380,7 +2497,7 @@
         "source frame": "Fluid motion",
         "target frame": "Money",
         "source": "",
-        "target": "money/account",
+        "target": "account/money",
         "type": ""
     },
     {
@@ -2587,7 +2704,7 @@
         "source frame": "Person",
         "target frame": "Machine",
         "source": "",
-        "target": "engine/repair",
+        "target": "repair/engine",
         "type": ""
     },
     {
@@ -2650,7 +2767,7 @@
         "source frame": "Physical competition",
         "target frame": "Election",
         "source": "",
-        "target": "primary/election",
+        "target": "election/primary",
         "type": ""
     },
     {
@@ -2749,7 +2866,7 @@
         "source frame": "Create object",
         "target frame": "Legislative action",
         "source": "make",
-        "target": "law/bills",
+        "target": "bills/law",
         "type": ""
     },
     {
@@ -2825,6 +2942,15 @@
         "type": ""
     },
     {
+        "category": "LEADER OF A NATION IS HEAD OF BODY",
+        "sentence": "Obama is the head of the country, whether some people don't like democracy or not.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "LAWS ARE PLANTS",
         "sentence": "Out of these discussions will grow legislation of farreaching importance.",
         "source frame": "Plants",
@@ -2849,6 +2975,15 @@
         "target frame": "Law",
         "source": "",
         "target": "",
+        "type": ""
+    },
+    {
+        "category": "LAW ENFORCEMENT IS SUPPORTING A STRUCTURE",
+        "sentence": "Aug 25, 2010 \u2013 And so, two of the main pillars of our democracy\u2014a free press and the courts\u2014will be assailed at the same time.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -2915,6 +3050,15 @@
         "type": ""
     },
     {
+        "category": "JUDGES ARE SPORTS REFEREES",
+        "sentence": "Feb 24, 2007 \u2013 A judge is often thought of in terms of a referree. But can a judge really be as objective as a sporting umpire?",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "INTERRELATEDNESS IS PHYSICAL INTERCONNECTEDNESS",
         "sentence": "Emigration has threatened to unravel the fabric of this small society.",
         "source frame": "Physical connection",
@@ -2939,6 +3083,24 @@
         "target frame": "International Relations",
         "source": "",
         "target": "",
+        "type": ""
+    },
+    {
+        "category": "INTERNATIONAL DISAGREEMENTS ARE QUARRELS",
+        "sentence": "Japan's Spat With China Takes Big Toll on Tourism",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "INTERNATIONAL ASSOCIATION IS CONNECTION",
+        "sentence": "France has close ties to former colony Tunisia",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -2982,7 +3144,7 @@
         "sentence": "Their practices and policies have put them right in the cross hairs and it is only a matter of time before someone pulls the trigger. When that happens, one will be left to wonder whether it is a suicide, a homicide or a mercy killing.",
         "source frame": "Person",
         "target frame": "Institution",
-        "source": "someone/them",
+        "source": "them/someone",
         "target": "",
         "type": ""
     },
@@ -2991,7 +3153,7 @@
         "sentence": "The Crumbling Walls of the Roman Catholic Church",
         "source frame": "Building",
         "target frame": "Institution",
-        "source": "Walls/Church",
+        "source": "Church/Walls",
         "target": "",
         "type": ""
     },
@@ -3019,7 +3181,7 @@
         "source frame": "Vehicle",
         "target frame": "Institution",
         "source": "vehicles",
-        "target": "subcultures/people/common/institutions/groups",
+        "target": "people/groups/common/institutions/subcultures",
         "type": ""
     },
     {
@@ -3028,7 +3190,7 @@
         "source frame": "Machine",
         "target frame": "Institution",
         "source": "machines",
-        "target": "machines/institutions",
+        "target": "institutions/machines",
         "type": ""
     },
     {
@@ -3113,6 +3275,42 @@
         "type": ""
     },
     {
+        "category": "INFLUENTIAL NATIONS ARE LEADERS",
+        "sentence": "Germany Leads the World",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "INFLUENTIAL NATIONS ARE LEADERS",
+        "sentence": "China leads successful wildlife crime crackdown",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "INEQUALITY IS BEING ON DIFFERENT VERTICAL LEVELS",
+        "sentence": "The upwardly mobile are moving into nicer neighborhoods.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "INEQUALITY IS BEING ON DIFFERENT VERTICAL LEVELS",
+        "sentence": "Moving up the social ladder: The bottom rung vs the top rung",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "INEFFICIENT GOVERNMENT IS A BLOATED BODY",
         "sentence": "Tax Revolt: The Rebellion Against an Overbearing, Bloated, Arrogant, and Abusive Government",
         "source frame": "Excess body weight",
@@ -3127,7 +3325,7 @@
         "source frame": "Excess body weight",
         "target frame": "Government",
         "source": "",
-        "target": "government/state",
+        "target": "state/government",
         "type": ""
     },
     {
@@ -3136,7 +3334,7 @@
         "source frame": "Business",
         "target frame": "Government",
         "source": "profit",
-        "target": "runs/government",
+        "target": "government/runs",
         "type": ""
     },
     {
@@ -3146,6 +3344,33 @@
         "target frame": "Government",
         "source": "business",
         "target": "general/government",
+        "type": ""
+    },
+    {
+        "category": "INCREASING GOVERNMENT DEBT IS RISING WATER LEVEL",
+        "sentence": "Debt, debt, debt; we're drowning in it. This morning, the Office for National Statistics published the latest estimates of public sector borrowing. Though borrowing is falling faster than anticipated, thanks to the fact that spending cuts are finally beginning to kick in, the national debt has risen to 64.2 per cent of GDP. More significantly, we now owe more than \u00a31 trillion, or around \u00a316,000 for every person in the country.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "INCREASING EVALUABILITY OF GOVERNMENT IS INCREASING TRANSPARENCY",
+        "sentence": "Increasing transparency in government (title of article, International Journal on World Peace)",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "INCREASING EVALUABILITY OF GOVERNMENT IS INCREASING LIGHT",
+        "sentence": "Stay up to date on Sunlight\u2019s work in D.C., throughout the country and around the world, as well as the latest open government, transparency and technology news.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -3173,6 +3398,15 @@
         "target frame": "Governing action",
         "source": "",
         "target": "lawmakers/administration",
+        "type": ""
+    },
+    {
+        "category": "INABILITY TO EVALUATE GOVERNMENT IS INABILITY TO SEE",
+        "sentence": "The World Bank has issued its latest index of corruption and transparency. The world\u2019s largest democracy, India, is looking a bit red-faced.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -3248,6 +3482,15 @@
         "type": ""
     },
     {
+        "category": "ILLEGAL ACTIVITY IS BREAKING A PHYSICAL OBJECT",
+        "sentence": "Shatter the rules of the market economy",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "IDEAS ARE POSSESSIONS",
         "sentence": "I have an idea.",
         "source frame": "Possession",
@@ -3280,7 +3523,7 @@
         "source frame": "Person",
         "target frame": "Idea",
         "source": "ideas",
-        "target": "theory/ideas",
+        "target": "ideas/theory",
         "type": ""
     },
     {
@@ -3351,8 +3594,8 @@
         "sentence": "He breathed new life into that idea.",
         "source frame": "Person",
         "target frame": "Idea",
-        "source": "He/life/idea",
-        "target": "new/idea",
+        "source": "life/He/idea",
+        "target": "idea/new",
         "type": ""
     },
     {
@@ -3379,7 +3622,7 @@
         "source frame": "Food",
         "target frame": "Idea",
         "source": "can/Food",
-        "target": "know/thought/good",
+        "target": "good/know/thought",
         "type": ""
     },
     {
@@ -3604,7 +3847,7 @@
         "source frame": "Addiction",
         "target frame": "Personal weapon",
         "source": "",
-        "target": "Rifle/guns",
+        "target": "guns/Rifle",
         "type": ""
     },
     {
@@ -3676,7 +3919,7 @@
         "source frame": "Disease",
         "target frame": "Gun control",
         "source": "sickness",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -3685,7 +3928,7 @@
         "source frame": "Constructed Restraints",
         "target frame": "Gun control",
         "source": "shackles",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -3785,6 +4028,69 @@
         "target frame": "Greed",
         "source": "hungered",
         "target": "",
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENTAL AGREEMENT IS PHYSICAL PROXIMITY",
+        "sentence": "House Democrats and Republicans moved closer to agreeing on a budget today.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT'S POSITIVE TREATMENT OF RIGHTS IS SUPPORTING A PHYSICAL STRUCTURE",
+        "sentence": "The government must shore up support for our religious freedoms.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT'S POSITIVE TREATMENT OF RIGHTS IS STRENGTHENING AN OBJECT",
+        "sentence": "We need to strengthen our civil liberties.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS TRESPASSING",
+        "sentence": "These gay marriage laws have invaded our religious rights.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS TRESPASSING",
+        "sentence": "The government needs to stay out of my bedroom.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS TRAMPLING ON AN OBJECT",
+        "sentence": "The government's move to censor the internet is trampling all over our rights to free speech and freedom of the press.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT'S HARMFUL TREATMENT OF RIGHTS IS THEFT",
+        "sentence": "Overturning Roe v. Wade would steal away our right to privacy.",
+        "source frame": "Theft",
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -3946,7 +4252,7 @@
         "source frame": "Work scenario",
         "target frame": "Government",
         "source": "slave",
-        "target": "federal/government",
+        "target": "government/federal",
         "type": ""
     },
     {
@@ -3963,8 +4269,8 @@
         "sentence": "Such a power does not destroy, but it prevents existence; it does not tyrannize, but it compresses, enervates, extinguishes, and stupefies a people, till each nation is reduced to nothing better than a flock of timid and industrious animals, of which the government is the shepherd.",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "shepherd/people",
-        "target": "people/animals/flock/government",
+        "source": "people/shepherd",
+        "target": "flock/animals/people/government",
         "type": ""
     },
     {
@@ -3972,7 +4278,7 @@
         "sentence": "Obama and the Progressives do not believe this. They believe they must decide what is best. In their view Americans are sheep and they are the shepherd.",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "shepherd/they/They/believe/what/sheep",
+        "source": "sheep/They/shepherd/they/what/believe",
         "target": "",
         "type": ""
     },
@@ -3991,7 +4297,7 @@
         "source frame": "Work scenario",
         "target frame": "Government",
         "source": "man",
-        "target": "force/government",
+        "target": "government/force",
         "type": ""
     },
     {
@@ -3999,7 +4305,7 @@
         "sentence": "The US government loves you. In fact, it loves you so much that it\u2019s willing shackle your legs together. Just to protect you \u2013 tough love, baby. Now, it may hurt a bit but just try to breathe through the pain. Remember \u2013 it hurts the government more than it hurts you.",
         "source frame": "Person",
         "target frame": "Government",
-        "source": "love/you/baby/loves",
+        "source": "baby/love/you/loves",
         "target": "government",
         "type": ""
     },
@@ -4044,8 +4350,8 @@
         "sentence": "\"In my view, the federal government should lead the way.  The bill we\u2019ve introduced requires the federal government to increase its use of renewable electricity and reduce its overall energy consumption in federal buildings, both new and old.  We can\u2019t expect consumers to embrace energy efficient technology if their government does not do the same.\"",
         "source frame": "Leadership",
         "target frame": "Government",
-        "source": "buildings/lead",
-        "target": "federal/lead/government",
+        "source": "lead/buildings",
+        "target": "lead/federal/government",
         "type": ""
     },
     {
@@ -4072,7 +4378,7 @@
         "source frame": "Vehicular motion",
         "target frame": "Governing action",
         "source": "",
-        "target": "country/government",
+        "target": "government/country",
         "type": ""
     },
     {
@@ -4125,8 +4431,8 @@
         "sentence": "One of the worst-run businesses in the United States is also the largest business in the nation. The federal government is in financial disarray. It spends more than it makes and its investments are not based on sound financial principles.",
         "source frame": "Business",
         "target frame": "Government institution",
-        "source": "businesses/business",
-        "target": "businesses/government/business",
+        "source": "business/businesses",
+        "target": "business/government/businesses",
         "type": ""
     },
     {
@@ -4152,8 +4458,8 @@
         "sentence": "If the injustice is part of the necessary friction of the machine of government, let it go, let it go: perchance it will wear smooth--certainly the machine will wear out. If the injustice has a spring, or a pulley, or a rope, or a crank, exclusively for itself, then perhaps you may consider whether the remedy will not be worse than the evil; but if it is of such a nature that it requires you to be the agent of injustice to another, then I say, break the law. Let your life be a counter-friction to stop the machine. What I have to do is to see, at any rate, that I do not lend myself to the wrong which I condemn.",
         "source frame": "Machine",
         "target frame": "Government institution",
-        "source": "What/pulley/part/machine",
-        "target": "machine/government",
+        "source": "What/pulley/machine/part",
+        "target": "government/machine",
         "type": ""
     },
     {
@@ -4229,6 +4535,24 @@
         "type": ""
     },
     {
+        "category": "GOVERNMENT ASSISTANCE IS AN ADDICTIVE DRUG",
+        "sentence": "Our country's poor are addicted to welfare.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT ASSISTANCE IS AN ADDICTIVE DRUG",
+        "sentence": "We have a nation of welfare addicts who will always depend on the government for their next fix.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "GOVERNMENT ASSISTANCE IS A TRAP",
         "sentence": "...trapping so many people in state dependency robs them of their human dignity.",
         "source frame": "Entrapment",
@@ -4247,6 +4571,33 @@
         "type": ""
     },
     {
+        "category": "GOVERNMENT ASSISTANCE IS A HANDOUT",
+        "sentence": "The poor deserve a hand up, not a handout.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT ASSISTANCE IS A HANDOUT",
+        "sentence": "The government shouldn't just give handouts, it needs to encourage people to get jobs instead.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
+        "category": "GOVERNMENT AND CITIZENS ARE PARTNERS",
+        "sentence": "As citizens, we must work together with our government to advance the good of our nation.",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "GOVERNING ACTION IS MOTION",
         "sentence": "Congress moved quickly to avoid a governmental shutdown.",
         "source frame": "Motion along a path",
@@ -4261,7 +4612,7 @@
         "source frame": "Motion along a path",
         "target frame": "Governing action",
         "source": "",
-        "target": "step/state",
+        "target": "state/step",
         "type": ""
     },
     {
@@ -4342,7 +4693,7 @@
         "source frame": "Operating a machine",
         "target frame": "Legislative action",
         "source": "",
-        "target": "Senate/government",
+        "target": "government/Senate",
         "type": ""
     },
     {
@@ -4926,7 +5277,7 @@
         "sentence": "Noem sprints to election finish line with stop in Elk Point, SD.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "finish/sprints",
+        "source": "sprints/finish",
         "target": "election",
         "type": ""
     },
@@ -4944,7 +5295,7 @@
         "sentence": "With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "running/start",
+        "source": "start/running",
         "target": "primary",
         "type": ""
     },
@@ -4989,7 +5340,7 @@
         "sentence": "Beasley won the first round of Democratic primary for lieutenant governor in 1970, but failed to win a majority.",
         "source frame": "Physical competition",
         "target frame": "Election",
-        "source": "win/round",
+        "source": "round/win",
         "target": "majority/primary",
         "type": ""
     },
@@ -5291,6 +5642,15 @@
         "type": ""
     },
     {
+        "category": "DEVELOPING AN ATTRIBUTE IS CULTIVATION",
+        "sentence": "Tips on how to cultivate openness to change.",
+        "source frame": "Cultivation",
+        "target frame": null,
+        "source": null,
+        "target": null,
+        "type": ""
+    },
+    {
         "category": "DESIRE IS HUNGER",
         "sentence": "He's drooling over a new car.",
         "source frame": "Hunger",
@@ -5457,7 +5817,7 @@
         "sentence": "Corruption is eroding the public trust in government.",
         "source frame": "Erosion",
         "target frame": "Corruption",
-        "source": "Corruption/eroding",
+        "source": "eroding/Corruption",
         "target": "Corruption",
         "type": ""
     },
@@ -5484,7 +5844,7 @@
         "sentence": "Our government is afflicted with the cancer of corruption.",
         "source frame": "Disease",
         "target frame": "Corruption",
-        "source": "cancer/corruption",
+        "source": "corruption/cancer",
         "target": "corruption",
         "type": ""
     },
@@ -5629,7 +5989,7 @@
         "source frame": "Possession",
         "target frame": "Control",
         "source": "",
-        "target": "power/hold",
+        "target": "hold/power",
         "type": ""
     },
     {
@@ -5989,7 +6349,7 @@
         "source frame": "Servitude",
         "target frame": "Nation",
         "source": "",
-        "target": "people/state",
+        "target": "state/people",
         "type": ""
     },
     {
@@ -6393,7 +6753,7 @@
         "sentence": "You could call me just a work-for-hire hack, and a willing, contented cog in a bureaucratic machine.",
         "source frame": "Machine",
         "target frame": "Bureaucracy",
-        "source": "machine/cog",
+        "source": "cog/machine",
         "target": "bureaucratic",
         "type": ""
     },
@@ -6421,7 +6781,7 @@
         "source frame": "Maze",
         "target frame": "Bureaucracy",
         "source": "system/maze",
-        "target": "system/bureaucratic",
+        "target": "bureaucratic/system",
         "type": ""
     },
     {
@@ -6799,7 +7159,7 @@
         "source frame": "Zealotry",
         "target frame": "Gun control",
         "source": "fanatics",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -6807,7 +7167,7 @@
         "sentence": "The most powerful weapon in the war against obesity might be something we all understand: cold, hard cash.",
         "source frame": "War",
         "target frame": "Addressing social problems",
-        "source": "weapon/war",
+        "source": "war/weapon",
         "target": "",
         "type": ""
     },
@@ -6844,7 +7204,7 @@
         "source frame": "Animal",
         "target frame": "Crime",
         "source": "",
-        "target": "criminals/activities",
+        "target": "activities/criminals",
         "type": ""
     },
     {
@@ -7186,7 +7546,7 @@
         "source frame": "Bully",
         "target frame": "State leadership",
         "source": "",
-        "target": "State/generals/Secretary",
+        "target": "generals/State/Secretary",
         "type": ""
     },
     {

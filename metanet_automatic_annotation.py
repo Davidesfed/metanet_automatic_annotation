@@ -132,12 +132,16 @@ def annotate_metaphor(metaphor, data_sources, max_depth=None):
     }
 
     ancestor_metaphors = build_ancestor_list(automatic_annotation, max_depth)
+    count = 0
     for ancestor_metaphor in ancestor_metaphors:
+        if ancestor_metaphor["source frame"] is None or ancestor_metaphor["target frame"] is None:
+            count += 1
+            continue
         lexical_units = build_LUs_set(ancestor_metaphor)
         candidate = find_candidate_annotation(lexical_units, ancestor_metaphor, data_sources)
         automatic_annotation = elect_annotation(automatic_annotation, candidate)
-    automatic_annotation["source"] = "/".join(automatic_annotation["source"])
-    automatic_annotation["target"] = "/".join(automatic_annotation["target"])
+    automatic_annotation["source"] = "/".join(automatic_annotation["source"]) if count < len(ancestor_metaphors) else None
+    automatic_annotation["target"] = "/".join(automatic_annotation["target"]) if count < len(ancestor_metaphors) else None
     return automatic_annotation
 
 def main():
@@ -148,9 +152,9 @@ def main():
     for i, metaphor in enumerate(manual_annotations):
         if i%50 == 0:
             print('Progress:', i, '/', len(manual_annotations))
-        if not all([metaphor["source frame"], metaphor["target frame"]]):
+        # if not all([metaphor["source frame"], metaphor["target frame"]]):
             # print("Missing frames for", metaphor["category"])
-            continue
+            # continue
         automatic_annotation = annotate_metaphor(metaphor, data_sources)
         automatic_annotations.append(automatic_annotation)
         
