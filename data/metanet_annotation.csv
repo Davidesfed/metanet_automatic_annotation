@@ -66,7 +66,7 @@ TIME IS A MOVING OBJECT,The time will come when…,come,time,VN
 TIME IS A MOVING OBJECT,The time has long since gone when…,gone,time,VN
 TIME IS A MOVING OBJECT,The time for action has arrived.,arrived,time,VN
 TIME IS A LANDSCAPE THROUGH WHICH THE OBSERVER MOVES,That's all behind us now.,,,-
-TIME IS A LANDSCAPE THROUGH WHICH THE OBSERVER MOVES,You can't go back in time!,back,time,DN
+TIME IS A LANDSCAPE THROUGH WHICH THE OBSERVER MOVES,You can't go back in time!,go back,time,DN
 TIME IS A LANDSCAPE THROUGH WHICH THE OBSERVER MOVES,We're looking ahead to the future.,ahead,future,DN
 TIME IS A LANDSCAPE THROUGH WHICH THE OBSERVER MOVES,He has a great future in front of him.,front,future,DN
 TIME IS A COMMODITY,Don't waste your time.,waste,time,VN
@@ -75,7 +75,7 @@ THINKING IS SPEAKING,He's an articulate thinker.,articulate,thinker,AN
 THINKING IS SPEAKING,She doesn't listen to her conscience.,listen,conscience,VN
 THINKING IS SPEAKING,That sounds like a good idea.,,,-
 THINKING IS PERCEIVING,"For many weeks, I couldn't see how to solve the problem.",,,-
-THINKING IS PERCEIVING,"I see that the two lines must be equal, but I don't know how to prove it.",,,-
+THINKING IS PERCEIVING,"I see that the two lines must be equal, but I don't know how to prove it.",see,know,VV
 THINKING IS OBJECT MANIPULATION,Let's toss some ideas around.,toss,ideas,VN
 THINKING IS MOVING,We're making progress on defining what kind of house we are looking for.,,,-
 THINKING IS LINGUISTIC ACTIVITY,I can't read her mind.,read,mind,VN
@@ -83,10 +83,10 @@ THINKING IS LINGUISTIC ACTIVITY,I misread his intentions.,misread,intentions,VN
 THEORIES ARE COMPLEX STRUCTURES,Her theory requires the reader to understand  many interconnected factors.,interconnected,factors,AN
 THEORIES ARE BUILDINGS,Opponents tried to dismantle the theory piece by piece.,dismantle,theory,VN
 THEORIES ARE BUILDINGS,This theory has a solid foundation.,foundation,theory,NN
-THEORIES ARE BUILDINGS,The theoretical framework needs to be filled in with empirical data.,filled,framework,VN
+THEORIES ARE BUILDINGS,The theoretical framework needs to be filled in with empirical data.,framework,theoretical,VN
 TERMINATION OF CONTROL IS LOSS OF A POSSESSION,"The dummies were 2-to-1 in favor of the Arizona immigration law; the court gutted it. Only those dummies, not in a state of denial, understand that we the people have lost control of our government.",lost,control,VN
 TERMINATION OF CONTROL IS LOSS OF A POSSESSION,"But meanwhile, you may not have noticed that our government gave away control of the Internet.",gave,control,VN
-TAXES ARE DUES,"Taxes, after all, are dues that we pay for the privileges of membership in an organized society",,,-
+TAXES ARE DUES,"Taxes, after all, are dues that we pay for the privileges of membership in an organized society",dues,taxes,NN
 TAXES ARE DISEASES,"During a panel discussion that included Washington Governor Christine Gregoire and Nevada Governor Brian Sandoval, Brown accused California lawmakers of adhering to ""the notion that taxes are like some kind of sexually transmitted disease,"" the Los Angeles Times reports.",disease,taxes,NN
 TAXES ARE DISEASES,Those insidious taxes infect every aspect of our lives.,infect,taxes,VN
 TAXATION IS THEFT,Government steals the people's wealth through overt and hidden taxes,steals,taxes,VN
@@ -160,7 +160,7 @@ REFINING A LAW IS TRIMMING A PLANT,"I concede that it has become indispensable t
 QUANTITY IS VERTICALITY,The number of books printed each year keeps going up.,,,-
 QUANTITY IS VERTICALITY,His income fell last year.,fell,income,VN
 QUANTITY IS SIZE,What is the size of your bank account?,size,bank account,NN
-QUANTITY IS SIZE,He doesn't know how big our national debt is.,big,debt,AN
+QUANTITY IS SIZE,He doesn't know how big our national debt is.,,,
 QUALITIES ARE SUBSTANCES,He has a lot of smarts.,,,-
 QUALITIES ARE SUBSTANCES,He's devoid of common sense.,,,-
 PURPOSEFUL THINKING IS GOAL-DIRECTED MOTION,We are trying to find the most elegant approach to solving this problem.,approach,solving,VN
@@ -170,7 +170,7 @@ PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION,We are moving ahead.
 PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION,We are going nowhere with this.,,,-
 PURPOSEFUL ACTION IS SELF-PROPELLED MOTION TO A DESTINATION,We have taken the first step.,,,-
 PURITY IS CLEANLINESS,He's pure evil.,,,-
-PURITY IS CLEANLINESS,Her soul was scrubbed clean of impurities.,scrubbed clean,soul,VN
+PURITY IS CLEANLINESS,Her soul was scrubbed clean of impurities.,scrubbed clean,impurities,VN
 PURIFYING IS CLEANSING,You must cleanse your soul of sin.,cleanse,soul,VN
 PURIFYING IS CLEANSING,The impure must be washed clean through contrition.,washed,impure,VN
 PUBLIC EVALUABILITY OF GOVERMNENT IS TRANSPARENCY,Increased transparency has increased the public's confidence in government.,,,-
@@ -189,7 +189,7 @@ PROGRESS IS FORWARD MOTION ALONG A PATH,He hadn't made much headway in writing t
 PROGRESS IS FORWARD MOTION ALONG A PATH,Let's keep moving forward on this experiment.,,,-
 PROGRESS IS FORWARD MOTION ALONG A PATH,I'm afraid I haven't gotten very far in grading the exams.,,,-
 PREVENTING ENACTMENT OF LEGISLATION IS BLOCKING MOTION,House Republicans blocked the Democrats' attempts to move forward with the healthcare bill.,move forward,bill,VN
-PREVENTING ENACTMENT OF LEGISLATION IS BLOCKING MOTION,The Senator's filibuster halted the passage of the bill.,passage,bill,NN
+PREVENTING ENACTMENT OF LEGISLATION IS BLOCKING MOTION,The Senator's filibuster halted the passage of the bill.,halted,bill,VN
 PREVENTED CHANGE OF STATE IS PREVENTED CHANGE OF LOCATION,"He's holding you back, you need to leave him.",,,-
 PREVENTED CHANGE OF STATE IS PREVENTED CHANGE OF LOCATION,I'm going to the top and nothing will stand in my way.,,,-
 PREPARING IDEAS TO BE UNDERSTOOD IS FOOD PREPARATION,They're just half-baked ideas.,half-baked,ideas,AN
@@ -229,7 +229,7 @@ NATURE IS AN AGENT,"Dear Mother nature , please don't tease us Texans with this 
 NATURE IS AN AGENT,"Nature Tries to Shift Outer Banks, But Man Keeps Shoveling It Back",tries,Nature,VN
 NATURE IS A RESOURCE,"... we must deepen our understanding of the economic value of nature and invest in the vital services that it provides for us, if we are to have a truly sustainable economic future.",value,nature,NN
 NATURE IS A RESOURCE,"To start with, everything we are made of and everything we make comes from the environment.",comes,environment,VN
-NATIONS WHO ABUSE POWER ARE BULLIES,International Poll Finds U.S. Still Viewed As World's Bully,bully,U.S.,NN
+NATIONS WHO ABUSE POWER ARE BULLIES,International Poll Finds U.S. Still Viewed As World's Bully,bully,World,NN
 NATIONS NOT ABIDING BY INTERNATIONAL LAW ARE OUTLAWS,Great Powers and Outlaw States: Unequal Sovereigns in the International Legal Order,Outlaw,States,
 NATIONAL POLITICS IS A STAGE,"Romney Back on National Stage, If Only Briefly",,,-
 NATIONAL POLITICS IS A SPORTS FIELD,Obama accused the Republicans of moving the goalposts in the debate about the deficit.,goalposts,debate,NN
@@ -239,7 +239,7 @@ NATIONAL POLITICAL FUNCTIONALITY IS PHYSICAL INTEGRITY,But Scott Brown’s win i
 NATIONAL INFRASTRUCTURE IS A BUILDING,Infrastructure: The Foundation for Wealth and Poverty Reduction,,,-
 NATIONAL INFRASTRUCTURE DETERIORATION IS BUILDING EROSION,"The infrastructure that is the foundation of our nation is eroding, endangering the whole structure of our economy.",foundation,nation,NN
 NATION IS CONTAINER,Our nation contains some of the best entrepreneurs in the world.,contains,nation,VN
-NATION IS AN OBJECT,Only one thing stands between Western civilization and chaos: the United States.,stands,United States,VN
+NATION IS AN OBJECT,Only one thing stands between Western civilization and chaos: the United States.,thing,United States,NN
 NATION IS A VEHICLE,"Saltykov explored the psychological problems resulting from the shifting of a nation's gears, of creating a new way of life.",gears,nation,NN
 NATION IS A PERSON,We must rouse our nation from its slumber.,rouse,nation,VN
 NATION IS A MACHINE,"If the President doesn't show some leadership, the country will grind to a halt.",grind,country,VN
@@ -253,7 +253,7 @@ NATION IS A BUILDING,"""Our nation is built on the bedrock principle that govern
 NATION IS A BODY,Within a federalist framework the nation is a body in crisis threatened from within by one of its own. It is about to be dismembered.,body,nation,NN
 NATION IS A BODY,"Iowa is the heart of the nation, where everyone greets you with a smile and you wave at strangers!",heart,nation,NN
 NATION IS A BOAT,Scuttling the Ship of State to appease climate activists,ship,state,NN
-NATION IS A BOAT,Our country is burdened by debt and that may sink us in the rough waters ahead.,sink,country,VN
+NATION IS A BOAT,Our country is burdened by debt and that may sink us in the rough waters ahead.,waters,country,NN
 MULTIPLICITY IS MASS,The grazing field was covered with sheep.,covered,sheep,VN
 MORE IS UP,The price of stocks rose.,,,-
 MORE IS UP,My to-do list is piling up!,,,-
@@ -270,7 +270,7 @@ MORALITY IS A STRAIGHT PATH,He deviated from the straight and narrow.,,,-
 MORALITY IS A STRAIGHT PATH,She strayed.,,,-
 MORAL IS STRAIGHT,Be straight with me.,,,-
 MORAL IS STRAIGHT,God-fearing men must keep strictly to the straight and narrow.,straight,god-fearing,AN
-MORAL AGENTS ARE NURTURING PARENTS,The government takes good care of its people.,take care,government,VN
+MORAL AGENTS ARE NURTURING PARENTS,The government takes good care of its people.,take care,good,VN
 MORAL AGENTS ARE NURTURING PARENTS,The CEO looks after her employees with motherly kindness.,,,
 MORAL AGENTS ARE NURTURING PARENTS,"With gentle care and attention, the pastor's congregation will flourish.",,,
 MORAL ACTION IS A FINANCIAL TRANSACTION,He's morally bankrupt.,bankrupt,morally,DN
@@ -316,12 +316,12 @@ LIFE IS A JOURNEY,"He has changed his direction in life, and taken a more spirit
 LESS IS SMALL,She has very little money.,little,money,AN
 LESS IS SMALL,The number of available parking spaces continues to shrink.,shrink,number,VN
 LESS IS DOWN,Her temperature is going down.,,,-
-LEGISLATIVE ACTIVITY IS MAKING OBJECTS,"Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.",churning out,bills,VN
+LEGISLATIVE ACTIVITY IS MAKING OBJECTS,"Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.",producing,bills,VN
 LEARNING IS ACQUIRING,This gives me a great idea!,give,idea,VN
 LEARNING IS ACQUIRING,I got a much better idea of what was going on after the last meeting.,got,idea,VN
 LEARNING IS ACQUIRING,"She had acquired an intimate knowledge of the terrain, which now helped her to travel quickly.",acquired,knowledge,VN
 LEARNING IS ACQUIRING,Her experience gave her a great deal of knowledge.,gave,experience,VN
-LEADING A NATION IS STEERING A BOAT,The president is steering the country into unknown waters.,steering,country,VN
+LEADING A NATION IS STEERING A BOAT,The president is steering the country into unknown waters.,steering,president,VN
 LEADING A NATION IS DRIVING A VEHICLE,The president drove the nation into a ditch.,drove,nation,VN
 LEADING A NATION IS DRIVING A VEHICLE,Obama on GOP: 'They Drove The Country Into A Ditch...Now They Want The Keys Back',drove,country,VN
 LEADING A NATION IS DRIVING A VEHICLE,Where was he when he drove our country off a cliff?,drove,country,VN
@@ -366,15 +366,15 @@ INFLUENTIAL NATIONS ARE LEADERS,Germany Leads the World,leads,Germany,VN
 INFLUENTIAL NATIONS ARE LEADERS,China leads successful wildlife crime crackdown,leads,China,VN
 INEQUALITY IS BEING ON DIFFERENT VERTICAL LEVELS,The upwardly mobile are moving into nicer neighborhoods.,,,-
 INEQUALITY IS BEING ON DIFFERENT VERTICAL LEVELS,Moving up the social ladder: The bottom rung vs the top rung,ladder,social,AN
-INEFFICIENT GOVERNMENT IS A BLOATED BODY,"Tax Revolt: The Rebellion Against an Overbearing, Bloated, Arrogant, and Abusive Government",,,-
+INEFFICIENT GOVERNMENT IS A BLOATED BODY,"Tax Revolt: The Rebellion Against an Overbearing, Bloated, Arrogant, and Abusive Government",bloated,government,AN
 INEFFICIENT GOVERNMENT IS A BLOATED BODY,Tom Barrett: Put state government on a diet,diet,government,NN
-INEFFECTIVE GOVERNMENT IS A POORLY-MANAGED BUSINESS,"The point, however, is that saying that government is inefficient because it does not turn a profit is the equivalent of saying that Peyton Manning is a poor quarterback because he doesn’t hit enough home runs. He’s not supposed to.",,,-
+INEFFECTIVE GOVERNMENT IS A POORLY-MANAGED BUSINESS,"The point, however, is that saying that government is inefficient because it does not turn a profit is the equivalent of saying that Peyton Manning is a poor quarterback because he doesn’t hit enough home runs. He’s not supposed to.",profit,government,NN
 INEFFECTIVE GOVERNMENT IS A POORLY-MANAGED BUSINESS,"The business of municipal government is, in general, the most poorly managed business in the world.",business,government,NN
 INCREASING GOVERNMENT DEBT IS RISING WATER LEVEL,"Debt, debt, debt; we're drowning in it. This morning, the Office for National Statistics published the latest estimates of public sector borrowing. Though borrowing is falling faster than anticipated, thanks to the fact that spending cuts are finally beginning to kick in, the national debt has risen to 64.2 per cent of GDP. More significantly, we now owe more than £1 trillion, or around £16,000 for every person in the country.",drowning,debt,VN
 INCREASING EVALUABILITY OF GOVERNMENT IS INCREASING TRANSPARENCY,"Increasing transparency in government (title of article, International Journal on World Peace)",transparency,government,NN
 INCREASING EVALUABILITY OF GOVERNMENT IS INCREASING LIGHT,"Stay up to date on Sunlight’s work in D.C., throughout the country and around the world, as well as the latest open government, transparency and technology news.",,,-
 INCREASE IN CRIME IS SPREAD OF DISEASE,"As It Opens to Outsiders, Cuba Is Infected by Crime",infected,crime,VN
-INCITING GOVERNING ACTION IS FORCED MOVEMENT,"Bloomberg Goes to Washington to Push Gun Laws, but Senate Has Other Ideas",,,-
+INCITING GOVERNING ACTION IS FORCED MOVEMENT,"Bloomberg Goes to Washington to Push Gun Laws, but Senate Has Other Ideas",push,senate,VN
 INCITING GOVERNING ACTION IS FORCED MOVEMENT,Livingston County judge: Cuomo administration steamrolled lawmakers on gay marriage vote,,,-
 INABILITY TO EVALUATE GOVERNMENT IS INABILITY TO SEE,"The World Bank has issued its latest index of corruption and transparency. The world’s largest democracy, India, is looking a bit red-faced.",,,-
 IMPORTANT IS CENTRAL,The issue is central to these negotiations.,central,issue,AN
@@ -487,14 +487,14 @@ GOVERNMENT IS A DRIVER,The Syrian government is driving Syria into a dangerous z
 GOVERNMENT IS A DRIVER,The current Japanese government is steering the country toward Socialism.,steering,government,VN
 GOVERNMENT IS A DRIVER,"Signal left, turn right: central rhetoric and local reform in China.",,,-
 GOVERNMENT IS A DOCTOR,to promote his fantasy that big government can cure our nation's ills.,cure,government,VN
-GOVERNMENT IS A DISEASE,"Once the stage has been set, radical surgery will be required to actually remove the malignant tumor that Cancerous Government has become.",Cancerous,Government,AN
+GOVERNMENT IS A DISEASE,"Once the stage has been set, radical surgery will be required to actually remove the malignant tumor that Cancerous Government has become.",tumor,Government,NN
 GOVERNMENT IS A CHILDCARE PROVIDER,I believe in personal responsibility and the government shouldn't be a babysitter but I also believe in compassion for less advantageous people.,babysitter,government,NN
 GOVERNMENT IS A CHILDCARE PROVIDER,"Can I decide what size soda I want to drink? No, that’s the nanny state’s job.",nanny,state,NN
-GOVERNMENT IS A BUSINESS,One of the worst-run businesses in the United States is also the largest business in the nation. The federal government is in financial disarray. It spends more than it makes and its investments are not based on sound financial principles.,financial disarray,government,AN
+GOVERNMENT IS A BUSINESS,One of the worst-run businesses in the United States is also the largest business in the nation. The federal government is in financial disarray. It spends more than it makes and its investments are not based on sound financial principles.,business,government,AN
 GOVERNMENT INSTITUTION IS A PHYSICAL STRUCTURE,Rising food prices can topple governments,topple,governments,VN
 GOVERNMENT INSTITUTION IS A PHYSICAL STRUCTURE,Afghanistan's government could collapse after 2014.,collapse,government,VN
 GOVERNMENT INSTITUTION IS A MACHINE,"If the injustice is part of the necessary friction of the machine of government, let it go, let it go: perchance it will wear smooth--certainly the machine will wear out. If the injustice has a spring, or a pulley, or a rope, or a crank, exclusively for itself, then perhaps you may consider whether the remedy will not be worse than the evil; but if it is of such a nature that it requires you to be the agent of injustice to another, then I say, break the law. Let your life be a counter-friction to stop the machine. What I have to do is to see, at any rate, that I do not lend myself to the wrong which I condemn.",machine,government,NN
-GOVERNMENT INSTITUTION IS A MACHINE,"They had elected him (Jackson) to conduct the Government and to keep and remove its moneys, and he meant to do so on the principle that it was a simple machine.",conduct,government,VN
+GOVERNMENT INSTITUTION IS A MACHINE,"They had elected him (Jackson) to conduct the Government and to keep and remove its moneys, and he meant to do so on the principle that it was a simple machine.",machine,government,NN
 GOVERNMENT INSTITUTION IS A BODY,This responsibility falls squarely on the shoulders of the government.,shoulders,government,NN
 GOVERNMENT FUNCTIONALITY IS VERTICALITY,The government was toppled.,toppled,government,VN
 GOVERNMENT FUNCTIONALITY IS VERTICALITY,The government fell.,fell,government,VN
@@ -549,7 +549,7 @@ EXISTENCE IS VISIBILITY,The dodo disappeared in the 1600s.,,,-
 EVIL IS DARK,The Bible clearly teaches that our struggle to live righteously is a struggle against the dark forces of Satan that seeks to rule us.,dark forces,Satan,NN
 ESSENTIAL IS INTERNAL,It's what's on the inside that counts.,,,-
 ESSENTIAL IS INTERNAL,She only has surface charm.,,,-
-EQUALITY IS BEING ON THE SAME VERTICAL LEVEL,"In economic development, the equivalent of having a level playing field is equality of access to basic services.",,,-
+EQUALITY IS BEING ON THE SAME VERTICAL LEVEL,"In economic development, the equivalent of having a level playing field is equality of access to basic services.",level,equality,NN
 ENVIRONMENTAL HARM IS PHYSICAL INJURY,The oil spill has caused a shock to the environment.,shock,environment,NN
 ENVIRONMENTAL HARM IS PHYSICAL INJURY,Smog pollution is an environmental malaise.,malaise,environmental,NN
 ENVIRONMENTAL HARM IS PHYSICAL INJURY,Ecologists are nursing the Bay back to health.,nursing,Bay,VN
@@ -586,14 +586,14 @@ ELECTION IS A RACE,"This year's US presidential election is shaping up to be a v
 ELECTION IS A RACE,"At the turn, it's Obama by a nose.",,,-
 ELECTION IS A RACE,"Noem sprints to election finish line with stop in Elk Point, SD.",finish line,election,NN
 ELECTION IS A RACE,"The race continues as Perry and Romney jockey for position, with Gingrich trailing behind.",,,-
-ELECTION IS A RACE,"With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.",running,candidates,VN
+ELECTION IS A RACE,"With the official start of primary season, candidates were off and running as they sought to quickly raise millions of dollars for ad buys.",running,primary,VN
 ELECTION IS A RACE,The Iowa caucuses in January 2012 serve as the starting line of the marathon primary-election campaigns necessary ...,marathon,primary-election,NN
 ELECTION IS A RACE,Hutchinson the front-runner in 2014 governor's race,race,governor,NN
 ELECTION IS A GAME,"Too often it is post mortem head scratching, as if democratic strategists do not realize every candidate is a pawn on the national. chessboard",chessboard,national,AN
 ELECTION IS A BOXING MATCH,the candidates came out punching,,,-
 ELECTION IS A BOXING MATCH,"Beasley won the first round of Democratic primary for lieutenant governor in 1970, but failed to win a majority.",round,Democratic primary,NN
 EFFICIENT GOVERNMENT IS A LEAN BODY,Randy has a plan to turn a bloated government of Washington bureaucrats into a lean and efficient government,lean,government,AN
-EFFECTIVE GOVERNMENT INSTITUTION IS A WELL-FUNCTIONING MACHINE,"Our state government, a well oiled machine of efficiency.",well oiled machine,efficiency,NN
+EFFECTIVE GOVERNMENT INSTITUTION IS A WELL-FUNCTIONING MACHINE,"Our state government, a well oiled machine of efficiency.",well oiled machine,government,NN
 EFFECTIVE GOVERNMENT INSTITUTION IS A HEALTHY BODY,"Like some it is supposed to serve, Massachusetts government has become flabby.",flabby,government,AN
 EDUCATIONAL EVALUATION IS GAMBLING,"Apparently, I’m not the only parent who’s concerned about high stakes testing.",stakes,testing,NN
 EDUCATION IS A RESOURCE,A good education is a powerful resource.,resource,education,NN
@@ -606,10 +606,10 @@ EASE OF ACTION IS EASE OF MOTION ALONG A PATH,It's all downhill for the rest of 
 DISTURBING IDEAS ARE DISGUSTING FOODS,The very thought of it makes me sick.,makes me sick,thought,VN
 DISTURBING IDEAS ARE DISGUSTING FOODS,That's bullshit!,,,-
 DISTINGUISHING IS DIVIDING,What separates the men from the boys?,,,-
-DISEASE TREATMENT IS WAR,The doctors at the CDC led the way to victory against the flu epidemic.,victory,epidemic,NN
+DISEASE TREATMENT IS WAR,The doctors at the CDC led the way to victory against the flu epidemic.,victory,doctors,NN
 DISEASE TREATMENT IS WAR,"The cancer patient fought a long, hard, battle, but she eventually succumbed to her disease.",battle,cancer patient,NN
 DISEASE TREATMENT IS WAR,A Triumph in the War Against Cancer,war,cancer,NN
-DISEASE TREATMENT IS WAR,"With nothing left in their leukemia-fighting arsenal, the doctors were down to Dilaudid, a derivative of morphine...",arsenal,leukemia,NN
+DISEASE TREATMENT IS WAR,"With nothing left in their leukemia-fighting arsenal, the doctors were down to Dilaudid, a derivative of morphine...",arsenal,doctors,NN
 DISAGREEMENT IS DIVISION,Americans are divided as to whether a third major party is needed in U.S. politics today,,,-
 DIPLOMACY IS WAR,"The Weapons of Diplomacy, and the Human Factor",weapons,diplomacy,NN
 DIFFICULTY IS HEAVINESS,I have a heavy workload this year.,,,-
@@ -662,10 +662,10 @@ CONTROL IS UP,He's in the high command.,high,command,AN
 CONTROL IS UP,He's in the upper echelon.,upper,echelon,AN
 CONTROL IS UP,His power rose.,rose,power,VN
 CONTROL IS OBJECT MANIPULATION,He's putty in her hands.,,,-
-CONTROL IS A POSSESSION,He has control over all the workers.,,,-
+CONTROL IS A POSSESSION,He has control over all the workers.,has,control,VV
 CONTROL IS A POSSESSION,The president kept his hold on power.,hold,power,NN
 CONTROL IS A POSSESSION,She regained control of the assembly.,regained,control,VN
-CONTROL IS A POSSESSION,He possesses the power to heal small animals.,,,-
+CONTROL IS A POSSESSION,He possesses the power to heal small animals.,possesses,power,VN
 CONTROL IS A BOUNDED REGION,His actions are beyond my control.,beyond,control,DN
 CONTROL IS A BOUNDED REGION,The whole situation spiraled out of (our) control.,out,control,DN
 CONTROL IS A BOUNDED REGION,He returned to power.,returned,power,VN
@@ -702,9 +702,9 @@ COMMUNICATING IS DRAWING A PICTURE,Do I have to draw a picture for you?,,,-
 COMMUNICATING IS DRAWING A PICTURE,He painted an idyllic picture of their life together.,,,-
 COGNIZING IS BODILY FUNCTIONING,My mind was racing.,racing,mind,VN
 COGNIZING IS BODILY FUNCTIONING,My mind is tired.,tired,mind,AN
-CITIZENS ARE SLAVES,This new slavery is a total dependence by individuals and families on government for the materials and funds necessary to maintain a minimum standard of living.,slavery,individuals,NN
+CITIZENS ARE SLAVES,This new slavery is a total dependence by individuals and families on government for the materials and funds necessary to maintain a minimum standard of living.,slavery,government,NN
 CITIZENS ARE SLAVES,...the people of America’s needs and priorities become second to the needs of the state and the people of America become enslaved to the state.,enslaved,state,AN
-CITIZENS ARE EYES AND EARS,Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State,eyes and ears,citizens,NN
+CITIZENS ARE EYES AND EARS,Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State,eyes,state,NN
 CITIZENS ARE EMPLOYERS,Nine reasons why we should fire Congress,,,-
 CITIZEN RIGHTS ARE TERRITORIES,We need to protect our rights from infringement.,protect,rights,VN
 CITIZEN RIGHTS ARE SHIELDS FROM HARM,Do gun rights protect against tyranny?,protect,rights,VN
@@ -744,7 +744,7 @@ CAUSED CHANGE OF STATE IS CAUSED CHANGE OF LOCATION,Her parents kept pushing her
 CAUSATION IS OBJECT TRANSFER,The noise is giving me a headache.,,,-
 CATEGORIES ARE BOUNDED REGIONS,Tomatoes technically fall within the fruit category.,within,category,DN
 CATEGORIES ARE BOUNDED REGIONS,"I wouldn't put him in the friend category, exactly.",put,category,DN
-CAREER IS A COMPLEX STRUCTURE,How to make a career out of things you would do even for free.,make,career,VN
+CAREER IS A COMPLEX STRUCTURE,How to make a career out of things you would do even for free.,make,career,VNs
 CAREER IS A BUILDING,Stars whose careers collapsed in a relatively short amount of time,collapsed,career,VN
 BUSINESSES ARE LIVING ENTITIES,Here are some tips to grow your business.,grow,business,VN
 BUSINESS COMPETITION IS COMPETITIVE SPORTS,It's Now Apple And Samsung's Game To Lose--Everyone Else Is An Also-Ran,,,-
@@ -810,7 +810,7 @@ ACTIVITIES ARE BOUNDED REGIONS IN SPACE,I get a lot of satisfaction out of washi
 ACTION IS SELF-PROPELLED MOTION ALONG A PATH,He exercised to the point of exhaustion.,,,-
 ACTION IS SELF-PROPELLED MOTION ALONG A PATH,She squeezed her way to thinner thighs.,way,squeezed,VN
 ACTION IS SELF-PROPELLED MOTION ALONG A PATH,He drank himself out of the promotion.,,,-
-ACTION IS SELF-PROPELLED MOTION ALONG A PATH,He went on with what he was doing.,,,-
+ACTION IS SELF-PROPELLED MOTION ALONG A PATH,He went on with what he was doing.,went,doing,VV
 ACTION IS SELF-PROPELLED MOTION ALONG A PATH,She went back to sleep.,went,sleep,VV
 ACTION IS SELF-PROPELLED MOTION ALONG A PATH,She successfully navigated her way through the contract negotiations.,navigated,negotiations,NN
 ACTION IS MOTION ALONG A PATH,Devastation from the hurricane thrust the nation into recession.,,,-
