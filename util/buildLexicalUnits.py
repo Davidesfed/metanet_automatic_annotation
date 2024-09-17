@@ -44,8 +44,9 @@ def retrieve_lus_from_wordnet(metanet_frame):
     lexical_units = set()
     synsets = wn.synsets(metanet_frame["frame"])
     if len(synsets) != 0:
-        for word in synsets[0].lemmas():
-            lexical_units.add(word.name().split('.')[0])
+        for synset in synsets[:10]:
+            for word in synset.lemmas():
+                lexical_units.add(word.name().split('.')[0])
     return list(lexical_units)
 
 def retrieve_lus_from_conceptnet(metanet_frame):
