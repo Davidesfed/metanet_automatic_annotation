@@ -4,8 +4,8 @@ Annotazione automatica di MetaNet
 ## Ordine di esecuzione dei file
 
 ### Costruzione file necessari
-1. `py data/buildLexicalUnits.py`
-2. `py data/buildMetaphorAncestors.py`
+1. `py util/buildLexicalUnits.py`
+2. `py util/buildMetaphorAncestors.py`
 
 ### Annotazione automatica
 #### Versione di Davide
