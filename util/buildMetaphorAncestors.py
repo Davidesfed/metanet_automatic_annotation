@@ -1,5 +1,8 @@
 import json
 
+_INPUT_FILE = "data/metanet_classes.jsonl"
+_OUTPUT_FILE = "data/metaphor_ancestors.json"
+
 def get_parents_of_class(metanet_class):
     ancestors = []
     keys = ["both s and t subcase of", "source subcase of", "target subcase of"]
@@ -21,10 +24,9 @@ def build_parent_dicts(metanet_class, metanet_classes, depth):
         })
     return ancestors
 
-
 def build_ancestors_file():
     metanet_classes = dict()
-    with open("data/metanet_classes.jsonl", "r", encoding='utf8') as f:
+    with open(_INPUT_FILE, "r", encoding='utf8') as f:
         for line in f.readlines():
             tmp_class = json.loads(line)
             key = tmp_class["metaphor"][:]
@@ -57,7 +59,7 @@ def build_ancestors_file():
             ancestors.extend(build_parent_dicts(ancestor_class, metanet_classes, depth))
         metaphors_ancestor_hierarchy[mn_class["metaphor"]] = mn_class["ancestors"]
 
-    with open("data/metaphor_ancestors.json", "w", encoding='utf8') as f:
+    with open(_OUTPUT_FILE, "w", encoding='utf8') as f:
         f.write(json.dumps(metaphors_ancestor_hierarchy, indent=4))
         print("File saved")
 

@@ -6,6 +6,9 @@ import requests
 import re
 import os
 
+_INPUT_FILE = "data/metanet_frames.jsonl"
+_OUTPUT_FILE = "data/lexical_units.jsonl"
+
 def retrieve_lus_from(data_source, metanet_frame):
     if data_source.lower() == "metanet":
         return retrieve_lus_from_metanet(metanet_frame)
@@ -58,11 +61,11 @@ def retrieve_lus_from_conceptnet(metanet_frame):
     return list(lexical_units)
 
 def build_lexical_units_file():
-    with open("data/metanet_frames.jsonl", "r", encoding='utf8') as f:
+    with open(_INPUT_FILE, "r", encoding='utf8') as f:
         metanet_frames = [json.loads(line) for line in f.readlines()]
 
-    if os.path.exists("data/lexical_units.jsonl"):
-        with open("data/lexical_units.jsonl", "w", encoding='utf8') as f:
+    if os.path.exists(_OUTPUT_FILE):
+        with open(_OUTPUT_FILE, "w", encoding='utf8') as f:
             print("File already exists, overwriting it")
 
     i = 0
@@ -101,7 +104,7 @@ def build_lexical_units_file():
             ancestors.extend([(x,depth) for x in frame["subcase of"]])
         lexical_units["ancestors"] = list(lexical_units["ancestors"])
 
-        with open("data/lexical_units.jsonl", "a", encoding='utf8') as f:
+        with open(_OUTPUT_FILE, "a", encoding='utf8') as f:
             f.write(json.dumps(lexical_units) + '\n')
 
 def main():
