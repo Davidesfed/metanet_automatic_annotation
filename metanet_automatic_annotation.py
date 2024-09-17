@@ -5,7 +5,8 @@ from nltk.stem import WordNetLemmatizer
 import csv
 import os
 
-import pprint
+MAX_DEPTH_CLASS = 0
+MAX_DEPTH_LUS = 1
 
 def retrieve_manual_annotations():
     if os.path.exists("data/metanet_manual_annotations.json"):
@@ -37,12 +38,12 @@ def retrieve_manual_annotations():
     
     return manual_annotations
 
-def lus_expansion(metanet_frame, metanet_frames, max_depth):
+def lus_expansion(metanet_frame, metanet_frames):
     lus = metanet_frame['lus']
-    if max_depth == 0:
+    if MAX_DEPTH_LUS == 0:
         return lus
     for ancestor_name, depth in metanet_frame['ancestors']:
-        if depth > max_depth:
+        if depth > MAX_DEPTH_LUS:
             continue
         try:
             ancestor_frame = next(x for x in metanet_frames if x['frame'] == ancestor_name)
@@ -52,7 +53,7 @@ def lus_expansion(metanet_frame, metanet_frames, max_depth):
             lus[key].extend(ancestor_frame['lus'][key])
     return lus
             
-def build_LUs_set(automatic_annotation, max_depth=1):
+def build_LUs_set(automatic_annotation):
     lexical_units = {
         'source frame': {'metanet': [], 'framenet': [], 'wordnet': [], 'conceptnet': []},
         'target frame': {'metanet': [], 'framenet': [], 'wordnet': [], 'conceptnet': []}
@@ -63,10 +64,10 @@ def build_LUs_set(automatic_annotation, max_depth=1):
     found = 0
     for metanet_frame in metanet_frames:
         if metanet_frame["frame"] == automatic_annotation["source frame"].replace("_", " "):
-            lexical_units["source frame"] = lus_expansion(metanet_frame, metanet_frames, max_depth)
+            lexical_units["source frame"] = lus_expansion(metanet_frame, metanet_frames)
             found += 1
         if metanet_frame["frame"] == automatic_annotation["target frame"].replace("_", " "):
-            lexical_units["target frame"] = lus_expansion(metanet_frame, metanet_frames, max_depth)
+            lexical_units["target frame"] = lus_expansion(metanet_frame, metanet_frames)
             found += 1
         if found == 2:
             break
@@ -114,13 +115,14 @@ def find_candidate_annotation(lexical_units, sentence, data_sources):
                         res[key].add(token)
     return res
 
-def build_ancestor_list(automatic_annotation, max_depth):
+def build_ancestor_list(automatic_annotation):
     ancestor_list = [automatic_annotation]
-    # return generalized_annotations
+    if MAX_DEPTH_CLASS == 0:
+        return ancestor_list
     with open('data/metaphor_ancestors.json', 'r', encoding='utf8') as f:
         metaphor_ancestors = json.load(f)
     for ancestor_class in metaphor_ancestors[automatic_annotation["category"]]:
-        if max_depth is not None and ancestor_class["depth"] > max_depth:
+        if ancestor_class["depth"] > MAX_DEPTH_CLASS:
             continue
         ancestor = {
             "category": ancestor_class["category"],
@@ -141,7 +143,7 @@ def elect_annotation(automatic_annotation, candidate):
         automatic_annotation["target"].update(candidate["target"])
     return automatic_annotation
 
-def annotate_metaphor(metaphor, data_sources, max_depth=None):
+def annotate_metaphor(metaphor, data_sources):
     automatic_annotation = {
         "category": metaphor["category"],
         "sentence": metaphor["sentence"],
@@ -151,9 +153,9 @@ def annotate_metaphor(metaphor, data_sources, max_depth=None):
         "target": set(),
         "type": ""
     }
-
+    
     prep_sentence = preprocess_sentence(metaphor["sentence"])
-    ancestor_metaphors = build_ancestor_list(automatic_annotation, max_depth)
+    ancestor_metaphors = build_ancestor_list(automatic_annotation)
     count = 0
     for ancestor_metaphor in ancestor_metaphors:
         if ancestor_metaphor["source frame"] is None or ancestor_metaphor["target frame"] is None:
