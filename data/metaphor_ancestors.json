@@ -98,14 +98,14 @@
         {
             "category": "THINKING IS OBJECT MANIPULATION",
             "depth": 1,
-            "source frame": "Object_manipulation",
+            "source frame": "Object manipulation",
             "target frame": "Thinking about"
         },
         {
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 2,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "UNDERSTANDING IS FOLLOWING": [],
@@ -114,7 +114,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 1,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "UNCONTROLLED CRIME IS A RAMPAGING ANIMAL": [],
@@ -216,7 +216,7 @@
         {
             "category": "THINKING IS LINGUISTIC ACTIVITY",
             "depth": 1,
-            "source frame": "Linguistic_activity",
+            "source frame": "Linguistic activity",
             "target frame": "Cognizing"
         }
     ],
@@ -226,7 +226,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 1,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "THINKING IS MOVING": [],
@@ -412,7 +412,7 @@
         {
             "category": "THINKING IS LINGUISTIC ACTIVITY",
             "depth": 1,
-            "source frame": "Linguistic_activity",
+            "source frame": "Linguistic activity",
             "target frame": "Cognizing"
         }
     ],
@@ -458,7 +458,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 2,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "SEEING IS TOUCHING": [],
@@ -594,7 +594,7 @@
         {
             "category": "PROGRESS IS FORWARD MOTION ALONG A PATH",
             "depth": 1,
-            "source frame": "Motion_along_a_path",
+            "source frame": "Motion along a path",
             "target frame": "Action"
         },
         {
@@ -618,7 +618,7 @@
         {
             "category": "ACTION IS MOTION ALONG A PATH",
             "depth": 3,
-            "source frame": "Motion_along_a_path",
+            "source frame": "Motion along a path",
             "target frame": "Action"
         },
         {
@@ -944,7 +944,7 @@
         {
             "category": "THINKING IS LINGUISTIC ACTIVITY",
             "depth": 1,
-            "source frame": "Linguistic_activity",
+            "source frame": "Linguistic activity",
             "target frame": "Cognizing"
         }
     ],
@@ -1002,7 +1002,7 @@
         {
             "category": "ACTION IS MOTION ALONG A PATH",
             "depth": 2,
-            "source frame": "Motion_along_a_path",
+            "source frame": "Motion along a path",
             "target frame": "Action"
         },
         {
@@ -1035,7 +1035,7 @@
         {
             "category": "ACTION IS MOTION ALONG A PATH",
             "depth": 2,
-            "source frame": "Motion_along_a_path",
+            "source frame": "Motion along a path",
             "target frame": "Action"
         },
         {
@@ -1110,7 +1110,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 2,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "LEARNING IS ACQUIRING": [],
@@ -1192,7 +1192,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 2,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "KNOWING IS SEEING": [
@@ -1206,7 +1206,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 2,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "KNOWING IS PERCEIVING": [
@@ -1214,7 +1214,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 1,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "KEEPING ASSETS FROM BEING TAXED IS PLACING OBJECTS IN PROTECTED LOCATION": [
@@ -1242,7 +1242,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 2,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "INTENSITY OF ACTIVITY IS HEAT": [],
@@ -2363,7 +2363,7 @@
         {
             "category": "THINKING IS LINGUISTIC ACTIVITY",
             "depth": 1,
-            "source frame": "Linguistic_activity",
+            "source frame": "Linguistic activity",
             "target frame": "Cognizing"
         }
     ],
@@ -2759,7 +2759,7 @@
         {
             "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
             "depth": 1,
-            "source frame": "Destructive_natural_process",
+            "source frame": "Destructive natural process",
             "target frame": "Corruption"
         },
         {
@@ -2779,7 +2779,7 @@
         {
             "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
             "depth": 1,
-            "source frame": "Destructive_natural_process",
+            "source frame": "Destructive natural process",
             "target frame": "Corruption"
         },
         {
@@ -2799,7 +2799,7 @@
         {
             "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
             "depth": 1,
-            "source frame": "Destructive_natural_process",
+            "source frame": "Destructive natural process",
             "target frame": "Corruption"
         },
         {
@@ -2819,7 +2819,7 @@
         {
             "category": "CORRUPTION IS A DESTRUCTIVE NATURAL PROCESS",
             "depth": 1,
-            "source frame": "Destructive_natural_process",
+            "source frame": "Destructive natural process",
             "target frame": "Corruption"
         },
         {
@@ -2896,7 +2896,7 @@
         {
             "category": "THINKING IS LINGUISTIC ACTIVITY",
             "depth": 1,
-            "source frame": "Linguistic_activity",
+            "source frame": "Linguistic activity",
             "target frame": "Cognizing"
         }
     ],
@@ -2980,7 +2980,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 1,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "COGNIZING IS BODILY FUNCTIONING": [],
@@ -3449,7 +3449,7 @@
         {
             "category": "ANGER IS PRESSURE IN A CONTAINER",
             "depth": 1,
-            "source frame": "Pressure_in_a_container",
+            "source frame": "Pressure in a container",
             "target frame": "Anger"
         },
         {
@@ -3611,7 +3611,7 @@
         {
             "category": "ACTION IS MOTION ALONG A PATH",
             "depth": 1,
-            "source frame": "Motion_along_a_path",
+            "source frame": "Motion along a path",
             "target frame": "Action"
         },
         {
@@ -3636,7 +3636,7 @@
             "category": "COGNIZING IS BODILY FUNCTIONING",
             "depth": 1,
             "source frame": "Cognizing",
-            "target frame": "Bodily_functioning"
+            "target frame": "Bodily functioning"
         }
     ],
     "ACHIEVING POWER IS MOVING UPWARDS": [],
