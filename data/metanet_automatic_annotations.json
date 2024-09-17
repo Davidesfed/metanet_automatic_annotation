@@ -219,7 +219,7 @@
         "sentence": "WE CANNOT HAVE ISLANDS OF PROSPERITY NEXT TO OCEANS OF POVERTY AND SQUALOR",
         "source frame": "Geographic feature",
         "target frame": "Poverty",
-        "source": "islands/oceans",
+        "source": "oceans/islands",
         "target": "poverty",
         "type": ""
     },
@@ -283,7 +283,7 @@
         "source frame": "Containing",
         "target frame": "Word",
         "source": "",
-        "target": "sentences/meaning",
+        "target": "meaning/sentences",
         "type": ""
     },
     {
@@ -336,7 +336,7 @@
         "sentence": "The book contains more than 150 recipes for cabbage.",
         "source frame": "Containing",
         "target frame": "Part whole",
-        "source": "book/contains",
+        "source": "contains/book",
         "target": "",
         "type": ""
     },
@@ -345,7 +345,7 @@
         "sentence": "Despite the debt crisis, the welfare bureaucracy continued to hum along, producing checks every month.",
         "source frame": "Machine",
         "target frame": "Bureaucracy",
-        "source": "hum/along",
+        "source": "along/hum",
         "target": "bureaucracy",
         "type": ""
     },
@@ -786,7 +786,7 @@
         "sentence": "But meanwhile, you may not have noticed that our government gave away control of the Internet.",
         "source frame": "Lose possession",
         "target frame": "Control",
-        "source": "away/gave",
+        "source": "gave/away",
         "target": "control",
         "type": ""
     },
@@ -795,7 +795,7 @@
         "sentence": "Taxes, after all, are dues that we pay for the privileges of membership in an organized society",
         "source frame": "Group membership",
         "target frame": "Taxation",
-        "source": "dues/membership",
+        "source": "membership/dues",
         "target": "taxes",
         "type": ""
     },
@@ -805,7 +805,7 @@
         "source frame": "Disease",
         "target frame": "Taxation",
         "source": "disease",
-        "target": "taxes/lawmakers/governor",
+        "target": "lawmakers/governor/taxes",
         "type": ""
     },
     {
@@ -823,7 +823,7 @@
         "source frame": "Theft",
         "target frame": "Taxation",
         "source": "taxes/steals",
-        "target": "taxes/government",
+        "target": "government/taxes",
         "type": ""
     },
     {
@@ -832,7 +832,7 @@
         "source frame": "Servitude",
         "target frame": "Taxation",
         "source": "work/slaves",
-        "target": "government/tax",
+        "target": "tax/government",
         "type": ""
     },
     {
@@ -841,7 +841,7 @@
         "source frame": "Punishment",
         "target frame": "Taxation",
         "source": "",
-        "target": "state/regime/taxation",
+        "target": "regime/taxation/state",
         "type": ""
     },
     {
@@ -876,7 +876,7 @@
         "sentence": "The Obama campaign is taking a swipe at Mitt Romney's tax plan in a new television ad, saying it will create a \"heavy load\" for the middle class.",
         "source frame": "Burden",
         "target frame": "Taxation",
-        "source": "heavy/load",
+        "source": "load/heavy",
         "target": "tax",
         "type": ""
     },
@@ -1038,7 +1038,7 @@
         "sentence": "Functionalism interprets each part of society in terms of how it contributes to the stability of the whole society. Society is more than the sum of its parts; rather, ...",
         "source frame": "Complex physical object",
         "target frame": "Society",
-        "source": "whole/stability/parts/part",
+        "source": "whole/parts/stability/part",
         "target": "society",
         "type": ""
     },
@@ -1128,7 +1128,7 @@
         "sentence": "Cop scandals fray the social fabric.",
         "source frame": "Textile",
         "target frame": "Social group",
-        "source": "fray/fabric",
+        "source": "fabric/fray",
         "target": "social",
         "type": ""
     },
@@ -1831,7 +1831,7 @@
         "source frame": "Crime",
         "target frame": "Poverty",
         "source": "crime",
-        "target": "poverty/poor",
+        "target": "poor/poverty",
         "type": ""
     },
     {
@@ -1884,7 +1884,7 @@
         "sentence": "As Election Day drew near, the candidates pulled into the final lap of the race.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "lap/race",
+        "source": "race/lap",
         "target": "election",
         "type": ""
     },
@@ -1893,7 +1893,7 @@
         "sentence": "Last Legs of Campaign Can Decide Race",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "campaign/race",
+        "source": "race/campaign",
         "target": "",
         "type": ""
     },
@@ -2164,7 +2164,7 @@
         "source frame": "Resource container",
         "target frame": "Nation",
         "source": "contains",
-        "target": "world/nation",
+        "target": "nation/world",
         "type": ""
     },
     {
@@ -2173,7 +2173,7 @@
         "source frame": "Object",
         "target frame": "Nation",
         "source": "thing",
-        "target": "united/states",
+        "target": "states/united",
         "type": ""
     },
     {
@@ -2236,7 +2236,7 @@
         "source frame": "Complex physical object",
         "target frame": "Nation",
         "source": "",
-        "target": "country/nation",
+        "target": "nation/country",
         "type": ""
     },
     {
@@ -2244,7 +2244,7 @@
         "sentence": "\u201cThis is a time to build a nation, brick by brick, pillar by pillar, not a time to tear down our brothers and sisters or pillage their property,\u201d",
         "source frame": "Building",
         "target frame": "Nation",
-        "source": "build/brick/pillar",
+        "source": "build/pillar/brick",
         "target": "nation",
         "type": ""
     },
@@ -2451,7 +2451,7 @@
         "sentence": "The government takes good care of its people.",
         "source frame": "Nurturant parent family",
         "target frame": "Moral action",
-        "source": "care/people",
+        "source": "people/care",
         "target": "good",
         "type": ""
     },
@@ -2577,7 +2577,7 @@
         "sentence": "We've been working on this problem all day and now we're running out of steam.",
         "source frame": "Machine",
         "target frame": "Mind",
-        "source": "working/running",
+        "source": "running/working",
         "target": "",
         "type": ""
     },
@@ -2767,7 +2767,7 @@
         "source frame": "Physical competition",
         "target frame": "Election",
         "source": "",
-        "target": "swinging/election/primary",
+        "target": "election/swinging/primary",
         "type": ""
     },
     {
@@ -2865,7 +2865,7 @@
         "sentence": "Congress is producing little this election year that will become law, yet both parties are churning out bills designed to make the other side look bad.",
         "source frame": "Create object",
         "target frame": "Legislative action",
-        "source": "producing/make",
+        "source": "make/producing",
         "target": "bills/law",
         "type": ""
     },
@@ -3172,7 +3172,7 @@
         "source frame": "Biological entity",
         "target frame": "Institution",
         "source": "",
-        "target": "organization/institution",
+        "target": "institution/organization",
         "type": ""
     },
     {
@@ -3180,8 +3180,8 @@
         "sentence": "I would venture to conclude from this that institutions are vehicles of subcultures driven by groups of people with a common destination",
         "source frame": "Vehicle",
         "target frame": "Institution",
-        "source": "vehicles/driven",
-        "target": "common/groups/institutions/subcultures/people",
+        "source": "driven/vehicles",
+        "target": "subcultures/people/institutions/groups/common",
         "type": ""
     },
     {
@@ -3190,7 +3190,7 @@
         "source frame": "Machine",
         "target frame": "Institution",
         "source": "machines",
-        "target": "machines/institutions",
+        "target": "institutions/machines",
         "type": ""
     },
     {
@@ -3217,7 +3217,7 @@
         "source frame": "Business",
         "target frame": "Institution",
         "source": "businesses",
-        "target": "institutions/businesses",
+        "target": "businesses/institutions",
         "type": ""
     },
     {
@@ -3226,7 +3226,7 @@
         "source frame": "Business",
         "target frame": "Institution",
         "source": "businesses",
-        "target": "institutions/businesses",
+        "target": "businesses/institutions",
         "type": ""
     },
     {
@@ -3316,7 +3316,7 @@
         "source frame": "Excess body weight",
         "target frame": "Government",
         "source": "bloated",
-        "target": "government/tax",
+        "target": "tax/government",
         "type": ""
     },
     {
@@ -3343,7 +3343,7 @@
         "source frame": "Business",
         "target frame": "Government",
         "source": "business",
-        "target": "government/general",
+        "target": "general/government",
         "type": ""
     },
     {
@@ -3397,7 +3397,7 @@
         "source frame": "Forced motion",
         "target frame": "Governing action",
         "source": "",
-        "target": "administration/lawmakers",
+        "target": "lawmakers/administration",
         "type": ""
     },
     {
@@ -3505,7 +3505,7 @@
         "source frame": "Possession",
         "target frame": "Idea",
         "source": "",
-        "target": "good/idea",
+        "target": "idea/good",
         "type": ""
     },
     {
@@ -3523,7 +3523,7 @@
         "source frame": "Person",
         "target frame": "Idea",
         "source": "ideas",
-        "target": "ideas/theory",
+        "target": "theory/ideas",
         "type": ""
     },
     {
@@ -3594,7 +3594,7 @@
         "sentence": "He breathed new life into that idea.",
         "source frame": "Person",
         "target frame": "Idea",
-        "source": "life/idea",
+        "source": "idea/life",
         "target": "idea/new",
         "type": ""
     },
@@ -3622,7 +3622,7 @@
         "source frame": "Food",
         "target frame": "Idea",
         "source": "food/can",
-        "target": "thought/know/good",
+        "target": "good/thought/know",
         "type": ""
     },
     {
@@ -3702,7 +3702,7 @@
         "sentence": "Our work in the African continent [. . .] is supported by Tear Fund",
         "source frame": "Support",
         "target frame": "Aids to action",
-        "source": "supported/fund",
+        "source": "fund/supported",
         "target": "",
         "type": ""
     },
@@ -3820,7 +3820,7 @@
         "source frame": "Worship",
         "target frame": "Gun possession",
         "source": "",
-        "target": "gun/ownership",
+        "target": "ownership/gun",
         "type": ""
     },
     {
@@ -3901,7 +3901,7 @@
         "source frame": "Motion-affecting objects",
         "target frame": "Gun control legislation",
         "source": "",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -3910,7 +3910,7 @@
         "source frame": "Motion-affecting objects",
         "target frame": "Gun control legislation",
         "source": "",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -3919,7 +3919,7 @@
         "source frame": "Disease",
         "target frame": "Gun control",
         "source": "sickness",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -3928,7 +3928,7 @@
         "source frame": "Constructed Restraints",
         "target frame": "Gun control",
         "source": "shackles",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -4242,8 +4242,8 @@
         "sentence": "\u201cGovernment is not a machine, but a living thing. It falls, not under the theory of the universe, but under the theory of organic life. It is accountable to Darwin, not to Newton. It is modified by its environment, necessitated by its tasks, shaped to its functions by the sheer pressure of life. No living thing can have its organs offset against each other, as checks, and live.\"",
         "source frame": "Biological entity",
         "target frame": "Government institution",
-        "source": "life/thing",
-        "target": "government/machine",
+        "source": "thing/life",
+        "target": "machine/government",
         "type": ""
     },
     {
@@ -4252,7 +4252,7 @@
         "source frame": "Work scenario",
         "target frame": "Government",
         "source": "slave",
-        "target": "government/federal",
+        "target": "federal/government",
         "type": ""
     },
     {
@@ -4260,7 +4260,7 @@
         "sentence": "Citizen Sheep Government Shepherds",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "sheep/shepherds",
+        "source": "shepherds/sheep",
         "target": "government",
         "type": ""
     },
@@ -4269,8 +4269,8 @@
         "sentence": "Such a power does not destroy, but it prevents existence; it does not tyrannize, but it compresses, enervates, extinguishes, and stupefies a people, till each nation is reduced to nothing better than a flock of timid and industrious animals, of which the government is the shepherd.",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "shepherd/people",
-        "target": "government/people/animals/flock",
+        "source": "people/shepherd",
+        "target": "animals/flock/government/people",
         "type": ""
     },
     {
@@ -4278,7 +4278,7 @@
         "sentence": "Obama and the Progressives do not believe this. They believe they must decide what is best. In their view Americans are sheep and they are the shepherd.",
         "source frame": "Shepherding",
         "target frame": "Government",
-        "source": "shepherd/sheep/believe",
+        "source": "believe/sheep/shepherd",
         "target": "",
         "type": ""
     },
@@ -4305,7 +4305,7 @@
         "sentence": "The US government loves you. In fact, it loves you so much that it\u2019s willing shackle your legs together. Just to protect you \u2013 tough love, baby. Now, it may hurt a bit but just try to breathe through the pain. Remember \u2013 it hurts the government more than it hurts you.",
         "source frame": "Person",
         "target frame": "Government",
-        "source": "baby/loves/love",
+        "source": "love/loves/baby",
         "target": "government",
         "type": ""
     },
@@ -4332,7 +4332,7 @@
         "sentence": "Big Father: The Government as Parent",
         "source frame": "Nuclear family",
         "target frame": "Government",
-        "source": "father/parent",
+        "source": "parent/father",
         "target": "government",
         "type": ""
     },
@@ -4341,8 +4341,8 @@
         "sentence": "Doctrine of Parens Patriae.\" Parens Patriae means literally, \"parent of the country.\" It refers traditionally to the role of STATE as sovereign and guardian of persons under legal disability.",
         "source frame": "Nuclear family",
         "target frame": "Government",
-        "source": "parent/persons",
-        "target": "state/sovereign/country",
+        "source": "persons/parent",
+        "target": "sovereign/state/country",
         "type": ""
     },
     {
@@ -4351,7 +4351,7 @@
         "source frame": "Leadership",
         "target frame": "Government",
         "source": "lead/buildings",
-        "target": "government/federal/lead",
+        "target": "lead/federal/government",
         "type": ""
     },
     {
@@ -4431,8 +4431,8 @@
         "sentence": "One of the worst-run businesses in the United States is also the largest business in the nation. The federal government is in financial disarray. It spends more than it makes and its investments are not based on sound financial principles.",
         "source frame": "Business",
         "target frame": "Government institution",
-        "source": "business/businesses",
-        "target": "government/business/businesses",
+        "source": "businesses/business",
+        "target": "businesses/government/business",
         "type": ""
     },
     {
@@ -4458,8 +4458,8 @@
         "sentence": "If the injustice is part of the necessary friction of the machine of government, let it go, let it go: perchance it will wear smooth--certainly the machine will wear out. If the injustice has a spring, or a pulley, or a rope, or a crank, exclusively for itself, then perhaps you may consider whether the remedy will not be worse than the evil; but if it is of such a nature that it requires you to be the agent of injustice to another, then I say, break the law. Let your life be a counter-friction to stop the machine. What I have to do is to see, at any rate, that I do not lend myself to the wrong which I condemn.",
         "source frame": "Machine",
         "target frame": "Government institution",
-        "source": "machine/break/pulley/part",
-        "target": "government/machine",
+        "source": "pulley/break/part/machine",
+        "target": "machine/government",
         "type": ""
     },
     {
@@ -4468,7 +4468,7 @@
         "source frame": "Machine",
         "target frame": "Government institution",
         "source": "machine",
-        "target": "government/machine",
+        "target": "machine/government",
         "type": ""
     },
     {
@@ -4693,7 +4693,7 @@
         "source frame": "Operating a machine",
         "target frame": "Legislative action",
         "source": "",
-        "target": "government/senate",
+        "target": "senate/government",
         "type": ""
     },
     {
@@ -4972,7 +4972,7 @@
         "source frame": "Physical harm",
         "target frame": "Environmental harm",
         "source": "",
-        "target": "oil/spill/caused",
+        "target": "caused/oil/spill",
         "type": ""
     },
     {
@@ -5214,7 +5214,7 @@
         "sentence": "Mr. Romney will likely fight hard in the state, given his family ties, but he has an uphill battle.",
         "source frame": "War",
         "target frame": "Election",
-        "source": "battle/fight",
+        "source": "fight/battle",
         "target": "",
         "type": ""
     },
@@ -5223,7 +5223,7 @@
         "sentence": "Both sides girded for battle, as they knew the general election would be a hard-won fight.",
         "source frame": "War",
         "target frame": "Election",
-        "source": "battle/fight/sides",
+        "source": "fight/sides/battle",
         "target": "election",
         "type": ""
     },
@@ -5259,7 +5259,7 @@
         "sentence": "This year's US presidential election is shaping up to be a very close race, with the incumbent currently in front, but his challenger close on his heels.",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "front/race",
+        "source": "race/front",
         "target": "election",
         "type": ""
     },
@@ -5304,7 +5304,7 @@
         "sentence": "The Iowa caucuses in January 2012 serve as the starting line of the marathon primary-election campaigns necessary ...",
         "source frame": "Race",
         "target frame": "Election",
-        "source": "campaigns/line/marathon/starting",
+        "source": "campaigns/marathon/line/starting",
         "target": "",
         "type": ""
     },
@@ -5340,7 +5340,7 @@
         "sentence": "Beasley won the first round of Democratic primary for lieutenant governor in 1970, but failed to win a majority.",
         "source frame": "Physical competition",
         "target frame": "Election",
-        "source": "round/win/won",
+        "source": "round/won/win",
         "target": "majority/primary",
         "type": ""
     },
@@ -5484,7 +5484,7 @@
         "sentence": "The cancer patient fought a long, hard, battle, but she eventually succumbed to her disease.",
         "source frame": "War",
         "target frame": "Disease treatment",
-        "source": "battle/fought",
+        "source": "fought/battle",
         "target": "patient",
         "type": ""
     },
@@ -5682,7 +5682,7 @@
         "sentence": "plant the seeds of democracy",
         "source frame": "Plants",
         "target frame": "Democratic ideology",
-        "source": "plant/seeds",
+        "source": "seeds/plant",
         "target": "",
         "type": ""
     },
@@ -5755,7 +5755,7 @@
         "source frame": "Biological entity",
         "target frame": "Debt",
         "source": "",
-        "target": "debt/credit",
+        "target": "credit/debt",
         "type": ""
     },
     {
@@ -5781,7 +5781,7 @@
         "sentence": "Crime is a beast ravaging the city.",
         "source frame": "Fierce animal",
         "target frame": "Crime",
-        "source": "ravaging/beast",
+        "source": "beast/ravaging",
         "target": "crime",
         "type": ""
     },
@@ -5844,7 +5844,7 @@
         "sentence": "Our government is afflicted with the cancer of corruption.",
         "source frame": "Disease",
         "target frame": "Corruption",
-        "source": "afflicted/corruption/cancer",
+        "source": "afflicted/cancer/corruption",
         "target": "corruption",
         "type": ""
     },
@@ -5853,7 +5853,7 @@
         "sentence": "Corrupt officials are infecting our government at every level.",
         "source frame": "Disease",
         "target frame": "Corruption",
-        "source": "infecting/level",
+        "source": "level/infecting",
         "target": "corrupt",
         "type": ""
     },
@@ -5979,7 +5979,7 @@
         "sentence": "He has control over all the workers.",
         "source frame": "Possession",
         "target frame": "Control",
-        "source": "has/control",
+        "source": "control/has",
         "target": "control",
         "type": ""
     },
@@ -5989,7 +5989,7 @@
         "source frame": "Possession",
         "target frame": "Control",
         "source": "",
-        "target": "hold/power",
+        "target": "power/hold",
         "type": ""
     },
     {
@@ -6349,7 +6349,7 @@
         "source frame": "Servitude",
         "target frame": "Nation",
         "source": "enslaved",
-        "target": "state/people",
+        "target": "people/state",
         "type": ""
     },
     {
@@ -6357,7 +6357,7 @@
         "sentence": "Snitch Culture: How Citizens are Turned into the Eyes and Ears of the State",
         "source frame": "Person",
         "target frame": "Government",
-        "source": "eyes/ears",
+        "source": "ears/eyes",
         "target": "state",
         "type": ""
     },
@@ -6646,7 +6646,7 @@
         "source frame": "Motion along a path",
         "target frame": "Action",
         "source": "",
-        "target": "step/process",
+        "target": "process/step",
         "type": ""
     },
     {
@@ -6753,7 +6753,7 @@
         "sentence": "You could call me just a work-for-hire hack, and a willing, contented cog in a bureaucratic machine.",
         "source frame": "Machine",
         "target frame": "Bureaucracy",
-        "source": "cog/machine",
+        "source": "machine/cog",
         "target": "bureaucratic",
         "type": ""
     },
@@ -6772,7 +6772,7 @@
         "source frame": "Fierce animal",
         "target frame": "Bureaucracy",
         "source": "tentacle",
-        "target": "administration/bureaucrats",
+        "target": "bureaucrats/administration",
         "type": ""
     },
     {
@@ -6781,7 +6781,7 @@
         "source frame": "Maze",
         "target frame": "Bureaucracy",
         "source": "system/maze",
-        "target": "system/bureaucratic",
+        "target": "bureaucratic/system",
         "type": ""
     },
     {
@@ -6877,10 +6877,10 @@
     {
         "category": "ATTRIBUTES OF GOVERNMENT ARE ENTITIES",
         "sentence": "In a democratic government, authority is given to it by the people.",
-        "source frame": "-",
-        "target frame": "-",
-        "source": "",
-        "target": "",
+        "source frame": null,
+        "target frame": null,
+        "source": null,
+        "target": null,
         "type": ""
     },
     {
@@ -7159,7 +7159,7 @@
         "source frame": "Zealotry",
         "target frame": "Gun control",
         "source": "fanatics",
-        "target": "gun/control",
+        "target": "control/gun",
         "type": ""
     },
     {
@@ -7167,7 +7167,7 @@
         "sentence": "The most powerful weapon in the war against obesity might be something we all understand: cold, hard cash.",
         "source frame": "War",
         "target frame": "Addressing social problems",
-        "source": "war/weapon",
+        "source": "weapon/war",
         "target": "",
         "type": ""
     },
@@ -7204,7 +7204,7 @@
         "source frame": "Animal",
         "target frame": "Crime",
         "source": "",
-        "target": "activities/criminals",
+        "target": "criminals/activities",
         "type": ""
     },
     {
@@ -7320,7 +7320,7 @@
         "sentence": "She went back to sleep.",
         "source frame": "Self propelled motion",
         "target frame": "Action",
-        "source": "went/back",
+        "source": "back/went",
         "target": "sleep",
         "type": ""
     },
@@ -7437,7 +7437,7 @@
         "sentence": "We've reached the end.",
         "source frame": "Self propelled motion to a destination",
         "target frame": "Purposeful action",
-        "source": "end/reached",
+        "source": "reached/end",
         "target": "",
         "type": ""
     },
@@ -7546,7 +7546,7 @@
         "source frame": "Bully",
         "target frame": "State leadership",
         "source": "",
-        "target": "generals/state/secretary",
+        "target": "secretary/state/generals",
         "type": ""
     },
     {
